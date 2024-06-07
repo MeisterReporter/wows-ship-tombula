@@ -1,0 +1,258 @@
+:root {
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #102031;
+}
+
+b {
+    font-weight: bold;
+}
+
+/*input[type="checkbox"] {
+    width: 0.8rem;
+    height: 0.8rem;
+    border: 1px white solid;
+    accent-color: transparent;
+}
+
+input[type="checkbox"]::before {
+    content: "";
+    width: 0.8rem;
+    height: 0.8rem;
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    transform: scale(0);
+}
+
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}*/
+
+/* Header */
+
+header {
+    display: flex;
+
+    height: 3.75rem;
+
+    padding-left: 10.625rem;
+    padding-right: 10.625rem;
+
+    align-items: center;
+
+    background-color: #333333;
+}
+
+h1 {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.header-label {
+    margin-left: 2rem;
+}
+
+/* Section */
+
+section {
+    display: flex;
+    flex-direction: row;
+
+    padding-left: 10.625rem;
+    padding-right: 10.625rem;
+}
+
+.ship-list {
+    width: 20rem;
+
+    background-color: rgba(255, 255, 255, 0.25);
+
+    margin-top: 2rem;
+    padding: 3rem 2rem;
+
+    border-style: solid;
+    border-radius: 4px;
+    border-color: rgba(255, 255, 255, 0.75);
+    border-width: 1px;
+}
+
+.ship-list h2 {
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.ship-list ul {
+    list-style-type: none;
+
+    min-height: 10rem;
+    max-height: calc(100vh - 30.0rem);
+
+    margin-top: 0.5rem;
+
+    overflow: auto;
+}
+
+.ship-list li {
+    padding: 0.25rem 0.5rem;
+}
+
+.ship-list li img {
+    display: inline;
+
+    height: 1.25rem;
+    width: auto;
+
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: -0.25rem;
+}
+
+.ship-list li .tier {
+    display: inline-block;
+    width: 1.5rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.ship-list li .class {
+    margin-right: 0.5rem;
+    font-style: italic;
+}
+
+.flag {
+    display: inline;
+
+    height: 1.25rem;
+    width: auto;
+
+    margin-bottom: -0.3rem;
+}
+
+.large  {
+    height: 4rem;
+
+    margin-bottom: 0px;
+}
+
+.filter-list label {
+    margin-right: 0.5rem;
+}
+
+.randomizer {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+/* Search Bar */
+
+.search-bar {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 0.5rem;
+
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 100vh;
+}
+
+.search-bar input[type="text"] {
+    width: 100%;
+    background-color: transparent;
+
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+    border: none;
+
+    color: white;
+}
+
+.search-bar input[type="text"]:focus {
+    border: none;
+    outline: 0;
+}
+
+.search-bar input[type="text"]::placeholder {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+/* Custom Elements */
+
+space {
+    display: inline-block;
+}
+
+space[size="small"] {
+    width: 1rem;
+}
+
+space[size="medium"] {
+    width: 2rem;
+}
+
+space[size="large"] {
+    width: 4rem;
+}
+
+/* Ship Ticket */
+
+.ship-ticket {
+    display: flex;
+    flex-direction: column;
+
+    width: 35rem;
+    height: 20rem;
+
+    background-color: rgba(255, 255, 255, 0.25);
+
+    border-radius: 8px;
+    border-color: goldenrod;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.ship-ticket > img {
+    flex-grow: 1;
+    object-fit: contain;
+}
+
+.ship-ticket p {
+    display: flex;
+    align-items: center;
+}
+
+.ship-ticket p img {
+    margin-left: 1rem;
+}
+
+.ship-ticket p .tier {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+    font-weight: bold;
+}
+
+.ship-ticket p .class {
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+
+    font-style: italic;
+}
+
+.ship-ticket p .name {
+    flex-grow: 1;
+    margin-left: 1rem;
+    text-align: center;
+}
+
+.ticket-canvas {
+    position: absolute;
+    
+    height: calc(20rem - 8px);
+    width: calc(35rem - 8px);
+
+    z-index: 100;
+}

@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Soth Carolina",
+        "faction": "usa",
+        "type": "BB",
+        "tier": "III",
+        "image": "src/img/ships/south_carolina.png"
+    },
+    {
+        "name": "Wyoming",
+        "faction": "usa",
+        "type": "BB",
+        "tier": "IV",
+        "image": "src/img/ships/wyoming.png"
+    },
+    {
+        "name": "New York",
+        "faction": "usa",
+        "type": "BB",
+        "tier": "V",
+        "image": "src/img/ships/new_york.png"
+    },
+    {
+        "name": "New Mexico",
+        "faction": "usa",
+        "type": "BB",
+        "tier": "VI",
+        "image": "src/img/ships/new_mexico.png"
+    },
+    {
+        "name": "Colorado",
+        "faction": "usa",
+        "type": "BB",
+        "tier": "VII",
+        "image": "src/img/ships/colorado.png"
+    },
+    {
+        "name": "North Carolina",
+        "faction": "usa",
+        "type": "BB",
+        "tier": "VIII",
+        "image": "src/img/ships/north_carolina.png"
+    },
+    {
+        "name": "Iowa",
+        "faction": "usa",
+        "type": "BB",
+        "tier": "IX",
+        "image": "src/img/ships/iowa.png"
+    },
+    {
+        "name": "Montana",
+        "faction": "usa",
+        "type": "BB",
+        "tier": "X",
+        "image": "src/img/ships/montana.png"
+    },
+    {
+        "name": "Maine",
+        "faction": "usa",
+        "type": "BB",
+        "tier": "★",
+        "image": "src/img/ships/maine.png"
+    }
+]

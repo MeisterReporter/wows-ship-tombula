@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New Ship Randomizer</title>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <!-- Javascript -->
+        <script src="src/js/dynamicComponents.js"></script>
+        <script src="src/js/shipList.js"></script>
+        <script src="src/js/randomization.js"></script>
+        <!-- Style Sheets -->
+        <link href="src/css/reset.css" rel="stylesheet" type="text/css">
+        <link href="src/css/main.css" rel="stylesheet" type="text/css">
+        <link href="src/css/alignment.css" rel="stylesheet" type="text/css">
+        <link href="src/css/buttons.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1><span class="special">New</span> Ship Randomizer</h1>
+            <span class="header-label">brought to you by <b>Der_Meister_Reporter</b></span>
+            <span class="align-right">for World of Warships <space size="medium"></space> <a class="button orange" href="https://worldofwarships.eu/">Play Now</a></span>
+        </header>
+
+        <section>
+            <!-- Ship List Side Bar -->
+            <div class="ship-list">
+                <h2>Ship List:</h2>
+                <div class="search-bar">
+                    <input oninput="searchByName()" id="search" type="text" placeholder="Search" maxlength="30" />
+                </div>
+                <div class="filter-list">
+                    <p style="margin-bottom: 0.5rem; margin-top: 0.5rem;"><b>Selected Tiers:</b></p>
+                    <input onclick="changeTier('I', this)" type="checkbox" id="I" checked />
+                    <label for="I">I</label>
+                    <input onclick="changeTier('II', this)" type="checkbox" id="II" checked />
+                    <label for="II">II</label>
+                    <input onclick="changeTier('III', this)" type="checkbox" id="III" checked />
+                    <label for="III">III</label>
+                    <input onclick="changeTier('IV', this)" type="checkbox" id="IV" checked />
+                    <label for="IV">IV</label>
+                    <input onclick="changeTier('V', this)" type="checkbox" id="V" checked />
+                    <label for="V">V</label>
+                    <input onclick="changeTier('VI', this)" type="checkbox" id="VI" checked />
+                    <label for="VI">VI</label>
+                    <input onclick="changeTier('VII', this)" type="checkbox" id="VII" checked />
+                    <label for="VII">VII</label>
+                    <input onclick="changeTier('VIII', this)" type="checkbox" id="VIII" checked />
+                    <label for="VIII">VIII</label>
+                    <input onclick="changeTier('IX', this)" type="checkbox" id="IX" checked />
+                    <label for="IX">IX</label>
+                    <input onclick="changeTier('X', this)" type="checkbox" id="X" checked />
+                    <label for="X">X</label>
+                    <input onclick="changeTier('★', this)" type="checkbox" id="★" checked />
+                    <label for="★">★</label>
+                </div>
+                <div class="filter-list">
+                    <p style="margin-bottom: 0.5rem; margin-top: 0.5rem;"><b>Selected Nations:</b></p>
+                    <input onclick="changeFaction('japan', this)" type="checkbox" id="japan" checked />
+                    <label for="japan"><img class="flag" src="src/img/flag_japan.png"></label>
+                    <input onclick="changeFaction('usa', this)" type="checkbox" id="usa" checked />
+                    <label for="usa"><img class="flag" src="src/img/flag_usa.png"></label>
+                    <input onclick="changeFaction('russia', this)" type="checkbox" id="russia" checked />
+                    <label for="russia"><img class="flag" src="src/img/flag_russia.png"></label>
+                    <input onclick="changeFaction('germany', this)" type="checkbox" id="germany" checked />
+                    <label for="germany"><img class="flag" src="src/img/flag_germany.png"></label>
+                    <input onclick="changeFaction('uk', this)" type="checkbox" id="uk" checked />
+                    <label for="uk"><img class="flag" src="src/img/flag_uk.png"></label>
+                    <input onclick="changeFaction('france', this)" type="checkbox" id="france" checked />
+                    <label for="france"><img class="flag" src="src/img/flag_france.png"></label>
+                    <input onclick="changeFaction('pan_asia', this)" type="checkbox" id="pan_asia" checked />
+                    <label for="pan_asia"><img class="flag" src="src/img/flag_pan_asia.png"></label>
+                    <input onclick="changeFaction('italy', this)" type="checkbox" id="italy" checked />
+                    <label for="italy"><img class="flag" src="src/img/flag_italy.png"></label>
+                    <input onclick="changeFaction('commonwealth', this)" type="checkbox" id="commonwealth" checked />
+                    <label for="commonwealth"><img class="flag" src="src/img/flag_commonwealth.png"></label>
+                    <input onclick="changeFaction('pan_america', this)" type="checkbox" id="pan_america" checked />
+                    <label for="pan_america"><img class="flag" src="src/img/flag_pan_america.png"></label>
+                    <input onclick="changeFaction('europe', this)" type="checkbox" id="europe" checked />
+                    <label for="europe"><img class="flag" src="src/img/flag_europe.png"></label>
+                    <input onclick="changeFaction('netherlands', this)" type="checkbox" id="netherlands" checked />
+                    <label for="netherlands"><img class="flag" src="src/img/flag_netherlands.png"></label>
+                    <input onclick="changeFaction('spain', this)" type="checkbox" id="spain" checked />
+                    <label for="spain"><img class="flag" src="src/img/flag_spain.png"></label>
+                </div>
+                <div class="filter-list">
+                    <p style="margin-bottom: 0.5rem; margin-top: 0.5rem;"><b>Selected Types:</b></p>
+                    <input onclick="changeType('SS', this)" type="checkbox" id="SS" checked />
+                    <label for="SS">SS</label>
+                    <input onclick="changeType('DD', this)" type="checkbox" id="DD" checked />
+                    <label for="DD">DD</label>
+                    <input onclick="changeType('CL', this)" type="checkbox" id="CL" checked />
+                    <label for="CL">CL</label>
+                    <input onclick="changeType('CA', this)" type="checkbox" id="CA" checked />
+                    <label for="CA">CA</label>
+                    <input onclick="changeType('BC', this)" type="checkbox" id="BC" checked />
+                    <label for="CA">BC</label>
+                    <input onclick="changeType('BB', this)" type="checkbox" id="BB" checked />
+                    <label for="BB">BB</label>
+                    <input onclick="changeType('CV', this)" type="checkbox" id="CV" checked />
+                    <label for="CV">CV</label>
+                </div>
+                <br>
+                <ul id="available-ships">
+                    
+                </ul>
+            </div>
+            <script>
+                initializeList();
+            </script>
+            <!-- Randomization -->
+            <div style="flex-grow: 1;" class="randomizer flex column">
+                <div style="margin-top: 1rem; font-size: 24pt;" class="align-center">
+                    <a onclick="chooseRandom()" class="button blue">Draw a Ticket</a>
+                </div>
+                <div class="ship-ticket align-center" style="margin-top: 2rem; display: none;">
+                    <canvas class="ticket-canvas" id="ticket-canvas" width="560" height="320">
+
+                    </canvas>
+                    <script>
+                        var canvas = document.getElementById("ticket-canvas");
+                        var ctx = canvas.getContext("2d");
+
+                        let isDrawing = false;
+                        let lastX = 0;
+                        let lastY = 0;
+
+                        function drawLine(xStart, yStart, xEnd, yEnd) {
+                            ctx.globalCompositeOperation = 'destination-out';
+                            ctx.beginPath();
+                            ctx.moveTo(xStart, yStart);
+                            ctx.lineTo(xEnd, yEnd);
+                            ctx.strokeStyle = "black";
+                            ctx.lineWidth = 60;
+                            ctx.lineCap = "round";
+                            ctx.stroke();
+                        }
+
+                        canvas.addEventListener("mousedown", (e) => {
+                            isDrawing = true;
+                            lastX = e.clientX - canvas.offsetLeft;
+                            lastY = e.clientY - canvas.offsetTop;
+                            drawLine(lastX, lastY, lastX, lastY);
+                        });
+                        canvas.addEventListener("mousemove", (e) => {
+                            if (isDrawing) {
+                                const currentX = e.clientX - canvas.offsetLeft;
+                                const currentY = e.clientY - canvas.offsetTop;
+                                drawLine(lastX, lastY, currentX, currentY);
+                                lastX = currentX;
+                                lastY = currentY;
+                            }
+                        });
+                        document.addEventListener("mouseup", () => {
+                            isDrawing = false;
+                        });
+                    </script>
+                    <img class="ship-image">
+                    <p><img class="flag large" src="src/img/flag_usa.png"><span class="tier">V</span><span class="class">BB</span><span class="name">New York</span></p>
+                </div>
+                <p id="instruction" class="align-center" style="font-size: 16pt; margin-top: 2rem; display: none;"><b>Scratch the Card</b></p>
+            </div>
+        </section>
+
+        <footer>
+
+        </footer>
+    </body>
+</html>

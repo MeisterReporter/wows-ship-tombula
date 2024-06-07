@@ -1,0 +1,28 @@
+.button {
+    cursor: pointer;
+    padding: 10px 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+    transition: color 250ms ease-in;
+}
+
+.button:hover {
+    color: white;
+}
+
+.orange {
+    background-image: radial-gradient(85.3% 129.17% at 50% 95.83%,#f5c974 0,transparent 53.65%),linear-gradient(180deg,#f56914,#ec3c04);
+}
+
+.orange:hover {
+    background-image: radial-gradient(85.3% 129.17% at 50% 95.83%,#fcdda0 0,transparent 53.65%),linear-gradient(180deg,#f57b32,#f57b32);
+}
+
+.blue {
+    background-image: radial-gradient(85.3% 129.17% at 50% 95.83%,#74a1f5 0,transparent 53.65%),linear-gradient(180deg,#14b5f5,#04a2ec);
+}
+
+.blue:hover {
+    background-image: radial-gradient(85.3% 129.17% at 50% 95.83%,#a0cffc 0,transparent 53.65%),linear-gradient(180deg,#3276f5,#3270f5);
+}
