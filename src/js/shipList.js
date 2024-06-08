@@ -6,7 +6,7 @@ function initializeList() {
     var list = document.getElementById("available-ships");
     list.innerHTML = "";
     // Get JSON
-    fetch("/src/data/ships.json")
+    fetch("./src/data/ships.json")
     .then((response) => response.json())
     .then((json) => {
         // Loop through JSON
