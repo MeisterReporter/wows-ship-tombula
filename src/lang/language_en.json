@@ -1,0 +1,23 @@
+{
+    "key.new":"New",
+    "key.title":"Ship Tombula",
+    "key.brought_by":"brought to you by",
+    "key.game":"for World of Warships",
+    "key.play_now":"Play Now",
+    "key.search":"Search",
+
+    "key.filter.tiers":"Selected Tiers:",
+    "key.filter.nations":"Selected Nations:",
+    "key.filter.types":"Selected Classes:",
+    "key.filter.other":"Other:",
+    "key.filter.enable_test_ships":"Enable Test Ships",
+    "key.ships":"Ships:",
+
+    "key.draw_ticket":"Draw a Ticket",
+    "key.scratch_ticket":"Scratch the Ticket",
+
+    "key.footer.made_by":"Made by",
+    "key.footer.made_date":"in 2024",
+    "key.footer.wip_note":"Please note this pade is",
+    "key.footer.data_notive":"The ship data has been got from"
+}

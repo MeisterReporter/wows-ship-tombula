@@ -1,0 +1,23 @@
+{
+    "key.new":"Neu",
+    "key.title":"Schiffs Tombula",
+    "key.brought_by":"präsentiert von",
+    "key.game":"für World of Warships",
+    "key.play_now":"Jetzt Spielen",
+    "key.search":"Suchen",
+
+    "key.filter.tiers":"Ausgewählte Tierstufen:",
+    "key.filter.nations":"Ausgewählte Nationen:",
+    "key.filter.types":"Ausgewählte Klassen:",
+    "key.filter.other":"Andere:",
+    "key.filter.enable_test_ships":"Aktiviere Testschiffe",
+    "key.ships":"Schiffe:",
+
+    "key.draw_ticket":"Ziehe ein Los",
+    "key.scratch_ticket":"Rubble das Los frei",
+
+    "key.footer.made_by":"Von",
+    "key.footer.made_date":"in 2024",
+    "key.footer.wip_note":"Bitte beachte die Seite ist",
+    "key.footer.data_notive":"Die Schiffsdaten sind von"
+}

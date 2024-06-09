@@ -15,6 +15,7 @@ Only a modern Browser like Chrome, Firefox, Edge, etc.
 
 # Whats up Next? / Bugs
 - **Making the Website responsive**: Currently the Website Layout looks only on Desktop Devices like it should, a layout for Teblets and Smartphones is missing. The Page can be used on Tablets / Smartphones, but the Layout is really messed up.
+- **Modify the Shipdata**: World of Warships does not distinguish between Light Cruisers, Heavy Cruisers and Battlecruisers, while the Ship Tombula does, the data has to be modified. Currently its not done, so toggling ship classes wrapped in braces will do nothing. Toggling the CL and BC Ship class will currently not work.
 - Adding a feature which reads from the WoWs Numbers API which ships you have/had in port and select them when you click on a Button.
 - Fixing Bugs if they occur
 
