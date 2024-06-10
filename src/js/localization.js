@@ -1,6 +1,9 @@
 function applyLocalization() {
     // Find the correct language file
     var lang = navigator.language.substring(0, 2);
+    if (lang !== "de") {
+        lang = "en";
+    }
     var filename = "language_" + lang + ".json";
     // Load it
     fetch("./src/lang/" + filename)
