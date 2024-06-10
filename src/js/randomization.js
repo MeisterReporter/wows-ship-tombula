@@ -13,7 +13,7 @@ function chooseRandom(self) {
     var tombula = randomize.getElementsByClassName("tombola")[0];
     // Show the Tombula
     randomize.removeAttribute("stop");
-    tombula.style["transition"] = "5s ease-in all";
+    tombula.style["transition"] = "5s ease-in transform";
     tombula.style["transform"] = "rotateX(3000deg) translateZ(-480px)";
     // Set the images randomly
     var selectedShown = false;

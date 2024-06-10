@@ -25,3 +25,19 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .align-left {
+        justify-content: center;
+        margin-right: 0;
+    }
+    
+    .align-right {
+        justify-content: center;
+        margin-left: 0;
+    }
+}
