@@ -17,7 +17,7 @@ CAUTION: Some Mobile browsers have issues with scratching the ticket. I recommen
 # Whats up Next? / Bugs
 - ✅**Making the Website responsive**
 - ✅**Modify the Shipdata**: World of Warships does not distinguish between Light Cruisers, Heavy Cruisers and Battlecruisers, while the Ship Tombula does.
-- Adding a feature which reads from the WoWs Numbers API which ships you have/had in port and select them when you click on a Button.
+- ❌ Adding a feature which reads from the WoWs Numbers API which ships you have/had in port and select them when you click on a Button.
 - Fixing Bugs if they occur
 
 # Why is a Ship Missing?
