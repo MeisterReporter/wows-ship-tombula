@@ -1,5 +1,6 @@
 # What do you need?
 Only a modern Browser like Chrome, Firefox, Edge, etc.
+CAUTION: Some Mobile browsers have issues with scratching the ticket. I recommend using the Website on Desktop/Notebook devices
 
 # How does it Work?
 - On the Left side you have the Sidebar, in which you can select and filter the ships you want to pick from
@@ -14,8 +15,8 @@ Only a modern Browser like Chrome, Firefox, Edge, etc.
 <img src="https://github.com/MeisterReporter/wows-ship-tombula/blob/master/scratch_the_ticket.png?raw=true" width="50%">
 
 # Whats up Next? / Bugs
-- **Making the Website responsive**: Currently the Website Layout looks only on Desktop Devices like it should, a layout for Teblets and Smartphones is missing. The Page can be used on Tablets / Smartphones, but the Layout is really messed up.
-- **Modify the Shipdata**: World of Warships does not distinguish between Light Cruisers, Heavy Cruisers and Battlecruisers, while the Ship Tombula does, the data has to be modified. Currently its not done, so toggling ship classes wrapped in braces will do nothing. Toggling the CL and BC Ship class will currently not work.
+- ✅**Making the Website responsive**
+- ✅**Modify the Shipdata**: World of Warships does not distinguish between Light Cruisers, Heavy Cruisers and Battlecruisers, while the Ship Tombula does.
 - Adding a feature which reads from the WoWs Numbers API which ships you have/had in port and select them when you click on a Button.
 - Fixing Bugs if they occur
 
