@@ -138,10 +138,12 @@
     
                         </canvas>
                         <script>
+                            window.blockMenuHeaderScroll = false;
                             var canvas = document.getElementById("ticket-canvas");
                             var ctx = canvas.getContext("2d");
     
                             let isDrawing = false;
+                            let isTouch = false;
                             let lastX = 0;
                             let lastY = 0;
     
@@ -162,8 +164,16 @@
                                 lastY = e.clientY - canvas.offsetTop;
                                 drawLine(lastX, lastY, lastX, lastY);
                             });
+                            canvas.addEventListener("touchstart", () => {
+                                isDrawing = true;
+                                isTouch = true;
+                                window.blockMenuHeaderScroll = true;
+                                lastX = e.touches[0].clientX - canvas.offsetLeft;
+                                lastY = e.touches[0].clientY - canvas.offsetTop;
+                                drawLine(lastX, lastY, lastX, lastY);
+                            }, false);
                             canvas.addEventListener("mousemove", (e) => {
-                                if (isDrawing) {
+                                if (isDrawing && !isTouch) {
                                     const currentX = e.clientX - canvas.offsetLeft;
                                     const currentY = e.clientY - canvas.offsetTop;
                                     drawLine(lastX, lastY, currentX, currentY);
@@ -171,8 +181,22 @@
                                     lastY = currentY;
                                 }
                             });
+                            canvas.addEventListener("touchmove", (e) => {
+                                if (isDrawing && isTouch) {
+                                    const currentX = e.touches[0].clientX - canvas.offsetLeft;
+                                    const currentY = e.touches[0].clientY - canvas.offsetTop;
+                                    drawLine(lastX, lastY, currentX, currentY);
+                                    lastX = currentX;
+                                    lastY = currentY;
+                                }
+                            });
                             document.addEventListener("mouseup", () => {
                                 isDrawing = false;
+                            });
+                            document.addEventListener("touchend", () => {
+                                isDrawing = false;
+                                isTouch = false;
+                                window.blockMenuHeaderScroll = false;
                             });
 
                             addEventListener("resize", (event) => {
