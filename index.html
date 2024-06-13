@@ -200,12 +200,12 @@
                             });
 
                             addEventListener("resize", (event) => {
-                                if (event.innerWidth <= 768) {
-                                    canvas.width = 0;
-                                    canvas.height = 0;
-                                } else {
+                                if (window.innerWidth <= 768) {
                                     canvas.width = 400;
                                     canvas.height = 232;
+                                } else {
+                                    canvas.width = 560;
+                                    canvas.height = 320;
                                 }
                             });
                         </script>
