@@ -4325,6 +4325,20 @@
         "image": "src/img/ships/l_shun.png"
     },
     {
+        "name": "Zhu Que",
+        "faction": "pan_asia",
+        "type": "DD",
+        "tier": "VIII",
+        "image": "src/img/ships/kidd.png"
+    },
+    {
+        "name": "Xuan Wu",
+        "faction": "pan_asia",
+        "type": "BB",
+        "tier": "IX",
+        "image": "src/img/ships/iowa.png"
+    },
+    {
         "name": "Incheon",
         "faction": "pan_asia",
         "type": "CA",
