@@ -20,5 +20,14 @@
     "key.footer.made_date":"in 2024",
     "key.footer.wip_note":"Bitte beachte die Seite ist",
     "key.footer.issues_notice":"Wenn Probleme auftreten kontaktiere mich auf",
-    "key.footer.data_notice":"Die Schiffsdaten sind von"
+    "key.footer.data_notice":"Die Schiffsdaten sind von",
+
+    "key.button.close": "Schließen",
+    
+    "key.dialog.tiers.title": "Tier Stufen",
+    "key.dialog.tiers.content": "Wenn sie auf die Stufen oder Haken klicken werden alle Schiffe der Stufe aus- oder abgewählt.<p>Während die normalen Tierstufen mit römischen Zahlen beschrieben werden, werden Superschiffe mit einem ★ gekennzeichnet.</p>",
+    "key.dialog.nations.title": "Nationen",
+    "key.dialog.nations.content": "Wenn sie auf die Flaggen oder Haken klicken werden alle Schiffe der Nation aus- oder abgewählt.<p for='japan'><img class='flag' src='src/img/flag_japan.png'>: Japan</p><p for='usa'><img class='flag' src='src/img/flag_usa.png'>: Vereinigte Staten</p><p for='russia'><img class='flag' src='src/img/flag_russia.png'>: Sowjetunion</p><p for='germany'><img class='flag' src='src/img/flag_germany.png'>: Deutschland</p><p for='uk'><img class='flag' src='src/img/flag_uk.png'>: Großbritannien</p><p for='france'><img class='flag' src='src/img/flag_france.png'>: Frankreich</p><p for='pan_asia'><img class='flag' src='src/img/flag_pan_asia.png'>: Pan Asien</p><p for='italy'><img class='flag' src='src/img/flag_italy.png'>: Italien</p><p for='commonwealth'><img class='flag' src='src/img/flag_commonwealth.png'>: Commonwealth</p><p for='pan_america'><img class='flag' src='src/img/flag_pan_america.png'>: Pan Amerika</p><p for='europe'><img class='flag' src='src/img/flag_europe.png'>: Europa</p><p for='netherlands'><img class='flag' src='src/img/flag_netherlands.png'>: Niederlande</p><p for='spain'><img class='flag' src='src/img/flag_spain.png'>: Spanien</p>",
+    "key.dialog.types.title": "Schiffsklassen",
+    "key.dialog.types.content": "Wenn sie auf die Schiffsklassen oder Haken klicken werden alle Schiffe der Klasse aus- oder abgewählt.<p>Hier ist die Erklärung der Klassenkürzel:</p><p><b>SS</b>: U-Boot</p><p><b>DD</b>: Zerstörer</p><p><b>CL</b>: Leichter Kreuzer</p><p><b>CA</b>: Schwerer Kreuzer</p><p><b>BC</b>: Schlachtkreuzer</p><p><b>BB</b>: Schlachtschiff</p><p><b>CV</b>: Flugzeugträger</p>"
 }

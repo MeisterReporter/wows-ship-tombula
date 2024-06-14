@@ -11,11 +11,13 @@
         <script src="src/js/shipList.js"></script>
         <script src="src/js/randomization.js"></script>
         <script src="src/js/localization.js"></script>
+        <script src="src/js/dialogs.js"></script>
         <!-- Style Sheets -->
         <link href="src/css/reset.css" rel="stylesheet" type="text/css">
         <link href="src/css/main.css" rel="stylesheet" type="text/css">
         <link href="src/css/alignment.css" rel="stylesheet" type="text/css">
         <link href="src/css/buttons.css" rel="stylesheet" type="text/css">
+        <link href="src/css/dialogs.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <header>
@@ -31,7 +33,7 @@
                     <input oninput="searchByName()" id="search" type="text" placeholder="Search" maxlength="30" />
                 </div>
                 <div class="filter-list">
-                    <p style="margin-bottom: 0.5rem; margin-top: 0.5rem;"><b translatable>key.filter.tiers</b></p>
+                    <p style="margin-bottom: 0.5rem; margin-top: 0.5rem;"><b translatable>key.filter.tiers</b><info onclick="addDialog('key.dialog.tiers.title', 'key.dialog.tiers.content', true)">i</info></p>
                     <input onclick="changeTier('I', this)" type="checkbox" id="I" checked />
                     <label for="I">I</label>
                     <input onclick="changeTier('II', this)" type="checkbox" id="II" checked />
@@ -56,7 +58,7 @@
                     <label for="★">★</label>
                 </div>
                 <div class="filter-list">
-                    <p style="margin-bottom: 0.5rem; margin-top: 0.5rem;"><b translatable>key.filter.nations</b></p>
+                    <p style="margin-bottom: 0.5rem; margin-top: 0.5rem;"><b translatable>key.filter.nations</b><info onclick="addDialog('key.dialog.nations.title', 'key.dialog.nations.content', true)">i</info></p>
                     <input onclick="changeFaction('japan', this)" type="checkbox" id="japan" checked />
                     <label for="japan"><img class="flag" src="src/img/flag_japan.png"></label>
                     <input onclick="changeFaction('usa', this)" type="checkbox" id="usa" checked />
@@ -85,7 +87,7 @@
                     <label for="spain"><img class="flag" src="src/img/flag_spain.png"></label>
                 </div>
                 <div class="filter-list">
-                    <p style="margin-bottom: 0.5rem; margin-top: 0.5rem;"><b translatable>key.filter.types</b></p>
+                    <p style="margin-bottom: 0.5rem; margin-top: 0.5rem;"><b translatable>key.filter.types</b><info onclick="addDialog('key.dialog.types.title', 'key.dialog.types.content', true)">i</info></p>
                     <input onclick="changeType('SS', this)" type="checkbox" id="SS" checked />
                     <label for="SS">SS</label>
                     <input onclick="changeType('DD', this)" type="checkbox" id="DD" checked />
