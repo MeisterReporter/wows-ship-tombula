@@ -80,11 +80,9 @@
 
 @keyframes close-dialog {
     from {
-        opacity: 1;
         transform: translate(-50%, -50%);
     }
     to {
-        opacity: 0;
         transform: translate(-50%, -47%);
     }
 }
@@ -95,5 +93,6 @@
     }
     to {
         opacity: 0;
+        display: none;
     }
 }

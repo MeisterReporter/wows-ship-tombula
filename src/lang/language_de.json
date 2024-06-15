@@ -1,4 +1,5 @@
 {
+    "version": "1.0.0-13.5",
     "key.new":"Neu",
     "key.title":"Schiffs Tombula",
     "key.brought_by":"präsentiert von",
@@ -30,6 +31,6 @@
     "key.dialog.nations.content": "Wenn sie auf die Flaggen oder Haken klicken werden alle Schiffe der Nation aus- oder abgewählt.<p for='japan'><img class='flag' src='src/img/flag_japan.png'>: Japan</p><p for='usa'><img class='flag' src='src/img/flag_usa.png'>: Vereinigte Staten</p><p for='russia'><img class='flag' src='src/img/flag_russia.png'>: Sowjetunion</p><p for='germany'><img class='flag' src='src/img/flag_germany.png'>: Deutschland</p><p for='uk'><img class='flag' src='src/img/flag_uk.png'>: Großbritannien</p><p for='france'><img class='flag' src='src/img/flag_france.png'>: Frankreich</p><p for='pan_asia'><img class='flag' src='src/img/flag_pan_asia.png'>: Pan Asien</p><p for='italy'><img class='flag' src='src/img/flag_italy.png'>: Italien</p><p for='commonwealth'><img class='flag' src='src/img/flag_commonwealth.png'>: Commonwealth</p><p for='pan_america'><img class='flag' src='src/img/flag_pan_america.png'>: Pan Amerika</p><p for='europe'><img class='flag' src='src/img/flag_europe.png'>: Europa</p><p for='netherlands'><img class='flag' src='src/img/flag_netherlands.png'>: Niederlande</p><p for='spain'><img class='flag' src='src/img/flag_spain.png'>: Spanien</p>",
     "key.dialog.types.title": "Schiffsklassen",
     "key.dialog.types.content": "Wenn sie auf die Schiffsklassen oder Haken klicken werden alle Schiffe der Klasse aus- oder abgewählt.<p>Hier ist die Erklärung der Klassenkürzel:</p><p><b>SS</b>: U-Boot</p><p><b>DD</b>: Zerstörer</p><p><b>CL</b>: Leichter Kreuzer</p><p><b>CA</b>: Schwerer Kreuzer</p><p><b>BC</b>: Schlachtkreuzer</p><p><b>BB</b>: Schlachtschiff</p><p><b>CV</b>: Flugzeugträger</p>",
-    "key.dialog.pathnotes.title": "Patch Notizen",
+    "key.dialog.pathnotes.title": "Was ist neu?",
     "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.0.0-13.5:</p><p>- <b>BB</b> <i>IX</i> Xuanwu wurde hinzugefügt (Mit dem Bild der Iowa)</p><p>- <b>DD</b> <i>VIII</i> Zhuque wurde hinzugefügt (Mit dem Bild der Kidd)</p>"
 }

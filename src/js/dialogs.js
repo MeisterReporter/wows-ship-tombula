@@ -23,7 +23,15 @@ function addDialog(title, content, translate) {
     dialog.appendChild(button);
     // Add Close listener
     button.addEventListener("click", () => {
-        document.getElementsByClassName("dialog-background")[0].remove();
+        // Close Animations
+        dialog.style["animation"] = "close-dialog 500ms ease-out";
+        background.style["animation"] = "hide-background 500ms ease-out";
+        setTimeout(() => {
+            var background = document.getElementsByClassName("dialog-background")[0];
+            background.style["opacity"] = "0";
+            background.style["display"] = "none";
+            background.remove();
+        }, 450);
     });
     // Add to document
     document.getElementsByTagName("body")[0].appendChild(background);
