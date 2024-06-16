@@ -9,12 +9,17 @@ function applyLocalization() {
     fetch("./src/lang/" + filename)
     .then((response) => response.json())
     .then((json) => {
-        var elements = document.querySelectorAll('[translatable]');
+        var elements = document.querySelectorAll("[translatable]");
         for (let i = 0; i < elements.length; i++) {
             var element = elements[i];
             if (element.childNodes.length == 1) {
                 element.innerText = json[element.innerText];
             }
+        }
+        elements  = document.querySelectorAll("[translatable-placeholder]");
+        for (let i = 0; i < elements.length; i++) {
+            var element = elements[i];
+            element.placeholder = json[element.placeholder];
         }
     });
 }

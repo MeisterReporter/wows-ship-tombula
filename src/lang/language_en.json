@@ -20,6 +20,7 @@
     "key.footer.made_by":"Made by",
     "key.footer.made_date":"in 2024",
     "key.footer.wip_note":"Please note this pade is",
+    "key.footer.supported_by":"Supported by",
     "key.footer.issues_notice":"If there are issues contact me via",
     "key.footer.data_notice":"The ship data has been got from",
 
@@ -32,5 +33,7 @@
     "key.dialog.types.title": "Schiffsklassen",
     "key.dialog.types.content": "If you click on the ship classes or check boxes, all ships of the class will be selected or deselected.<p>Here is the explanation of the class abbreviations:</p><p><b>SS</b>: Submarine</p ><p><b>DD</b>: Destroyer</p><p><b>CL</b>: Light Cruiser</p><p><b>CA</b>: Heavy Cruiser </p><p><b>BC</b>: Battlecruiser</p><p><b>BB</b>: Battleship</p><p><b>CV</b>: Aircraft carrier</p>",
     "key.dialog.pathnotes.title": "Whats new?",
-    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.0.0-13.5:</p><p>- <b>BB</b> <i>IX</i> Xuan Wu was added (With the image of Iowa)</p><p>- <b>DD</b> <i>VIII</i> Zhu Que was added (With the image of Kidd)</p>"
+    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.0.0-13.5:</p><p>- <b>BB</b> <i>IX</i> Xuan Wu was added (With the image of Iowa)</p><p>- <b>DD</b> <i>VIII</i> Zhu Que was added (With the image of Kidd)</p>",
+    "key.dialog.teamkrado.title": "Who is Teamkrado?",
+    "key.dialog.teamkrado.content": "<p><b>Teamkrado</b> is an official contributor to <i>World of Warships</i>. In the streams and videos, <b>Krado</b> is the \"camera\" for the viewers.</br>Occasionally, <b>Nere</b>, another member of Teamkrado, is also the peephole into the game world.</br>Also involved are <b>Krom</b> and <b>Blackchi</b>, the latter plays with Krado <i>Hunt Showdown</i> and <i>War Thunder</i>.</br>In <i>World of Warships</i> or <i>War Thunder</i>, Krado lets his community go along as long as there are spots available in the division.</p><p style='font-size: 15pt'>Teamkrado can be watched here:</p><p><a href='https://www.youtube.com/@Teamkrado'>Youtube channel</a> </p><p><a href='https://www.twitch.tv/teamkrado'>Twitch channel</a></p><p><a href='https://www.instagram .com/teamkrado/'>Instagram Account</a></p><p><a href='https://www.facebook.com/teamkrado/'>Facebook Account</a></p>"
 }

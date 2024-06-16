@@ -26,6 +26,11 @@
     margin-right: auto;
 }
 
+.middle {
+    display: inline;
+    vertical-align: middle;
+}
+
 @media (max-width: 768px) {
     .row {
         flex-direction: column;

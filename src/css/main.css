@@ -23,6 +23,7 @@ i {
 }
 
 a {
+    cursor: pointer;
     color: rgb(0, 140, 255);
     text-decoration: none;
 }

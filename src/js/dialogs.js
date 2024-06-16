@@ -1,4 +1,15 @@
 function addDialog(title, content, translate) {
+    // Close Animations
+    if (document.getElementsByClassName("dialog-background").length > 0) {
+        document.getElementsByClassName("dialog")[0].style["animation"] = "close-dialog 500ms ease-out";
+        document.getElementsByClassName("dialog-background")[0].style["animation"] = "hide-background 500ms ease-out";
+        setTimeout(() => {
+            var background = document.getElementsByClassName("dialog-background")[0];
+            background.style["opacity"] = "0";
+            background.style["display"] = "none";
+            background.remove();
+        }, 450);
+    }
     // Construct Dialog
     var background = document.createElement("div");
     background.classList.add("dialog-background");
