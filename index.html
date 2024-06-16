@@ -19,6 +19,14 @@
         <link href="src/css/buttons.css" rel="stylesheet" type="text/css">
         <link href="src/css/dialogs.css" rel="stylesheet" type="text/css">
     </head>
+    <img class="background-image">
+    <script>
+        // Change the Background image based on the date
+        var day = new Date().getDate();
+        var image = (day % 4) + 1;
+        var path = "src/img/backgrounds/background_" +  image + ".jpg";
+        document.getElementsByClassName("background-image")[0].src = path;
+    </script>
     <body>
         <header>
             <h1><span translatable class="special">key.new</span><span translatable>key.title</span></h1><info onclick="addDialog('key.dialog.pathnotes.title', 'key.dialog.pathnotes.content', true)">i</info>

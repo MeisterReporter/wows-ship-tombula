@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
 
-    background-color: #102031;
+    background-color: rgba(16, 32, 49, 1);
 
     justify-content: space-between;
 }
@@ -31,6 +31,18 @@ a {
 a:hover {
     color: rgb(0, 140, 255);
     text-decoration: underline;
+}
+
+.background-image {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+
+    opacity: 0.25;
+
+    object-fit: cover;
+
+    z-index: -999;
 }
 
 @media (max-width: 1300px) {
