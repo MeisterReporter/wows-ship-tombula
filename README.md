@@ -21,4 +21,4 @@ CAUTION: Some Mobile browsers have issues with scratching the ticket. I recommen
 - Fixing Bugs if they occur
 
 # Why is a Ship Missing?
-- The data for the ships, must be updated manually. So if World of Warships gets a new Ship, the datat must be gathered and put into the datasheet. If the data is not yet available the ship will be missing.
+- The data for the ships, must be updated manually. So if World of Warships gets a new Ship, the data must be gathered and put into the datasheet. If the data is not yet available the ship will be missing.
