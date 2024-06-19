@@ -1,13 +1,11 @@
 function chooseRandom(self) {
     self.setAttribute("disabled", null);
-    var random = Math.floor(Math.random() * shipData.length);
-    var ship = shipData[random];
-    if (!selectedItems[ship.name]) {
-        while (!selectedItems[ship.name]) {
-            random = (random + 1) % shipData.length;
-            ship = shipData[random];
-        }
+    var random = getRandomIndex();
+    // Check for possible issues
+    if (random === -1) {
+        alert("Generation of a Random ship failed. Please contact the administrator.");
     }
+    var ship = shipData[random];
     var ticket = document.getElementsByClassName("ship-ticket")[0];
     var randomize = document.getElementsByClassName("randomize")[0];
     var tombula = randomize.getElementsByClassName("tombola")[0];
@@ -19,7 +17,7 @@ function chooseRandom(self) {
     var selectedShown = false;
     for (let i = 0; i < 8; i++) {
         var img = tombula.getElementsByTagName("img")[i];
-        if (Math.random() < 0.5 || (!selectedShown && i == 7)) {
+        if (Math.random() < 0.5 && !selectedShown || i == 7) {
             img.src = shipData[random].image;
             selectedShown = true;
         } else {
@@ -62,4 +60,44 @@ function chooseRandom(self) {
             tombula.style["transform"] = "rotateX(0deg) translateZ(-480px)";
         }, 500);
     }, 3000, self);
+}
+
+function getRandomIndex() {
+    // Get Class weights
+    var classCounts = [];
+    for (let i = 0; i < shipData.length; i++) {
+        if (shipData[i].type in classCounts) {
+            classCounts[shipData[i].type]++;
+        } else {
+            classCounts[shipData[i].type] = 1;
+        }
+    }
+    var classWights = [];
+    for (const [key, value] of Object.entries(classCounts)) {
+        classWights[key] = value / shipData.length;
+    }
+
+    // Get Selectable Indices
+    var pool = [];
+    var weights = [];
+    for (let i = 0; i < shipData.length; i++) {
+        if (selectedItems[shipData[i].name]) {
+            pool.push(i);
+            weights.push(classWights[shipData[i].type]);
+        }
+    }
+
+    // Weighted Index choice
+    const totalWeight = weights.reduce((x, y) => x + y);
+    const val = Math.random() * totalWeight;
+    var index = -1;
+    for (let i = 0, cur = 0; true; i++) {
+        cur += weights[i];
+        if (val <= cur) {
+            index = i;
+            break;
+        }
+    }
+
+    return pool[index];
 }
