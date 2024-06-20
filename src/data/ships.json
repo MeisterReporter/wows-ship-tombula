@@ -4329,14 +4329,14 @@
         "faction": "pan_asia",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/kidd.png"
+        "image": "src/img/ships/zhu_que.png"
     },
     {
         "name": "Xuan Wu",
         "faction": "pan_asia",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/iowa.png"
+        "image": "src/img/ships/xuan_wu.png"
     },
     {
         "name": "Incheon",
