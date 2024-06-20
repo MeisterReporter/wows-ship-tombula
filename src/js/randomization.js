@@ -64,7 +64,7 @@ function chooseRandom(self) {
 
 function getRandomIndex() {
     // Get Class weights
-    var classCounts = [];
+    /*var classCounts = [];
     for (let i = 0; i < shipData.length; i++) {
         if (shipData[i].type in classCounts) {
             classCounts[shipData[i].type]++;
@@ -75,7 +75,7 @@ function getRandomIndex() {
     var classWights = [];
     for (const [key, value] of Object.entries(classCounts)) {
         classWights[key] = value / shipData.length;
-    }
+    }*/
 
     // Get Selectable Indices
     var pool = [];
@@ -83,7 +83,7 @@ function getRandomIndex() {
     for (let i = 0; i < shipData.length; i++) {
         if (selectedItems[shipData[i].name]) {
             pool.push(i);
-            weights.push(classWights[shipData[i].type]);
+            weights.push(1 / shipData.length);
         }
     }
 
