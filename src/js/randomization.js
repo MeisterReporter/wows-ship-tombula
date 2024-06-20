@@ -43,6 +43,11 @@ function chooseRandom(self) {
     var name = ticket.getElementsByClassName("name")[0];
     shipImage.src = ship.image;
     name.innerHTML = ship.name;
+    if (ship.premium === "true") {
+        name.classList.add("premium");
+    } else {
+        name.classList.remove("premium");
+    }
     clazz.innerHTML = ship.type;
     tier.innerHTML = ship.tier;
     flag.src = "src/img/flag_" + ship.faction + ".png";

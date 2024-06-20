@@ -24,6 +24,9 @@ function initializeList() {
                 var checkBox = shipItem.getElementsByTagName("input")[0];
                 checkBox.checked = false;
             }
+            if (ship.premium === "true") {
+                list.childNodes[list.childNodes.length - 1].getElementsByTagName("shipName")[0].classList.add("premium");
+            }
         }
 
         loadSelection();
@@ -121,8 +124,10 @@ function changeTier(tier, self) {
         var faction = document.getElementById(ship.faction);
         var type = document.getElementById(ship.type);
         var testShip = document.getElementById("testShips");
+        var premium = document.getElementById("premiumShips");
+        var research = document.getElementById("techShips");
         if (ship.tier === tier) {
-            if (self.checked && faction.checked && type.checked && (testShip.checked || ship.attr !== "test")) {
+            if (self.checked && faction.checked && type.checked && (testShip.checked || ship.attr !== "test") && (premium.checked || ship.premium !== "true") && (research.checked || ship.premium !== "false")) {
                 checkbox.checked = true;
             } else {
                 checkbox.checked = false;
@@ -147,7 +152,9 @@ function changeFaction(faction, self) {
         var tier = document.getElementById(ship.tier);
         var type = document.getElementById(ship.type);
         var testShip = document.getElementById("testShips");
-        if (ship.faction === faction && tier.checked && type.checked && (testShip.checked || ship.attr !== "test")) {
+        var premium = document.getElementById("premiumShips");
+        var research = document.getElementById("techShips");
+        if (ship.faction === faction && tier.checked && type.checked && (testShip.checked || ship.attr !== "test") && (premium.checked || ship.premium !== "true") && (research.checked || ship.premium !== "false")) {
             if (self.checked) {
                 checkbox.checked = true;
             } else {
@@ -173,7 +180,9 @@ function changeType(type, self) {
         var tier = document.getElementById(ship.tier);
         var faction = document.getElementById(ship.faction);
         var testShip = document.getElementById("testShips");
-        if (ship.type === type && tier.checked && faction.checked && (testShip.checked || ship.attr !== "test")) {
+        var premium = document.getElementById("premiumShips");
+        var research = document.getElementById("techShips");
+        if (ship.type === type && tier.checked && faction.checked && (testShip.checked || ship.attr !== "test") && (premium.checked || ship.premium !== "true") && (research.checked || ship.premium !== "false")) {
             if (self.checked) {
                 checkbox.checked = true;
             } else {
@@ -199,7 +208,9 @@ function enableTestShip(self) {
         var tier = document.getElementById(ship.tier);
         var faction = document.getElementById(ship.faction);
         var type = document.getElementById(ship.type);
-        if (ship.attr === "test" && tier.checked && faction.checked && type.checked) {
+        var premium = document.getElementById("premiumShips");
+        var research = document.getElementById("techShips");
+        if (ship.attr === "test" && tier.checked && faction.checked && type.checked && (premium.checked || ship.premium !== "true") && (research.checked || ship.premium !== "false")) {
             if (self.checked) {
                 checkbox.checked = true;
             } else {
@@ -213,6 +224,60 @@ function enableTestShip(self) {
 
     // Save State
     localStorage.setItem("enableTestShips", self.checked);
+}
+
+function enablePremiumShip(self) {
+    var ul = document.getElementById("available-ships");
+    var liItems = ul.getElementsByTagName('li');
+
+    for (i = 0; i < liItems.length; i++) {
+        var ship = shipData[i];
+        var checkbox = liItems[i].getElementsByTagName("input")[0];
+        var tier = document.getElementById(ship.tier);
+        var faction = document.getElementById(ship.faction);
+        var type = document.getElementById(ship.type);
+        var testShip = document.getElementById("testShips");
+        if (ship.premium === "true" && tier.checked && faction.checked && type.checked && (testShip.checked || ship.attr !== "test")) {
+            if (self.checked) {
+                checkbox.checked = true;
+            } else {
+                checkbox.checked = false;
+            }
+            selectedItems[ship.name] = checkbox.checked;
+            // Save Selection
+            localStorage.setItem(ship.name, checkbox.checked);
+        }
+    }
+
+    // Save State
+    localStorage.setItem("enablePremiumShips", self.checked);
+}
+
+function enableTechShip(self) {
+    var ul = document.getElementById("available-ships");
+    var liItems = ul.getElementsByTagName('li');
+
+    for (i = 0; i < liItems.length; i++) {
+        var ship = shipData[i];
+        var checkbox = liItems[i].getElementsByTagName("input")[0];
+        var tier = document.getElementById(ship.tier);
+        var faction = document.getElementById(ship.faction);
+        var type = document.getElementById(ship.type);
+        var testShip = document.getElementById("testShips");
+        if (ship.premium === "false" && tier.checked && faction.checked && type.checked && (testShip.checked || ship.attr !== "test")) {
+            if (self.checked) {
+                checkbox.checked = true;
+            } else {
+                checkbox.checked = false;
+            }
+            selectedItems[ship.name] = checkbox.checked;
+            // Save Selection
+            localStorage.setItem(ship.name, checkbox.checked);
+        }
+    }
+
+    // Save State
+    localStorage.setItem("enableTechShips", self.checked);
 }
 
 function loadSelection() {
@@ -286,8 +351,34 @@ function loadSelection() {
             localStorage.setItem(name, type.checked);
         }
     }
+    // Load Premium Ships selection
+    var premiumShipsEnabled = filters[3].getElementsByTagName("input")[0];
+    var value = localStorage.getItem("enablePremiumShips");
+    if (value !== null) {
+        if (value === "true") {
+            premiumShipsEnabled.checked = true;
+        } else {
+            premiumShipsEnabled.checked = false;
+        }
+    } else {
+        premiumShipsEnabled.checked = true;
+        localStorage.setItem("enablePremiumShips", premiumShipsEnabled.checked);
+    }
+    // Load Premium Ships selection
+    var techShipsEnabled = filters[3].getElementsByTagName("input")[1];
+    var value = localStorage.getItem("enableTechShips");
+    if (value !== null) {
+        if (value === "true") {
+            techShipsEnabled.checked = true;
+        } else {
+            techShipsEnabled.checked = false;
+        }
+    } else {
+        techShipsEnabled.checked = true;
+        localStorage.setItem("enableTechShips", techShipsEnabled.checked);
+    }
     // Load test ships selection
-    var testShipsEnabled = filters[3].getElementsByTagName("input")[0];
+    var testShipsEnabled = filters[3].getElementsByTagName("input")[2];
     var value = localStorage.getItem("enableTestShips");
     if (value !== null) {
         if (value === "true") {
@@ -298,24 +389,5 @@ function loadSelection() {
     } else {
         testShipsEnabled.checked = false;
         localStorage.setItem("enableTestShips", testShipsEnabled.checked);
-    }
-}
-
-function openFilterList(self) {
-    var inputs = self.getElementsByTagName("input");
-    var labels = self.getElementsByTagName("label");
-    for (let i = 0; i < inputs.length; i++) {
-        if (inputs[i].style["display"] === "none") {
-            inputs[i].style["display"] = "inline";
-        } else {
-            inputs[i].style["display"] = "none";
-        }
-    }
-    for (let i = 0; i < labels.length; i++) {
-        if (labels[i].style["display"] === "none") {
-            labels[i].style["display"] = "inline";
-        } else {
-            labels[i].style["display"] = "none";
-        }
     }
 }

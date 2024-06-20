@@ -113,6 +113,12 @@
                 </div>
                 <div class="filter-list">
                     <p style="margin-bottom: 0.5rem; margin-top: 0.5rem;"><b translatable>key.filter.other</b></p>
+                    <input onclick="enablePremiumShip(this)" type="checkbox" id="premiumShips" checked />
+                    <label translatable for="premiumShips">key.filter.enable_premium_ships</label>
+                    </br>
+                    <input onclick="enableTechShip(this)" type="checkbox" id="techShips" checked />
+                    <label translatable for="techShips">key.filter.enable_tech_ships</label>
+                    </br>
                     <input onclick="enableTestShip(this)" type="checkbox" id="testShips" />
                     <label translatable for="testShips">key.filter.enable_test_ships</label>
                 </div>
@@ -224,6 +230,12 @@
                     </div>
                 </div>
                 <p id="instruction" class="align-center" style="font-size: 16pt; margin-top: 2rem; display: none;"><b translatable>key.scratch_ticket</b></p>
+            </div>
+            <div class="otherProjects">
+                <p><b>Andere Projekte:</b></p>
+                <p>- <info onclick="addDialog('key.dialog.swbattleships.title', 'key.dialog.swbattleships.content', true)">i</info>Universe of Battleships: <a href="https://www.youtube.com/watch?v=oFWX-G_FwUA&list=PLXOFyUbz_Xsvxu5Bc8bzrOxQ8L_JXLu7f">Youtube</a></p>
+                <p>- <info onclick="addDialog('key.dialog.rawedit.title', 'key.dialog.rawedit.content', true)">i</info>RAWEdit: <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1388553049">Steam</a></p>
+                <p>- <info onclick="addDialog('key.dialog.unitseditor.title', 'key.dialog.unitseditor.content', true)">i</info>Units Editor: <a href="https://sourceforge.net/projects/empire-at-war-units-editor/">Download</a></p>
             </div>
         </section>
 
