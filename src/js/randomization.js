@@ -1,3 +1,11 @@
+var classes = ["SS", "DD", "CL", "CA", "BC", "BB", "CV"];
+
+function resetClasses() {
+    for (let i = 0; i < classes.length; i++) {
+        localStorage.setItem("p" + classes[i], 1);
+    }
+}
+
 function chooseRandom(self) {
     self.setAttribute("disabled", null);
     var random = getRandomIndex();
@@ -6,6 +14,13 @@ function chooseRandom(self) {
         alert("Generation of a Random ship failed. Please contact the administrator.");
     }
     var ship = shipData[random];
+    // Increase other class weights
+    for (let i = 0; i < classes.length; i++) {
+        if (classes[i] !== ship.type) {
+            var p = localStorage.getItem("p" + classes[i]);
+            localStorage.setItem("p" + classes[i], parseInt(p) + 1);
+        }
+    }
     var ticket = document.getElementsByClassName("ship-ticket")[0];
     var randomize = document.getElementsByClassName("randomize")[0];
     var tombula = randomize.getElementsByClassName("tombola")[0];
@@ -69,18 +84,17 @@ function chooseRandom(self) {
 
 function getRandomIndex() {
     // Get Class weights
-    /*var classCounts = [];
-    for (let i = 0; i < shipData.length; i++) {
-        if (shipData[i].type in classCounts) {
-            classCounts[shipData[i].type]++;
+    var classWights = [];
+    for (let i = 0; i < classes.length; i++) {
+        var p = localStorage.getItem("p" + classes[i]);
+        if (p !== null) {
+            classWights[classes[i]] = parseInt(p);
         } else {
-            classCounts[shipData[i].type] = 1;
+            localStorage.setItem("p" + classes[i], 1);
+            classWights[classes[i]] = 1;
         }
     }
-    var classWights = [];
-    for (const [key, value] of Object.entries(classCounts)) {
-        classWights[key] = value / shipData.length;
-    }*/
+    // console.log(classWights);
 
     // Get Selectable Indices
     var pool = [];
@@ -88,7 +102,7 @@ function getRandomIndex() {
     for (let i = 0; i < shipData.length; i++) {
         if (selectedItems[shipData[i].name]) {
             pool.push(i);
-            weights.push(1 / shipData.length);
+            weights.push(classWights[shipData[i].type]);
         }
     }
 

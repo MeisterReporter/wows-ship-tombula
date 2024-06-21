@@ -58,12 +58,14 @@ function getShipData() {
                 // Contacting Warshisp - WoWs API
                 var url = "https://api.worldofwarships.eu/wows/encyclopedia/ships/?application_id=b66933cb847d03be5e5b1763471d8f41&ship_id=" + id;
                 const finalIndex = i;
+                const finalID = id;
                 $.get(url, (data, status) => {
                     if (status === "success") {
                         var shipData = Object.values(Object.values(data)[2])[0];
+                        // TODO: Fix issue with 10 Requests per second
                         if (shipData !== null) {
                             var shipName = shipData.name;
-                            // console.log(shipData.ship_id + " " + shipName);
+                            console.log(shipData.ship_id + " " + shipName);
                             // Update checkboxes
                             var search = document.querySelector("[ship=\"" + shipName + "\"]");
                             if (search !== null) {
@@ -72,6 +74,8 @@ function getShipData() {
                                 selectedItems[shipName] = true;
                                 localStorage.setItem(shipName, selectedItems[shipName]);
                             }
+                        } else {
+                            console.log("Ship Data is empty " + finalID);
                         }
                         if (finalIndex == port.length - 1) {
                             // Done
