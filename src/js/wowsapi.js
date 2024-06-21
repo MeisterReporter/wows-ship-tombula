@@ -52,7 +52,7 @@ function getShipData() {
             for (let i = 0; i < shipData.length; i++) {
                 selectedItems[shipData[i].name] = false;
             }
-            console.log(selectedItems);
+            console.log(port.length);
             for (let i = 0; i < port.length; i++) {
                 var id = port[i];
                 // Contacting Warshisp - WoWs API
@@ -62,7 +62,6 @@ function getShipData() {
                 $.get(url, (data, status) => {
                     if (status === "success") {
                         var shipData = Object.values(Object.values(data)[2])[0];
-                        // TODO: Fix issue with 10 Requests per second
                         if (shipData !== null) {
                             var shipName = shipData.name;
                             console.log(shipData.ship_id + " " + shipName);
