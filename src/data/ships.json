@@ -24,7 +24,7 @@
         "premium": "false"
     },
     {
-        "name": "S. Carolina",
+        "name": "South Carolina",
         "faction": "usa",
         "type": "BB",
         "tier": "III",
@@ -200,7 +200,7 @@
         "premium": "false"
     },
     {
-        "name": "N. Carolina",
+        "name": "North Carolina",
         "faction": "usa",
         "type": "BB",
         "tier": "VIII",
@@ -512,7 +512,7 @@
         "premium": "true"
     },
     {
-        "name": "W. Virginia '41",
+        "name": "West Virginia '41",
         "faction": "usa",
         "type": "BB",
         "tier": "VI",
@@ -592,7 +592,7 @@
         "premium": "true"
     },
     {
-        "name": "W. Virginia '44",
+        "name": "West Virginia '44",
         "faction": "usa",
         "type": "BB",
         "tier": "VII",
@@ -704,7 +704,7 @@
         "premium": "true"
     },
     {
-        "name": "N. Carolina CLR",
+        "name": "North Carolina CLR",
         "faction": "usa",
         "type": "BB",
         "tier": "VIII",
@@ -864,7 +864,7 @@
         "premium": "true"
     },
     {
-        "name": "F. D. Roosevelt",
+        "name": "Franklin D. Roosevelt",
         "faction": "usa",
         "type": "CV",
         "tier": "X",
@@ -872,7 +872,7 @@
         "premium": "true"
     },
     {
-        "name": "F. Sherman",
+        "name": "Forrest Sherman",
         "faction": "usa",
         "type": "DD",
         "tier": "X",
@@ -1556,7 +1556,7 @@
         "premium": "true"
     },
     {
-        "name": "E. Dragon",
+        "name": "Eastern Dragon",
         "faction": "japan",
         "type": "CA",
         "tier": "VII",
@@ -1580,7 +1580,7 @@
         "premium": "true"
     },
     {
-        "name": "S. Dragon",
+        "name": "Southern Dragon",
         "faction": "japan",
         "type": "CA",
         "tier": "VII",
@@ -2093,7 +2093,7 @@
         "premium": "false"
     },
     {
-        "name": "Sov. Soyuz",
+        "name": "Sovetsky Soyuz",
         "faction": "russia",
         "type": "BB",
         "tier": "IX",
@@ -2101,7 +2101,7 @@
         "premium": "false"
     },
     {
-        "name": "Dm. Donskoi",
+        "name": "Dmitri Donskoi",
         "faction": "russia",
         "type": "CL",
         "tier": "IX",
@@ -2141,7 +2141,7 @@
         "premium": "false"
     },
     {
-        "name": "A. Nevsky",
+        "name": "Alexander Nevsky",
         "faction": "russia",
         "type": "CL",
         "tier": "X",
@@ -2309,7 +2309,7 @@
         "premium": "true"
     },
     {
-        "name": "Okt. Revolutsiya",
+        "name": "Oktyabrskaya Revolutsiya",
         "faction": "russia",
         "type": "BB",
         "tier": "V",
@@ -2405,7 +2405,7 @@
         "premium": "true"
     },
     {
-        "name": "D. Pozharsky",
+        "name": "Dmitry Pozharsky",
         "faction": "russia",
         "type": "CL",
         "tier": "VIII",
@@ -2437,7 +2437,7 @@
         "premium": "true"
     },
     {
-        "name": "P. Bagration",
+        "name": "Pyotr Bagration",
         "faction": "russia",
         "type": "CL",
         "tier": "VIII",
@@ -2798,7 +2798,7 @@
         "premium": "false"
     },
     {
-        "name": "P. Heinrich",
+        "name": "Prinz Heinrich",
         "faction": "germany",
         "type": "BC",
         "tier": "VII",
@@ -2862,7 +2862,7 @@
         "premium": "false"
     },
     {
-        "name": "G. J. Maerker",
+        "name": "Gustav-Julius Maerker",
         "faction": "germany",
         "type": "DD",
         "tier": "VIII",
@@ -2886,7 +2886,7 @@
         "premium": "false"
     },
     {
-        "name": "A. Parseval",
+        "name": "August von Parseval",
         "faction": "germany",
         "type": "CV",
         "tier": "VIII",
@@ -2894,7 +2894,7 @@
         "premium": "false"
     },
     {
-        "name": "P. Rupprecht",
+        "name": "Prinz Rupprecht",
         "faction": "germany",
         "type": "BC",
         "tier": "IX",
@@ -2902,7 +2902,7 @@
         "premium": "false"
     },
     {
-        "name": "F. der Grosse",
+        "name": "Friedrich der Grosse",
         "faction": "germany",
         "type": "BB",
         "tier": "IX",
@@ -2918,7 +2918,7 @@
         "premium": "false"
     },
     {
-        "name": "F. Schultz",
+        "name": "Felix Schultz",
         "faction": "germany",
         "type": "DD",
         "tier": "IX",
@@ -2982,7 +2982,7 @@
         "premium": "false"
     },
     {
-        "name": "M. Richthofen",
+        "name": "Manfred von Richthofen",
         "faction": "germany",
         "type": "CV",
         "tier": "X",
@@ -3014,7 +3014,7 @@
         "premium": "true"
     },
     {
-        "name": "K. Albert",
+        "name": "König Albert",
         "faction": "germany",
         "type": "BB",
         "tier": "III",
@@ -3022,7 +3022,7 @@
         "premium": "true"
     },
     {
-        "name": "E. Loewenhardt",
+        "name": "Erich Loewenhardt",
         "faction": "germany",
         "type": "CV",
         "tier": "VI",
@@ -3046,7 +3046,7 @@
         "premium": "true"
     },
     {
-        "name": "K. Schönberg",
+        "name": "Karl von Schönberg",
         "faction": "germany",
         "type": "DD",
         "tier": "VI",
@@ -3062,7 +3062,7 @@
         "premium": "true"
     },
     {
-        "name": "P. E. Friedrich",
+        "name": "Prinz Eitel Friedrich",
         "faction": "germany",
         "type": "BB",
         "tier": "VI",
@@ -3078,7 +3078,7 @@
         "premium": "true"
     },
     {
-        "name": "AL P. Heinrich",
+        "name": "AL Prinz Heinrich",
         "faction": "germany",
         "type": "BC",
         "tier": "VII",
@@ -3326,7 +3326,7 @@
         "premium": "true"
     },
     {
-        "name": "G. Kurfürst",
+        "name": "Grosser Kurfürst",
         "faction": "germany",
         "type": "BB",
         "tier": "X",
@@ -3334,7 +3334,7 @@
         "premium": "true"
     },
     {
-        "name": "M. Immelmann",
+        "name": "Max Immelmann",
         "faction": "germany",
         "type": "CV",
         "tier": "X",
@@ -3375,7 +3375,7 @@
         "premium": "false"
     },
     {
-        "name": "O. Lilienthal",
+        "name": "Otto Lilienthal",
         "faction": "germany",
         "type": "CV",
         "tier": "X",
@@ -4065,7 +4065,7 @@
         "premium": "true"
     },
     {
-        "name": "S. Thunder",
+        "name": "Scarlet Thunder",
         "faction": "uk",
         "type": "BC",
         "tier": "IX",
@@ -4172,7 +4172,7 @@
         "premium": "false"
     },
     {
-        "name": "En. Gabolde",
+        "name": "Enseigne Gabolde",
         "faction": "france",
         "type": "DD",
         "tier": "II",
@@ -4997,7 +4997,7 @@
         "premium": "false"
     },
     {
-        "name": "N. Sauro",
+        "name": "Nazario Sauro",
         "faction": "italy",
         "type": "DD",
         "tier": "III",
@@ -5005,7 +5005,7 @@
         "premium": "false"
     },
     {
-        "name": "D. Alighieri",
+        "name": "Dante Alighieri",
         "faction": "italy",
         "type": "BB",
         "tier": "IV",
@@ -5077,7 +5077,7 @@
         "premium": "false"
     },
     {
-        "name": "F. Caracciolo",
+        "name": "Francesco Caracciolo",
         "faction": "italy",
         "type": "BB",
         "tier": "VII",
@@ -5093,7 +5093,7 @@
         "premium": "false"
     },
     {
-        "name": "L. Tarigo",
+        "name": "Luca Tarigo",
         "faction": "italy",
         "type": "DD",
         "tier": "VII",
@@ -5101,7 +5101,7 @@
         "premium": "false"
     },
     {
-        "name": "V. Veneto",
+        "name": "Vittorio Veneto",
         "faction": "italy",
         "type": "BB",
         "tier": "VIII",
@@ -5117,7 +5117,7 @@
         "premium": "false"
     },
     {
-        "name": "V. Cuniberti",
+        "name": "Vittorio Cuniberti",
         "faction": "italy",
         "type": "DD",
         "tier": "VIII",
@@ -5149,7 +5149,7 @@
         "premium": "false"
     },
     {
-        "name": "C. Colombo",
+        "name": "Cristoforo Colombo",
         "faction": "italy",
         "type": "BB",
         "tier": "X",
@@ -5165,7 +5165,7 @@
         "premium": "false"
     },
     {
-        "name": "A. Regolo",
+        "name": "Attilio Regolo",
         "faction": "italy",
         "type": "DD",
         "tier": "X",
@@ -5221,7 +5221,7 @@
         "premium": "true"
     },
     {
-        "name": "F. Ferruccio",
+        "name": "Francesco Ferruccio",
         "faction": "italy",
         "type": "CL",
         "tier": "VII",
@@ -5317,7 +5317,7 @@
         "premium": "true"
     },
     {
-        "name": "R. Lauria",
+        "name": "Ruggiero di Lauria",
         "faction": "italy",
         "type": "BC",
         "tier": "X",
@@ -5333,7 +5333,7 @@
         "premium": "true"
     },
     {
-        "name": "A. Vespucci",
+        "name": "Amerigo Vespucci",
         "faction": "italy",
         "type": "BB",
         "tier": "X",
@@ -5513,7 +5513,7 @@
         "premium": "false"
     },
     {
-        "name": "Alm. Barroso",
+        "name": "Almirante Barroso",
         "faction": "pan_america",
         "type": "CL",
         "tier": "II",
@@ -5521,7 +5521,7 @@
         "premium": "false"
     },
     {
-        "name": "V. Guerrero",
+        "name": "Vicente Guerrero",
         "faction": "pan_america",
         "type": "CL",
         "tier": "III",
@@ -5545,7 +5545,7 @@
         "premium": "false"
     },
     {
-        "name": "Almte. Cochrane",
+        "name": "Almirante Cochrane",
         "faction": "pan_america",
         "type": "CL",
         "tier": "VI",
@@ -5553,7 +5553,7 @@
         "premium": "false"
     },
     {
-        "name": "Cnel. Bolognesi",
+        "name": "Coronel Bolognesi",
         "faction": "pan_america",
         "type": "CL",
         "tier": "VII",
@@ -5561,7 +5561,7 @@
         "premium": "false"
     },
     {
-        "name": "I. Allende",
+        "name": "Ignacio Allende",
         "faction": "pan_america",
         "type": "CL",
         "tier": "VIII",
@@ -5585,7 +5585,7 @@
         "premium": "false"
     },
     {
-        "name": "Alm. Abreu",
+        "name": "Almirante Abreu",
         "faction": "pan_america",
         "type": "CL",
         "tier": "II",
@@ -5617,7 +5617,7 @@
         "premium": "true"
     },
     {
-        "name": "Almte. Grau",
+        "name": "Almirante Grau",
         "faction": "pan_america",
         "type": "CL",
         "tier": "VIII",
@@ -5738,7 +5738,7 @@
         "premium": "false"
     },
     {
-        "name": "L. Katsonis",
+        "name": "Lambros Katsonis",
         "faction": "europe",
         "type": "DD",
         "tier": "IX",
@@ -6023,7 +6023,7 @@
         "premium": "false"
     },
     {
-        "name": "Almte. Cervera",
+        "name": "Almirante Cervera",
         "faction": "spain",
         "type": "CL",
         "tier": "IV",

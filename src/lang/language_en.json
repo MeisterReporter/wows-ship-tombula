@@ -14,6 +14,7 @@
     "key.filter.enable_test_ships": "Enable Test Ships",
     "key.filter.enable_premium_ships": "Enable Premium ships",
     "key.filter.enable_tech_ships": "Aktiviere Research Schiffe",
+    "key.filter.from_wows_numbers": "Login for Automatic Selection",
     "key.ships": "Ships:",
 
     "key.draw_ticket": "Draw a Ticket",
@@ -35,9 +36,13 @@
     "key.dialog.types.title": "Ship classes",
     "key.dialog.types.content": "If you click on the ship classes or check boxes, all ships of the class will be selected or deselected.<p>Here is the explanation of the class abbreviations:</p><p><b>SS</b>: Submarine (2.24%)</p ><p><b>DD</b>: Destroyer (25.56%)</p><p><b>CL</b>: Light Cruiser (22.13%)</p><p><b>CA</b>: Heavy Cruiser (13.70%)</p><p><b>BC</b>: Battlecruiser (9.22%)</p><p><b>BB</b>: Battleship (20.69%)</p><p><b>CV</b>: Aircraft carrier (6.46%)</p>",
     "key.dialog.pathnotes.title": "Whats new?",
-    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.0.4-13.5:</p><p>- Premium and research ships can be filtered now.</p><p>- The random function considers all ships equally</p><p>- Added daily changing backgrounds</p><p>- <b>BB</b> <i>IX</i> Xuan Wu was added (With the image of Iowa)</p><p>- <b>DD</b> <i>VIII</i> Zhu Que was added (With the image of Kidd)</p>",
+    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.0.4-13.5:</p><p>- By logging in you can automatically select all the ships you have</p><p>- Premium and research ships can be filtered now.</p><p>- The random function considers all ships equally</p><p>- Added daily changing backgrounds</p><p>- <b>BB</b> <i>IX</i> Xuan Wu was added (With the image of Iowa)</p><p>- <b>DD</b> <i>VIII</i> Zhu Que was added (With the image of Kidd)</p>",
     "key.dialog.teamkrado.title": "Who is Teamkrado?",
     "key.dialog.teamkrado.content": "<p><b>Teamkrado</b> is an official contributor for <i>World of Warships</i>. In the streams and videos, <b>Krado</b> is the \"camera\" for the viewers.</br>Occasionally, <b>Nere</b>, another member of Teamkrado, is also the peephole into the game world.</br>Also involved are <b>Krom</b> and <b>Blackchi</b>, the latter plays with Krado <i>Hunt Showdown</i> and <i>War Thunder</i>.</br>In <i>World of Warships</i> or <i>War Thunder</i>, Krado lets his community go along as long as there are spots available in the division.</p><p style='font-size: 15pt'>Teamkrado can be watched here:</p><p><a href='https://www.youtube.com/@Teamkrado'>Youtube channel</a> </p><p><a href='https://www.twitch.tv/teamkrado'>Twitch channel</a></p><p><a href='https://www.instagram .com/teamkrado/'>Instagram Account</a></p><p><a href='https://www.facebook.com/teamkrado/'>Facebook Account</a></p>",
+    "key.dialog.loginfail.title": "Login failed",
+    "key.dialog.loginfail.content": "The login at wargaming failed, please try again.",
+    "key.dialog.loading.title": "Loading data",
+    "key.dialog.loading.content": "<p>Loading Data from Wargaming API...<p><div class='progress-materializecss'><div class='indeterminate'></div></div>",
 
     "key.dialog.swbattleships.title": "Universe of Battleships",
     "key.dialog.swbattleships.content": "<p><b>Universe of Battleships</b> is my attempt to develop a game that combines the <b>game style of World of Warships</b> with various <b>Sci-Fi universes</b>. <b>The game is a fan game and in not connected with official trademarks</b> and can therefore only be played in private once it is finished...</p><p>The Universes i plan to built in: Star Wars, Star Trek, Halo, Stargate, Transformers and an own idea.</p>",
