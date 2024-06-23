@@ -99,7 +99,7 @@
                     <label for="spain"><img class="flag" src="src/img/flag_spain.png"></label>
                 </div>
                 <div class="filter-list">
-                    <p style="margin-bottom: 0.5rem; margin-top: 0.5rem;"><b translatable>key.filter.types</b><info onclick="addDialog('key.dialog.types.title', 'key.dialog.types.content', true)">i</info></p>
+                    <p style="margin-bottom: 0.5rem; margin-top: 0.5rem;"><b translatable>key.filter.types</b><info onclick="addDialog('key.dialog.types.title', 'key.dialog.types.content', true); applyClassCounts(document.getElementsByClassName('dialog-content')[0])">i</info></p>
                     <input onclick="changeType('SS', this)" type="checkbox" id="SS" checked />
                     <label for="SS">SS</label>
                     <input onclick="changeType('DD', this)" type="checkbox" id="DD" checked />
@@ -253,7 +253,6 @@
         </footer>
     </body>
     <script>
-        resetClasses();
         applyLocalization();
         // Check version
         // Find the correct language file

@@ -23,6 +23,7 @@ function addDialog(title, content, translate) {
     dialog.appendChild(heading);
     // Content
     var paragraph = document.createElement("p");
+    paragraph.classList.add("dialog-content");
     paragraph.innerHTML = content;
     if (translate) applyLocalizationTo(paragraph, content, true);
     dialog.appendChild(paragraph);

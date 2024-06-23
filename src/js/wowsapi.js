@@ -51,6 +51,7 @@ function getShipData() {
             }
             for (let i = 0; i < shipData.length; i++) {
                 selectedItems[shipData[i].name] = false;
+                localStorage.setItem(shipData[i].name, selectedItems[shipData[i].name]);
             }
             console.log(port.length);
             for (let i = 0; i < port.length; i++) {
@@ -59,26 +60,61 @@ function getShipData() {
                 var url = "https://api.worldofwarships.eu/wows/encyclopedia/ships/?application_id=b66933cb847d03be5e5b1763471d8f41&ship_id=" + id;
                 const finalIndex = i;
                 const finalID = id;
+                var hasErrorShips = false;
+                var errorShips = [];
                 $.get(url, (data, status) => {
                     if (status === "success") {
-                        var shipData = Object.values(Object.values(data)[2])[0];
-                        if (shipData !== null) {
-                            var shipName = shipData.name;
-                            console.log(shipData.ship_id + " " + shipName);
+                        var gotShipData = Object.values(Object.values(data)[2])[0];
+                        if (gotShipData !== null) {
+                            var shipName = gotShipData.name;
+                            console.log(gotShipData.ship_id + " " + shipName + " => OK");
                             // Update checkboxes
-                            var search = document.querySelector("[ship=\"" + shipName + "\"]");
-                            if (search !== null) {
-                                var checkbox = search.childNodes[0];
-                                checkbox.checked = true;
-                                selectedItems[shipName] = true;
-                                localStorage.setItem(shipName, selectedItems[shipName]);
+                            var ship = null;
+                            for (var entry of shipData) {
+                                if (entry.name == shipName) {
+                                    ship = entry;
+                                    break;
+                                }
+                            }
+                            if (ship !== null) {
+                                var search = document.querySelector("[ship=\"" + shipName + "\"]");
+                                var tier = document.getElementById(ship.tier);
+                                var faction = document.getElementById(ship.faction);
+                                var type = document.getElementById(ship.type);
+                                var testShip = document.getElementById("testShips");
+                                var premium = document.getElementById("premiumShips");
+                                var research = document.getElementById("techShips");
+                                if (search !== null && tier.checked && faction.checked && type.checked && (testShip.checked || ship.attr !== "test") && (premium.checked || ship.premium !== "true") && (research.checked || ship.premium !== "false")) {
+                                    var checkbox = search.childNodes[0];
+                                    checkbox.checked = true;
+                                    selectedItems[shipName] = true;
+                                    localStorage.setItem(shipName, selectedItems[shipName]);
+                                }
                             }
                         } else {
-                            console.log("Ship Data is empty " + finalID);
+                            console.log(finalID + " Unknown => ERROR");
+                            hasErrorShips = true;
+                            errorShips.push(finalID);
                         }
                         if (finalIndex == port.length - 1) {
                             // Done
                             closeDialog();
+                            setTimeout(() => {
+                                if (hasErrorShips) {
+                                    addDialog("key.dialog.errorships.title", "key.dialog.errorships.content", true);
+                                    setTimeout(() => {
+                                        var dialogContent = document.getElementsByClassName("dialog-content")[0];
+                                        var issues = "";
+                                        for (let i = 0; i < errorShips.length; i++) {
+                                            if (i > 0) {
+                                                issues += ", ";
+                                            }
+                                            issues += errorShips[i];
+                                        }
+                                        dialogContent.querySelector("#issues").innerHTML = issues;
+                                    }, 50);
+                                }
+                            }, 500);
                         }
                     }
                 });

@@ -1,5 +1,6 @@
 let selectedItems = [];
 let shipData = [];
+let typeCounts = {"SS": 0, "DD": 0, "CL": 0, "CA": 0, "BC": 0, "BB": 0, "CV": 0};
 
 function initializeList() {
     // Get List
@@ -27,6 +28,8 @@ function initializeList() {
             if (ship.premium === "true") {
                 list.childNodes[list.childNodes.length - 1].getElementsByTagName("shipName")[0].classList.add("premium");
             }
+            // Count ship classes
+            typeCounts[ship.type] += 1;
         }
 
         loadSelection();
@@ -390,4 +393,20 @@ function loadSelection() {
         testShipsEnabled.checked = false;
         localStorage.setItem("enableTestShips", testShipsEnabled.checked);
     }
+}
+
+function applyClassCounts(container) {
+    setTimeout(() => {
+        for (let i = 0; i < Object.keys(typeCounts).length; i++) {
+            var key = Object.keys(typeCounts)[i];
+            var count = typeCounts[key];
+            var elements = container.getElementsByTagName("span");
+            for (let element of elements) {
+                if (element.innerHTML == key) {
+                    element.innerHTML = count;
+                    break;
+                }
+            }
+        }
+    }, 50);
 }
