@@ -15,6 +15,7 @@
         <script src="src/js/localization.js"></script>
         <script src="src/js/dialogs.js"></script>
         <script src="src/js/confetti.js"></script>
+        <script src="src/js/wowsapi.js"></script>
         <!-- Style Sheets -->
         <link href="src/css/reset.css" rel="stylesheet" type="text/css">
         <link href="src/css/main.css" rel="stylesheet" type="text/css">
@@ -232,20 +233,24 @@
                             });
                             document.addEventListener("mouseup", () => {
                                 isDrawing = false;
-                                updateCoverage();
-                                if (coverage <= 0.2 && !confettiFired) {
-                                    launchConfetti();
-                                    confettiFired = true;
+                                if (!confettiFired) {
+                                    updateCoverage();
+                                    if (coverage <= 0.2) {
+                                        launchConfetti();
+                                        confettiFired = true;
+                                    }
                                 }
                             });
                             document.addEventListener("touchend", () => {
                                 isDrawing = false;
                                 isTouch = false;
                                 window.blockMenuHeaderScroll = false;
-                                updateCoverage();
-                                if (coverage <= 0.2 && !confettiFired) {
-                                    launchConfetti();
-                                    confettiFired = true;
+                                if (!confettiFired) {
+                                    updateCoverage();
+                                    if (coverage <= 0.2) {
+                                        launchConfetti();
+                                        confettiFired = true;
+                                    }
                                 }
                             });
 
