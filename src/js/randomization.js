@@ -1,4 +1,5 @@
 function chooseRandom(self) {
+    confettiFired = false;
     self.setAttribute("disabled", null);
     var random = getRandomIndex();
     // Check for possible issues

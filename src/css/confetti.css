@@ -1,0 +1,75 @@
+.confetti-view {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    perspective: 1000px;
+
+    pointer-events: none;
+}
+
+.confetti {
+    position: absolute;
+    opacity: 0;
+    transform-style: preserve-3d;
+
+    /*background-color: yellow;
+    width: 10px;
+    height: 10px;*/
+
+    --offset: 16rem;
+}
+
+.confetti > span {
+    position: absolute;
+
+    width: var(--confetti-size);
+    aspect-ratio: 1;
+    border-radius: calc(var(--shape) * 100vw);
+
+    background: hsl(var(--hue), 100%, 50%);
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.left {
+    left: var(--offset);
+}
+
+.right {
+    right: var(--offset);
+}
+
+.explosion {
+    animation: confetti-settle 10s;
+}
+
+.explosion > span {
+    animation: confetti-spread 10s cubic-bezier(0, 1, 1, 1);
+}
+
+@keyframes confetti-settle {
+    0%, 70% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(95vh);
+        opacity: 1;
+    }
+}
+
+@keyframes confetti-spread {
+    25% {
+        translate: 0 -65vh;
+    }
+    100% {
+        translate: 0 -65vh;
+        transform: 
+            translateX(var(--offsetX)) translateY(var(--offsetY)) translateZ(var(--offsetZ)) 
+            rotateX(var(--spinX)) rotateY(var(--spinY)) rotateZ(var(--spinZ));
+    }
+}
