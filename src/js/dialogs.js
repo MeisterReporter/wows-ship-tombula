@@ -23,6 +23,7 @@ function addDialog(title, content, translate) {
     dialog.appendChild(heading);
     // Content
     var paragraph = document.createElement("p");
+    paragraph.classList.add("dialog-content");
     paragraph.innerHTML = content;
     if (translate) applyLocalizationTo(paragraph, content, true);
     dialog.appendChild(paragraph);
@@ -49,4 +50,18 @@ function addDialog(title, content, translate) {
     // Show Animations
     dialog.style["animation"] = "open-dialog 500ms ease-out";
     background.style["animation"] = "show-background 250ms ease-out";
+}
+
+function closeDialog() {
+    // Close Animations
+    if (document.getElementsByClassName("dialog-background").length > 0) {
+        document.getElementsByClassName("dialog")[0].style["animation"] = "close-dialog 500ms ease-out";
+        document.getElementsByClassName("dialog-background")[0].style["animation"] = "hide-background 500ms ease-out";
+        setTimeout(() => {
+            var background = document.getElementsByClassName("dialog-background")[0];
+            background.style["opacity"] = "0";
+            background.style["display"] = "none";
+            background.remove();
+        }, 450);
+    }
 }

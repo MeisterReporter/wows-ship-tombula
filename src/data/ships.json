@@ -4,819 +4,936 @@
         "faction": "usa",
         "type": "CL",
         "tier": "I",
-        "image": "src/img/ships/erie.png"
+        "image": "src/img/ships/erie.png",
+        "premium": "false"
     },
     {
         "name": "Chester",
         "faction": "usa",
         "type": "CL",
         "tier": "II",
-        "image": "src/img/ships/chester.png"
+        "image": "src/img/ships/chester.png",
+        "premium": "false"
     },
     {
         "name": "Sampson",
         "faction": "usa",
         "type": "DD",
         "tier": "II",
-        "image": "src/img/ships/sampson.png"
+        "image": "src/img/ships/sampson.png",
+        "premium": "false"
     },
     {
-        "name": "S. Carolina",
+        "name": "South Carolina",
         "faction": "usa",
         "type": "BB",
         "tier": "III",
-        "image": "src/img/ships/s_carolina.png"
+        "image": "src/img/ships/s_carolina.png",
+        "premium": "false"
     },
     {
         "name": "St. Louis",
         "faction": "usa",
         "type": "CL",
         "tier": "III",
-        "image": "src/img/ships/st_louis.png"
+        "image": "src/img/ships/st_louis.png",
+        "premium": "false"
     },
     {
         "name": "Wickes",
         "faction": "usa",
         "type": "DD",
         "tier": "III",
-        "image": "src/img/ships/wickes.png"
+        "image": "src/img/ships/wickes.png",
+        "premium": "false"
     },
     {
         "name": "Wyoming",
         "faction": "usa",
         "type": "BB",
         "tier": "IV",
-        "image": "src/img/ships/wyoming.png"
+        "image": "src/img/ships/wyoming.png",
+        "premium": "false"
     },
     {
         "name": "Phoenix",
         "faction": "usa",
         "type": "CL",
         "tier": "IV",
-        "image": "src/img/ships/phoenix.png"
+        "image": "src/img/ships/phoenix.png",
+        "premium": "false"
     },
     {
         "name": "Clemson",
         "faction": "usa",
         "type": "DD",
         "tier": "IV",
-        "image": "src/img/ships/clemson.png"
+        "image": "src/img/ships/clemson.png",
+        "premium": "false"
     },
     {
         "name": "Langley",
         "faction": "usa",
         "type": "CV",
         "tier": "IV",
-        "image": "src/img/ships/langley.png"
+        "image": "src/img/ships/langley.png",
+        "premium": "false"
     },
     {
         "name": "New York",
         "faction": "usa",
         "type": "BB",
         "tier": "V",
-        "image": "src/img/ships/new_york.png"
+        "image": "src/img/ships/new_york.png",
+        "premium": "false"
     },
     {
         "name": "Omaha",
         "faction": "usa",
         "type": "CL",
         "tier": "V",
-        "image": "src/img/ships/omaha.png"
+        "image": "src/img/ships/omaha.png",
+        "premium": "false"
     },
     {
         "name": "Nicholas",
         "faction": "usa",
         "type": "DD",
         "tier": "V",
-        "image": "src/img/ships/nicholas.png"
+        "image": "src/img/ships/nicholas.png",
+        "premium": "false"
     },
     {
         "name": "New Mexico",
         "faction": "usa",
         "type": "BB",
         "tier": "VI",
-        "image": "src/img/ships/new_mexico.png"
+        "image": "src/img/ships/new_mexico.png",
+        "premium": "false"
     },
     {
         "name": "Dallas",
         "faction": "usa",
         "type": "CL",
         "tier": "VI",
-        "image": "src/img/ships/dallas.png"
+        "image": "src/img/ships/dallas.png",
+        "premium": "false"
     },
     {
         "name": "Pensacola",
         "faction": "usa",
         "type": "CA",
         "tier": "VI",
-        "image": "src/img/ships/pensacola.png"
+        "image": "src/img/ships/pensacola.png",
+        "premium": "false"
     },
     {
         "name": "Farragut",
         "faction": "usa",
         "type": "DD",
         "tier": "VI",
-        "image": "src/img/ships/farragut.png"
+        "image": "src/img/ships/farragut.png",
+        "premium": "false"
     },
     {
         "name": "Cachalot",
         "faction": "usa",
         "type": "SS",
         "tier": "VI",
-        "image": "src/img/ships/cachalot.png"
+        "image": "src/img/ships/cachalot.png",
+        "premium": "false"
     },
     {
         "name": "Ranger",
         "faction": "usa",
         "type": "CV",
         "tier": "VI",
-        "image": "src/img/ships/ranger.png"
+        "image": "src/img/ships/ranger.png",
+        "premium": "false"
     },
     {
         "name": "Independence",
         "faction": "usa",
         "type": "CV",
         "tier": "VI",
-        "image": "src/img/ships/independence.png"
+        "image": "src/img/ships/independence.png",
+        "premium": "false"
     },
     {
         "name": "Colorado",
         "faction": "usa",
         "type": "BB",
         "tier": "VII",
-        "image": "src/img/ships/colorado.png"
+        "image": "src/img/ships/colorado.png",
+        "premium": "false"
     },
     {
         "name": "Helena",
         "faction": "usa",
         "type": "CL",
         "tier": "VII",
-        "image": "src/img/ships/helena.png"
+        "image": "src/img/ships/helena.png",
+        "premium": "false"
     },
     {
         "name": "New Orleans",
         "faction": "usa",
         "type": "CA",
         "tier": "VII",
-        "image": "src/img/ships/new_orleans.png"
+        "image": "src/img/ships/new_orleans.png",
+        "premium": "false"
     },
     {
         "name": "Mahan",
         "faction": "usa",
         "type": "DD",
         "tier": "VII",
-        "image": "src/img/ships/mahan.png"
+        "image": "src/img/ships/mahan.png",
+        "premium": "false"
     },
     {
         "name": "Kansas",
         "faction": "usa",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/kansas.png"
+        "image": "src/img/ships/kansas.png",
+        "premium": "false"
     },
     {
-        "name": "N. Carolina",
+        "name": "North Carolina",
         "faction": "usa",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/n_carolina.png"
+        "image": "src/img/ships/n_carolina.png",
+        "premium": "false"
     },
     {
         "name": "Nebraska",
         "faction": "usa",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/nebraska.png"
+        "image": "src/img/ships/nebraska.png",
+        "premium": "false"
     },
     {
         "name": "Cleveland",
         "faction": "usa",
         "type": "CL",
         "tier": "VIII",
-        "image": "src/img/ships/cleveland.png"
+        "image": "src/img/ships/cleveland.png",
+        "premium": "false"
     },
     {
         "name": "Baltimore",
         "faction": "usa",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/baltimore.png"
+        "image": "src/img/ships/baltimore.png",
+        "premium": "false"
     },
     {
         "name": "Benson",
         "faction": "usa",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/benson.png"
+        "image": "src/img/ships/benson.png",
+        "premium": "false"
     },
     {
         "name": "Salmon",
         "faction": "usa",
         "type": "SS",
         "tier": "VIII",
-        "image": "src/img/ships/salmon.png"
+        "image": "src/img/ships/salmon.png",
+        "premium": "false"
     },
     {
         "name": "Lexington",
         "faction": "usa",
         "type": "CV",
         "tier": "VIII",
-        "image": "src/img/ships/lexington.png"
+        "image": "src/img/ships/lexington.png",
+        "premium": "false"
     },
     {
         "name": "Yorktown",
         "faction": "usa",
         "type": "CV",
         "tier": "VIII",
-        "image": "src/img/ships/yorktown.png"
+        "image": "src/img/ships/yorktown.png",
+        "premium": "false"
     },
     {
         "name": "Minnesota",
         "faction": "usa",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/minnesota.png"
+        "image": "src/img/ships/minnesota.png",
+        "premium": "false"
     },
     {
         "name": "Iowa",
         "faction": "usa",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/iowa.png"
+        "image": "src/img/ships/iowa.png",
+        "premium": "false"
     },
     {
         "name": "Delaware",
         "faction": "usa",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/delaware.png"
+        "image": "src/img/ships/delaware.png",
+        "premium": "false"
     },
     {
         "name": "Seattle",
         "faction": "usa",
         "type": "CL",
         "tier": "IX",
-        "image": "src/img/ships/seattle.png"
+        "image": "src/img/ships/seattle.png",
+        "premium": "false"
     },
     {
         "name": "Buffalo",
         "faction": "usa",
         "type": "CA",
         "tier": "IX",
-        "image": "src/img/ships/buffalo.png"
+        "image": "src/img/ships/buffalo.png",
+        "premium": "false"
     },
     {
         "name": "Fletcher",
         "faction": "usa",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/fletcher.png"
+        "image": "src/img/ships/fletcher.png",
+        "premium": "false"
     },
     {
         "name": "Vermont",
         "faction": "usa",
         "type": "BB",
         "tier": "X",
-        "image": "src/img/ships/vermont.png"
+        "image": "src/img/ships/vermont.png",
+        "premium": "false"
     },
     {
         "name": "Montana",
         "faction": "usa",
         "type": "BB",
         "tier": "X",
-        "image": "src/img/ships/montana.png"
+        "image": "src/img/ships/montana.png",
+        "premium": "false"
     },
     {
         "name": "Louisiana",
         "faction": "usa",
         "type": "BB",
         "tier": "X",
-        "image": "src/img/ships/louisiana.png"
+        "image": "src/img/ships/louisiana.png",
+        "premium": "false"
     },
     {
         "name": "Worcester",
         "faction": "usa",
         "type": "CL",
         "tier": "X",
-        "image": "src/img/ships/worcester.png"
+        "image": "src/img/ships/worcester.png",
+        "premium": "false"
     },
     {
         "name": "Des Moines",
         "faction": "usa",
         "type": "CA",
         "tier": "X",
-        "image": "src/img/ships/des_moines.png"
+        "image": "src/img/ships/des_moines.png",
+        "premium": "false"
     },
     {
         "name": "Gearing",
         "faction": "usa",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/gearing.png"
+        "image": "src/img/ships/gearing.png",
+        "premium": "false"
     },
     {
         "name": "Balao",
         "faction": "usa",
         "type": "SS",
         "tier": "X",
-        "image": "src/img/ships/balao.png"
+        "image": "src/img/ships/balao.png",
+        "premium": "false"
     },
     {
         "name": "Midway",
         "faction": "usa",
         "type": "CV",
         "tier": "X",
-        "image": "src/img/ships/midway.png"
+        "image": "src/img/ships/midway.png",
+        "premium": "false"
     },
     {
         "name": "Essex",
         "faction": "usa",
         "type": "CV",
         "tier": "X",
-        "image": "src/img/ships/essex.png"
+        "image": "src/img/ships/essex.png",
+        "premium": "false"
     },
     {
         "name": "Maine",
         "faction": "usa",
         "type": "BB",
         "tier": "★",
-        "image": "src/img/ships/maine.png"
+        "image": "src/img/ships/maine.png",
+        "premium": "false"
     },
     {
         "name": "Annapolis",
         "faction": "usa",
         "type": "CA",
         "tier": "★",
-        "image": "src/img/ships/annapolis.png"
+        "image": "src/img/ships/annapolis.png",
+        "premium": "false"
     },
     {
         "name": "J. Humphreys",
         "faction": "usa",
         "type": "DD",
         "tier": "★",
-        "image": "src/img/ships/j_humphreys.png"
+        "image": "src/img/ships/j_humphreys.png",
+        "premium": "false"
     },
     {
         "name": "United States",
         "faction": "usa",
         "type": "CV",
         "tier": "★",
-        "image": "src/img/ships/united_states.png"
+        "image": "src/img/ships/united_states.png",
+        "premium": "false"
     },
     {
         "name": "Albany",
         "faction": "usa",
         "type": "CL",
         "tier": "II",
-        "image": "src/img/ships/albany.png"
+        "image": "src/img/ships/albany.png",
+        "premium": "true"
     },
     {
         "name": "Smith",
         "faction": "usa",
         "type": "DD",
         "tier": "II",
-        "image": "src/img/ships/smith.png"
+        "image": "src/img/ships/smith.png",
+        "premium": "true"
     },
     {
         "name": "Charleston",
         "faction": "usa",
         "type": "CL",
         "tier": "III",
-        "image": "src/img/ships/charleston.png"
+        "image": "src/img/ships/charleston.png",
+        "premium": "true"
     },
     {
         "name": "Arkansas B",
         "faction": "usa",
         "type": "BB",
         "tier": "IV",
-        "image": "src/img/ships/arkansas_b.png"
+        "image": "src/img/ships/arkansas_b.png",
+        "premium": "true"
     },
     {
         "name": "Hill",
         "faction": "usa",
         "type": "DD",
         "tier": "V",
-        "image": "src/img/ships/hill.png"
+        "image": "src/img/ships/hill.png",
+        "premium": "true"
     },
     {
         "name": "Marblehead",
         "faction": "usa",
         "type": "CL",
         "tier": "V",
-        "image": "src/img/ships/marblehead.png"
+        "image": "src/img/ships/marblehead.png",
+        "premium": "true"
     },
     {
         "name": "Marblehead L",
         "faction": "usa",
         "type": "CL",
         "tier": "V",
-        "image": "src/img/ships/marblehead_l.png"
+        "image": "src/img/ships/marblehead_l.png",
+        "premium": "true"
     },
     {
         "name": "Oklahoma",
         "faction": "usa",
         "type": "BB",
         "tier": "V",
-        "image": "src/img/ships/oklahoma.png"
+        "image": "src/img/ships/oklahoma.png",
+        "premium": "true"
     },
     {
         "name": "Rattlehead",
         "faction": "usa",
         "type": "CL",
         "tier": "V",
-        "image": "src/img/ships/rattlehead.png"
+        "image": "src/img/ships/rattlehead.png",
+        "premium": "true"
     },
     {
         "name": "Texas",
         "faction": "usa",
         "type": "BB",
         "tier": "V",
-        "image": "src/img/ships/texas.png"
+        "image": "src/img/ships/texas.png",
+        "premium": "true"
     },
     {
         "name": "Arizona",
         "faction": "usa",
         "type": "BB",
         "tier": "VI",
-        "image": "src/img/ships/arizona.png"
+        "image": "src/img/ships/arizona.png",
+        "premium": "true"
     },
     {
         "name": "Monaghan",
         "faction": "usa",
         "type": "DD",
         "tier": "VI",
-        "image": "src/img/ships/monaghan.png"
+        "image": "src/img/ships/monaghan.png",
+        "premium": "true"
     },
     {
-        "name": "W. Virginia '41",
+        "name": "West Virginia '41",
         "faction": "usa",
         "type": "BB",
         "tier": "VI",
-        "image": "src/img/ships/w_virginia_41.png"
+        "image": "src/img/ships/w_virginia_41.png",
+        "premium": "true"
     },
     {
         "name": "Atlanta",
         "faction": "usa",
         "type": "CL",
         "tier": "VII",
-        "image": "src/img/ships/atlanta.png"
+        "image": "src/img/ships/atlanta.png",
+        "premium": "true"
     },
     {
         "name": "Atlanta B",
         "faction": "usa",
         "type": "CL",
         "tier": "VII",
-        "image": "src/img/ships/atlanta_b.png"
+        "image": "src/img/ships/atlanta_b.png",
+        "premium": "true"
     },
     {
         "name": "Boise",
         "faction": "usa",
         "type": "CL",
         "tier": "VII",
-        "image": "src/img/ships/boise.png"
+        "image": "src/img/ships/boise.png",
+        "premium": "true"
     },
     {
         "name": "California",
         "faction": "usa",
         "type": "BB",
         "tier": "VII",
-        "image": "src/img/ships/california.png"
+        "image": "src/img/ships/california.png",
+        "premium": "true"
     },
     {
         "name": "Flint",
         "faction": "usa",
         "type": "CL",
         "tier": "VII",
-        "image": "src/img/ships/flint.png"
+        "image": "src/img/ships/flint.png",
+        "premium": "true"
     },
     {
         "name": "Florida",
         "faction": "usa",
         "type": "BB",
         "tier": "VII",
-        "image": "src/img/ships/florida.png"
+        "image": "src/img/ships/florida.png",
+        "premium": "true"
     },
     {
         "name": "Indianapolis",
         "faction": "usa",
         "type": "CA",
         "tier": "VII",
-        "image": "src/img/ships/indianapolis.png"
+        "image": "src/img/ships/indianapolis.png",
+        "premium": "true"
     },
     {
         "name": "Sims",
         "faction": "usa",
         "type": "DD",
         "tier": "VII",
-        "image": "src/img/ships/sims.png"
+        "image": "src/img/ships/sims.png",
+        "premium": "true"
     },
     {
         "name": "Sims B",
         "faction": "usa",
         "type": "DD",
         "tier": "VII",
-        "image": "src/img/ships/sims_b.png"
+        "image": "src/img/ships/sims_b.png",
+        "premium": "true"
     },
     {
-        "name": "W. Virginia '44",
+        "name": "West Virginia '44",
         "faction": "usa",
         "type": "BB",
         "tier": "VII",
-        "image": "src/img/ships/w_virginia_44.png"
+        "image": "src/img/ships/w_virginia_44.png",
+        "premium": "true"
     },
     {
         "name": "AL Hornet",
         "faction": "usa",
         "type": "CV",
         "tier": "VIII",
-        "image": "src/img/ships/al_hornet.png"
+        "image": "src/img/ships/al_hornet.png",
+        "premium": "true"
     },
     {
         "name": "AL Montpelier",
         "faction": "usa",
         "type": "CL",
         "tier": "VIII",
-        "image": "src/img/ships/al_montpelier.png"
+        "image": "src/img/ships/al_montpelier.png",
+        "premium": "true"
     },
     {
         "name": "Alabama",
         "faction": "usa",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/alabama.png"
+        "image": "src/img/ships/alabama.png",
+        "premium": "true"
     },
     {
         "name": "Alabama ST",
         "faction": "usa",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/alabama_st.png"
+        "image": "src/img/ships/alabama_st.png",
+        "premium": "true"
     },
     {
         "name": "Alabama VL",
         "faction": "usa",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/alabama_vl.png"
+        "image": "src/img/ships/alabama_vl.png",
+        "premium": "true"
     },
     {
         "name": "Anchorage",
         "faction": "usa",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/anchorage.png"
+        "image": "src/img/ships/anchorage.png",
+        "premium": "true"
     },
     {
         "name": "Congress",
         "faction": "usa",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/congress.png"
+        "image": "src/img/ships/congress.png",
+        "premium": "true"
     },
     {
         "name": "Constellation",
         "faction": "usa",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/constellation.png"
+        "image": "src/img/ships/constellation.png",
+        "premium": "true"
     },
     {
         "name": "Enterprise",
         "faction": "usa",
         "type": "CV",
         "tier": "VIII",
-        "image": "src/img/ships/enterprise.png"
+        "image": "src/img/ships/enterprise.png",
+        "premium": "true"
     },
     {
         "name": "Hornet",
         "faction": "usa",
         "type": "CV",
         "tier": "VIII",
-        "image": "src/img/ships/hornet.png"
+        "image": "src/img/ships/hornet.png",
+        "premium": "true"
     },
     {
         "name": "Kidd",
         "faction": "usa",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/kidd.png"
+        "image": "src/img/ships/kidd.png",
+        "premium": "true"
     },
     {
         "name": "Massachusetts",
         "faction": "usa",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/massachusetts.png"
+        "image": "src/img/ships/massachusetts.png",
+        "premium": "true"
     },
     {
         "name": "Massachusetts B",
         "faction": "usa",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/massachusetts_b.png"
+        "image": "src/img/ships/massachusetts_b.png",
+        "premium": "true"
     },
     {
-        "name": "N. Carolina CLR",
+        "name": "North Carolina CLR",
         "faction": "usa",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/n_carolina_clr.png"
+        "image": "src/img/ships/n_carolina_clr.png",
+        "premium": "true"
     },
     {
         "name": "Rochester",
         "faction": "usa",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/rochester.png"
+        "image": "src/img/ships/rochester.png",
+        "premium": "true"
     },
     {
         "name": "Saipan",
         "faction": "usa",
         "type": "CV",
         "tier": "VIII",
-        "image": "src/img/ships/saipan.png"
+        "image": "src/img/ships/saipan.png",
+        "premium": "true"
     },
     {
         "name": "Saipan B",
         "faction": "usa",
         "type": "CV",
         "tier": "VIII",
-        "image": "src/img/ships/saipan_b.png"
+        "image": "src/img/ships/saipan_b.png",
+        "premium": "true"
     },
     {
         "name": "San Diego",
         "faction": "usa",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/san_diego.png"
+        "image": "src/img/ships/san_diego.png",
+        "premium": "true"
     },
     {
         "name": "Wichita",
         "faction": "usa",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/wichita.png"
+        "image": "src/img/ships/wichita.png",
+        "premium": "true"
     },
     {
         "name": "Alaska",
         "faction": "usa",
         "type": "CA",
         "tier": "IX",
-        "image": "src/img/ships/alaska.png"
+        "image": "src/img/ships/alaska.png",
+        "premium": "true"
     },
     {
         "name": "Alaska B",
         "faction": "usa",
         "type": "CA",
         "tier": "IX",
-        "image": "src/img/ships/alaska_b.png"
+        "image": "src/img/ships/alaska_b.png",
+        "premium": "true"
     },
     {
         "name": "Benham",
         "faction": "usa",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/benham.png"
+        "image": "src/img/ships/benham.png",
+        "premium": "true"
     },
     {
         "name": "Black",
         "faction": "usa",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/black.png"
+        "image": "src/img/ships/black.png",
+        "premium": "true"
     },
     {
         "name": "Black B",
         "faction": "usa",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/black_b.png"
+        "image": "src/img/ships/black_b.png",
+        "premium": "true"
     },
     {
         "name": "Georgia",
         "faction": "usa",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/georgia.png"
+        "image": "src/img/ships/georgia.png",
+        "premium": "true"
     },
     {
         "name": "Halford",
         "faction": "usa",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/halford.png"
+        "image": "src/img/ships/halford.png",
+        "premium": "true"
     },
     {
         "name": "Illinois",
         "faction": "usa",
         "type": "BC",
         "tier": "IX",
-        "image": "src/img/ships/illinois.png"
+        "image": "src/img/ships/illinois.png",
+        "premium": "true"
     },
     {
         "name": "Kearsarge",
         "faction": "usa",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/kearsarge.png"
+        "image": "src/img/ships/kearsarge.png",
+        "premium": "true"
     },
     {
         "name": "Kearsarge B",
         "faction": "usa",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/kearsarge_b.png"
+        "image": "src/img/ships/kearsarge_b.png",
+        "premium": "true"
     },
     {
         "name": "Missouri",
         "faction": "usa",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/missouri.png"
+        "image": "src/img/ships/missouri.png",
+        "premium": "true"
     },
     {
         "name": "Tulsa",
         "faction": "usa",
         "type": "CA",
         "tier": "IX",
-        "image": "src/img/ships/tulsa.png"
+        "image": "src/img/ships/tulsa.png",
+        "premium": "true"
     },
     {
         "name": "Vallejo",
         "faction": "usa",
         "type": "CL",
         "tier": "IX",
-        "image": "src/img/ships/vallejo.png"
+        "image": "src/img/ships/vallejo.png",
+        "premium": "true"
     },
     {
         "name": "Austin",
         "faction": "usa",
         "type": "CL",
         "tier": "X",
-        "image": "src/img/ships/austin.png"
+        "image": "src/img/ships/austin.png",
+        "premium": "true"
     },
     {
-        "name": "F. D. Roosevelt",
+        "name": "Franklin D. Roosevelt",
         "faction": "usa",
         "type": "CV",
         "tier": "X",
-        "image": "src/img/ships/f_d_roosevelt.png"
+        "image": "src/img/ships/f_d_roosevelt.png",
+        "premium": "true"
     },
     {
-        "name": "F. Sherman",
+        "name": "Forrest Sherman",
         "faction": "usa",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/f_sherman.png"
+        "image": "src/img/ships/f_sherman.png",
+        "premium": "true"
     },
     {
         "name": "Gato",
         "faction": "usa",
         "type": "SS",
         "tier": "X",
-        "image": "src/img/ships/gato.png"
+        "image": "src/img/ships/gato.png",
+        "premium": "true"
     },
     {
         "name": "Ohio",
         "faction": "usa",
         "type": "BB",
         "tier": "X",
-        "image": "src/img/ships/ohio.png"
+        "image": "src/img/ships/ohio.png",
+        "premium": "true"
     },
     {
         "name": "Puerto Rico",
         "faction": "usa",
         "type": "BC",
         "tier": "X",
-        "image": "src/img/ships/puerto_rico.png"
+        "image": "src/img/ships/puerto_rico.png",
+        "premium": "true"
     },
     {
         "name": "Rhode Island",
         "faction": "usa",
         "type": "BC",
         "tier": "X",
-        "image": "src/img/ships/rhode_island.png"
+        "image": "src/img/ships/rhode_island.png",
+        "premium": "true"
     },
     {
         "name": "Salem",
         "faction": "usa",
         "type": "CA",
         "tier": "X",
-        "image": "src/img/ships/salem.png"
+        "image": "src/img/ships/salem.png",
+        "premium": "true"
     },
     {
         "name": "Somers",
         "faction": "usa",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/somers.png"
+        "image": "src/img/ships/somers.png",
+        "premium": "true"
     },
     {
         "name": "Wisconsin",
         "faction": "usa",
         "type": "BB",
         "tier": "X",
-        "image": "src/img/ships/wisconsin.png"
+        "image": "src/img/ships/wisconsin.png",
+        "premium": "true"
     },
     {
         "name": "Frank Friday",
@@ -824,7 +941,8 @@
         "type": "DD",
         "tier": "IX",
         "image": "src/img/ships/frank_friday.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
     {
         "name": "Utah",
@@ -832,7 +950,8 @@
         "type": "BB",
         "tier": "X",
         "image": "src/img/ships/utah.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
     {
         "name": "Jacksonville",
@@ -840,7 +959,8 @@
         "type": "CA",
         "tier": "★",
         "image": "src/img/ships/jacksonville.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
 
     {
@@ -848,805 +968,920 @@
         "faction": "japan",
         "type": "CL",
         "tier": "I",
-        "image": "src/img/ships/hashidate.png"
+        "image": "src/img/ships/hashidate.png",
+        "premium": "false"
     },
     {
         "name": "Chikuma",
         "faction": "japan",
         "type": "CL",
         "tier": "II",
-        "image": "src/img/ships/chikuma.png"
+        "image": "src/img/ships/chikuma.png",
+        "premium": "false"
     },
     {
         "name": "Umikaze",
         "faction": "japan",
         "type": "DD",
         "tier": "II",
-        "image": "src/img/ships/umikaze.png"
+        "image": "src/img/ships/umikaze.png",
+        "premium": "false"
     },
     {
         "name": "Kawachi",
         "faction": "japan",
         "type": "BB",
         "tier": "III",
-        "image": "src/img/ships/kawachi.png"
+        "image": "src/img/ships/kawachi.png",
+        "premium": "false"
     },
     {
         "name": "Tenryū",
         "faction": "japan",
         "type": "CL",
         "tier": "III",
-        "image": "src/img/ships/tenry.png"
+        "image": "src/img/ships/tenry.png",
+        "premium": "false"
     },
     {
         "name": "Wakatake",
         "faction": "japan",
         "type": "DD",
         "tier": "III",
-        "image": "src/img/ships/wakatake.png"
+        "image": "src/img/ships/wakatake.png",
+        "premium": "false"
     },
     {
         "name": "Myōgi",
         "faction": "japan",
         "type": "BB",
         "tier": "IV",
-        "image": "src/img/ships/my_gi.png"
+        "image": "src/img/ships/my_gi.png",
+        "premium": "false"
     },
     {
         "name": "Kuma",
         "faction": "japan",
         "type": "CL",
         "tier": "IV",
-        "image": "src/img/ships/kuma.png"
+        "image": "src/img/ships/kuma.png",
+        "premium": "false"
     },
     {
         "name": "Isokaze",
         "faction": "japan",
         "type": "DD",
         "tier": "IV",
-        "image": "src/img/ships/isokaze.png"
+        "image": "src/img/ships/isokaze.png",
+        "premium": "false"
     },
     {
         "name": "Hōshō",
         "faction": "japan",
         "type": "CV",
         "tier": "IV",
-        "image": "src/img/ships/h_sh.png"
+        "image": "src/img/ships/h_sh.png",
+        "premium": "false"
     },
     {
         "name": "Kongō",
         "faction": "japan",
         "type": "BB",
         "tier": "V",
-        "image": "src/img/ships/kong.png"
+        "image": "src/img/ships/kong.png",
+        "premium": "false"
     },
     {
         "name": "Furutaka",
         "faction": "japan",
         "type": "CA",
         "tier": "V",
-        "image": "src/img/ships/furutaka.png"
+        "image": "src/img/ships/furutaka.png",
+        "premium": "false"
     },
     {
         "name": "Agano",
         "faction": "japan",
         "type": "CL",
         "tier": "V",
-        "image": "src/img/ships/agano.png"
+        "image": "src/img/ships/agano.png",
+        "premium": "false"
     },
     {
         "name": "Mutsuki",
         "faction": "japan",
         "type": "DD",
         "tier": "V",
-        "image": "src/img/ships/mutsuki.png"
+        "image": "src/img/ships/mutsuki.png",
+        "premium": "false"
     },
     {
         "name": "Minekaze",
         "faction": "japan",
         "type": "DD",
         "tier": "V",
-        "image": "src/img/ships/minekaze.png"
+        "image": "src/img/ships/minekaze.png",
+        "premium": "false"
     },
     {
         "name": "Fusō",
         "faction": "japan",
         "type": "BB",
         "tier": "VI",
-        "image": "src/img/ships/fus.png"
+        "image": "src/img/ships/fus.png",
+        "premium": "false"
     },
     {
         "name": "Aoba",
         "faction": "japan",
         "type": "CA",
         "tier": "VI",
-        "image": "src/img/ships/aoba.png"
+        "image": "src/img/ships/aoba.png",
+        "premium": "false"
     },
     {
         "name": "Gokase",
         "faction": "japan",
         "type": "CL",
         "tier": "VI",
-        "image": "src/img/ships/gokase.png"
+        "image": "src/img/ships/gokase.png",
+        "premium": "false"
     },
     {
         "name": "Fubuki",
         "faction": "japan",
         "type": "DD",
         "tier": "VI",
-        "image": "src/img/ships/fubuki.png"
+        "image": "src/img/ships/fubuki.png",
+        "premium": "false"
     },
     {
         "name": "Hatsuharu",
         "faction": "japan",
         "type": "DD",
         "tier": "VI",
-        "image": "src/img/ships/hatsuharu.png"
+        "image": "src/img/ships/hatsuharu.png",
+        "premium": "false"
     },
     {
         "name": "Ryūjō",
         "faction": "japan",
         "type": "CV",
         "tier": "VI",
-        "image": "src/img/ships/ry_j.png"
+        "image": "src/img/ships/ry_j.png",
+        "premium": "false"
     },
     {
         "name": "Nagato",
         "faction": "japan",
         "type": "BB",
         "tier": "VII",
-        "image": "src/img/ships/nagato.png"
+        "image": "src/img/ships/nagato.png",
+        "premium": "false"
     },
     {
         "name": "Myōkō",
         "faction": "japan",
         "type": "CA",
         "tier": "VII",
-        "image": "src/img/ships/my_k.png"
+        "image": "src/img/ships/my_k.png",
+        "premium": "false"
     },
     {
         "name": "Omono",
         "faction": "japan",
         "type": "CL",
         "tier": "VII",
-        "image": "src/img/ships/omono.png"
+        "image": "src/img/ships/omono.png",
+        "premium": "false"
     },
     {
         "name": "Akatsuki",
         "faction": "japan",
         "type": "DD",
         "tier": "VII",
-        "image": "src/img/ships/akatsuki.png"
+        "image": "src/img/ships/akatsuki.png",
+        "premium": "false"
     },
     {
         "name": "Shiratsuyu",
         "faction": "japan",
         "type": "DD",
         "tier": "VII",
-        "image": "src/img/ships/shiratsuyu.png"
+        "image": "src/img/ships/shiratsuyu.png",
+        "premium": "false"
     },
     {
         "name": "Amagi",
         "faction": "japan",
         "type": "BC",
         "tier": "VIII",
-        "image": "src/img/ships/amagi.png"
+        "image": "src/img/ships/amagi.png",
+        "premium": "false"
     },
     {
         "name": "Yumihari",
         "faction": "japan",
         "type": "BC",
         "tier": "VIII",
-        "image": "src/img/ships/yumihari.png"
+        "image": "src/img/ships/yumihari.png",
+        "premium": "false"
     },
     {
         "name": "Mogami",
         "faction": "japan",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/mogami.png"
+        "image": "src/img/ships/mogami.png",
+        "premium": "false"
     },
     {
         "name": "Shimanto",
         "faction": "japan",
         "type": "CL",
         "tier": "VIII",
-        "image": "src/img/ships/shimanto.png"
+        "image": "src/img/ships/shimanto.png",
+        "premium": "false"
     },
     {
         "name": "Kagerō",
         "faction": "japan",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/kager.png"
+        "image": "src/img/ships/kager.png",
+        "premium": "false"
     },
     {
         "name": "Akizuki",
         "faction": "japan",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/akizuki.png"
+        "image": "src/img/ships/akizuki.png",
+        "premium": "false"
     },
     {
         "name": "Shōkaku",
         "faction": "japan",
         "type": "CV",
         "tier": "VIII",
-        "image": "src/img/ships/sh_kaku.png"
+        "image": "src/img/ships/sh_kaku.png",
+        "premium": "false"
     },
     {
         "name": "Izumo",
         "faction": "japan",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/izumo.png"
+        "image": "src/img/ships/izumo.png",
+        "premium": "false"
     },
     {
         "name": "Adatara",
         "faction": "japan",
         "type": "BC",
         "tier": "IX",
-        "image": "src/img/ships/adatara.png"
+        "image": "src/img/ships/adatara.png",
+        "premium": "false"
     },
     {
         "name": "Ibuki",
         "faction": "japan",
         "type": "CA",
         "tier": "IX",
-        "image": "src/img/ships/ibuki.png"
+        "image": "src/img/ships/ibuki.png",
+        "premium": "false"
     },
     {
         "name": "Takahashi",
         "faction": "japan",
         "type": "CL",
         "tier": "IX",
-        "image": "src/img/ships/takahashi.png"
+        "image": "src/img/ships/takahashi.png",
+        "premium": "false"
     },
     {
         "name": "Yūgumo",
         "faction": "japan",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/y_gumo.png"
+        "image": "src/img/ships/y_gumo.png",
+        "premium": "false"
     },
     {
         "name": "Kitakaze",
         "faction": "japan",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/kitakaze.png"
+        "image": "src/img/ships/kitakaze.png",
+        "premium": "false"
     },
     {
         "name": "Yamato",
         "faction": "japan",
         "type": "BB",
         "tier": "X",
-        "image": "src/img/ships/yamato.png"
+        "image": "src/img/ships/yamato.png",
+        "premium": "false"
     },
     {
         "name": "Bungo",
         "faction": "japan",
         "type": "BC",
         "tier": "X",
-        "image": "src/img/ships/bungo.png"
+        "image": "src/img/ships/bungo.png",
+        "premium": "false"
     },
     {
         "name": "Zaō",
         "faction": "japan",
         "type": "CA",
         "tier": "X",
-        "image": "src/img/ships/za.png"
+        "image": "src/img/ships/za.png",
+        "premium": "false"
     },
     {
         "name": "Yodo",
         "faction": "japan",
         "type": "CL",
         "tier": "X",
-        "image": "src/img/ships/yodo.png"
+        "image": "src/img/ships/yodo.png",
+        "premium": "false"
     },
     {
         "name": "Shimakaze",
         "faction": "japan",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/shimakaze.png"
+        "image": "src/img/ships/shimakaze.png",
+        "premium": "false"
     },
     {
         "name": "Harugumo",
         "faction": "japan",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/harugumo.png"
+        "image": "src/img/ships/harugumo.png",
+        "premium": "false"
     },
     {
         "name": "Hakuryū",
         "faction": "japan",
         "type": "CV",
         "tier": "X",
-        "image": "src/img/ships/hakury.png"
+        "image": "src/img/ships/hakury.png",
+        "premium": "false"
     },
     {
         "name": "Satsuma",
         "faction": "japan",
         "type": "BB",
         "tier": "★",
-        "image": "src/img/ships/satsuma.png"
+        "image": "src/img/ships/satsuma.png",
+        "premium": "false"
     },
     {
         "name": "Yamagiri",
         "faction": "japan",
         "type": "DD",
         "tier": "★",
-        "image": "src/img/ships/yamagiri.png"
+        "image": "src/img/ships/yamagiri.png",
+        "premium": "false"
     },
     {
         "name": "Sekiryu",
         "faction": "japan",
         "type": "CV",
         "tier": "★",
-        "image": "src/img/ships/sekiryu.png"
+        "image": "src/img/ships/sekiryu.png",
+        "premium": "false"
     },
     {
         "name": "Mikasa",
         "faction": "japan",
         "type": "BB",
         "tier": "II",
-        "image": "src/img/ships/mikasa.png"
+        "image": "src/img/ships/mikasa.png",
+        "premium": "true"
     },
     {
         "name": "Tachibana",
         "faction": "japan",
         "type": "DD",
         "tier": "II",
-        "image": "src/img/ships/tachibana.png"
+        "image": "src/img/ships/tachibana.png",
+        "premium": "true"
     },
     {
         "name": "Tachibana L",
         "faction": "japan",
         "type": "DD",
         "tier": "II",
-        "image": "src/img/ships/tachibana_l.png"
+        "image": "src/img/ships/tachibana_l.png",
+        "premium": "true"
     },
     {
         "name": "Katori",
         "faction": "japan",
         "type": "CL",
         "tier": "III",
-        "image": "src/img/ships/katori.png"
+        "image": "src/img/ships/katori.png",
+        "premium": "true"
     },
     {
         "name": "Ishizuchi",
         "faction": "japan",
         "type": "BB",
         "tier": "IV",
-        "image": "src/img/ships/ishizuchi.png"
+        "image": "src/img/ships/ishizuchi.png",
+        "premium": "true"
     },
     {
         "name": "Iwaki A",
         "faction": "japan",
         "type": "CL",
         "tier": "IV",
-        "image": "src/img/ships/iwaki_a.png"
+        "image": "src/img/ships/iwaki_a.png",
+        "premium": "true"
     },
     {
         "name": "Yūbari",
         "faction": "japan",
         "type": "CL",
         "tier": "IV",
-        "image": "src/img/ships/y_bari.png"
+        "image": "src/img/ships/y_bari.png",
+        "premium": "true"
     },
     {
         "name": "ARP Haruna",
         "faction": "japan",
         "type": "BB",
         "tier": "V",
-        "image": "src/img/ships/arp_haruna.png"
+        "image": "src/img/ships/arp_haruna.png",
+        "premium": "true"
     },
     {
         "name": "ARP Hiei",
         "faction": "japan",
         "type": "BB",
         "tier": "V",
-        "image": "src/img/ships/arp_hiei.png"
+        "image": "src/img/ships/arp_hiei.png",
+        "premium": "true"
     },
     {
         "name": "ARP Kirishima",
         "faction": "japan",
         "type": "BB",
         "tier": "V",
-        "image": "src/img/ships/arp_kirishima.png"
+        "image": "src/img/ships/arp_kirishima.png",
+        "premium": "true"
     },
     {
         "name": "ARP Kongō",
         "faction": "japan",
         "type": "BB",
         "tier": "V",
-        "image": "src/img/ships/arp_kong.png"
+        "image": "src/img/ships/arp_kong.png",
+        "premium": "true"
     },
     {
         "name": "Fūjin",
         "faction": "japan",
         "type": "DD",
         "tier": "V",
-        "image": "src/img/ships/f_jin.png"
+        "image": "src/img/ships/f_jin.png",
+        "premium": "true"
     },
     {
         "name": "HSF Hiei",
         "faction": "japan",
         "type": "BB",
         "tier": "V",
-        "image": "src/img/ships/hsf_hiei.png"
+        "image": "src/img/ships/hsf_hiei.png",
+        "premium": "true"
     },
     {
         "name": "Kamikaze",
         "faction": "japan",
         "type": "DD",
         "tier": "V",
-        "image": "src/img/ships/kamikaze.png"
+        "image": "src/img/ships/kamikaze.png",
+        "premium": "true"
     },
     {
         "name": "Kamikaze R",
         "faction": "japan",
         "type": "DD",
         "tier": "V",
-        "image": "src/img/ships/kamikaze_r.png"
+        "image": "src/img/ships/kamikaze_r.png",
+        "premium": "true"
     },
     {
         "name": "Yahagi",
         "faction": "japan",
         "type": "CL",
         "tier": "V",
-        "image": "src/img/ships/yahagi.png"
+        "image": "src/img/ships/yahagi.png",
+        "premium": "true"
     },
     {
         "name": "Ise",
         "faction": "japan",
         "type": "BB",
         "tier": "VI",
-        "image": "src/img/ships/ise.png"
+        "image": "src/img/ships/ise.png",
+        "premium": "true"
     },
     {
         "name": "Mutsu",
         "faction": "japan",
         "type": "BB",
         "tier": "VI",
-        "image": "src/img/ships/mutsu.png"
+        "image": "src/img/ships/mutsu.png",
+        "premium": "true"
     },
     {
         "name": "Shinonome",
         "faction": "japan",
         "type": "DD",
         "tier": "VI",
-        "image": "src/img/ships/shinonome.png"
+        "image": "src/img/ships/shinonome.png",
+        "premium": "true"
     },
     {
         "name": "Shinonome B",
         "faction": "japan",
         "type": "DD",
         "tier": "VI",
-        "image": "src/img/ships/shinonome_b.png"
+        "image": "src/img/ships/shinonome_b.png",
+        "premium": "true"
     },
     {
         "name": "ARP Ashigara",
         "faction": "japan",
         "type": "CA",
         "tier": "VII",
-        "image": "src/img/ships/arp_ashigara.png"
+        "image": "src/img/ships/arp_ashigara.png",
+        "premium": "true"
     },
     {
         "name": "ARP Haguro",
         "faction": "japan",
         "type": "CA",
         "tier": "VII",
-        "image": "src/img/ships/arp_haguro.png"
+        "image": "src/img/ships/arp_haguro.png",
+        "premium": "true"
     },
     {
         "name": "ARP Myōkō",
         "faction": "japan",
         "type": "CA",
         "tier": "VII",
-        "image": "src/img/ships/arp_my_k.png"
+        "image": "src/img/ships/arp_my_k.png",
+        "premium": "true"
     },
     {
         "name": "ARP Nachi",
         "faction": "japan",
         "type": "CA",
         "tier": "VII",
-        "image": "src/img/ships/arp_nachi.png"
+        "image": "src/img/ships/arp_nachi.png",
+        "premium": "true"
     },
     {
         "name": "Ashitaka",
         "faction": "japan",
         "type": "BB",
         "tier": "VII",
-        "image": "src/img/ships/ashitaka.png"
+        "image": "src/img/ships/ashitaka.png",
+        "premium": "true"
     },
     {
-        "name": "E. Dragon",
+        "name": "Eastern Dragon",
         "faction": "japan",
         "type": "CA",
         "tier": "VII",
-        "image": "src/img/ships/e_dragon.png"
+        "image": "src/img/ships/e_dragon.png",
+        "premium": "true"
     },
     {
         "name": "Hyūga",
         "faction": "japan",
         "type": "BB",
         "tier": "VII",
-        "image": "src/img/ships/hy_ga.png"
+        "image": "src/img/ships/hy_ga.png",
+        "premium": "true"
     },
     {
         "name": "Maya",
         "faction": "japan",
         "type": "CA",
         "tier": "VII",
-        "image": "src/img/ships/maya.png"
+        "image": "src/img/ships/maya.png",
+        "premium": "true"
     },
     {
-        "name": "S. Dragon",
+        "name": "Southern Dragon",
         "faction": "japan",
         "type": "CA",
         "tier": "VII",
-        "image": "src/img/ships/s_dragon.png"
+        "image": "src/img/ships/s_dragon.png",
+        "premium": "true"
     },
     {
         "name": "Tokachi",
         "faction": "japan",
         "type": "CL",
         "tier": "VII",
-        "image": "src/img/ships/tokachi.png"
+        "image": "src/img/ships/tokachi.png",
+        "premium": "true"
     },
     {
         "name": "Yūdachi",
         "faction": "japan",
         "type": "DD",
         "tier": "VII",
-        "image": "src/img/ships/y_dachi.png"
+        "image": "src/img/ships/y_dachi.png",
+        "premium": "true"
     },
     {
         "name": "AL Yukikaze",
         "faction": "japan",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/al_yukikaze.png"
+        "image": "src/img/ships/al_yukikaze.png",
+        "premium": "true"
     },
     {
         "name": "ARP Maya",
         "faction": "japan",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/arp_maya.png"
+        "image": "src/img/ships/arp_maya.png",
+        "premium": "true"
     },
     {
         "name": "ARP Takao",
         "faction": "japan",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/arp_takao.png"
+        "image": "src/img/ships/arp_takao.png",
+        "premium": "true"
     },
     {
         "name": "Asashio",
         "faction": "japan",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/asashio.png"
+        "image": "src/img/ships/asashio.png",
+        "premium": "true"
     },
     {
         "name": "Asashio B",
         "faction": "japan",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/asashio_b.png"
+        "image": "src/img/ships/asashio_b.png",
+        "premium": "true"
     },
     {
         "name": "Atago",
         "faction": "japan",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/atago.png"
+        "image": "src/img/ships/atago.png",
+        "premium": "true"
     },
     {
         "name": "Atago B",
         "faction": "japan",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/atago_b.png"
+        "image": "src/img/ships/atago_b.png",
+        "premium": "true"
     },
     {
         "name": "HSF Harekaze",
         "faction": "japan",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/hsf_harekaze.png"
+        "image": "src/img/ships/hsf_harekaze.png",
+        "premium": "true"
     },
     {
         "name": "HSF Harekaze II",
         "faction": "japan",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/hsf_harekaze_ii.png"
+        "image": "src/img/ships/hsf_harekaze_ii.png",
+        "premium": "true"
     },
     {
         "name": "I-56",
         "faction": "japan",
         "type": "SS",
         "tier": "VIII",
-        "image": "src/img/ships/i_56.png"
+        "image": "src/img/ships/i_56.png",
+        "premium": "true"
     },
     {
         "name": "Ignis Purgatio",
         "faction": "japan",
         "type": "BC",
         "tier": "VIII",
-        "image": "src/img/ships/ignis_purgatio.png"
+        "image": "src/img/ships/ignis_purgatio.png",
+        "premium": "true"
     },
     {
         "name": "Kaga",
         "faction": "japan",
         "type": "CV",
         "tier": "VIII",
-        "image": "src/img/ships/kaga.png"
+        "image": "src/img/ships/kaga.png",
+        "premium": "true"
     },
     {
         "name": "Kaga B",
         "faction": "japan",
         "type": "CV",
         "tier": "VIII",
-        "image": "src/img/ships/kaga_b.png"
+        "image": "src/img/ships/kaga_b.png",
+        "premium": "true"
     },
     {
         "name": "Kii",
         "faction": "japan",
         "type": "BC",
         "tier": "VIII",
-        "image": "src/img/ships/kii.png"
+        "image": "src/img/ships/kii.png",
+        "premium": "true"
     },
     {
         "name": "Ragnarok",
         "faction": "japan",
         "type": "BC",
         "tier": "VIII",
-        "image": "src/img/ships/ragnarok.png"
+        "image": "src/img/ships/ragnarok.png",
+        "premium": "true"
     },
     {
         "name": "Tone",
         "faction": "japan",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/tone.png"
+        "image": "src/img/ships/tone.png",
+        "premium": "true"
     },
     {
         "name": "AL Azuma",
         "faction": "japan",
         "type": "CA",
         "tier": "IX",
-        "image": "src/img/ships/al_azuma.png"
+        "image": "src/img/ships/al_azuma.png",
+        "premium": "true"
     },
     {
         "name": "Azuma",
         "faction": "japan",
         "type": "CA",
         "tier": "IX",
-        "image": "src/img/ships/azuma.png"
+        "image": "src/img/ships/azuma.png",
+        "premium": "true"
     },
     {
         "name": "Chikuma II",
         "faction": "japan",
         "type": "CA",
         "tier": "IX",
-        "image": "src/img/ships/chikuma_ii.png"
+        "image": "src/img/ships/chikuma_ii.png",
+        "premium": "true"
     },
     {
         "name": "Chikuma II Golden",
         "faction": "japan",
         "type": "CA",
         "tier": "IX",
-        "image": "src/img/ships/chikuma_ii_golden.png"
+        "image": "src/img/ships/chikuma_ii_golden.png",
+        "premium": "true"
     },
     {
         "name": "Daisen",
         "faction": "japan",
         "type": "BC",
         "tier": "IX",
-        "image": "src/img/ships/daisen.png"
+        "image": "src/img/ships/daisen.png",
+        "premium": "true"
     },
     {
         "name": "Hizen",
         "faction": "japan",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/hizen.png"
+        "image": "src/img/ships/hizen.png",
+        "premium": "true"
     },
     {
         "name": "Iwami",
         "faction": "japan",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/iwami.png"
+        "image": "src/img/ships/iwami.png",
+        "premium": "true"
     },
     {
         "name": "Iwami B",
         "faction": "japan",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/iwami_b.png"
+        "image": "src/img/ships/iwami_b.png",
+        "premium": "true"
     },
     {
         "name": "Minegumo",
         "faction": "japan",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/minegumo.png"
+        "image": "src/img/ships/minegumo.png",
+        "premium": "true"
     },
     {
         "name": "Musashi",
         "faction": "japan",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/musashi.png"
+        "image": "src/img/ships/musashi.png",
+        "premium": "true"
     },
     {
         "name": "STAR Kitakaze",
         "faction": "japan",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/star_kitakaze.png"
+        "image": "src/img/ships/star_kitakaze.png",
+        "premium": "true"
     },
     {
         "name": "Tsurugi",
         "faction": "japan",
         "type": "BC",
         "tier": "IX",
-        "image": "src/img/ships/tsurugi.png"
+        "image": "src/img/ships/tsurugi.png",
+        "premium": "true"
     },
     {
         "name": "AL Shimakaze",
         "faction": "japan",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/al_shimakaze.png"
+        "image": "src/img/ships/al_shimakaze.png",
+        "premium": "true"
     },
     {
         "name": "ARP Yamato",
         "faction": "japan",
         "type": "BB",
         "tier": "X",
-        "image": "src/img/ships/arp_yamato.png"
+        "image": "src/img/ships/arp_yamato.png",
+        "premium": "true"
     },
     {
         "name": "Hayate",
         "faction": "japan",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/hayate.png"
+        "image": "src/img/ships/hayate.png",
+        "premium": "true"
     },
     {
         "name": "Kitakami",
         "faction": "japan",
         "type": "CA",
         "tier": "X",
-        "image": "src/img/ships/kitakami.png"
+        "image": "src/img/ships/kitakami.png",
+        "premium": "true"
     },
     {
         "name": "Shikishima",
         "faction": "japan",
         "type": "BB",
         "tier": "X",
-        "image": "src/img/ships/shikishima.png"
+        "image": "src/img/ships/shikishima.png",
+        "premium": "true"
     },
     {
         "name": "Yoshino",
         "faction": "japan",
         "type": "CA",
         "tier": "X",
-        "image": "src/img/ships/yoshino.png"
+        "image": "src/img/ships/yoshino.png",
+        "premium": "true"
     },
     {
         "name": "Yoshino B",
         "faction": "japan",
         "type": "CA",
         "tier": "X",
-        "image": "src/img/ships/yoshino_b.png"
+        "image": "src/img/ships/yoshino_b.png",
+        "premium": "true"
     },
 
     {
@@ -1654,581 +1889,664 @@
         "faction": "russia",
         "type": "CL",
         "tier": "I",
-        "image": "src/img/ships/orlan.png"
+        "image": "src/img/ships/orlan.png",
+        "premium": "false"
     },
     {
         "name": "Novik",
         "faction": "russia",
         "type": "CL",
         "tier": "II",
-        "image": "src/img/ships/novik.png"
+        "image": "src/img/ships/novik.png",
+        "premium": "false"
     },
     {
         "name": "Storozhevoi",
         "faction": "russia",
         "type": "DD",
         "tier": "II",
-        "image": "src/img/ships/storozhevoi.png"
+        "image": "src/img/ships/storozhevoi.png",
+        "premium": "false"
     },
     {
         "name": "Knyaz Suvorov",
         "faction": "russia",
         "type": "BB",
         "tier": "III",
-        "image": "src/img/ships/knyaz_suvorov.png"
+        "image": "src/img/ships/knyaz_suvorov.png",
+        "premium": "false"
     },
     {
         "name": "Bogatyr",
         "faction": "russia",
         "type": "CL",
         "tier": "III",
-        "image": "src/img/ships/bogatyr.png"
+        "image": "src/img/ships/bogatyr.png",
+        "premium": "false"
     },
     {
         "name": "Derzki",
         "faction": "russia",
         "type": "DD",
         "tier": "III",
-        "image": "src/img/ships/derzki.png"
+        "image": "src/img/ships/derzki.png",
+        "premium": "false"
     },
     {
         "name": "Gangut",
         "faction": "russia",
         "type": "BB",
         "tier": "IV",
-        "image": "src/img/ships/gangut.png"
+        "image": "src/img/ships/gangut.png",
+        "premium": "false"
     },
     {
         "name": "Svietlana",
         "faction": "russia",
         "type": "CL",
         "tier": "IV",
-        "image": "src/img/ships/svietlana.png"
+        "image": "src/img/ships/svietlana.png",
+        "premium": "false"
     },
     {
         "name": "Izyaslav",
         "faction": "russia",
         "type": "DD",
         "tier": "IV",
-        "image": "src/img/ships/izyaslav.png"
+        "image": "src/img/ships/izyaslav.png",
+        "premium": "false"
     },
     {
         "name": "Komsomolets",
         "faction": "russia",
         "type": "CV",
         "tier": "IV",
-        "image": "src/img/ships/komsomolets.png"
+        "image": "src/img/ships/komsomolets.png",
+        "premium": "false"
     },
     {
         "name": "Pyotr Velikiy",
         "faction": "russia",
         "type": "BB",
         "tier": "V",
-        "image": "src/img/ships/pyotr_velikiy.png"
+        "image": "src/img/ships/pyotr_velikiy.png",
+        "premium": "false"
     },
     {
         "name": "Kotovsky",
         "faction": "russia",
         "type": "CL",
         "tier": "V",
-        "image": "src/img/ships/kotovsky.png"
+        "image": "src/img/ships/kotovsky.png",
+        "premium": "false"
     },
     {
         "name": "Podvoisky",
         "faction": "russia",
         "type": "DD",
         "tier": "V",
-        "image": "src/img/ships/podvoisky.png"
+        "image": "src/img/ships/podvoisky.png",
+        "premium": "false"
     },
     {
         "name": "Izmail",
         "faction": "russia",
         "type": "BB",
         "tier": "VI",
-        "image": "src/img/ships/izmail.png"
+        "image": "src/img/ships/izmail.png",
+        "premium": "false"
     },
     {
         "name": "Budyonny",
         "faction": "russia",
         "type": "CL",
         "tier": "VI",
-        "image": "src/img/ships/budyonny.png"
+        "image": "src/img/ships/budyonny.png",
+        "premium": "false"
     },
     {
         "name": "Gnevny",
         "faction": "russia",
         "type": "DD",
         "tier": "VI",
-        "image": "src/img/ships/gnevny.png"
+        "image": "src/img/ships/gnevny.png",
+        "premium": "false"
     },
     {
         "name": "Serov",
         "faction": "russia",
         "type": "CV",
         "tier": "VI",
-        "image": "src/img/ships/serov.png"
+        "image": "src/img/ships/serov.png",
+        "premium": "false"
     },
     {
         "name": "Sinop",
         "faction": "russia",
         "type": "BB",
         "tier": "VII",
-        "image": "src/img/ships/sinop.png"
+        "image": "src/img/ships/sinop.png",
+        "premium": "false"
     },
     {
         "name": "Shchors",
         "faction": "russia",
         "type": "CL",
         "tier": "VII",
-        "image": "src/img/ships/shchors.png"
+        "image": "src/img/ships/shchors.png",
+        "premium": "false"
     },
     {
         "name": "Minsk",
         "faction": "russia",
         "type": "DD",
         "tier": "VII",
-        "image": "src/img/ships/minsk.png"
+        "image": "src/img/ships/minsk.png",
+        "premium": "false"
     },
     {
         "name": "Vladivostok",
         "faction": "russia",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/vladivostok.png"
+        "image": "src/img/ships/vladivostok.png",
+        "premium": "false"
     },
     {
         "name": "Chapayev",
         "faction": "russia",
         "type": "CL",
         "tier": "VIII",
-        "image": "src/img/ships/chapayev.png"
+        "image": "src/img/ships/chapayev.png",
+        "premium": "false"
     },
     {
         "name": "Tallinn",
         "faction": "russia",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/tallinn.png"
+        "image": "src/img/ships/tallinn.png",
+        "premium": "false"
     },
     {
         "name": "Kiev",
         "faction": "russia",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/kiev.png"
+        "image": "src/img/ships/kiev.png",
+        "premium": "false"
     },
     {
         "name": "Ognevoi",
         "faction": "russia",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/ognevoi.png"
+        "image": "src/img/ships/ognevoi.png",
+        "premium": "false"
     },
     {
         "name": "Pobeda",
         "faction": "russia",
         "type": "CV",
         "tier": "VIII",
-        "image": "src/img/ships/pobeda.png"
+        "image": "src/img/ships/pobeda.png",
+        "premium": "false"
     },
     {
-        "name": "Sov. Soyuz",
+        "name": "Sovetsky Soyuz",
         "faction": "russia",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/sov_soyuz.png"
+        "image": "src/img/ships/sov_soyuz.png",
+        "premium": "false"
     },
     {
-        "name": "Dm. Donskoi",
+        "name": "Dmitri Donskoi",
         "faction": "russia",
         "type": "CL",
         "tier": "IX",
-        "image": "src/img/ships/dm_donskoi.png"
+        "image": "src/img/ships/dm_donskoi.png",
+        "premium": "false"
     },
     {
         "name": "Riga",
         "faction": "russia",
         "type": "CA",
         "tier": "IX",
-        "image": "src/img/ships/riga.png"
+        "image": "src/img/ships/riga.png",
+        "premium": "false"
     },
     {
         "name": "Tashkent",
         "faction": "russia",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/tashkent.png"
+        "image": "src/img/ships/tashkent.png",
+        "premium": "false"
     },
     {
         "name": "Udaloi",
         "faction": "russia",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/udaloi.png"
+        "image": "src/img/ships/udaloi.png",
+        "premium": "false"
     },
     {
         "name": "Kremlin",
         "faction": "russia",
         "type": "BB",
         "tier": "X",
-        "image": "src/img/ships/kremlin.png"
+        "image": "src/img/ships/kremlin.png",
+        "premium": "false"
     },
     {
-        "name": "A. Nevsky",
+        "name": "Alexander Nevsky",
         "faction": "russia",
         "type": "CL",
         "tier": "X",
-        "image": "src/img/ships/a_nevsky.png"
+        "image": "src/img/ships/a_nevsky.png",
+        "premium": "false"
     },
     {
         "name": "Petropavlovsk",
         "faction": "russia",
         "type": "CA",
         "tier": "X",
-        "image": "src/img/ships/petropavlovsk.png"
+        "image": "src/img/ships/petropavlovsk.png",
+        "premium": "false"
     },
     {
         "name": "Delny",
         "faction": "russia",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/delny.png"
+        "image": "src/img/ships/delny.png",
+        "premium": "false"
     },
     {
         "name": "Grozovoi",
         "faction": "russia",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/grozovoi.png"
+        "image": "src/img/ships/grozovoi.png",
+        "premium": "false"
     },
     {
         "name": "Nakhimov",
         "faction": "russia",
         "type": "CV",
         "tier": "X",
-        "image": "src/img/ships/nakhimov.png"
+        "image": "src/img/ships/nakhimov.png",
+        "premium": "false"
     },
     {
         "name": "Ushakov",
         "faction": "russia",
         "type": "BB",
         "tier": "★",
-        "image": "src/img/ships/ushakov.png"
+        "image": "src/img/ships/ushakov.png",
+        "premium": "false"
     },
     {
         "name": "Novosibirsk",
         "faction": "russia",
         "type": "CA",
         "tier": "★",
-        "image": "src/img/ships/novosibirsk.png"
+        "image": "src/img/ships/novosibirsk.png",
+        "premium": "false"
     },
     {
         "name": "Zorkiy",
         "faction": "russia",
         "type": "DD",
         "tier": "★",
-        "image": "src/img/ships/zorkiy.png"
+        "image": "src/img/ships/zorkiy.png",
+        "premium": "false"
     },
     {
         "name": "Diana",
         "faction": "russia",
         "type": "CL",
         "tier": "II",
-        "image": "src/img/ships/diana.png"
+        "image": "src/img/ships/diana.png",
+        "premium": "true"
     },
     {
         "name": "Diana L",
         "faction": "russia",
         "type": "CL",
         "tier": "II",
-        "image": "src/img/ships/diana_l.png"
+        "image": "src/img/ships/diana_l.png",
+        "premium": "true"
     },
     {
         "name": "AL Avrora",
         "faction": "russia",
         "type": "CL",
         "tier": "III",
-        "image": "src/img/ships/al_avrora.png"
+        "image": "src/img/ships/al_avrora.png",
+        "premium": "true"
     },
     {
         "name": "Aurora",
         "faction": "russia",
         "type": "CL",
         "tier": "III",
-        "image": "src/img/ships/aurora.png"
+        "image": "src/img/ships/aurora.png",
+        "premium": "true"
     },
     {
         "name": "Oleg",
         "faction": "russia",
         "type": "CL",
         "tier": "III",
-        "image": "src/img/ships/oleg.png"
+        "image": "src/img/ships/oleg.png",
+        "premium": "true"
     },
     {
         "name": "Varyag",
         "faction": "russia",
         "type": "CL",
         "tier": "III",
-        "image": "src/img/ships/varyag.png"
+        "image": "src/img/ships/varyag.png",
+        "premium": "true"
     },
     {
         "name": "Nikolai I",
         "faction": "russia",
         "type": "BB",
         "tier": "IV",
-        "image": "src/img/ships/nikolai_i.png"
+        "image": "src/img/ships/nikolai_i.png",
+        "premium": "true"
     },
     {
         "name": "Gremyashchy",
         "faction": "russia",
         "type": "DD",
         "tier": "V",
-        "image": "src/img/ships/gremyashchy.png"
+        "image": "src/img/ships/gremyashchy.png",
+        "premium": "true"
     },
     {
         "name": "Kirov",
         "faction": "russia",
         "type": "CL",
         "tier": "V",
-        "image": "src/img/ships/kirov.png"
+        "image": "src/img/ships/kirov.png",
+        "premium": "true"
     },
     {
         "name": "Krasny Krym",
         "faction": "russia",
         "type": "CL",
         "tier": "V",
-        "image": "src/img/ships/krasny_krym.png"
+        "image": "src/img/ships/krasny_krym.png",
+        "premium": "true"
     },
     {
         "name": "Mikoyan",
         "faction": "russia",
         "type": "CL",
         "tier": "V",
-        "image": "src/img/ships/mikoyan.png"
+        "image": "src/img/ships/mikoyan.png",
+        "premium": "true"
     },
     {
         "name": "Murmansk",
         "faction": "russia",
         "type": "CL",
         "tier": "V",
-        "image": "src/img/ships/murmansk.png"
+        "image": "src/img/ships/murmansk.png",
+        "premium": "true"
     },
     {
         "name": "Okhotnik",
         "faction": "russia",
         "type": "DD",
         "tier": "V",
-        "image": "src/img/ships/okhotnik.png"
+        "image": "src/img/ships/okhotnik.png",
+        "premium": "true"
     },
     {
-        "name": "Okt. Revolutsiya",
+        "name": "Oktyabrskaya Revolutsiya",
         "faction": "russia",
         "type": "BB",
         "tier": "V",
-        "image": "src/img/ships/okt_revolutsiya.png"
+        "image": "src/img/ships/okt_revolutsiya.png",
+        "premium": "true"
     },
     {
         "name": "Makarov",
         "faction": "russia",
         "type": "CL",
         "tier": "VI",
-        "image": "src/img/ships/makarov.png"
+        "image": "src/img/ships/makarov.png",
+        "premium": "true"
     },
     {
         "name": "Molotov",
         "faction": "russia",
         "type": "CL",
         "tier": "VI",
-        "image": "src/img/ships/molotov.png"
+        "image": "src/img/ships/molotov.png",
+        "premium": "true"
     },
     {
         "name": "Novorossiysk",
         "faction": "russia",
         "type": "BB",
         "tier": "VI",
-        "image": "src/img/ships/novorossiysk.png"
+        "image": "src/img/ships/novorossiysk.png",
+        "premium": "true"
     },
     {
         "name": "Lazo",
         "faction": "russia",
         "type": "CL",
         "tier": "VII",
-        "image": "src/img/ships/lazo.png"
+        "image": "src/img/ships/lazo.png",
+        "premium": "true"
     },
     {
         "name": "Lazo B",
         "faction": "russia",
         "type": "CL",
         "tier": "VII",
-        "image": "src/img/ships/lazo_b.png"
+        "image": "src/img/ships/lazo_b.png",
+        "premium": "true"
     },
     {
         "name": "Leningrad",
         "faction": "russia",
         "type": "DD",
         "tier": "VII",
-        "image": "src/img/ships/leningrad.png"
+        "image": "src/img/ships/leningrad.png",
+        "premium": "true"
     },
     {
         "name": "Poltava",
         "faction": "russia",
         "type": "BB",
         "tier": "VII",
-        "image": "src/img/ships/poltava.png"
+        "image": "src/img/ships/poltava.png",
+        "premium": "true"
     },
     {
         "name": "Tashkent '39",
         "faction": "russia",
         "type": "DD",
         "tier": "VII",
-        "image": "src/img/ships/tashkent_39.png"
+        "image": "src/img/ships/tashkent_39.png",
+        "premium": "true"
     },
     {
         "name": "Borodino",
         "faction": "russia",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/borodino.png"
+        "image": "src/img/ships/borodino.png",
+        "premium": "true"
     },
     {
         "name": "Chkalov",
         "faction": "russia",
         "type": "CV",
         "tier": "VIII",
-        "image": "src/img/ships/chkalov.png"
+        "image": "src/img/ships/chkalov.png",
+        "premium": "true"
     },
     {
         "name": "Chkalov B",
         "faction": "russia",
         "type": "CV",
         "tier": "VIII",
-        "image": "src/img/ships/chkalov_b.png"
+        "image": "src/img/ships/chkalov_b.png",
+        "premium": "true"
     },
     {
-        "name": "D. Pozharsky",
+        "name": "Dmitry Pozharsky",
         "faction": "russia",
         "type": "CL",
         "tier": "VIII",
-        "image": "src/img/ships/d_pozharsky.png"
+        "image": "src/img/ships/d_pozharsky.png",
+        "premium": "true"
     },
     {
         "name": "Kutuzov",
         "faction": "russia",
         "type": "CL",
         "tier": "VIII",
-        "image": "src/img/ships/kutuzov.png"
+        "image": "src/img/ships/kutuzov.png",
+        "premium": "true"
     },
     {
         "name": "Lenin",
         "faction": "russia",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/lenin.png"
+        "image": "src/img/ships/lenin.png",
+        "premium": "true"
     },
     {
         "name": "Ochakov",
         "faction": "russia",
         "type": "CL",
         "tier": "VIII",
-        "image": "src/img/ships/ochakov.png"
+        "image": "src/img/ships/ochakov.png",
+        "premium": "true"
     },
     {
-        "name": "P. Bagration",
+        "name": "Pyotr Bagration",
         "faction": "russia",
         "type": "CL",
         "tier": "VIII",
-        "image": "src/img/ships/p_bagration.png"
+        "image": "src/img/ships/p_bagration.png",
+        "premium": "true"
     },
     {
         "name": "S-189",
         "faction": "russia",
         "type": "SS",
         "tier": "VIII",
-        "image": "src/img/ships/s_189.png"
+        "image": "src/img/ships/s_189.png",
+        "premium": "true"
     },
     {
         "name": "AL Sov. Rossiya",
         "faction": "russia",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/al_sov_rossiya.png"
+        "image": "src/img/ships/al_sov_rossiya.png",
+        "premium": "true"
     },
     {
         "name": "Kronshtadt",
         "faction": "russia",
         "type": "BC",
         "tier": "IX",
-        "image": "src/img/ships/kronshtadt.png"
+        "image": "src/img/ships/kronshtadt.png",
+        "premium": "true"
     },
     {
         "name": "Navarin",
         "faction": "russia",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/navarin.png"
+        "image": "src/img/ships/navarin.png",
+        "premium": "true"
     },
     {
         "name": "Neustrashimy",
         "faction": "russia",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/neustrashimy.png"
+        "image": "src/img/ships/neustrashimy.png",
+        "premium": "true"
     },
     {
         "name": "Khabarovsk",
         "faction": "russia",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/khabarovsk.png"
+        "image": "src/img/ships/khabarovsk.png",
+        "premium": "true"
     },
     {
         "name": "Komissar",
         "faction": "russia",
         "type": "CA",
         "tier": "X",
-        "image": "src/img/ships/komissar.png"
+        "image": "src/img/ships/komissar.png",
+        "premium": "true"
     },
     {
         "name": "Moskva",
         "faction": "russia",
         "type": "CA",
         "tier": "X",
-        "image": "src/img/ships/moskva.png"
+        "image": "src/img/ships/moskva.png",
+        "premium": "true"
     },
     {
         "name": "Sevastopol",
         "faction": "russia",
         "type": "BC",
         "tier": "X",
-        "image": "src/img/ships/sevastopol.png"
+        "image": "src/img/ships/sevastopol.png",
+        "premium": "true"
     },
     {
         "name": "Slava",
         "faction": "russia",
         "type": "BB",
         "tier": "X",
-        "image": "src/img/ships/slava.png"
+        "image": "src/img/ships/slava.png",
+        "premium": "true"
     },
     {
         "name": "Smolensk",
         "faction": "russia",
         "type": "CL",
         "tier": "X",
-        "image": "src/img/ships/smolensk.png"
+        "image": "src/img/ships/smolensk.png",
+        "premium": "true"
     },
     {
         "name": "Smolensk B",
         "faction": "russia",
         "type": "CL",
         "tier": "X",
-        "image": "src/img/ships/smolensk_b.png"
+        "image": "src/img/ships/smolensk_b.png",
+        "premium": "true"
     },
     {
         "name": "Stalingrad",
         "faction": "russia",
         "type": "BC",
         "tier": "X",
-        "image": "src/img/ships/stalingrad.png"
+        "image": "src/img/ships/stalingrad.png",
+        "premium": "true"
     },
     {
         "name": "S-1",
@@ -2236,7 +2554,8 @@
         "type": "SS",
         "tier": "VI",
         "image": "src/img/ships/s_1.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
     {
         "name": "Bagration",
@@ -2244,7 +2563,8 @@
         "type": "CL",
         "tier": "VIII",
         "image": "src/img/ships/bagration.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
     {
         "name": "L-20",
@@ -2252,7 +2572,8 @@
         "type": "SS",
         "tier": "VIII",
         "image": "src/img/ships/l_20.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
     {
         "name": "Kozma Minin",
@@ -2260,7 +2581,8 @@
         "type": "CA",
         "tier": "IX",
         "image": "src/img/ships/kozma_minin.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
     {
         "name": "K-1",
@@ -2268,7 +2590,8 @@
         "type": "SS",
         "tier": "X",
         "image": "src/img/ships/k_1.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
     {
         "name": "Orlov",
@@ -2276,7 +2599,8 @@
         "type": "CV",
         "tier": "X",
         "image": "src/img/ships/orlov.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
     {
         "name": "Petrozavodsk",
@@ -2284,7 +2608,8 @@
         "type": "CA",
         "tier": "X",
         "image": "src/img/ships/petrozavodsk.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
     {
         "name": "V. Monomakh",
@@ -2292,7 +2617,8 @@
         "type": "CA",
         "tier": "X",
         "image": "src/img/ships/v_monomakh.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
 
     {
@@ -2300,651 +2626,744 @@
         "faction": "germany",
         "type": "CL",
         "tier": "I",
-        "image": "src/img/ships/hermelin.png"
+        "image": "src/img/ships/hermelin.png",
+        "premium": "false"
     },
     {
         "name": "Dresden",
         "faction": "germany",
         "type": "CL",
         "tier": "II",
-        "image": "src/img/ships/dresden.png"
+        "image": "src/img/ships/dresden.png",
+        "premium": "false"
     },
     {
         "name": "V-25",
         "faction": "germany",
         "type": "DD",
         "tier": "II",
-        "image": "src/img/ships/v_25.png"
+        "image": "src/img/ships/v_25.png",
+        "premium": "false"
     },
     {
         "name": "Von der Tann",
         "faction": "germany",
         "type": "BC",
         "tier": "III",
-        "image": "src/img/ships/von_der_tann.png"
+        "image": "src/img/ships/von_der_tann.png",
+        "premium": "false"
     },
     {
         "name": "Nassau",
         "faction": "germany",
         "type": "BB",
         "tier": "III",
-        "image": "src/img/ships/nassau.png"
+        "image": "src/img/ships/nassau.png",
+        "premium": "false"
     },
     {
         "name": "Kolberg",
         "faction": "germany",
         "type": "CL",
         "tier": "III",
-        "image": "src/img/ships/kolberg.png"
+        "image": "src/img/ships/kolberg.png",
+        "premium": "false"
     },
     {
         "name": "G-101",
         "faction": "germany",
         "type": "DD",
         "tier": "III",
-        "image": "src/img/ships/g_101.png"
+        "image": "src/img/ships/g_101.png",
+        "premium": "false"
     },
     {
         "name": "Moltke",
         "faction": "germany",
         "type": "BC",
         "tier": "IV",
-        "image": "src/img/ships/moltke.png"
+        "image": "src/img/ships/moltke.png",
+        "premium": "false"
     },
     {
         "name": "Kaiser",
         "faction": "germany",
         "type": "BB",
         "tier": "IV",
-        "image": "src/img/ships/kaiser.png"
+        "image": "src/img/ships/kaiser.png",
+        "premium": "false"
     },
     {
         "name": "Karlsruhe",
         "faction": "germany",
         "type": "CL",
         "tier": "IV",
-        "image": "src/img/ships/karlsruhe.png"
+        "image": "src/img/ships/karlsruhe.png",
+        "premium": "false"
     },
     {
         "name": "V-170",
         "faction": "germany",
         "type": "DD",
         "tier": "IV",
-        "image": "src/img/ships/v_170.png"
+        "image": "src/img/ships/v_170.png",
+        "premium": "false"
     },
     {
         "name": "Rhein",
         "faction": "germany",
         "type": "CV",
         "tier": "IV",
-        "image": "src/img/ships/rhein.png"
+        "image": "src/img/ships/rhein.png",
+        "premium": "false"
     },
     {
         "name": "Derfflinger",
         "faction": "germany",
         "type": "BC",
         "tier": "V",
-        "image": "src/img/ships/derfflinger.png"
+        "image": "src/img/ships/derfflinger.png",
+        "premium": "false"
     },
     {
         "name": "König",
         "faction": "germany",
         "type": "BB",
         "tier": "V",
-        "image": "src/img/ships/k_nig.png"
+        "image": "src/img/ships/k_nig.png",
+        "premium": "false"
     },
     {
         "name": "Königsberg",
         "faction": "germany",
         "type": "CL",
         "tier": "V",
-        "image": "src/img/ships/k_nigsberg.png"
+        "image": "src/img/ships/k_nigsberg.png",
+        "premium": "false"
     },
     {
         "name": "T-22",
         "faction": "germany",
         "type": "DD",
         "tier": "V",
-        "image": "src/img/ships/t_22.png"
+        "image": "src/img/ships/t_22.png",
+        "premium": "false"
     },
     {
         "name": "Mackensen",
         "faction": "germany",
         "type": "BC",
         "tier": "VI",
-        "image": "src/img/ships/mackensen.png"
+        "image": "src/img/ships/mackensen.png",
+        "premium": "false"
     },
     {
         "name": "Bayern",
         "faction": "germany",
         "type": "BB",
         "tier": "VI",
-        "image": "src/img/ships/bayern.png"
+        "image": "src/img/ships/bayern.png",
+        "premium": "false"
     },
     {
         "name": "Nürnberg",
         "faction": "germany",
         "type": "CL",
         "tier": "VI",
-        "image": "src/img/ships/n_rnberg.png"
+        "image": "src/img/ships/n_rnberg.png",
+        "premium": "false"
     },
     {
         "name": "Gaede",
         "faction": "germany",
         "type": "DD",
         "tier": "VI",
-        "image": "src/img/ships/gaede.png"
+        "image": "src/img/ships/gaede.png",
+        "premium": "false"
     },
     {
         "name": "U-69",
         "faction": "germany",
         "type": "SS",
         "tier": "VI",
-        "image": "src/img/ships/u_69.png"
+        "image": "src/img/ships/u_69.png",
+        "premium": "false"
     },
     {
         "name": "Weser",
         "faction": "germany",
         "type": "CV",
         "tier": "VI",
-        "image": "src/img/ships/weser.png"
+        "image": "src/img/ships/weser.png",
+        "premium": "false"
     },
     {
-        "name": "P. Heinrich",
+        "name": "Prinz Heinrich",
         "faction": "germany",
         "type": "BC",
         "tier": "VII",
-        "image": "src/img/ships/p_heinrich.png"
+        "image": "src/img/ships/p_heinrich.png",
+        "premium": "false"
     },
     {
         "name": "Gneisenau",
         "faction": "germany",
         "type": "BB",
         "tier": "VII",
-        "image": "src/img/ships/gneisenau.png"
+        "image": "src/img/ships/gneisenau.png",
+        "premium": "false"
     },
     {
         "name": "Yorck",
         "faction": "germany",
         "type": "CA",
         "tier": "VII",
-        "image": "src/img/ships/yorck.png"
+        "image": "src/img/ships/yorck.png",
+        "premium": "false"
     },
     {
         "name": "Z-31",
         "faction": "germany",
         "type": "DD",
         "tier": "VII",
-        "image": "src/img/ships/z_31.png"
+        "image": "src/img/ships/z_31.png",
+        "premium": "false"
     },
     {
         "name": "Maass",
         "faction": "germany",
         "type": "DD",
         "tier": "VII",
-        "image": "src/img/ships/maass.png"
+        "image": "src/img/ships/maass.png",
+        "premium": "false"
     },
     {
         "name": "Zieten",
         "faction": "germany",
         "type": "BC",
         "tier": "VIII",
-        "image": "src/img/ships/zieten.png"
+        "image": "src/img/ships/zieten.png",
+        "premium": "false"
     },
     {
         "name": "Bismarck",
         "faction": "germany",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/bismarck.png"
+        "image": "src/img/ships/bismarck.png",
+        "premium": "false"
     },
     {
         "name": "Hipper",
         "faction": "germany",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/hipper.png"
+        "image": "src/img/ships/hipper.png",
+        "premium": "false"
     },
     {
-        "name": "G. J. Maerker",
+        "name": "Gustav-Julius Maerker",
         "faction": "germany",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/g_j_maerker.png"
+        "image": "src/img/ships/g_j_maerker.png",
+        "premium": "false"
     },
     {
         "name": "Z-23",
         "faction": "germany",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/z_23.png"
+        "image": "src/img/ships/z_23.png",
+        "premium": "false"
     },
     {
         "name": "U-190",
         "faction": "germany",
         "type": "SS",
         "tier": "VIII",
-        "image": "src/img/ships/u_190.png"
+        "image": "src/img/ships/u_190.png",
+        "premium": "false"
     },
     {
-        "name": "A. Parseval",
+        "name": "August von Parseval",
         "faction": "germany",
         "type": "CV",
         "tier": "VIII",
-        "image": "src/img/ships/a_parseval.png"
+        "image": "src/img/ships/a_parseval.png",
+        "premium": "false"
     },
     {
-        "name": "P. Rupprecht",
+        "name": "Prinz Rupprecht",
         "faction": "germany",
         "type": "BC",
         "tier": "IX",
-        "image": "src/img/ships/p_rupprecht.png"
+        "image": "src/img/ships/p_rupprecht.png",
+        "premium": "false"
     },
     {
-        "name": "F. der Grosse",
+        "name": "Friedrich der Grosse",
         "faction": "germany",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/f_der_grosse.png"
+        "image": "src/img/ships/f_der_grosse.png",
+        "premium": "false"
     },
     {
         "name": "Roon",
         "faction": "germany",
         "type": "CA",
         "tier": "IX",
-        "image": "src/img/ships/roon.png"
+        "image": "src/img/ships/roon.png",
+        "premium": "false"
     },
     {
-        "name": "F. Schultz",
+        "name": "Felix Schultz",
         "faction": "germany",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/f_schultz.png"
+        "image": "src/img/ships/f_schultz.png",
+        "premium": "false"
     },
     {
         "name": "Z-46",
         "faction": "germany",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/z_46.png"
+        "image": "src/img/ships/z_46.png",
+        "premium": "false"
     },
     {
         "name": "Schlieffen",
         "faction": "germany",
         "type": "BC",
         "tier": "X",
-        "image": "src/img/ships/schlieffen.png"
+        "image": "src/img/ships/schlieffen.png",
+        "premium": "false"
     },
     {
         "name": "Preussen",
         "faction": "germany",
         "type": "BB",
         "tier": "X",
-        "image": "src/img/ships/preussen.png"
+        "image": "src/img/ships/preussen.png",
+        "premium": "false"
     },
     {
         "name": "Hindenburg",
         "faction": "germany",
         "type": "CA",
         "tier": "X",
-        "image": "src/img/ships/hindenburg.png"
+        "image": "src/img/ships/hindenburg.png",
+        "premium": "false"
     },
     {
         "name": "Elbing",
         "faction": "germany",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/elbing.png"
+        "image": "src/img/ships/elbing.png",
+        "premium": "false"
     },
     {
         "name": "Z-52",
         "faction": "germany",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/z_52.png"
+        "image": "src/img/ships/z_52.png",
+        "premium": "false"
     },
     {
         "name": "U-2501",
         "faction": "germany",
         "type": "SS",
         "tier": "X",
-        "image": "src/img/ships/u_2501.png"
+        "image": "src/img/ships/u_2501.png",
+        "premium": "false"
     },
     {
-        "name": "M. Richthofen",
+        "name": "Manfred von Richthofen",
         "faction": "germany",
         "type": "CV",
         "tier": "X",
-        "image": "src/img/ships/m_richthofen.png"
+        "image": "src/img/ships/m_richthofen.png",
+        "premium": "false"
     },
     {
         "name": "Hannover",
         "faction": "germany",
         "type": "BB",
         "tier": "★",
-        "image": "src/img/ships/hannover.png"
+        "image": "src/img/ships/hannover.png",
+        "premium": "false"
     },
     {
         "name": "Clausewitz",
         "faction": "germany",
         "type": "CA",
         "tier": "★",
-        "image": "src/img/ships/clausewitz.png"
+        "image": "src/img/ships/clausewitz.png",
+        "premium": "false"
     },
     {
         "name": "Emden",
         "faction": "germany",
         "type": "CL",
         "tier": "II",
-        "image": "src/img/ships/emden.png"
+        "image": "src/img/ships/emden.png",
+        "premium": "true"
     },
     {
-        "name": "K. Albert",
+        "name": "König Albert",
         "faction": "germany",
         "type": "BB",
         "tier": "III",
-        "image": "src/img/ships/k_albert.png"
+        "image": "src/img/ships/k_albert.png",
+        "premium": "true"
     },
     {
-        "name": "E. Loewenhardt",
+        "name": "Erich Loewenhardt",
         "faction": "germany",
         "type": "CV",
         "tier": "VI",
-        "image": "src/img/ships/e_loewenhardt.png"
+        "image": "src/img/ships/e_loewenhardt.png",
+        "premium": "true"
     },
     {
         "name": "Graf Spee",
         "faction": "germany",
         "type": "BC",
         "tier": "VI",
-        "image": "src/img/ships/graf_spee.png"
+        "image": "src/img/ships/graf_spee.png",
+        "premium": "true"
     },
     {
         "name": "HSF Graf Spee",
         "faction": "germany",
         "type": "BC",
         "tier": "VI",
-        "image": "src/img/ships/hsf_graf_spee.png"
+        "image": "src/img/ships/hsf_graf_spee.png",
+        "premium": "true"
     },
     {
-        "name": "K. Schönberg",
+        "name": "Karl von Schönberg",
         "faction": "germany",
         "type": "DD",
         "tier": "VI",
-        "image": "src/img/ships/k_sch_nberg.png"
+        "image": "src/img/ships/k_sch_nberg.png",
+        "premium": "true"
     },
     {
         "name": "Leipzig",
         "faction": "germany",
         "type": "CL",
         "tier": "VI",
-        "image": "src/img/ships/leipzig.png"
+        "image": "src/img/ships/leipzig.png",
+        "premium": "true"
     },
     {
-        "name": "P. E. Friedrich",
+        "name": "Prinz Eitel Friedrich",
         "faction": "germany",
         "type": "BB",
         "tier": "VI",
-        "image": "src/img/ships/p_e_friedrich.png"
+        "image": "src/img/ships/p_e_friedrich.png",
+        "premium": "true"
     },
     {
         "name": "T-61",
         "faction": "germany",
         "type": "DD",
         "tier": "VI",
-        "image": "src/img/ships/t_61.png"
+        "image": "src/img/ships/t_61.png",
+        "premium": "true"
     },
     {
-        "name": "AL P. Heinrich",
+        "name": "AL Prinz Heinrich",
         "faction": "germany",
         "type": "BC",
         "tier": "VII",
-        "image": "src/img/ships/al_p_heinrich.png"
+        "image": "src/img/ships/al_p_heinrich.png",
+        "premium": "true"
     },
     {
         "name": "München",
         "faction": "germany",
         "type": "CL",
         "tier": "VII",
-        "image": "src/img/ships/m_nchen.png"
+        "image": "src/img/ships/m_nchen.png",
+        "premium": "true"
     },
     {
         "name": "Scharnhorst",
         "faction": "germany",
         "type": "BC",
         "tier": "VII",
-        "image": "src/img/ships/scharnhorst.png"
+        "image": "src/img/ships/scharnhorst.png",
+        "premium": "true"
     },
     {
         "name": "Scharnhorst '43",
         "faction": "germany",
         "type": "BC",
         "tier": "VII",
-        "image": "src/img/ships/scharnhorst_43.png"
+        "image": "src/img/ships/scharnhorst_43.png",
+        "premium": "true"
     },
     {
         "name": "Scharnhorst B",
         "faction": "germany",
         "type": "BC",
         "tier": "VII",
-        "image": "src/img/ships/scharnhorst_b.png"
+        "image": "src/img/ships/scharnhorst_b.png",
+        "premium": "true"
     },
     {
         "name": "Weimar",
         "faction": "germany",
         "type": "CL",
         "tier": "VII",
-        "image": "src/img/ships/weimar.png"
+        "image": "src/img/ships/weimar.png",
+        "premium": "true"
     },
     {
         "name": "Z-39",
         "faction": "germany",
         "type": "DD",
         "tier": "VII",
-        "image": "src/img/ships/z_39.png"
+        "image": "src/img/ships/z_39.png",
+        "premium": "true"
     },
     {
         "name": "Anhalt",
         "faction": "germany",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/anhalt.png"
+        "image": "src/img/ships/anhalt.png",
+        "premium": "true"
     },
     {
         "name": "Brandenburg",
         "faction": "germany",
         "type": "BC",
         "tier": "VIII",
-        "image": "src/img/ships/brandenburg.png"
+        "image": "src/img/ships/brandenburg.png",
+        "premium": "true"
     },
     {
         "name": "Brandenburg B",
         "faction": "germany",
         "type": "BC",
         "tier": "VIII",
-        "image": "src/img/ships/brandenburg_b.png"
+        "image": "src/img/ships/brandenburg_b.png",
+        "premium": "true"
     },
     {
         "name": "Cross of Dorn",
         "faction": "germany",
         "type": "CL",
         "tier": "VIII",
-        "image": "src/img/ships/cross_of_dorn.png"
+        "image": "src/img/ships/cross_of_dorn.png",
+        "premium": "true"
     },
     {
         "name": "Graf Zeppelin",
         "faction": "germany",
         "type": "CV",
         "tier": "VIII",
-        "image": "src/img/ships/graf_zeppelin.png"
+        "image": "src/img/ships/graf_zeppelin.png",
+        "premium": "true"
     },
     {
         "name": "Graf Zeppelin B",
         "faction": "germany",
         "type": "CV",
         "tier": "VIII",
-        "image": "src/img/ships/graf_zeppelin_b.png"
+        "image": "src/img/ships/graf_zeppelin_b.png",
+        "premium": "true"
     },
     {
         "name": "Mainz",
         "faction": "germany",
         "type": "CL",
         "tier": "VIII",
-        "image": "src/img/ships/mainz.png"
+        "image": "src/img/ships/mainz.png",
+        "premium": "true"
     },
     {
         "name": "Mainz B",
         "faction": "germany",
         "type": "CL",
         "tier": "VIII",
-        "image": "src/img/ships/mainz_b.png"
+        "image": "src/img/ships/mainz_b.png",
+        "premium": "true"
     },
     {
         "name": "Odin",
         "faction": "germany",
         "type": "BC",
         "tier": "VIII",
-        "image": "src/img/ships/odin.png"
+        "image": "src/img/ships/odin.png",
+        "premium": "true"
     },
     {
         "name": "Prinz Eugen",
         "faction": "germany",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/prinz_eugen.png"
+        "image": "src/img/ships/prinz_eugen.png",
+        "premium": "true"
     },
     {
         "name": "Schill",
         "faction": "germany",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/schill.png"
+        "image": "src/img/ships/schill.png",
+        "premium": "true"
     },
     {
         "name": "Tirpitz",
         "faction": "germany",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/tirpitz.png"
+        "image": "src/img/ships/tirpitz.png",
+        "premium": "true"
     },
     {
         "name": "Tirpitz B",
         "faction": "germany",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/tirpitz_b.png"
+        "image": "src/img/ships/tirpitz_b.png",
+        "premium": "true"
     },
     {
         "name": "Wiesbaden",
         "faction": "germany",
         "type": "CL",
         "tier": "VIII",
-        "image": "src/img/ships/wiesbaden.png"
+        "image": "src/img/ships/wiesbaden.png",
+        "premium": "true"
     },
     {
         "name": "Z-35",
         "faction": "germany",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/z_35.png"
+        "image": "src/img/ships/z_35.png",
+        "premium": "true"
     },
     {
         "name": "Ägir",
         "faction": "germany",
         "type": "BC",
         "tier": "IX",
-        "image": "src/img/ships/gir.png"
+        "image": "src/img/ships/gir.png",
+        "premium": "true"
     },
     {
         "name": "AL Ägir",
         "faction": "germany",
         "type": "BC",
         "tier": "IX",
-        "image": "src/img/ships/al_gir.png"
+        "image": "src/img/ships/al_gir.png",
+        "premium": "true"
     },
     {
         "name": "Pommern",
         "faction": "germany",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/pommern.png"
+        "image": "src/img/ships/pommern.png",
+        "premium": "true"
     },
     {
         "name": "Pommern B",
         "faction": "germany",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/pommern_b.png"
+        "image": "src/img/ships/pommern_b.png",
+        "premium": "true"
     },
     {
         "name": "Roon CLR",
         "faction": "germany",
         "type": "CA",
         "tier": "IX",
-        "image": "src/img/ships/roon_clr.png"
+        "image": "src/img/ships/roon_clr.png",
+        "premium": "true"
     },
     {
         "name": "Schröder",
         "faction": "germany",
         "type": "BC",
         "tier": "IX",
-        "image": "src/img/ships/schr_der.png"
+        "image": "src/img/ships/schr_der.png",
+        "premium": "true"
     },
     {
         "name": "Siegfried",
         "faction": "germany",
         "type": "BC",
         "tier": "IX",
-        "image": "src/img/ships/siegfried.png"
+        "image": "src/img/ships/siegfried.png",
+        "premium": "true"
     },
     {
         "name": "Z-44",
         "faction": "germany",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/z_44.png"
+        "image": "src/img/ships/z_44.png",
+        "premium": "true"
     },
     {
         "name": "ZF-6",
         "faction": "germany",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/zf_6.png"
+        "image": "src/img/ships/zf_6.png",
+        "premium": "true"
     },
     {
-        "name": "G. Kurfürst",
+        "name": "Grosser Kurfürst",
         "faction": "germany",
         "type": "BB",
         "tier": "X",
-        "image": "src/img/ships/g_kurf_rst.png"
+        "image": "src/img/ships/g_kurf_rst.png",
+        "premium": "true"
     },
     {
-        "name": "M. Immelmann",
+        "name": "Max Immelmann",
         "faction": "germany",
         "type": "CV",
         "tier": "X",
-        "image": "src/img/ships/m_immelmann.png"
+        "image": "src/img/ships/m_immelmann.png",
+        "premium": "true"
     },
     {
         "name": "Mecklenburg",
         "faction": "germany",
         "type": "BB",
         "tier": "X",
-        "image": "src/img/ships/mecklenburg.png"
+        "image": "src/img/ships/mecklenburg.png",
+        "premium": "true"
     },
     {
         "name": "U-4501",
         "faction": "germany",
         "type": "SS",
         "tier": "X",
-        "image": "src/img/ships/u_4501.png"
+        "image": "src/img/ships/u_4501.png",
+        "premium": "true"
     },
     {
         "name": "Z-42",
         "faction": "germany",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/z_42.png"
+        "image": "src/img/ships/z_42.png",
+        "premium": "true"
     },
     {
         "name": "Lübeck",
@@ -2952,15 +3371,17 @@
         "type": "DD",
         "tier": "X",
         "image": "src/img/ships/l_beck.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
     {
-        "name": "O. Lilienthal",
+        "name": "Otto Lilienthal",
         "faction": "germany",
         "type": "CV",
         "tier": "X",
         "image": "src/img/ships/o_lilienthal.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
 
     {
@@ -2968,658 +3389,752 @@
         "faction": "uk",
         "type": "CL",
         "tier": "I",
-        "image": "src/img/ships/black_swan.png"
+        "image": "src/img/ships/black_swan.png",
+        "premium": "false"
     },
     {
         "name": "Weymouth",
         "faction": "uk",
         "type": "CL",
         "tier": "II",
-        "image": "src/img/ships/weymouth.png"
+        "image": "src/img/ships/weymouth.png",
+        "premium": "false"
     },
     {
         "name": "Medea",
         "faction": "uk",
         "type": "DD",
         "tier": "II",
-        "image": "src/img/ships/medea.png"
+        "image": "src/img/ships/medea.png",
+        "premium": "false"
     },
     {
         "name": "Indefatigable",
         "faction": "uk",
         "type": "BB",
         "tier": "III",
-        "image": "src/img/ships/indefatigable.png"
+        "image": "src/img/ships/indefatigable.png",
+        "premium": "false"
     },
     {
         "name": "Bellerophon",
         "faction": "uk",
         "type": "BB",
         "tier": "III",
-        "image": "src/img/ships/bellerophon.png"
+        "image": "src/img/ships/bellerophon.png",
+        "premium": "false"
     },
     {
         "name": "Caledon",
         "faction": "uk",
         "type": "CL",
         "tier": "III",
-        "image": "src/img/ships/caledon.png"
+        "image": "src/img/ships/caledon.png",
+        "premium": "false"
     },
     {
         "name": "Valkyrie",
         "faction": "uk",
         "type": "DD",
         "tier": "III",
-        "image": "src/img/ships/valkyrie.png"
+        "image": "src/img/ships/valkyrie.png",
+        "premium": "false"
     },
     {
         "name": "Queen Mary",
         "faction": "uk",
         "type": "BC",
         "tier": "IV",
-        "image": "src/img/ships/queen_mary.png"
+        "image": "src/img/ships/queen_mary.png",
+        "premium": "false"
     },
     {
         "name": "Orion",
         "faction": "uk",
         "type": "BB",
         "tier": "IV",
-        "image": "src/img/ships/orion.png"
+        "image": "src/img/ships/orion.png",
+        "premium": "false"
     },
     {
         "name": "Danae",
         "faction": "uk",
         "type": "CL",
         "tier": "IV",
-        "image": "src/img/ships/danae.png"
+        "image": "src/img/ships/danae.png",
+        "premium": "false"
     },
     {
         "name": "Wakeful",
         "faction": "uk",
         "type": "DD",
         "tier": "IV",
-        "image": "src/img/ships/wakeful.png"
+        "image": "src/img/ships/wakeful.png",
+        "premium": "false"
     },
     {
         "name": "Hermes",
         "faction": "uk",
         "type": "CV",
         "tier": "IV",
-        "image": "src/img/ships/hermes.png"
+        "image": "src/img/ships/hermes.png",
+        "premium": "false"
     },
     {
         "name": "Tiger",
         "faction": "uk",
         "type": "BC",
         "tier": "V",
-        "image": "src/img/ships/tiger.png"
+        "image": "src/img/ships/tiger.png",
+        "premium": "false"
     },
     {
         "name": "Iron Duke",
         "faction": "uk",
         "type": "BB",
         "tier": "V",
-        "image": "src/img/ships/iron_duke.png"
+        "image": "src/img/ships/iron_duke.png",
+        "premium": "false"
     },
     {
         "name": "Emerald",
         "faction": "uk",
         "type": "CL",
         "tier": "V",
-        "image": "src/img/ships/emerald.png"
+        "image": "src/img/ships/emerald.png",
+        "premium": "false"
     },
     {
         "name": "Hawkins",
         "faction": "uk",
         "type": "CL",
         "tier": "V",
-        "image": "src/img/ships/hawkins.png"
+        "image": "src/img/ships/hawkins.png",
+        "premium": "false"
     },
     {
         "name": "Acasta",
         "faction": "uk",
         "type": "DD",
         "tier": "V",
-        "image": "src/img/ships/acasta.png"
+        "image": "src/img/ships/acasta.png",
+        "premium": "false"
     },
     {
         "name": "Renown",
         "faction": "uk",
         "type": "BC",
         "tier": "VI",
-        "image": "src/img/ships/renown.png"
+        "image": "src/img/ships/renown.png",
+        "premium": "false"
     },
     {
         "name": "Queen Elizabeth",
         "faction": "uk",
         "type": "BB",
         "tier": "VI",
-        "image": "src/img/ships/queen_elizabeth.png"
+        "image": "src/img/ships/queen_elizabeth.png",
+        "premium": "false"
     },
     {
         "name": "Leander",
         "faction": "uk",
         "type": "CL",
         "tier": "VI",
-        "image": "src/img/ships/leander.png"
+        "image": "src/img/ships/leander.png",
+        "premium": "false"
     },
     {
         "name": "Devonshire",
         "faction": "uk",
         "type": "CA",
         "tier": "VI",
-        "image": "src/img/ships/devonshire.png"
+        "image": "src/img/ships/devonshire.png",
+        "premium": "false"
     },
     {
         "name": "Icarus",
         "faction": "uk",
         "type": "DD",
         "tier": "VI",
-        "image": "src/img/ships/icarus.png"
+        "image": "src/img/ships/icarus.png",
+        "premium": "false"
     },
     {
         "name": "Undine",
         "faction": "uk",
         "type": "SS",
         "tier": "VI",
-        "image": "src/img/ships/undine.png"
+        "image": "src/img/ships/undine.png",
+        "premium": "false"
     },
     {
         "name": "Furious",
         "faction": "uk",
         "type": "CV",
         "tier": "VI",
-        "image": "src/img/ships/furious.png"
+        "image": "src/img/ships/furious.png",
+        "premium": "false"
     },
     {
         "name": "Rooke",
         "faction": "uk",
         "type": "BC",
         "tier": "VII",
-        "image": "src/img/ships/rooke.png"
+        "image": "src/img/ships/rooke.png",
+        "premium": "false"
     },
     {
         "name": "King George V",
         "faction": "uk",
         "type": "BB",
         "tier": "VII",
-        "image": "src/img/ships/king_george_v.png"
+        "image": "src/img/ships/king_george_v.png",
+        "premium": "false"
     },
     {
         "name": "Fiji",
         "faction": "uk",
         "type": "CL",
         "tier": "VII",
-        "image": "src/img/ships/fiji.png"
+        "image": "src/img/ships/fiji.png",
+        "premium": "false"
     },
     {
         "name": "Surrey",
         "faction": "uk",
         "type": "CA",
         "tier": "VII",
-        "image": "src/img/ships/surrey.png"
+        "image": "src/img/ships/surrey.png",
+        "premium": "false"
     },
     {
         "name": "Jervis",
         "faction": "uk",
         "type": "DD",
         "tier": "VII",
-        "image": "src/img/ships/jervis.png"
+        "image": "src/img/ships/jervis.png",
+        "premium": "false"
     },
     {
         "name": "Hawke",
         "faction": "uk",
         "type": "BC",
         "tier": "VIII",
-        "image": "src/img/ships/hawke.png"
+        "image": "src/img/ships/hawke.png",
+        "premium": "false"
     },
     {
         "name": "Monarch",
         "faction": "uk",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/monarch.png"
+        "image": "src/img/ships/monarch.png",
+        "premium": "false"
     },
     {
         "name": "Edinburgh",
         "faction": "uk",
         "type": "CL",
         "tier": "VIII",
-        "image": "src/img/ships/edinburgh.png"
+        "image": "src/img/ships/edinburgh.png",
+        "premium": "false"
     },
     {
         "name": "Albemarle",
         "faction": "uk",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/albemarle.png"
+        "image": "src/img/ships/albemarle.png",
+        "premium": "false"
     },
     {
         "name": "Lightning",
         "faction": "uk",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/lightning.png"
+        "image": "src/img/ships/lightning.png",
+        "premium": "false"
     },
     {
         "name": "Sturdy",
         "faction": "uk",
         "type": "SS",
         "tier": "VIII",
-        "image": "src/img/ships/sturdy.png"
+        "image": "src/img/ships/sturdy.png",
+        "premium": "false"
     },
     {
         "name": "Implacable",
         "faction": "uk",
         "type": "CV",
         "tier": "VIII",
-        "image": "src/img/ships/implacable.png"
+        "image": "src/img/ships/implacable.png",
+        "premium": "false"
     },
     {
         "name": "Duncan",
         "faction": "uk",
         "type": "BC",
         "tier": "IX",
-        "image": "src/img/ships/duncan.png"
+        "image": "src/img/ships/duncan.png",
+        "premium": "false"
     },
     {
         "name": "Lion",
         "faction": "uk",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/lion.png"
+        "image": "src/img/ships/lion.png",
+        "premium": "false"
     },
     {
         "name": "Neptune",
         "faction": "uk",
         "type": "CL",
         "tier": "IX",
-        "image": "src/img/ships/neptune.png"
+        "image": "src/img/ships/neptune.png",
+        "premium": "false"
     },
     {
         "name": "Drake",
         "faction": "uk",
         "type": "CA",
         "tier": "IX",
-        "image": "src/img/ships/drake.png"
+        "image": "src/img/ships/drake.png",
+        "premium": "false"
     },
     {
         "name": "Jutland",
         "faction": "uk",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/jutland.png"
+        "image": "src/img/ships/jutland.png",
+        "premium": "false"
     },
     {
         "name": "St. Vincent",
         "faction": "uk",
         "type": "BC",
         "tier": "X",
-        "image": "src/img/ships/st_vincent.png"
+        "image": "src/img/ships/st_vincent.png",
+        "premium": "false"
     },
     {
         "name": "Conqueror",
         "faction": "uk",
         "type": "BB",
         "tier": "X",
-        "image": "src/img/ships/conqueror.png"
+        "image": "src/img/ships/conqueror.png",
+        "premium": "false"
     },
     {
         "name": "Minotaur",
         "faction": "uk",
         "type": "CL",
         "tier": "X",
-        "image": "src/img/ships/minotaur.png"
+        "image": "src/img/ships/minotaur.png",
+        "premium": "false"
     },
     {
         "name": "Goliath",
         "faction": "uk",
         "type": "CA",
         "tier": "X",
-        "image": "src/img/ships/goliath.png"
+        "image": "src/img/ships/goliath.png",
+        "premium": "false"
     },
     {
         "name": "Daring",
         "faction": "uk",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/daring.png"
+        "image": "src/img/ships/daring.png",
+        "premium": "false"
     },
     {
         "name": "Thrasher",
         "faction": "uk",
         "type": "SS",
         "tier": "X",
-        "image": "src/img/ships/thrasher.png"
+        "image": "src/img/ships/thrasher.png",
+        "premium": "false"
     },
     {
         "name": "Audacious",
         "faction": "uk",
         "type": "CV",
         "tier": "X",
-        "image": "src/img/ships/audacious.png"
+        "image": "src/img/ships/audacious.png",
+        "premium": "false"
     },
     {
         "name": "Devastation",
         "faction": "uk",
         "type": "BB",
         "tier": "★",
-        "image": "src/img/ships/devastation.png"
+        "image": "src/img/ships/devastation.png",
+        "premium": "false"
     },
     {
         "name": "Edgar",
         "faction": "uk",
         "type": "CL",
         "tier": "★",
-        "image": "src/img/ships/edgar.png"
+        "image": "src/img/ships/edgar.png",
+        "premium": "false"
     },
     {
         "name": "Eagle",
         "faction": "uk",
         "type": "CV",
         "tier": "★",
-        "image": "src/img/ships/eagle.png"
+        "image": "src/img/ships/eagle.png",
+        "premium": "false"
     },
     {
         "name": "Campbeltown",
         "faction": "uk",
         "type": "DD",
         "tier": "III",
-        "image": "src/img/ships/campbeltown.png"
+        "image": "src/img/ships/campbeltown.png",
+        "premium": "true"
     },
     {
         "name": "Dreadnought",
         "faction": "uk",
         "type": "BB",
         "tier": "III",
-        "image": "src/img/ships/dreadnought.png"
+        "image": "src/img/ships/dreadnought.png",
+        "premium": "true"
     },
     {
         "name": "Agincourt",
         "faction": "uk",
         "type": "BB",
         "tier": "V",
-        "image": "src/img/ships/agincourt.png"
+        "image": "src/img/ships/agincourt.png",
+        "premium": "true"
     },
     {
         "name": "Exeter",
         "faction": "uk",
         "type": "CA",
         "tier": "V",
-        "image": "src/img/ships/exeter.png"
+        "image": "src/img/ships/exeter.png",
+        "premium": "true"
     },
     {
         "name": "Ark Royal",
         "faction": "uk",
         "type": "CV",
         "tier": "VI",
-        "image": "src/img/ships/ark_royal.png"
+        "image": "src/img/ships/ark_royal.png",
+        "premium": "true"
     },
     {
         "name": "Dido",
         "faction": "uk",
         "type": "CL",
         "tier": "VI",
-        "image": "src/img/ships/dido.png"
+        "image": "src/img/ships/dido.png",
+        "premium": "true"
     },
     {
         "name": "Gallant",
         "faction": "uk",
         "type": "DD",
         "tier": "VI",
-        "image": "src/img/ships/gallant.png"
+        "image": "src/img/ships/gallant.png",
+        "premium": "true"
     },
     {
         "name": "London",
         "faction": "uk",
         "type": "CA",
         "tier": "VI",
-        "image": "src/img/ships/london.png"
+        "image": "src/img/ships/london.png",
+        "premium": "true"
     },
     {
         "name": "Orion '44",
         "faction": "uk",
         "type": "CL",
         "tier": "VI",
-        "image": "src/img/ships/orion_44.png"
+        "image": "src/img/ships/orion_44.png",
+        "premium": "true"
     },
     {
         "name": "Repulse",
         "faction": "uk",
         "type": "BC",
         "tier": "VI",
-        "image": "src/img/ships/repulse.png"
+        "image": "src/img/ships/repulse.png",
+        "premium": "true"
     },
     {
         "name": "Repulse B",
         "faction": "uk",
         "type": "BC",
         "tier": "VI",
-        "image": "src/img/ships/repulse_b.png"
+        "image": "src/img/ships/repulse_b.png",
+        "premium": "true"
     },
     {
         "name": "Warspite",
         "faction": "uk",
         "type": "BB",
         "tier": "VI",
-        "image": "src/img/ships/warspite.png"
+        "image": "src/img/ships/warspite.png",
+        "premium": "true"
     },
     {
         "name": "Belfast",
         "faction": "uk",
         "type": "CL",
         "tier": "VII",
-        "image": "src/img/ships/belfast.png"
+        "image": "src/img/ships/belfast.png",
+        "premium": "true"
     },
     {
         "name": "Collingwood",
         "faction": "uk",
         "type": "BB",
         "tier": "VII",
-        "image": "src/img/ships/collingwood.png"
+        "image": "src/img/ships/collingwood.png",
+        "premium": "true"
     },
     {
         "name": "Duke of York",
         "faction": "uk",
         "type": "BB",
         "tier": "VII",
-        "image": "src/img/ships/duke_of_york.png"
+        "image": "src/img/ships/duke_of_york.png",
+        "premium": "true"
     },
     {
         "name": "Hood",
         "faction": "uk",
         "type": "BC",
         "tier": "VII",
-        "image": "src/img/ships/hood.png"
+        "image": "src/img/ships/hood.png",
+        "premium": "true"
     },
     {
         "name": "Jupiter '42",
         "faction": "uk",
         "type": "DD",
         "tier": "VII",
-        "image": "src/img/ships/jupiter_42.png"
+        "image": "src/img/ships/jupiter_42.png",
+        "premium": "true"
     },
     {
         "name": "Nelson",
         "faction": "uk",
         "type": "BB",
         "tier": "VII",
-        "image": "src/img/ships/nelson.png"
+        "image": "src/img/ships/nelson.png",
+        "premium": "true"
     },
     {
         "name": "Renown '44",
         "faction": "uk",
         "type": "BC",
         "tier": "VII",
-        "image": "src/img/ships/renown_44.png"
+        "image": "src/img/ships/renown_44.png",
+        "premium": "true"
     },
     {
         "name": "Rodney",
         "faction": "uk",
         "type": "BB",
         "tier": "VII",
-        "image": "src/img/ships/rodney.png"
+        "image": "src/img/ships/rodney.png",
+        "premium": "true"
     },
     {
         "name": "AL Cheshire",
         "faction": "uk",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/al_cheshire.png"
+        "image": "src/img/ships/al_cheshire.png",
+        "premium": "true"
     },
     {
         "name": "Alliance",
         "faction": "uk",
         "type": "SS",
         "tier": "VIII",
-        "image": "src/img/ships/alliance.png"
+        "image": "src/img/ships/alliance.png",
+        "premium": "true"
     },
     {
         "name": "Belfast '43",
         "faction": "uk",
         "type": "CL",
         "tier": "VIII",
-        "image": "src/img/ships/belfast_43.png"
+        "image": "src/img/ships/belfast_43.png",
+        "premium": "true"
     },
     {
         "name": "Cheshire",
         "faction": "uk",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/cheshire.png"
+        "image": "src/img/ships/cheshire.png",
+        "premium": "true"
     },
     {
         "name": "Colossus",
         "faction": "uk",
         "type": "CV",
         "tier": "VIII",
-        "image": "src/img/ships/colossus.png"
+        "image": "src/img/ships/colossus.png",
+        "premium": "true"
     },
     {
         "name": "Cossack",
         "faction": "uk",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/cossack.png"
+        "image": "src/img/ships/cossack.png",
+        "premium": "true"
     },
     {
         "name": "Cossack B",
         "faction": "uk",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/cossack_b.png"
+        "image": "src/img/ships/cossack_b.png",
+        "premium": "true"
     },
     {
         "name": "Hampshire",
         "faction": "uk",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/hampshire.png"
+        "image": "src/img/ships/hampshire.png",
+        "premium": "true"
     },
     {
         "name": "Indomitable",
         "faction": "uk",
         "type": "CV",
         "tier": "VIII",
-        "image": "src/img/ships/indomitable.png"
+        "image": "src/img/ships/indomitable.png",
+        "premium": "true"
     },
     {
         "name": "Nottingham",
         "faction": "uk",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/nottingham.png"
+        "image": "src/img/ships/nottingham.png",
+        "premium": "true"
     },
     {
         "name": "STAR Edinburgh",
         "faction": "uk",
         "type": "CL",
         "tier": "VIII",
-        "image": "src/img/ships/star_edinburgh.png"
+        "image": "src/img/ships/star_edinburgh.png",
+        "premium": "true"
     },
     {
         "name": "Tiger '59",
         "faction": "uk",
         "type": "CL",
         "tier": "VIII",
-        "image": "src/img/ships/tiger_59.png"
+        "image": "src/img/ships/tiger_59.png",
+        "premium": "true"
     },
     {
         "name": "Vanguard",
         "faction": "uk",
         "type": "BC",
         "tier": "VIII",
-        "image": "src/img/ships/vanguard.png"
+        "image": "src/img/ships/vanguard.png",
+        "premium": "true"
     },
     {
         "name": "Marlborough",
         "faction": "uk",
         "type": "BC",
         "tier": "IX",
-        "image": "src/img/ships/marlborough.png"
+        "image": "src/img/ships/marlborough.png",
+        "premium": "true"
     },
     {
-        "name": "S. Thunder",
+        "name": "Scarlet Thunder",
         "faction": "uk",
         "type": "BC",
         "tier": "IX",
-        "image": "src/img/ships/s_thunder.png"
+        "image": "src/img/ships/s_thunder.png",
+        "premium": "true"
     },
     {
         "name": "Somme",
         "faction": "uk",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/somme.png"
+        "image": "src/img/ships/somme.png",
+        "premium": "true"
     },
     {
         "name": "Defence",
         "faction": "uk",
         "type": "BC",
         "tier": "X",
-        "image": "src/img/ships/defence.png"
+        "image": "src/img/ships/defence.png",
+        "premium": "true"
     },
     {
         "name": "Druid",
         "faction": "uk",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/druid.png"
+        "image": "src/img/ships/druid.png",
+        "premium": "true"
     },
     {
         "name": "Gibraltar",
         "faction": "uk",
         "type": "CA",
         "tier": "X",
-        "image": "src/img/ships/gibraltar.png"
+        "image": "src/img/ships/gibraltar.png",
+        "premium": "true"
     },
     {
         "name": "Incomparable",
         "faction": "uk",
         "type": "BC",
         "tier": "X",
-        "image": "src/img/ships/incomparable.png"
+        "image": "src/img/ships/incomparable.png",
+        "premium": "true"
     },
     {
         "name": "Malta",
         "faction": "uk",
         "type": "CV",
         "tier": "X",
-        "image": "src/img/ships/malta.png"
+        "image": "src/img/ships/malta.png",
+        "premium": "true"
     },
     {
         "name": "Plymouth",
         "faction": "uk",
         "type": "CL",
         "tier": "X",
-        "image": "src/img/ships/plymouth.png"
+        "image": "src/img/ships/plymouth.png",
+        "premium": "true"
     },
     {
         "name": "Thunderer",
         "faction": "uk",
         "type": "BB",
         "tier": "X",
-        "image": "src/img/ships/thunderer.png"
+        "image": "src/img/ships/thunderer.png",
+        "premium": "true"
     },
     {
         "name": "Cumberland",
@@ -3627,7 +4142,8 @@
         "type": "BB",
         "tier": "X",
         "image": "src/img/ships/cumberland.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
     {
         "name": "Monmouth",
@@ -3635,7 +4151,8 @@
         "type": "CA",
         "tier": "X",
         "image": "src/img/ships/monmouth.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
 
     {
@@ -3643,385 +4160,440 @@
         "faction": "france",
         "type": "CL",
         "tier": "I",
-        "image": "src/img/ships/bougainville.png"
+        "image": "src/img/ships/bougainville.png",
+        "premium": "false"
     },
     {
         "name": "Jurien",
         "faction": "france",
         "type": "CL",
         "tier": "II",
-        "image": "src/img/ships/jurien.png"
+        "image": "src/img/ships/jurien.png",
+        "premium": "false"
     },
     {
-        "name": "En. Gabolde",
+        "name": "Enseigne Gabolde",
         "faction": "france",
         "type": "DD",
         "tier": "II",
-        "image": "src/img/ships/en_gabolde.png"
+        "image": "src/img/ships/en_gabolde.png",
+        "premium": "false"
     },
     {
         "name": "Turenne",
         "faction": "france",
         "type": "BB",
         "tier": "III",
-        "image": "src/img/ships/turenne.png"
+        "image": "src/img/ships/turenne.png",
+        "premium": "false"
     },
     {
         "name": "Friant",
         "faction": "france",
         "type": "CL",
         "tier": "III",
-        "image": "src/img/ships/friant.png"
+        "image": "src/img/ships/friant.png",
+        "premium": "false"
     },
     {
         "name": "Fusilier",
         "faction": "france",
         "type": "DD",
         "tier": "III",
-        "image": "src/img/ships/fusilier.png"
+        "image": "src/img/ships/fusilier.png",
+        "premium": "false"
     },
     {
         "name": "Courbet",
         "faction": "france",
         "type": "BB",
         "tier": "IV",
-        "image": "src/img/ships/courbet.png"
+        "image": "src/img/ships/courbet.png",
+        "premium": "false"
     },
     {
         "name": "Duguay-Trouin",
         "faction": "france",
         "type": "CL",
         "tier": "IV",
-        "image": "src/img/ships/duguay_trouin.png"
+        "image": "src/img/ships/duguay_trouin.png",
+        "premium": "false"
     },
     {
         "name": "Bourrasque",
         "faction": "france",
         "type": "DD",
         "tier": "IV",
-        "image": "src/img/ships/bourrasque.png"
+        "image": "src/img/ships/bourrasque.png",
+        "premium": "false"
     },
     {
         "name": "Bretagne",
         "faction": "france",
         "type": "BB",
         "tier": "V",
-        "image": "src/img/ships/bretagne.png"
+        "image": "src/img/ships/bretagne.png",
+        "premium": "false"
     },
     {
         "name": "Émile Bertin",
         "faction": "france",
         "type": "CL",
         "tier": "V",
-        "image": "src/img/ships/mile_bertin.png"
+        "image": "src/img/ships/mile_bertin.png",
+        "premium": "false"
     },
     {
         "name": "Jaguar",
         "faction": "france",
         "type": "DD",
         "tier": "V",
-        "image": "src/img/ships/jaguar.png"
+        "image": "src/img/ships/jaguar.png",
+        "premium": "false"
     },
     {
         "name": "Normandie",
         "faction": "france",
         "type": "BB",
         "tier": "VI",
-        "image": "src/img/ships/normandie.png"
+        "image": "src/img/ships/normandie.png",
+        "premium": "false"
     },
     {
         "name": "La Galissonnière",
         "faction": "france",
         "type": "CL",
         "tier": "VI",
-        "image": "src/img/ships/la_galissonni_re.png"
+        "image": "src/img/ships/la_galissonni_re.png",
+        "premium": "false"
     },
     {
         "name": "Guépard",
         "faction": "france",
         "type": "DD",
         "tier": "VI",
-        "image": "src/img/ships/gu_pard.png"
+        "image": "src/img/ships/gu_pard.png",
+        "premium": "false"
     },
     {
         "name": "Lyon",
         "faction": "france",
         "type": "BB",
         "tier": "VII",
-        "image": "src/img/ships/lyon.png"
+        "image": "src/img/ships/lyon.png",
+        "premium": "false"
     },
     {
         "name": "Algérie",
         "faction": "france",
         "type": "CA",
         "tier": "VII",
-        "image": "src/img/ships/alg_rie.png"
+        "image": "src/img/ships/alg_rie.png",
+        "premium": "false"
     },
     {
         "name": "Vauquelin",
         "faction": "france",
         "type": "DD",
         "tier": "VII",
-        "image": "src/img/ships/vauquelin.png"
+        "image": "src/img/ships/vauquelin.png",
+        "premium": "false"
     },
     {
         "name": "Richelieu",
         "faction": "france",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/richelieu.png"
+        "image": "src/img/ships/richelieu.png",
+        "premium": "false"
     },
     {
         "name": "Charles Martel",
         "faction": "france",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/charles_martel.png"
+        "image": "src/img/ships/charles_martel.png",
+        "premium": "false"
     },
     {
         "name": "Cherbourg",
         "faction": "france",
         "type": "BC",
         "tier": "VIII",
-        "image": "src/img/ships/cherbourg.png"
+        "image": "src/img/ships/cherbourg.png",
+        "premium": "false"
     },
     {
         "name": "Le Fantasque",
         "faction": "france",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/le_fantasque.png"
+        "image": "src/img/ships/le_fantasque.png",
+        "premium": "false"
     },
     {
         "name": "Alsace",
         "faction": "france",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/alsace.png"
+        "image": "src/img/ships/alsace.png",
+        "premium": "false"
     },
     {
         "name": "Saint-Louis",
         "faction": "france",
         "type": "CA",
         "tier": "IX",
-        "image": "src/img/ships/saint_louis.png"
+        "image": "src/img/ships/saint_louis.png",
+        "premium": "false"
     },
     {
         "name": "Brest",
         "faction": "france",
         "type": "BC",
         "tier": "IX",
-        "image": "src/img/ships/brest.png"
+        "image": "src/img/ships/brest.png",
+        "premium": "false"
     },
     {
         "name": "Mogador",
         "faction": "france",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/mogador.png"
+        "image": "src/img/ships/mogador.png",
+        "premium": "false"
     },
     {
         "name": "République",
         "faction": "france",
         "type": "BB",
         "tier": "X",
-        "image": "src/img/ships/r_publique.png"
+        "image": "src/img/ships/r_publique.png",
+        "premium": "false"
     },
     {
         "name": "Henri IV",
         "faction": "france",
         "type": "CA",
         "tier": "X",
-        "image": "src/img/ships/henri_iv.png"
+        "image": "src/img/ships/henri_iv.png",
+        "premium": "false"
     },
     {
         "name": "Marseille",
         "faction": "france",
         "type": "BC",
         "tier": "X",
-        "image": "src/img/ships/marseille.png"
+        "image": "src/img/ships/marseille.png",
+        "premium": "false"
     },
     {
         "name": "Kléber",
         "faction": "france",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/kl_ber.png"
+        "image": "src/img/ships/kl_ber.png",
+        "premium": "false"
     },
     {
         "name": "Patrie",
         "faction": "france",
         "type": "BB",
         "tier": "★",
-        "image": "src/img/ships/patrie.png"
+        "image": "src/img/ships/patrie.png",
+        "premium": "false"
     },
     {
         "name": "Condé",
         "faction": "france",
         "type": "CA",
         "tier": "★",
-        "image": "src/img/ships/cond.png"
+        "image": "src/img/ships/cond.png",
+        "premium": "false"
     },
     {
         "name": "Siroco",
         "faction": "france",
         "type": "DD",
         "tier": "V",
-        "image": "src/img/ships/siroco.png"
+        "image": "src/img/ships/siroco.png",
+        "premium": "true"
     },
     {
         "name": "Aigle",
         "faction": "france",
         "type": "DD",
         "tier": "VI",
-        "image": "src/img/ships/aigle.png"
+        "image": "src/img/ships/aigle.png",
+        "premium": "true"
     },
     {
         "name": "Béarn",
         "faction": "france",
         "type": "CV",
         "tier": "VI",
-        "image": "src/img/ships/b_arn.png"
+        "image": "src/img/ships/b_arn.png",
+        "premium": "true"
     },
     {
         "name": "De Grasse",
         "faction": "france",
         "type": "CL",
         "tier": "VI",
-        "image": "src/img/ships/de_grasse.png"
+        "image": "src/img/ships/de_grasse.png",
+        "premium": "true"
     },
     {
         "name": "Dunkerque",
         "faction": "france",
         "type": "BC",
         "tier": "VI",
-        "image": "src/img/ships/dunkerque.png"
+        "image": "src/img/ships/dunkerque.png",
+        "premium": "true"
     },
     {
         "name": "Dunkerque B",
         "faction": "france",
         "type": "BC",
         "tier": "VI",
-        "image": "src/img/ships/dunkerque_b.png"
+        "image": "src/img/ships/dunkerque_b.png",
+        "premium": "true"
     },
     {
         "name": "Dupleix",
         "faction": "france",
         "type": "CA",
         "tier": "VI",
-        "image": "src/img/ships/dupleix.png"
+        "image": "src/img/ships/dupleix.png",
+        "premium": "true"
     },
     {
         "name": "Montcalm",
         "faction": "france",
         "type": "CL",
         "tier": "VI",
-        "image": "src/img/ships/montcalm.png"
+        "image": "src/img/ships/montcalm.png",
+        "premium": "true"
     },
     {
         "name": "Strasbourg",
         "faction": "france",
         "type": "BC",
         "tier": "VII",
-        "image": "src/img/ships/strasbourg.png"
+        "image": "src/img/ships/strasbourg.png",
+        "premium": "true"
     },
     {
         "name": "Toulon",
         "faction": "france",
         "type": "BC",
         "tier": "VII",
-        "image": "src/img/ships/toulon.png"
+        "image": "src/img/ships/toulon.png",
+        "premium": "true"
     },
     {
         "name": "Bayard",
         "faction": "france",
         "type": "CL",
         "tier": "VIII",
-        "image": "src/img/ships/bayard.png"
+        "image": "src/img/ships/bayard.png",
+        "premium": "true"
     },
     {
         "name": "Champagne",
         "faction": "france",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/champagne.png"
+        "image": "src/img/ships/champagne.png",
+        "premium": "true"
     },
     {
         "name": "Flandre",
         "faction": "france",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/flandre.png"
+        "image": "src/img/ships/flandre.png",
+        "premium": "true"
     },
     {
         "name": "Gascogne",
         "faction": "france",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/gascogne.png"
+        "image": "src/img/ships/gascogne.png",
+        "premium": "true"
     },
     {
         "name": "Le Terrible",
         "faction": "france",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/le_terrible.png"
+        "image": "src/img/ships/le_terrible.png",
+        "premium": "true"
     },
     {
         "name": "Picardie",
         "faction": "france",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/picardie.png"
+        "image": "src/img/ships/picardie.png",
+        "premium": "true"
     },
     {
         "name": "Carnot",
         "faction": "france",
         "type": "BC",
         "tier": "IX",
-        "image": "src/img/ships/carnot.png"
+        "image": "src/img/ships/carnot.png",
+        "premium": "true"
     },
     {
         "name": "Jean Bart",
         "faction": "france",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/jean_bart.png"
+        "image": "src/img/ships/jean_bart.png",
+        "premium": "true"
     },
     {
         "name": "Jean Bart B",
         "faction": "france",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/jean_bart_b.png"
+        "image": "src/img/ships/jean_bart_b.png",
+        "premium": "true"
     },
     {
         "name": "Bourgogne",
         "faction": "france",
         "type": "BB",
         "tier": "X",
-        "image": "src/img/ships/bourgogne.png"
+        "image": "src/img/ships/bourgogne.png",
+        "premium": "true"
     },
     {
         "name": "Colbert",
         "faction": "france",
         "type": "CL",
         "tier": "X",
-        "image": "src/img/ships/colbert.png"
+        "image": "src/img/ships/colbert.png",
+        "premium": "true"
     },
     {
         "name": "Kléber CLR",
         "faction": "france",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/kl_ber_clr.png"
+        "image": "src/img/ships/kl_ber_clr.png",
+        "premium": "true"
     },
     {
         "name": "Marceau",
         "faction": "france",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/marceau.png"
+        "image": "src/img/ships/marceau.png",
+        "premium": "true"
     },
     {
         "name": "Vent",
@@ -4029,7 +4601,8 @@
         "type": "DD",
         "tier": "V",
         "image": "src/img/ships/vent.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
     {
         "name": "Duchaffault",
@@ -4037,7 +4610,8 @@
         "type": "DD",
         "tier": "VI",
         "image": "src/img/ships/duchaffault.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
     {
         "name": "Le Hardi",
@@ -4045,7 +4619,8 @@
         "type": "DD",
         "tier": "VII",
         "image": "src/img/ships/le_hardi.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
     {
         "name": "Orage",
@@ -4053,7 +4628,8 @@
         "type": "DD",
         "tier": "IX",
         "image": "src/img/ships/orage.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
     {
         "name": "Brennus",
@@ -4061,7 +4637,8 @@
         "type": "BC",
         "tier": "X",
         "image": "src/img/ships/brennus.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
     {
         "name": "Cassard",
@@ -4069,7 +4646,8 @@
         "type": "DD",
         "tier": "X",
         "image": "src/img/ships/cassard.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
 
     {
@@ -4077,266 +4655,304 @@
         "faction": "pan_asia",
         "type": "CL",
         "tier": "I",
-        "image": "src/img/ships/chengan.png"
+        "image": "src/img/ships/chengan.png",
+        "premium": "false"
     },
     {
         "name": "Longjiang",
         "faction": "pan_asia",
         "type": "DD",
         "tier": "II",
-        "image": "src/img/ships/longjiang.png"
+        "image": "src/img/ships/longjiang.png",
+        "premium": "false"
     },
     {
         "name": "Phra Ruang",
         "faction": "pan_asia",
         "type": "DD",
         "tier": "III",
-        "image": "src/img/ships/phra_ruang.png"
+        "image": "src/img/ships/phra_ruang.png",
+        "premium": "false"
     },
     {
         "name": "Shenyang",
         "faction": "pan_asia",
         "type": "DD",
         "tier": "IV",
-        "image": "src/img/ships/shenyang.png"
+        "image": "src/img/ships/shenyang.png",
+        "premium": "false"
     },
     {
         "name": "Chungking",
         "faction": "pan_asia",
         "type": "CA",
         "tier": "V",
-        "image": "src/img/ships/chungking.png"
+        "image": "src/img/ships/chungking.png",
+        "premium": "false"
     },
     {
         "name": "Jianwei",
         "faction": "pan_asia",
         "type": "DD",
         "tier": "V",
-        "image": "src/img/ships/jianwei.png"
+        "image": "src/img/ships/jianwei.png",
+        "premium": "false"
     },
     {
         "name": "Rahmat",
         "faction": "pan_asia",
         "type": "CL",
         "tier": "VI",
-        "image": "src/img/ships/rahmat.png"
+        "image": "src/img/ships/rahmat.png",
+        "premium": "false"
     },
     {
         "name": "Fushun",
         "faction": "pan_asia",
         "type": "DD",
         "tier": "VI",
-        "image": "src/img/ships/fushun.png"
+        "image": "src/img/ships/fushun.png",
+        "premium": "false"
     },
     {
         "name": "Chumphon",
         "faction": "pan_asia",
         "type": "CL",
         "tier": "VII",
-        "image": "src/img/ships/chumphon.png"
+        "image": "src/img/ships/chumphon.png",
+        "premium": "false"
     },
     {
         "name": "Gadjah Mada",
         "faction": "pan_asia",
         "type": "DD",
         "tier": "VII",
-        "image": "src/img/ships/gadjah_mada.png"
+        "image": "src/img/ships/gadjah_mada.png",
+        "premium": "false"
     },
     {
         "name": "Harbin",
         "faction": "pan_asia",
         "type": "CL",
         "tier": "VIII",
-        "image": "src/img/ships/harbin.png"
+        "image": "src/img/ships/harbin.png",
+        "premium": "false"
     },
     {
         "name": "Hsienyang",
         "faction": "pan_asia",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/hsienyang.png"
+        "image": "src/img/ships/hsienyang.png",
+        "premium": "false"
     },
     {
         "name": "Sejong",
         "faction": "pan_asia",
         "type": "CL",
         "tier": "IX",
-        "image": "src/img/ships/sejong.png"
+        "image": "src/img/ships/sejong.png",
+        "premium": "false"
     },
     {
         "name": "Chung Mu",
         "faction": "pan_asia",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/chung_mu.png"
+        "image": "src/img/ships/chung_mu.png",
+        "premium": "false"
     },
     {
         "name": "Jinan",
         "faction": "pan_asia",
         "type": "CL",
         "tier": "X",
-        "image": "src/img/ships/jinan.png"
+        "image": "src/img/ships/jinan.png",
+        "premium": "false"
     },
     {
         "name": "Yueyang",
         "faction": "pan_asia",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/yueyang.png"
+        "image": "src/img/ships/yueyang.png",
+        "premium": "false"
     },
     {
         "name": "Kunming",
         "faction": "pan_asia",
         "type": "DD",
         "tier": "★",
-        "image": "src/img/ships/kunming.png"
+        "image": "src/img/ships/kunming.png",
+        "premium": "false"
     },
     {
         "name": "Ning Hai",
         "faction": "pan_asia",
         "type": "CL",
         "tier": "III",
-        "image": "src/img/ships/ning_hai.png"
+        "image": "src/img/ships/ning_hai.png",
+        "premium": "true"
     },
     {
         "name": "Anshan",
         "faction": "pan_asia",
         "type": "DD",
         "tier": "VI",
-        "image": "src/img/ships/anshan.png"
+        "image": "src/img/ships/anshan.png",
+        "premium": "true"
     },
     {
         "name": "Huanghe",
         "faction": "pan_asia",
         "type": "CL",
         "tier": "VI",
-        "image": "src/img/ships/huanghe.png"
+        "image": "src/img/ships/huanghe.png",
+        "premium": "true"
     },
     {
         "name": "Fenyang",
         "faction": "pan_asia",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/fenyang.png"
+        "image": "src/img/ships/fenyang.png",
+        "premium": "true"
     },
     {
         "name": "Irian",
         "faction": "pan_asia",
         "type": "CL",
         "tier": "VIII",
-        "image": "src/img/ships/irian.png"
+        "image": "src/img/ships/irian.png",
+        "premium": "true"
     },
     {
         "name": "Loyang",
         "faction": "pan_asia",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/loyang.png"
+        "image": "src/img/ships/loyang.png",
+        "premium": "true"
     },
     {
         "name": "Loyang B",
         "faction": "pan_asia",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/loyang_b.png"
+        "image": "src/img/ships/loyang_b.png",
+        "premium": "true"
     },
     {
         "name": "Sanzang",
         "faction": "pan_asia",
         "type": "CV",
         "tier": "VIII",
-        "image": "src/img/ships/sanzang.png"
+        "image": "src/img/ships/sanzang.png",
+        "premium": "true"
     },
     {
         "name": "Ship Smasha",
         "faction": "pan_asia",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/ship_smasha.png"
+        "image": "src/img/ships/ship_smasha.png",
+        "premium": "true"
     },
     {
         "name": "Siliwangi",
         "faction": "pan_asia",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/siliwangi.png"
-    },
-    {
-        "name": "Wukong",
-        "faction": "pan_asia",
-        "type": "CA",
-        "tier": "VIII",
-        "image": "src/img/ships/wukong.png"
-    },
-    {
-        "name": "Bajie",
-        "faction": "pan_asia",
-        "type": "BB",
-        "tier": "IX",
-        "image": "src/img/ships/bajie.png"
-    },
-    {
-        "name": "Dalian",
-        "faction": "pan_asia",
-        "type": "CL",
-        "tier": "IX",
-        "image": "src/img/ships/dalian.png"
-    },
-    {
-        "name": "Louchuan",
-        "faction": "pan_asia",
-        "type": "BB",
-        "tier": "IX",
-        "image": "src/img/ships/louchuan.png"
-    },
-    {
-        "name": "Mengchong",
-        "faction": "pan_asia",
-        "type": "BC",
-        "tier": "IX",
-        "image": "src/img/ships/mengchong.png"
-    },
-    {
-        "name": "Sun Yat-Sen",
-        "faction": "pan_asia",
-        "type": "BB",
-        "tier": "IX",
-        "image": "src/img/ships/sun_yat_sen.png"
-    },
-    {
-        "name": "Tianjin",
-        "faction": "pan_asia",
-        "type": "CA",
-        "tier": "IX",
-        "image": "src/img/ships/tianjin.png"
-    },
-    {
-        "name": "Wujing",
-        "faction": "pan_asia",
-        "type": "BB",
-        "tier": "IX",
-        "image": "src/img/ships/wujing.png"
-    },
-    {
-        "name": "Lüshun",
-        "faction": "pan_asia",
-        "type": "DD",
-        "tier": "X",
-        "image": "src/img/ships/l_shun.png"
+        "image": "src/img/ships/siliwangi.png",
+        "premium": "true"
     },
     {
         "name": "Zhu Que",
         "faction": "pan_asia",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/kidd.png"
+        "image": "src/img/ships/zhu_que.png",
+        "premium": "true"
+    },
+    {
+        "name": "Wukong",
+        "faction": "pan_asia",
+        "type": "CA",
+        "tier": "VIII",
+        "image": "src/img/ships/wukong.png",
+        "premium": "true"
+    },
+    {
+        "name": "Bajie",
+        "faction": "pan_asia",
+        "type": "BB",
+        "tier": "IX",
+        "image": "src/img/ships/bajie.png",
+        "premium": "true"
+    },
+    {
+        "name": "Dalian",
+        "faction": "pan_asia",
+        "type": "CL",
+        "tier": "IX",
+        "image": "src/img/ships/dalian.png",
+        "premium": "true"
+    },
+    {
+        "name": "Louchuan",
+        "faction": "pan_asia",
+        "type": "BB",
+        "tier": "IX",
+        "image": "src/img/ships/louchuan.png",
+        "premium": "true"
+    },
+    {
+        "name": "Mengchong",
+        "faction": "pan_asia",
+        "type": "BC",
+        "tier": "IX",
+        "image": "src/img/ships/mengchong.png",
+        "premium": "true"
+    },
+    {
+        "name": "Sun Yat-Sen",
+        "faction": "pan_asia",
+        "type": "BB",
+        "tier": "IX",
+        "image": "src/img/ships/sun_yat_sen.png",
+        "premium": "true"
+    },
+    {
+        "name": "Tianjin",
+        "faction": "pan_asia",
+        "type": "CA",
+        "tier": "IX",
+        "image": "src/img/ships/tianjin.png",
+        "premium": "true"
+    },
+    {
+        "name": "Wujing",
+        "faction": "pan_asia",
+        "type": "BB",
+        "tier": "IX",
+        "image": "src/img/ships/wujing.png",
+        "premium": "true"
     },
     {
         "name": "Xuan Wu",
         "faction": "pan_asia",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/iowa.png"
+        "image": "src/img/ships/xuan_wu.png",
+        "premium": "true"
+    },
+    {
+        "name": "Lüshun",
+        "faction": "pan_asia",
+        "type": "DD",
+        "tier": "X",
+        "image": "src/img/ships/l_shun.png",
+        "premium": "true"
     },
     {
         "name": "Incheon",
@@ -4344,7 +4960,8 @@
         "type": "CA",
         "tier": "X",
         "image": "src/img/ships/incheon.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
 
     {
@@ -4352,330 +4969,377 @@
         "faction": "italy",
         "type": "CL",
         "tier": "I",
-        "image": "src/img/ships/eritrea.png"
+        "image": "src/img/ships/eritrea.png",
+        "premium": "false"
     },
     {
         "name": "Nino Bixio",
         "faction": "italy",
         "type": "CL",
         "tier": "II",
-        "image": "src/img/ships/nino_bixio.png"
+        "image": "src/img/ships/nino_bixio.png",
+        "premium": "false"
     },
     {
         "name": "Curtatone",
         "faction": "italy",
         "type": "DD",
         "tier": "II",
-        "image": "src/img/ships/curtatone.png"
+        "image": "src/img/ships/curtatone.png",
+        "premium": "false"
     },
     {
         "name": "Taranto",
         "faction": "italy",
         "type": "CL",
         "tier": "III",
-        "image": "src/img/ships/taranto.png"
+        "image": "src/img/ships/taranto.png",
+        "premium": "false"
     },
     {
-        "name": "N. Sauro",
+        "name": "Nazario Sauro",
         "faction": "italy",
         "type": "DD",
         "tier": "III",
-        "image": "src/img/ships/n_sauro.png"
+        "image": "src/img/ships/n_sauro.png",
+        "premium": "false"
     },
     {
-        "name": "D. Alighieri",
+        "name": "Dante Alighieri",
         "faction": "italy",
         "type": "BB",
         "tier": "IV",
-        "image": "src/img/ships/d_alighieri.png"
+        "image": "src/img/ships/d_alighieri.png",
+        "premium": "false"
     },
     {
         "name": "Giussano",
         "faction": "italy",
         "type": "CL",
         "tier": "IV",
-        "image": "src/img/ships/giussano.png"
+        "image": "src/img/ships/giussano.png",
+        "premium": "false"
     },
     {
         "name": "Turbine",
         "faction": "italy",
         "type": "DD",
         "tier": "IV",
-        "image": "src/img/ships/turbine.png"
+        "image": "src/img/ships/turbine.png",
+        "premium": "false"
     },
     {
         "name": "Cavour",
         "faction": "italy",
         "type": "BB",
         "tier": "V",
-        "image": "src/img/ships/cavour.png"
+        "image": "src/img/ships/cavour.png",
+        "premium": "false"
     },
     {
         "name": "Montecuccoli",
         "faction": "italy",
         "type": "CL",
         "tier": "V",
-        "image": "src/img/ships/montecuccoli.png"
+        "image": "src/img/ships/montecuccoli.png",
+        "premium": "false"
     },
     {
         "name": "Maestrale",
         "faction": "italy",
         "type": "DD",
         "tier": "V",
-        "image": "src/img/ships/maestrale.png"
+        "image": "src/img/ships/maestrale.png",
+        "premium": "false"
     },
     {
         "name": "Andrea Doria",
         "faction": "italy",
         "type": "BB",
         "tier": "VI",
-        "image": "src/img/ships/andrea_doria.png"
+        "image": "src/img/ships/andrea_doria.png",
+        "premium": "false"
     },
     {
         "name": "Trento",
         "faction": "italy",
         "type": "CA",
         "tier": "VI",
-        "image": "src/img/ships/trento.png"
+        "image": "src/img/ships/trento.png",
+        "premium": "false"
     },
     {
         "name": "Aviere",
         "faction": "italy",
         "type": "DD",
         "tier": "VI",
-        "image": "src/img/ships/aviere.png"
+        "image": "src/img/ships/aviere.png",
+        "premium": "false"
     },
     {
-        "name": "F. Caracciolo",
+        "name": "Francesco Caracciolo",
         "faction": "italy",
         "type": "BB",
         "tier": "VII",
-        "image": "src/img/ships/f_caracciolo.png"
+        "image": "src/img/ships/f_caracciolo.png",
+        "premium": "false"
     },
     {
         "name": "Zara",
         "faction": "italy",
         "type": "CA",
         "tier": "VII",
-        "image": "src/img/ships/zara.png"
+        "image": "src/img/ships/zara.png",
+        "premium": "false"
     },
     {
-        "name": "L. Tarigo",
+        "name": "Luca Tarigo",
         "faction": "italy",
         "type": "DD",
         "tier": "VII",
-        "image": "src/img/ships/l_tarigo.png"
+        "image": "src/img/ships/l_tarigo.png",
+        "premium": "false"
     },
     {
-        "name": "V. Veneto",
+        "name": "Vittorio Veneto",
         "faction": "italy",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/v_veneto.png"
+        "image": "src/img/ships/v_veneto.png",
+        "premium": "false"
     },
     {
         "name": "Amalfi",
         "faction": "italy",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/amalfi.png"
+        "image": "src/img/ships/amalfi.png",
+        "premium": "false"
     },
     {
-        "name": "V. Cuniberti",
+        "name": "Vittorio Cuniberti",
         "faction": "italy",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/v_cuniberti.png"
+        "image": "src/img/ships/v_cuniberti.png",
+        "premium": "false"
     },
     {
         "name": "Lepanto",
         "faction": "italy",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/lepanto.png"
+        "image": "src/img/ships/lepanto.png",
+        "premium": "false"
     },
     {
         "name": "Brindisi",
         "faction": "italy",
         "type": "CA",
         "tier": "IX",
-        "image": "src/img/ships/brindisi.png"
+        "image": "src/img/ships/brindisi.png",
+        "premium": "false"
     },
     {
         "name": "Adriatico",
         "faction": "italy",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/adriatico.png"
+        "image": "src/img/ships/adriatico.png",
+        "premium": "false"
     },
     {
-        "name": "C. Colombo",
+        "name": "Cristoforo Colombo",
         "faction": "italy",
         "type": "BB",
         "tier": "X",
-        "image": "src/img/ships/c_colombo.png"
+        "image": "src/img/ships/c_colombo.png",
+        "premium": "false"
     },
     {
         "name": "Venezia",
         "faction": "italy",
         "type": "CA",
         "tier": "X",
-        "image": "src/img/ships/venezia.png"
+        "image": "src/img/ships/venezia.png",
+        "premium": "false"
     },
     {
-        "name": "A. Regolo",
+        "name": "Attilio Regolo",
         "faction": "italy",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/a_regolo.png"
+        "image": "src/img/ships/a_regolo.png",
+        "premium": "false"
     },
     {
         "name": "Piemonte",
         "faction": "italy",
         "type": "CA",
         "tier": "★",
-        "image": "src/img/ships/piemonte.png"
+        "image": "src/img/ships/piemonte.png",
+        "premium": "false"
     },
     {
         "name": "Genova",
         "faction": "italy",
         "type": "CA",
         "tier": "V",
-        "image": "src/img/ships/genova.png"
+        "image": "src/img/ships/genova.png",
+        "premium": "true"
     },
     {
         "name": "Giulio Cesare",
         "faction": "italy",
         "type": "BB",
         "tier": "V",
-        "image": "src/img/ships/giulio_cesare.png"
+        "image": "src/img/ships/giulio_cesare.png",
+        "premium": "true"
     },
     {
         "name": "Duca d'Aosta",
         "faction": "italy",
         "type": "CL",
         "tier": "VI",
-        "image": "src/img/ships/duca_d_aosta.png"
+        "image": "src/img/ships/duca_d_aosta.png",
+        "premium": "true"
     },
     {
         "name": "Leone",
         "faction": "italy",
         "type": "DD",
         "tier": "VI",
-        "image": "src/img/ships/leone.png"
+        "image": "src/img/ships/leone.png",
+        "premium": "true"
     },
     {
         "name": "Abruzzi",
         "faction": "italy",
         "type": "CL",
         "tier": "VII",
-        "image": "src/img/ships/abruzzi.png"
+        "image": "src/img/ships/abruzzi.png",
+        "premium": "true"
     },
     {
-        "name": "F. Ferruccio",
+        "name": "Francesco Ferruccio",
         "faction": "italy",
         "type": "CL",
         "tier": "VII",
-        "image": "src/img/ships/f_ferruccio.png"
+        "image": "src/img/ships/f_ferruccio.png",
+        "premium": "true"
     },
     {
         "name": "FR25",
         "faction": "italy",
         "type": "DD",
         "tier": "VII",
-        "image": "src/img/ships/f_r_25.png"
+        "image": "src/img/ships/f_r_25.png",
+        "premium": "true"
     },
     {
         "name": "Gorizia",
         "faction": "italy",
         "type": "CA",
         "tier": "VII",
-        "image": "src/img/ships/gorizia.png"
+        "image": "src/img/ships/gorizia.png",
+        "premium": "true"
     },
     {
         "name": "AL Littorio",
         "faction": "italy",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/al_littorio.png"
+        "image": "src/img/ships/al_littorio.png",
+        "premium": "true"
     },
     {
         "name": "Aquila",
         "faction": "italy",
         "type": "CV",
         "tier": "VIII",
-        "image": "src/img/ships/aquila.png"
+        "image": "src/img/ships/aquila.png",
+        "premium": "true"
     },
     {
         "name": "Roma",
         "faction": "italy",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/roma.png"
+        "image": "src/img/ships/roma.png",
+        "premium": "true"
     },
     {
         "name": "Giuseppe Verdi",
         "faction": "italy",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/giuseppe_verdi.png"
+        "image": "src/img/ships/giuseppe_verdi.png",
+        "premium": "true"
     },
     {
         "name": "Marco Polo",
         "faction": "italy",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/marco_polo.png"
+        "image": "src/img/ships/marco_polo.png",
+        "premium": "true"
     },
     {
         "name": "Michelangelo",
         "faction": "italy",
         "type": "BC",
         "tier": "IX",
-        "image": "src/img/ships/michelangelo.png"
+        "image": "src/img/ships/michelangelo.png",
+        "premium": "true"
     },
     {
         "name": "Paolo Emilio",
         "faction": "italy",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/paolo_emilio.png"
+        "image": "src/img/ships/paolo_emilio.png",
+        "premium": "true"
     },
     {
         "name": "Napoli",
         "faction": "italy",
         "type": "BC",
         "tier": "X",
-        "image": "src/img/ships/napoli.png"
+        "image": "src/img/ships/napoli.png",
+        "premium": "true"
     },
     {
         "name": "Napoli B",
         "faction": "italy",
         "type": "BC",
         "tier": "X",
-        "image": "src/img/ships/napoli_b.png"
+        "image": "src/img/ships/napoli_b.png",
+        "premium": "true"
     },
     {
-        "name": "R. Lauria",
+        "name": "Ruggiero di Lauria",
         "faction": "italy",
         "type": "BC",
         "tier": "X",
-        "image": "src/img/ships/r_lauria.png"
+        "image": "src/img/ships/r_lauria.png",
+        "premium": "true"
     },
     {
         "name": "Sicilia",
         "faction": "italy",
         "type": "BB",
         "tier": "X",
-        "image": "src/img/ships/sicilia.png"
+        "image": "src/img/ships/sicilia.png",
+        "premium": "true"
     },
     {
-        "name": "A. Vespucci",
+        "name": "Amerigo Vespucci",
         "faction": "italy",
         "type": "BB",
         "tier": "X",
         "image": "src/img/ships/a_vespucci.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
     {
         "name": "Ravenna",
@@ -4683,7 +5347,8 @@
         "type": "CA",
         "tier": "X",
         "image": "src/img/ships/ravenna.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
 
     {
@@ -4691,133 +5356,152 @@
         "faction": "commonwealth",
         "type": "CL",
         "tier": "I",
-        "image": "src/img/ships/sutlej.png"
+        "image": "src/img/ships/sutlej.png",
+        "premium": "false"
     },
     {
         "name": "Port Jackson",
         "faction": "commonwealth",
         "type": "CL",
         "tier": "II",
-        "image": "src/img/ships/port_jackson.png"
+        "image": "src/img/ships/port_jackson.png",
+        "premium": "false"
     },
     {
         "name": "Caradoc",
         "faction": "commonwealth",
         "type": "CL",
         "tier": "III",
-        "image": "src/img/ships/caradoc.png"
+        "image": "src/img/ships/caradoc.png",
+        "premium": "false"
     },
     {
         "name": "Dunedin",
         "faction": "commonwealth",
         "type": "CL",
         "tier": "IV",
-        "image": "src/img/ships/dunedin.png"
+        "image": "src/img/ships/dunedin.png",
+        "premium": "false"
     },
     {
         "name": "Delhi",
         "faction": "commonwealth",
         "type": "CL",
         "tier": "V",
-        "image": "src/img/ships/delhi.png"
+        "image": "src/img/ships/delhi.png",
+        "premium": "false"
     },
     {
         "name": "Hobart",
         "faction": "commonwealth",
         "type": "CL",
         "tier": "VI",
-        "image": "src/img/ships/hobart.png"
+        "image": "src/img/ships/hobart.png",
+        "premium": "false"
     },
     {
         "name": "Uganda",
         "faction": "commonwealth",
         "type": "CL",
         "tier": "VII",
-        "image": "src/img/ships/uganda.png"
+        "image": "src/img/ships/uganda.png",
+        "premium": "false"
     },
     {
         "name": "Auckland",
         "faction": "commonwealth",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/auckland.png"
+        "image": "src/img/ships/auckland.png",
+        "premium": "false"
     },
     {
         "name": "Encounter",
         "faction": "commonwealth",
         "type": "CA",
         "tier": "IX",
-        "image": "src/img/ships/encounter.png"
+        "image": "src/img/ships/encounter.png",
+        "premium": "false"
     },
     {
         "name": "Cerberus",
         "faction": "commonwealth",
         "type": "CA",
         "tier": "X",
-        "image": "src/img/ships/cerberus.png"
+        "image": "src/img/ships/cerberus.png",
+        "premium": "false"
     },
     {
         "name": "Vampire",
         "faction": "commonwealth",
         "type": "DD",
         "tier": "III",
-        "image": "src/img/ships/vampire.png"
+        "image": "src/img/ships/vampire.png",
+        "premium": "true"
     },
     {
         "name": "Mysore",
         "faction": "commonwealth",
         "type": "CL",
         "tier": "VI",
-        "image": "src/img/ships/mysore.png"
+        "image": "src/img/ships/mysore.png",
+        "premium": "true"
     },
     {
         "name": "Perth",
         "faction": "commonwealth",
         "type": "CL",
         "tier": "VI",
-        "image": "src/img/ships/perth.png"
+        "image": "src/img/ships/perth.png",
+        "premium": "true"
     },
     {
         "name": "Haida",
         "faction": "commonwealth",
         "type": "DD",
         "tier": "VII",
-        "image": "src/img/ships/haida.png"
+        "image": "src/img/ships/haida.png",
+        "premium": "true"
     },
     {
         "name": "Huron",
         "faction": "commonwealth",
         "type": "DD",
         "tier": "VII",
-        "image": "src/img/ships/huron.png"
+        "image": "src/img/ships/huron.png",
+        "premium": "true"
     },
     {
         "name": "Yukon",
         "faction": "commonwealth",
         "type": "BB",
         "tier": "VII",
-        "image": "src/img/ships/yukon.png"
+        "image": "src/img/ships/yukon.png",
+        "premium": "true"
     },
     {
         "name": "Hector",
         "faction": "commonwealth",
         "type": "CL",
         "tier": "IX",
-        "image": "src/img/ships/hector.png"
+        "image": "src/img/ships/hector.png",
+        "premium": "true"
     },
     {
         "name": "Brisbane",
         "faction": "commonwealth",
         "type": "CL",
         "tier": "X",
-        "image": "src/img/ships/brisbane.png"
+        "image": "src/img/ships/brisbane.png",
+        "premium": "true"
     },
     {
         "name": "Vampire II",
         "faction": "commonwealth",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/vampire_ii.png"
+        "image": "src/img/ships/vampire_ii.png",
+        "premium": "true"
     },
 
     {
@@ -4825,112 +5509,128 @@
         "faction": "pan_america",
         "type": "CL",
         "tier": "I",
-        "image": "src/img/ships/h_rcules.png"
+        "image": "src/img/ships/h_rcules.png",
+        "premium": "false"
     },
     {
-        "name": "Alm. Barroso",
+        "name": "Almirante Barroso",
         "faction": "pan_america",
         "type": "CL",
         "tier": "II",
-        "image": "src/img/ships/alm_barroso.png"
+        "image": "src/img/ships/alm_barroso.png",
+        "premium": "false"
     },
     {
-        "name": "V. Guerrero",
+        "name": "Vicente Guerrero",
         "faction": "pan_america",
         "type": "CL",
         "tier": "III",
-        "image": "src/img/ships/v_guerrero.png"
+        "image": "src/img/ships/v_guerrero.png",
+        "premium": "false"
     },
     {
         "name": "Córdoba",
         "faction": "pan_america",
         "type": "CL",
         "tier": "IV",
-        "image": "src/img/ships/c_rdoba.png"
+        "image": "src/img/ships/c_rdoba.png",
+        "premium": "false"
     },
     {
         "name": "La Argentina",
         "faction": "pan_america",
         "type": "CL",
         "tier": "V",
-        "image": "src/img/ships/la_argentina.png"
+        "image": "src/img/ships/la_argentina.png",
+        "premium": "false"
     },
     {
-        "name": "Almte. Cochrane",
+        "name": "Almirante Cochrane",
         "faction": "pan_america",
         "type": "CL",
         "tier": "VI",
-        "image": "src/img/ships/almte_cochrane.png"
+        "image": "src/img/ships/almte_cochrane.png",
+        "premium": "false"
     },
     {
-        "name": "Cnel. Bolognesi",
+        "name": "Coronel Bolognesi",
         "faction": "pan_america",
         "type": "CL",
         "tier": "VII",
-        "image": "src/img/ships/cnel_bolognesi.png"
+        "image": "src/img/ships/cnel_bolognesi.png",
+        "premium": "false"
     },
     {
-        "name": "I. Allende",
+        "name": "Ignacio Allende",
         "faction": "pan_america",
         "type": "CL",
         "tier": "VIII",
-        "image": "src/img/ships/i_allende.png"
+        "image": "src/img/ships/i_allende.png",
+        "premium": "false"
     },
     {
         "name": "Santander",
         "faction": "pan_america",
         "type": "CL",
         "tier": "IX",
-        "image": "src/img/ships/santander.png"
+        "image": "src/img/ships/santander.png",
+        "premium": "false"
     },
     {
         "name": "San Martín",
         "faction": "pan_america",
         "type": "CL",
         "tier": "X",
-        "image": "src/img/ships/san_mart_n.png"
+        "image": "src/img/ships/san_mart_n.png",
+        "premium": "false"
     },
     {
-        "name": "Alm. Abreu",
+        "name": "Almirante Abreu",
         "faction": "pan_america",
         "type": "CL",
         "tier": "II",
-        "image": "src/img/ships/alm_abreu.png"
+        "image": "src/img/ships/alm_abreu.png",
+        "premium": "true"
     },
     {
         "name": "Rio de Janeiro",
         "faction": "pan_america",
         "type": "BB",
         "tier": "V",
-        "image": "src/img/ships/rio_de_janeiro.png"
+        "image": "src/img/ships/rio_de_janeiro.png",
+        "premium": "true"
     },
     {
         "name": "Juruá",
         "faction": "pan_america",
         "type": "DD",
         "tier": "VI",
-        "image": "src/img/ships/juru.png"
+        "image": "src/img/ships/juru.png",
+        "premium": "true"
     },
     {
         "name": "Nueve de Julio",
         "faction": "pan_america",
         "type": "CL",
         "tier": "VII",
-        "image": "src/img/ships/nueve_de_julio.png"
+        "image": "src/img/ships/nueve_de_julio.png",
+        "premium": "true"
     },
     {
-        "name": "Almte. Grau",
+        "name": "Almirante Grau",
         "faction": "pan_america",
         "type": "CL",
         "tier": "VIII",
-        "image": "src/img/ships/almte_grau.png"
+        "image": "src/img/ships/almte_grau.png",
+        "premium": "true"
     },
     {
         "name": "Atlântico",
         "faction": "pan_america",
         "type": "BB",
         "tier": "VIII",
-        "image": "src/img/ships/atl_ntico.png"
+        "image": "src/img/ships/atl_ntico.png",
+        "premium": "true"
     },
 
     {
@@ -4938,196 +5638,224 @@
         "faction": "europe",
         "type": "CL",
         "tier": "I",
-        "image": "src/img/ships/gryf.png"
+        "image": "src/img/ships/gryf.png",
+        "premium": "false"
     },
     {
         "name": "Tátra",
         "faction": "europe",
         "type": "DD",
         "tier": "II",
-        "image": "src/img/ships/t_tra.png"
+        "image": "src/img/ships/t_tra.png",
+        "premium": "false"
     },
     {
         "name": "Romulus",
         "faction": "europe",
         "type": "DD",
         "tier": "III",
-        "image": "src/img/ships/romulus.png"
+        "image": "src/img/ships/romulus.png",
+        "premium": "false"
     },
     {
         "name": "Klas Horn",
         "faction": "europe",
         "type": "DD",
         "tier": "IV",
-        "image": "src/img/ships/klas_horn.png"
+        "image": "src/img/ships/klas_horn.png",
+        "premium": "false"
     },
     {
         "name": "Visby",
         "faction": "europe",
         "type": "DD",
         "tier": "V",
-        "image": "src/img/ships/visby.png"
+        "image": "src/img/ships/visby.png",
+        "premium": "false"
     },
     {
         "name": "Muavenet",
         "faction": "europe",
         "type": "DD",
         "tier": "V",
-        "image": "src/img/ships/muavenet.png"
+        "image": "src/img/ships/muavenet.png",
+        "premium": "false"
     },
     {
         "name": "Västerås",
         "faction": "europe",
         "type": "DD",
         "tier": "VI",
-        "image": "src/img/ships/v_ster_s.png"
+        "image": "src/img/ships/v_ster_s.png",
+        "premium": "false"
     },
     {
         "name": "Stord",
         "faction": "europe",
         "type": "DD",
         "tier": "VI",
-        "image": "src/img/ships/stord.png"
+        "image": "src/img/ships/stord.png",
+        "premium": "false"
     },
     {
         "name": "Skåne",
         "faction": "europe",
         "type": "DD",
         "tier": "VII",
-        "image": "src/img/ships/sk_ne.png"
+        "image": "src/img/ships/sk_ne.png",
+        "premium": "false"
     },
     {
         "name": "Grom",
         "faction": "europe",
         "type": "DD",
         "tier": "VII",
-        "image": "src/img/ships/grom.png"
+        "image": "src/img/ships/grom.png",
+        "premium": "false"
     },
     {
         "name": "Öland",
         "faction": "europe",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/land.png"
+        "image": "src/img/ships/land.png",
+        "premium": "false"
     },
     {
         "name": "Split",
         "faction": "europe",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/split.png"
+        "image": "src/img/ships/split.png",
+        "premium": "false"
     },
     {
         "name": "Östergötland",
         "faction": "europe",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/sterg_tland.png"
+        "image": "src/img/ships/sterg_tland.png",
+        "premium": "false"
     },
     {
-        "name": "L. Katsonis",
+        "name": "Lambros Katsonis",
         "faction": "europe",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/l_katsonis.png"
+        "image": "src/img/ships/l_katsonis.png",
+        "premium": "false"
     },
     {
         "name": "Halland",
         "faction": "europe",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/halland.png"
+        "image": "src/img/ships/halland.png",
+        "premium": "false"
     },
     {
         "name": "Gdańsk",
         "faction": "europe",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/gda_sk.png"
+        "image": "src/img/ships/gda_sk.png",
+        "premium": "false"
     },
     {
         "name": "Dalarna",
         "faction": "europe",
         "type": "DD",
         "tier": "★",
-        "image": "src/img/ships/dalarna.png"
+        "image": "src/img/ships/dalarna.png",
+        "premium": "false"
     },
     {
         "name": "Viribus Unitis",
         "faction": "europe",
         "type": "BB",
         "tier": "V",
-        "image": "src/img/ships/viribus_unitis.png"
+        "image": "src/img/ships/viribus_unitis.png",
+        "premium": "true"
     },
     {
         "name": "Elli",
         "faction": "europe",
         "type": "CL",
         "tier": "VI",
-        "image": "src/img/ships/elli.png"
+        "image": "src/img/ships/elli.png",
+        "premium": "true"
     },
     {
         "name": "Błyskawica",
         "faction": "europe",
         "type": "DD",
         "tier": "VII",
-        "image": "src/img/ships/b_yskawica.png"
+        "image": "src/img/ships/b_yskawica.png",
+        "premium": "true"
     },
     {
         "name": "Stord '43",
         "faction": "europe",
         "type": "DD",
         "tier": "VII",
-        "image": "src/img/ships/stord_43.png"
+        "image": "src/img/ships/stord_43.png",
+        "premium": "true"
     },
     {
         "name": "Orkan",
         "faction": "europe",
         "type": "DD",
         "tier": "VIII",
-        "image": "src/img/ships/orkan.png"
+        "image": "src/img/ships/orkan.png",
+        "premium": "true"
     },
     {
         "name": "Friesland",
         "faction": "europe",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/friesland.png"
+        "image": "src/img/ships/friesland.png",
+        "premium": "true"
     },
     {
         "name": "Jäger",
         "faction": "europe",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/j_ger.png"
+        "image": "src/img/ships/j_ger.png",
+        "premium": "true"
     },
     {
         "name": "Karl XIV Johan",
         "faction": "europe",
         "type": "BC",
         "tier": "IX",
-        "image": "src/img/ships/karl_xiv_johan.png"
+        "image": "src/img/ships/karl_xiv_johan.png",
+        "premium": "true"
     },
     {
         "name": "Velos",
         "faction": "europe",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/velos.png"
+        "image": "src/img/ships/velos.png",
+        "premium": "true"
     },
     {
         "name": "Ragnar",
         "faction": "europe",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/ragnar.png"
+        "image": "src/img/ships/ragnar.png",
+        "premium": "true"
     },
     {
         "name": "Småland",
         "faction": "europe",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/sm_land.png"
+        "image": "src/img/ships/sm_land.png",
+        "premium": "true"
     },
     {
         "name": "Södermanland",
@@ -5135,7 +5863,8 @@
         "type": "DD",
         "tier": "X",
         "image": "src/img/ships/s_dermanland.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
 
     {
@@ -5143,98 +5872,112 @@
         "faction": "netherlands",
         "type": "CL",
         "tier": "I",
-        "image": "src/img/ships/van_kinsbergen.png"
+        "image": "src/img/ships/van_kinsbergen.png",
+        "premium": "false"
     },
     {
         "name": "Gelderland",
         "faction": "netherlands",
         "type": "CL",
         "tier": "II",
-        "image": "src/img/ships/gelderland.png"
+        "image": "src/img/ships/gelderland.png",
+        "premium": "false"
     },
     {
         "name": "Java",
         "faction": "netherlands",
         "type": "CL",
         "tier": "III",
-        "image": "src/img/ships/java.png"
+        "image": "src/img/ships/java.png",
+        "premium": "false"
     },
     {
         "name": "De Ruyter",
         "faction": "netherlands",
         "type": "CL",
         "tier": "IV",
-        "image": "src/img/ships/de_ruyter.png"
+        "image": "src/img/ships/de_ruyter.png",
+        "premium": "false"
     },
     {
         "name": "Celebes",
         "faction": "netherlands",
         "type": "CL",
         "tier": "V",
-        "image": "src/img/ships/celebes.png"
+        "image": "src/img/ships/celebes.png",
+        "premium": "false"
     },
     {
         "name": "Kijkduin",
         "faction": "netherlands",
         "type": "CL",
         "tier": "VI",
-        "image": "src/img/ships/kijkduin.png"
+        "image": "src/img/ships/kijkduin.png",
+        "premium": "false"
     },
     {
         "name": "Eendracht",
         "faction": "netherlands",
         "type": "CL",
         "tier": "VII",
-        "image": "src/img/ships/eendracht.png"
+        "image": "src/img/ships/eendracht.png",
+        "premium": "false"
     },
     {
         "name": "Haarlem",
         "faction": "netherlands",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/haarlem.png"
+        "image": "src/img/ships/haarlem.png",
+        "premium": "false"
     },
     {
         "name": "Johan de Witt",
         "faction": "netherlands",
         "type": "CA",
         "tier": "IX",
-        "image": "src/img/ships/johan_de_witt.png"
+        "image": "src/img/ships/johan_de_witt.png",
+        "premium": "false"
     },
     {
         "name": "Gouden Leeuw",
         "faction": "netherlands",
         "type": "BC",
         "tier": "X",
-        "image": "src/img/ships/gouden_leeuw.png"
+        "image": "src/img/ships/gouden_leeuw.png",
+        "premium": "false"
     },
     {
         "name": "De 7 Provinciën",
         "faction": "netherlands",
         "type": "CL",
         "tier": "VIII",
-        "image": "src/img/ships/de_7_provinci_n.png"
+        "image": "src/img/ships/de_7_provinci_n.png",
+        "premium": "true"
     },
     {
         "name": "Groningen",
         "faction": "netherlands",
         "type": "DD",
         "tier": "IX",
-        "image": "src/img/ships/groningen.png"
+        "image": "src/img/ships/groningen.png",
+        "premium": "true"
     },
     {
         "name": "Van Speijk",
         "faction": "netherlands",
         "type": "CA",
         "tier": "IX",
-        "image": "src/img/ships/van_speijk.png"
+        "image": "src/img/ships/van_speijk.png",
+        "premium": "true"
     },
     {
         "name": "Tromp",
         "faction": "netherlands",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/tromp.png"
+        "image": "src/img/ships/tromp.png",
+        "premium": "true"
     },
     {
         "name": "Prins van Oranje",
@@ -5242,7 +5985,8 @@
         "type": "BC",
         "tier": "X",
         "image": "src/img/ships/prins_van_oranje.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
     {
         "name": "Vrijheid",
@@ -5250,7 +5994,8 @@
         "type": "BC",
         "tier": "X",
         "image": "src/img/ships/vrijheid.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     },
 
     {
@@ -5258,91 +6003,104 @@
         "faction": "spain",
         "type": "CL",
         "tier": "I",
-        "image": "src/img/ships/j_piter.png"
+        "image": "src/img/ships/j_piter.png",
+        "premium": "false"
     },
     {
         "name": "Méndez Núñez",
         "faction": "spain",
         "type": "CL",
         "tier": "II",
-        "image": "src/img/ships/m_ndez_n_ez.png"
+        "image": "src/img/ships/m_ndez_n_ez.png",
+        "premium": "false"
     },
     {
         "name": "Navarra",
         "faction": "spain",
         "type": "CL",
         "tier": "III",
-        "image": "src/img/ships/navarra.png"
+        "image": "src/img/ships/navarra.png",
+        "premium": "false"
     },
     {
-        "name": "Almte. Cervera",
+        "name": "Almirante Cervera",
         "faction": "spain",
         "type": "CL",
         "tier": "IV",
-        "image": "src/img/ships/almte_cervera.png"
+        "image": "src/img/ships/almte_cervera.png",
+        "premium": "false"
     },
     {
         "name": "Galicia",
         "faction": "spain",
         "type": "CL",
         "tier": "V",
-        "image": "src/img/ships/galicia.png"
+        "image": "src/img/ships/galicia.png",
+        "premium": "false"
     },
     {
         "name": "Baleares",
         "faction": "spain",
         "type": "CA",
         "tier": "VI",
-        "image": "src/img/ships/baleares.png"
+        "image": "src/img/ships/baleares.png",
+        "premium": "false"
     },
     {
         "name": "Asturias",
         "faction": "spain",
         "type": "CA",
         "tier": "VII",
-        "image": "src/img/ships/asturias.png"
+        "image": "src/img/ships/asturias.png",
+        "premium": "false"
     },
     {
         "name": "Cataluña",
         "faction": "spain",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/catalu_a.png"
+        "image": "src/img/ships/catalu_a.png",
+        "premium": "false"
     },
     {
         "name": "Andalucía",
         "faction": "spain",
         "type": "CA",
         "tier": "IX",
-        "image": "src/img/ships/andaluc_a.png"
+        "image": "src/img/ships/andaluc_a.png",
+        "premium": "false"
     },
     {
         "name": "Castilla",
         "faction": "spain",
         "type": "CA",
         "tier": "X",
-        "image": "src/img/ships/castilla.png"
+        "image": "src/img/ships/castilla.png",
+        "premium": "false"
     },
     {
         "name": "Canarias",
         "faction": "spain",
         "type": "CA",
         "tier": "VI",
-        "image": "src/img/ships/canarias.png"
+        "image": "src/img/ships/canarias.png",
+        "premium": "true"
     },
     {
         "name": "Numancia",
         "faction": "spain",
         "type": "CA",
         "tier": "VIII",
-        "image": "src/img/ships/numancia.png"
+        "image": "src/img/ships/numancia.png",
+        "premium": "true"
     },
     {
         "name": "Álvaro de Bazán",
         "faction": "spain",
         "type": "DD",
         "tier": "X",
-        "image": "src/img/ships/lvaro_de_baz_n.png"
+        "image": "src/img/ships/lvaro_de_baz_n.png",
+        "premium": "true"
     },
     {
         "name": "Victoria",
@@ -5350,6 +6108,7 @@
         "type": "BB",
         "tier": "IX",
         "image": "src/img/ships/victoria.png",
-        "attr": "test"
+        "attr": "test",
+        "premium": "false"
     }
 ]

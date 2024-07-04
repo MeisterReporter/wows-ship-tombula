@@ -127,7 +127,7 @@ section {
     background-color: rgba(255, 255, 255, 0.25);
 
     margin-top: 2rem;
-    padding: 3rem 2rem;
+    padding: 2.25rem 2rem;
 
     border-style: solid;
     border-radius: 4px;
@@ -145,7 +145,7 @@ section {
     list-style-type: none;
 
     min-height: 10rem;
-    max-height: calc(100vh - 42.5rem);
+    max-height: calc(100vh - 44.25rem);
 
     margin-top: 0.5rem;
 
@@ -203,9 +203,26 @@ section {
     margin-left: 2rem;
 }
 
+.premium {
+    color: goldenrod;
+}
+
+.otherProjects {
+    margin-top: 2rem;
+}
+
+.otherProjects p {
+    line-height: 1.5rem;
+}
+
+
 @media (max-width: 1300px) {
     .ship-list {
         margin-bottom: 2rem;
+    }
+
+    .otherProjects {
+        display: none;
     }
 }
 

@@ -2,6 +2,8 @@
 <html>
     <head>
         <title translatable>key.title</title>
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,6 +21,7 @@
         <link href="src/css/alignment.css" rel="stylesheet" type="text/css">
         <link href="src/css/buttons.css" rel="stylesheet" type="text/css">
         <link href="src/css/dialogs.css" rel="stylesheet" type="text/css">
+        <link href="src/css/material.css" rel="stylesheet" type="text/css">
         <link href="src/css/confetti.css" rel="stylesheet" type="text/css">
     </head>
     <img class="background-image">
@@ -32,7 +35,7 @@
     <body>
         <header>
             <h1><span translatable class="special">key.new</span><span translatable>key.title</span></h1><info onclick="addDialog('key.dialog.pathnotes.title', 'key.dialog.pathnotes.content', true)">i</info>
-            <span class="header-label"><span translatable>key.brought_by</span> <a style="color: white;" href="https://www.youtube.com/@dermeister-reporter2137"><b>Der_Meister_Reporter</b></a></span>
+            <span class="header-label"><span translatable>key.brought_by</span> <a style="color: white;" href="https://www.youtube.com/@dermeister-reporter2137"><b>Der Meister-Reporter</b></a></span>
             <span class="align-right game"><span translatable>key.game</span> <space size="medium"></space> <a translatable class="button orange" href="https://worldofwarships.eu/">key.play_now</a></span>
         </header>
 
@@ -97,7 +100,7 @@
                     <label for="spain"><img class="flag" src="src/img/flag_spain.png"></label>
                 </div>
                 <div class="filter-list">
-                    <p style="margin-bottom: 0.5rem; margin-top: 0.5rem;"><b translatable>key.filter.types</b><info onclick="addDialog('key.dialog.types.title', 'key.dialog.types.content', true)">i</info></p>
+                    <p style="margin-bottom: 0.5rem; margin-top: 0.5rem;"><b translatable>key.filter.types</b><info onclick="addDialog('key.dialog.types.title', 'key.dialog.types.content', true); applyClassCounts(document.getElementsByClassName('dialog-content')[0])">i</info></p>
                     <input onclick="changeType('SS', this)" type="checkbox" id="SS" checked />
                     <label for="SS">SS</label>
                     <input onclick="changeType('DD', this)" type="checkbox" id="DD" checked />
@@ -115,8 +118,16 @@
                 </div>
                 <div class="filter-list">
                     <p style="margin-bottom: 0.5rem; margin-top: 0.5rem;"><b translatable>key.filter.other</b></p>
+                    <input onclick="enablePremiumShip(this)" type="checkbox" id="premiumShips" checked />
+                    <label translatable for="premiumShips">key.filter.enable_premium_ships</label>
+                    </br>
+                    <input onclick="enableTechShip(this)" type="checkbox" id="techShips" checked />
+                    <label translatable for="techShips">key.filter.enable_tech_ships</label>
+                    </br>
                     <input onclick="enableTestShip(this)" type="checkbox" id="testShips" />
                     <label translatable for="testShips">key.filter.enable_test_ships</label>
+                    </br>
+                    <a style="color: white; font-weight: bold;" id="login" translatable onclick="requestLogin()">key.filter.from_wows_numbers</a>
                 </div>
                 <br/>
                 <h2 translatable>key.ships</h2>
@@ -258,10 +269,16 @@
                 <span class="confetti bottom left"></span>
                 <span class="confetti bottom right"></span>
             </div>
+            <div class="otherProjects">
+                <p><b>Andere Projekte:</b></p>
+                <p>- <info onclick="addDialog('key.dialog.swbattleships.title', 'key.dialog.swbattleships.content', true)">i</info>Universe of Battleships: <a href="https://www.youtube.com/watch?v=oFWX-G_FwUA&list=PLXOFyUbz_Xsvxu5Bc8bzrOxQ8L_JXLu7f">Youtube</a></p>
+                <p>- <info onclick="addDialog('key.dialog.rawedit.title', 'key.dialog.rawedit.content', true)">i</info>RAWEdit: <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1388553049">Steam</a></p>
+                <p>- <info onclick="addDialog('key.dialog.unitseditor.title', 'key.dialog.unitseditor.content', true)">i</info>Units Editor: <a href="https://sourceforge.net/projects/empire-at-war-units-editor/">Download</a></p>
+            </div>
         </section>
 
         <footer>
-            <span><span translatable>key.footer.made_by</span> <a style="color: white;" href="https://www.youtube.com/@dermeister-reporter2137"><b>Der_Meister_Reporter</b></a> <span translatable>key.footer.made_date</span></span>
+            <span><span translatable>key.footer.made_by</span> <a style="color: white;" href="https://www.youtube.com/@dermeister-reporter2137"><b>Der Meister-Reporter</b></a> <span translatable>key.footer.made_date</span></span>
             <span><span translatable class="middle">key.footer.supported_by</span> <a class="middle teamkrado" style="color: white;" onclick="addDialog('key.dialog.teamkrado.title', 'key.dialog.teamkrado.content', true)"><b>Teamkrado</b><img class="middle" style="margin-left: 0.5rem;" width="50" height="50" src="src/img/Teamkrado_128px.png"></a></span>
             <span><span translatable>key.footer.issues_notice</span> <a style="color: white;" href="https://github.com/MeisterReporter/wows-ship-tombula/issues"><b>Github</b></a>.</span>
             <span><span translatable>key.footer.data_notice</span> <a href="https://shiptool.st/">shiptool.st</a></span>
@@ -290,5 +307,7 @@
                 window.localStorage.setItem("Version", version);
             }
         });
+        // Check WG login
+        checkLogin();
     </script>
 </html>
