@@ -816,6 +816,14 @@
         "premium": "true"
     },
     {
+        "name": "Johnston",
+        "faction": "usa",
+        "type": "DD",
+        "tier": "IX",
+        "image": "src/img/ships/johnston.png",
+        "premium": "true"
+    },
+    {
         "name": "Kearsarge",
         "faction": "usa",
         "type": "BB",
@@ -936,11 +944,56 @@
         "premium": "true"
     },
     {
+        "name": "Colorado 2",
+        "faction": "usa",
+        "type": "BB",
+        "tier": "VII",
+        "image": "src/img/ships/colorado.png",
+        "attr": "test",
+        "premium": "false"
+    },
+    {
+        "name": "North Carolina 2",
+        "faction": "usa",
+        "type": "BB",
+        "tier": "VIII",
+        "image": "src/img/ships/n_carolina.png",
+        "attr": "test",
+        "premium": "false"
+    },
+    {
         "name": "Frank Friday",
         "faction": "usa",
         "type": "DD",
         "tier": "IX",
         "image": "src/img/ships/frank_friday.png",
+        "attr": "test",
+        "premium": "false"
+    },
+    {
+        "name": "Iowa 2",
+        "faction": "usa",
+        "type": "BB",
+        "tier": "IX",
+        "image": "src/img/ships/iowa.png",
+        "attr": "test",
+        "premium": "false"
+    },
+    {
+        "name": "Balao 2",
+        "faction": "usa",
+        "type": "SS",
+        "tier": "X",
+        "image": "src/img/ships/balao.png",
+        "attr": "test",
+        "premium": "false"
+    },
+    {
+        "name": "Montana 2",
+        "faction": "usa",
+        "type": "BB",
+        "tier": "X",
+        "image": "src/img/ships/montana.png",
         "attr": "test",
         "premium": "false"
     },
@@ -3383,6 +3436,15 @@
         "attr": "test",
         "premium": "false"
     },
+    {
+        "name": "Werner Voss",
+        "faction": "germany",
+        "type": "CV",
+        "tier": "X",
+        "image": "src/img/ships/o_lilienthal.png",
+        "attr": "test",
+        "premium": "false"
+    },
 
     {
         "name": "Black Swan",
@@ -4135,6 +4197,15 @@
         "tier": "X",
         "image": "src/img/ships/thunderer.png",
         "premium": "true"
+    },
+    {
+        "name": "Theseus",
+        "faction": "uk",
+        "type": "CV",
+        "tier": "VIII",
+        "image": "src/img/ships/theseus.png",
+        "attr": "test",
+        "premium": "false"
     },
     {
         "name": "Cumberland",
@@ -5980,6 +6051,24 @@
         "premium": "true"
     },
     {
+        "name": "Admiraal",
+        "faction": "netherlands",
+        "type": "CL",
+        "tier": "VIII",
+        "image": "src/img/ships/admiraal.png",
+        "attr": "test",
+        "premium": "false"
+    },
+    {
+        "name": "Statenland",
+        "faction": "netherlands",
+        "type": "CL",
+        "tier": "VIII",
+        "image": "src/img/ships/admiraal.png",
+        "attr": "test",
+        "premium": "false"
+    },
+    {
         "name": "Prins van Oranje",
         "faction": "netherlands",
         "type": "BC",
@@ -6101,6 +6190,15 @@
         "tier": "X",
         "image": "src/img/ships/lvaro_de_baz_n.png",
         "premium": "true"
+    },
+    {
+        "name": "Almirante Oquendo",
+        "faction": "spain",
+        "type": "CA",
+        "tier": "IX",
+        "image": "src/img/ships/almirante_oquendo.png",
+        "attr": "test",
+        "premium": "false"
     },
     {
         "name": "Victoria",
