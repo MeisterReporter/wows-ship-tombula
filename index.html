@@ -164,7 +164,7 @@
                         <script>
                             window.blockMenuHeaderScroll = false;
                             var canvas = document.getElementById("ticket-canvas");
-                            var ctx = canvas.getContext("2d");
+                            const ctx = canvas.getContext("2d");
     
                             let isDrawing = false;
                             let isTouch = false;
@@ -183,20 +183,24 @@
                                 ctx.stroke();
                             }
                             function updateCoverage() {
-                                // Update coverage
-                                let blackCoverage = 0;
-                                for (let y = 0; y < canvas.height; y++) {
-                                    for (let x = 0; x < canvas.width; x++) {
-                                        var col = ctx.getImageData(x, y, 1, 1).data;
-                                        var red = col[0];
-                                        var green = col[1]; 
-                                        var blue = col[2];
-                                        if (red === 0 && green === 0 && blue === 0) {
-                                            blackCoverage++;
-                                        }
+                                const targetColor = [0, 0, 0];
+                                const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+                                const data = imageData.data;
+                                
+                                let colorCount = 0;
+                                const totalPixels = canvas.width * canvas.height;
+                                
+                                for (let i = 0; i < data.length; i += 4) {
+                                    const r = data[i];
+                                    const g = data[i + 1];
+                                    const b = data[i + 2];
+                                    
+                                    if (r === targetColor[0] && g === targetColor[1] && b === targetColor[2]) {
+                                        colorCount++;
                                     }
                                 }
-                                coverage = 1 - (blackCoverage / (canvas.width * canvas.height));
+                                
+                                coverage = 1 - (colorCount / totalPixels);
                             }
     
                             canvas.addEventListener("pointerdown", (e) => {
