@@ -400,6 +400,14 @@
         "premium": "false"
     },
     {
+        "name": "Jacksonville",
+        "faction": "usa",
+        "type": "CA",
+        "tier": "★",
+        "image": "src/img/ships/jacksonville.png",
+        "premium": "false"
+    },
+    {
         "name": "J. Humphreys",
         "faction": "usa",
         "type": "DD",
@@ -1003,15 +1011,6 @@
         "type": "BB",
         "tier": "X",
         "image": "src/img/ships/utah.png",
-        "attr": "test",
-        "premium": "false"
-    },
-    {
-        "name": "Jacksonville",
-        "faction": "usa",
-        "type": "CA",
-        "tier": "★",
-        "image": "src/img/ships/jacksonville.png",
         "attr": "test",
         "premium": "false"
     },
@@ -3419,11 +3418,29 @@
         "premium": "true"
     },
     {
+        "name": "Prinz Sigismund",
+        "faction": "germany",
+        "type": "BC",
+        "tier": "IX",
+        "image": "src/img/ships/prinz_sigismund.png",
+        "attr": "test",
+        "premium": "false"
+    },
+    {
         "name": "Lübeck",
         "faction": "germany",
         "type": "DD",
         "tier": "X",
         "image": "src/img/ships/l_beck.png",
+        "attr": "test",
+        "premium": "false"
+    },
+    {
+        "name": "Georg Hoffmann",
+        "faction": "germany",
+        "type": "DD",
+        "tier": "X",
+        "image": "src/img/ships/georg_hoffmann.png",
         "attr": "test",
         "premium": "false"
     },
@@ -4323,6 +4340,14 @@
         "premium": "false"
     },
     {
+        "name": "L'Adroit",
+        "faction": "france",
+        "type": "DD",
+        "tier": "V",
+        "image": "src/img/ships/l_adroit.png",
+        "premium": "false"
+    },
+    {
         "name": "Normandie",
         "faction": "france",
         "type": "BB",
@@ -4347,6 +4372,14 @@
         "premium": "false"
     },
     {
+        "name": "Duchaffault",
+        "faction": "france",
+        "type": "DD",
+        "tier": "VI",
+        "image": "src/img/ships/duchaffault.png",
+        "premium": "false"
+    },
+    {
         "name": "Lyon",
         "faction": "france",
         "type": "BB",
@@ -4368,6 +4401,14 @@
         "type": "DD",
         "tier": "VII",
         "image": "src/img/ships/vauquelin.png",
+        "premium": "false"
+    },
+    {
+        "name": "Le Hardi",
+        "faction": "france",
+        "type": "DD",
+        "tier": "VII",
+        "image": "src/img/ships/le_hardi.png",
         "premium": "false"
     },
     {
@@ -4403,6 +4444,14 @@
         "premium": "false"
     },
     {
+        "name": "L'Aventurier",
+        "faction": "france",
+        "type": "DD",
+        "tier": "VIII",
+        "image": "src/img/ships/l_aventurier.png",
+        "premium": "false"
+    },
+    {
         "name": "Alsace",
         "faction": "france",
         "type": "BB",
@@ -4435,6 +4484,14 @@
         "premium": "false"
     },
     {
+        "name": "Orage",
+        "faction": "france",
+        "type": "DD",
+        "tier": "IX",
+        "image": "src/img/ships/orage.png",
+        "premium": "false"
+    },
+    {
         "name": "République",
         "faction": "france",
         "type": "BB",
@@ -4464,6 +4521,14 @@
         "type": "DD",
         "tier": "X",
         "image": "src/img/ships/kl_ber.png",
+        "premium": "false"
+    },
+    {
+        "name": "Cassard",
+        "faction": "france",
+        "type": "DD",
+        "tier": "X",
+        "image": "src/img/ships/cassard.png",
         "premium": "false"
     },
     {
@@ -4667,56 +4732,11 @@
         "premium": "true"
     },
     {
-        "name": "Vent",
-        "faction": "france",
-        "type": "DD",
-        "tier": "V",
-        "image": "src/img/ships/vent.png",
-        "attr": "test",
-        "premium": "false"
-    },
-    {
-        "name": "Duchaffault",
-        "faction": "france",
-        "type": "DD",
-        "tier": "VI",
-        "image": "src/img/ships/duchaffault.png",
-        "attr": "test",
-        "premium": "false"
-    },
-    {
-        "name": "Le Hardi",
-        "faction": "france",
-        "type": "DD",
-        "tier": "VII",
-        "image": "src/img/ships/le_hardi.png",
-        "attr": "test",
-        "premium": "false"
-    },
-    {
-        "name": "Orage",
-        "faction": "france",
-        "type": "DD",
-        "tier": "IX",
-        "image": "src/img/ships/orage.png",
-        "attr": "test",
-        "premium": "false"
-    },
-    {
         "name": "Brennus",
         "faction": "france",
         "type": "BC",
         "tier": "X",
         "image": "src/img/ships/brennus.png",
-        "attr": "test",
-        "premium": "false"
-    },
-    {
-        "name": "Cassard",
-        "faction": "france",
-        "type": "DD",
-        "tier": "X",
-        "image": "src/img/ships/cassard.png",
         "attr": "test",
         "premium": "false"
     },
@@ -5024,6 +5044,15 @@
         "tier": "X",
         "image": "src/img/ships/l_shun.png",
         "premium": "true"
+    },
+    {
+        "name": "Xin Zhong Guo 14",
+        "faction": "pan_asia",
+        "type": "SS",
+        "tier": "VI",
+        "image": "src/img/ships/xin_zhong_guo_14.png",
+        "attr": "test",
+        "premium": "false"
     },
     {
         "name": "Incheon",
@@ -5703,6 +5732,33 @@
         "image": "src/img/ships/atl_ntico.png",
         "premium": "true"
     },
+    {
+        "name": "Cordillera",
+        "faction": "pan_america",
+        "type": "BB",
+        "tier": "IX",
+        "image": "src/img/ships/cordillera.png",
+        "attr": "test",
+        "premium": "false"
+    },
+    {
+        "name": "Libertad",
+        "faction": "pan_america",
+        "type": "BB",
+        "tier": "X",
+        "image": "src/img/ships/libertad.png",
+        "attr": "test",
+        "premium": "false"
+    },
+    {
+        "name": "Comodoro",
+        "faction": "pan_america",
+        "type": "BB",
+        "tier": "X",
+        "image": "src/img/ships/libertad.png",
+        "attr": "test",
+        "premium": "false"
+    },
 
     {
         "name": "Gryf",
@@ -5934,6 +5990,15 @@
         "type": "DD",
         "tier": "X",
         "image": "src/img/ships/s_dermanland.png",
+        "attr": "test",
+        "premium": "false"
+    },
+    {
+        "name": "Svea",
+        "faction": "europe",
+        "type": "CL",
+        "tier": "X",
+        "image": "src/img/ships/svea.png",
         "attr": "test",
         "premium": "false"
     },

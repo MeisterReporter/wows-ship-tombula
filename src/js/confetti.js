@@ -68,3 +68,50 @@ function launchConfetti() {
 function randomHalfNegative(value) {
     return (value / 2) - (Math.random() * value);
 }
+
+function updateAmount(amount, self) {
+    var display = document.getElementById("feedbackConfettiCount");
+    if (display !== null) display.innerHTML = amount;
+    if(self !== null) self.value = amount;
+
+    localStorage.setItem("feedbackConfettiCount", amount);
+    confettiAmount = amount;
+}
+
+function updateHorizontalMax(amount, self) {
+    var display = document.getElementById("feedbackHorizontalMax");
+    if (display !== null) display.innerHTML = amount;
+    if(self !== null) self.value = amount;
+
+    localStorage.setItem("feedbackHorizontalMax", amount);
+
+    horizontalMax = amount;
+}
+
+function updateVerticalMax(amount, self) {
+    var display = document.getElementById("feedbackVerticalMax");
+    if (display !== null) display.innerHTML = amount;
+    if(self !== null) self.value = amount;
+
+    localStorage.setItem("feedbackVerticalMax", amount);
+
+    verticalMax = amount;
+}
+
+function delayedUpdateConfettiValues(delay) {
+    setTimeout(() => {
+        updateConfettiValues();
+    }, delay);
+}
+
+function updateConfettiValues() {
+    if (localStorage.getItem("feedbackConfettiCount") !== null) {
+        updateAmount(localStorage.getItem("feedbackConfettiCount"), document.getElementById("confettiAmount"));
+    }
+    if (localStorage.getItem("feedbackHorizontalMax") !== null) {
+        updateHorizontalMax(localStorage.getItem("feedbackHorizontalMax"), document.getElementById("confettiHorizontal"));
+    }
+    if (localStorage.getItem("feedbackVerticalMax") !== null) {
+        updateVerticalMax(localStorage.getItem("feedbackVerticalMax"), document.getElementById("confettiVertical"));
+    }
+}

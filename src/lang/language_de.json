@@ -1,5 +1,5 @@
 {
-    "version": "1.0.6-13.5",
+    "version": "1.0.7-13.6",
     "key.new": "Neu",
     "key.title": "Schiffs Tombola",
     "key.brought_by": "präsentiert von",
@@ -36,7 +36,7 @@
     "key.dialog.types.title": "Schiffsklassen",
     "key.dialog.types.content": "Wenn sie auf die Schiffsklassen oder Haken klicken werden alle Schiffe der Klasse aus- oder abgewählt.<p>Hier ist die Erklärung der Klassenkürzel:</p><p><b>SS</b>: U-Boot (<span>SS</span>)</p><p><b>DD</b>: Zerstörer (<span>DD</span>)</p><p><b>CL</b>: Leichter Kreuzer (<span>CL</span>)</p><p><b>CA</b>: Schwerer Kreuzer (<span>CA</span>)</p><p><b>BC</b>: Schlachtkreuzer (<span>BC</span>)</p><p><b>BB</b>: Schlachtschiff (<span>BB</span>)</p><p><b>CV</b>: Flugzeugträger (<span>CV</span>)</p>",
     "key.dialog.pathnotes.title": "Was ist neu?",
-    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.0.6-13.5:</p><p>- Per login kannst du alle Schiffe die du hast Automatisch auswählen</p><p>- Es können nun Premium und Forschungsschiffe gefiltert werden.</p><p>- Die Zufallsfunktion berücksichtigt alle Schiffe gleichermaßen</p><p>- Täglich ändernde Hintergrundbilder hinzugefügt</p><p>- <b>BB</b> <i>IX</i> Xuanwu wurde hinzugefügt</p><p>- <b>DD</b> <i>VIII</i> Zhuque wurde hinzugefügt</p>",
+    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.0.7-13.6:</p><p>- Das Konfetti ist über die Einstellungen personalisierbar</p><p>- Die Jacksonville ist kein Testschiff mehr</p><p>- Die Französische DD Linie enthält keine Testschiffe mehr</p><p>- Neue Testschiffe: Comodoro, Libertad, Svea, Georg Hoffmann, Cordillera, Prinz Sigismund, Xon Zhong Guo 14</p><p>- Der Tier 5 DD Vent wurde entfernt</p><p>- Fehlender DD L'Aventurier hinzugefügt</p>",
     "key.dialog.teamkrado.title": "<span class='middle'>Wer ist Teamkrado?</span><img class='middle' style='margin-left:0.5rem;' width='50' height='50' src='src/img/Teamkrado_128px.png'>",
     "key.dialog.teamkrado.content": "<p><b>Teamkrado</b> ist ein offizieller Contributor für <i>World of Warships</i>. In den Streams und Videos ist <b>Krado</b> die \"Kamera\" für die Zuschauer.</br>Ab und zu ist auch <b>Nere</b>, ein weiteres Mitglied von Teamkrado, das Guckrohr in die Spielwelt.</br>Mit von der Partie sind zusätzlich <b>Krom</b> und <b>Blackchi</b>, letzterer spielt mit Krado <i>Hunt Showdown</i> und <i>War Thunder</i>.</br>In <i>World of Warships</i> oder <i>War Thunder</i> lässt Krado seine Community mitfahren, sofern Plätze in der Division frei sind.</p><p style='font-size: 15pt'>Teamkrado gibt es hier zu sehen:</p><p><a href='https://www.youtube.com/@Teamkrado'>Youtube Kanal</a></p><p><a href='https://www.twitch.tv/teamkrado'>Twitch Kanal</a></p><p><a href='https://www.instagram.com/teamkrado/'>Instagram Account</a></p><p><a href='https://www.facebook.com/teamkrado/'>Facebook Account</a></p>",
     "key.dialog.loginfail.title": "Anmeldung Fehlgeschlagen",
@@ -51,5 +51,8 @@
     "key.dialog.rawedit.title": "RAWEdit",
     "key.dialog.rawedit.content": "RAWEdit ist eine Modifikation für das Strategiespiel <b>Star Wars: Empire at War</b>. Die Mod hat fast alles aus dem Originalspiel ausgetauscht oder erweitert und ein haufen neuer Einheiten hinzugefügt. Das neue Update für die Mod lässt momentan aber etwas auf sich warten ;).",
     "key.dialog.unitseditor.title": "Units Editor",
-    "key.dialog.unitseditor.content": "Der Units Editor ist ein Nützliches Tool zum Modden von <b>Star Wars: Empire at War</b>."
+    "key.dialog.unitseditor.content": "Der Units Editor ist ein Nützliches Tool zum Modden von <b>Star Wars: Empire at War</b>.",
+
+    "key.dialog.settings.title": "Einstellungen",
+    "key.dialog.settings.content": "<div><p style='font-weight: bold;'>Konfetti</p><ul><li>- Anzahl: <span id='feedbackConfettiCount'>100</span><input id='confettiAmount' style='float: right;' oninput='updateAmount(this.value, null)' type='range' min='10' max='500' value='100'><li><li>- Horizontale Streuung: <span id='feedbackHorizontalMax'>500</span><input id='confettiHorizontal' style='float: right;' oninput='updateHorizontalMax(this.value, null)' type='range' min='250' max='1500' value='500'><li><li>- Vertikale Streuung: <span id='feedbackVerticalMax'>150</span><input id='confettiVertical' style='float: right;' oninput='updateVerticalMax(this.value, null)' type='range' min='50' max='750' value='150'><li></ul><a class='button dialog-button' onclick='launchConfetti()'>Testen</a></div>"
 }

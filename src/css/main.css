@@ -22,13 +22,15 @@ i {
     font-style: italic;
 }
 
-a {
+a,
+.clickable {
     cursor: pointer;
     color: rgb(0, 140, 255);
     text-decoration: none;
 }
 
-a:hover {
+a:hover,
+.clickable:hover {
     color: rgb(0, 140, 255);
     text-decoration: underline;
 }
@@ -339,13 +341,15 @@ space[size="large"] {
     text-align: center;
 }
 
+.ticket-container {
+    
+}
+
 .ticket-canvas {
     position: absolute;
     
     height: calc(20rem - 8px);
     width: calc(35rem - 8px);
-
-    z-index: 100;
 }
 
 @media (max-width: 768px) {
