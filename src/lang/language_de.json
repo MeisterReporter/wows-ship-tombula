@@ -1,5 +1,5 @@
 {
-    "version": "1.0.7-13.6",
+    "version": "1.0.7-13.7",
     "key.new": "Neu",
     "key.title": "Schiffs Tombola",
     "key.brought_by": "präsentiert von",
@@ -36,7 +36,7 @@
     "key.dialog.types.title": "Schiffsklassen",
     "key.dialog.types.content": "Wenn sie auf die Schiffsklassen oder Haken klicken werden alle Schiffe der Klasse aus- oder abgewählt.<p>Hier ist die Erklärung der Klassenkürzel:</p><p><b>SS</b>: U-Boot (<span>SS</span>)</p><p><b>DD</b>: Zerstörer (<span>DD</span>)</p><p><b>CL</b>: Leichter Kreuzer (<span>CL</span>)</p><p><b>CA</b>: Schwerer Kreuzer (<span>CA</span>)</p><p><b>BC</b>: Schlachtkreuzer (<span>BC</span>)</p><p><b>BB</b>: Schlachtschiff (<span>BB</span>)</p><p><b>CV</b>: Flugzeugträger (<span>CV</span>)</p>",
     "key.dialog.pathnotes.title": "Was ist neu?",
-    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.0.7-13.6:</p><p>- Das Konfetti ist über die Einstellungen personalisierbar</p><p>- Die Jacksonville ist kein Testschiff mehr</p><p>- Die Französische DD Linie enthält keine Testschiffe mehr</p><p>- Neue Testschiffe: Comodoro, Libertad, Svea, Georg Hoffmann, Cordillera, Prinz Sigismund, Xon Zhong Guo 14</p><p>- Der Tier 5 DD Vent wurde entfernt</p><p>- Fehlender DD L'Aventurier hinzugefügt</p>",
+    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.0.7-13.7:</p><p>- Almirante Oquendo ist verfügbar</p><p>- Blue Archive Schiffe: Montana, Takahashi, Tirpitz</p><p>- Zao CLR was added</p><p>- Neue Test Schiffe: Hildebrand, Los Andes, Ipiranga, Volunteer State</p><p>- Cordillera wurde entfernt</p>",
     "key.dialog.teamkrado.title": "<span class='middle'>Wer ist Teamkrado?</span><img class='middle' style='margin-left:0.5rem;' width='50' height='50' src='src/img/Teamkrado_128px.png'>",
     "key.dialog.teamkrado.content": "<p><b>Teamkrado</b> ist ein offizieller Contributor für <i>World of Warships</i>. In den Streams und Videos ist <b>Krado</b> die \"Kamera\" für die Zuschauer.</br>Ab und zu ist auch <b>Nere</b>, ein weiteres Mitglied von Teamkrado, das Guckrohr in die Spielwelt.</br>Mit von der Partie sind zusätzlich <b>Krom</b> und <b>Blackchi</b>, letzterer spielt mit Krado <i>Hunt Showdown</i> und <i>War Thunder</i>.</br>In <i>World of Warships</i> oder <i>War Thunder</i> lässt Krado seine Community mitfahren, sofern Plätze in der Division frei sind.</p><p style='font-size: 15pt'>Teamkrado gibt es hier zu sehen:</p><p><a href='https://www.youtube.com/@Teamkrado'>Youtube Kanal</a></p><p><a href='https://www.twitch.tv/teamkrado'>Twitch Kanal</a></p><p><a href='https://www.instagram.com/teamkrado/'>Instagram Account</a></p><p><a href='https://www.facebook.com/teamkrado/'>Facebook Account</a></p>",
     "key.dialog.loginfail.title": "Anmeldung Fehlgeschlagen",

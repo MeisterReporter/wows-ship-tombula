@@ -952,6 +952,14 @@
         "premium": "true"
     },
     {
+        "name": "BA Montana",
+        "faction": "usa",
+        "type": "BB",
+        "tier": "X",
+        "image": "src/img/ships/ba_montana.png",
+        "premium": "true"
+    },
+    {
         "name": "Colorado 2",
         "faction": "usa",
         "type": "BB",
@@ -966,6 +974,15 @@
         "type": "BB",
         "tier": "VIII",
         "image": "src/img/ships/n_carolina.png",
+        "attr": "test",
+        "premium": "false"
+    },
+    {
+        "name": "Volunteer State",
+        "faction": "usa",
+        "type": "BB",
+        "tier": "VIII",
+        "image": "src/img/ships/volunteer_state.png",
         "attr": "test",
         "premium": "false"
     },
@@ -1816,6 +1833,14 @@
         "premium": "true"
     },
     {
+        "name": "BA Takahashi",
+        "faction": "japan",
+        "type": "CL",
+        "tier": "IX",
+        "image": "src/img/ships/ba_takahashi.png",
+        "premium": "false"
+    },
+    {
         "name": "Daisen",
         "faction": "japan",
         "type": "BC",
@@ -1917,6 +1942,14 @@
         "type": "BB",
         "tier": "X",
         "image": "src/img/ships/shikishima.png",
+        "premium": "true"
+    },
+    {
+        "name": "Zaō CLR",
+        "faction": "japan",
+        "type": "CA",
+        "tier": "X",
+        "image": "src/img/ships/zao_clr.png",
         "premium": "true"
     },
     {
@@ -3290,6 +3323,14 @@
         "premium": "true"
     },
     {
+        "name": "BA Tirpitz",
+        "faction": "germany",
+        "type": "BB",
+        "tier": "VIII",
+        "image": "src/img/ships/ba_tirpitz.png",
+        "premium": "true"
+    },
+    {
         "name": "Wiesbaden",
         "faction": "germany",
         "type": "CL",
@@ -3441,6 +3482,15 @@
         "type": "DD",
         "tier": "X",
         "image": "src/img/ships/georg_hoffmann.png",
+        "attr": "test",
+        "premium": "false"
+    },
+    {
+        "name": "Hildebrand",
+        "faction": "germany",
+        "type": "BC",
+        "tier": "X",
+        "image": "src/img/ships/hildebrand.png",
         "attr": "test",
         "premium": "false"
     },
@@ -5733,11 +5783,20 @@
         "premium": "true"
     },
     {
-        "name": "Cordillera",
+        "name": "Ipiranga",
+        "faction": "pan_america",
+        "type": "BB",
+        "tier": "VIII",
+        "image": "src/img/ships/ipiranga.png",
+        "attr": "test",
+        "premium": "false"
+    },
+    {
+        "name": "Los Andes",
         "faction": "pan_america",
         "type": "BB",
         "tier": "IX",
-        "image": "src/img/ships/cordillera.png",
+        "image": "src/img/ships/los_andes.png",
         "attr": "test",
         "premium": "false"
     },
@@ -6249,21 +6308,20 @@
         "premium": "true"
     },
     {
+        "name": "Almirante Oquendo",
+        "faction": "spain",
+        "type": "CA",
+        "tier": "IX",
+        "image": "src/img/ships/almirante_oquendo.png",
+        "premium": "true"
+    },
+    {
         "name": "Álvaro de Bazán",
         "faction": "spain",
         "type": "DD",
         "tier": "X",
         "image": "src/img/ships/lvaro_de_baz_n.png",
         "premium": "true"
-    },
-    {
-        "name": "Almirante Oquendo",
-        "faction": "spain",
-        "type": "CA",
-        "tier": "IX",
-        "image": "src/img/ships/almirante_oquendo.png",
-        "attr": "test",
-        "premium": "false"
     },
     {
         "name": "Victoria",
