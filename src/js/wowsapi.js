@@ -2,8 +2,40 @@ var accessToken = "";
 var expiresAt = "";
 var accountID = "";
 
+const domainEndings = {
+    NA: "com",
+    EU: "eu",
+    ASIA: "asia"
+}
+
+function getWoWsDomain() {
+    return localStorage.getItem("wowsAPIDomain");
+}
+
+function setWoWsDomain(domain) {
+    localStorage.setItem("wowsAPIDomain", domain);
+}
+
 function requestLogin() {
-    window.open("https://api.worldoftanks.eu/wot/auth/login/?application_id=b66933cb847d03be5e5b1763471d8f41&display=page&redirect_uri=" + document.URL, "_self");
+    addDialog("key.dialog.chooseserver.title", "key.dialog.chooseserver.content", true, "key.dialog.chooseserver.confirm", () => {
+        var servers = document.getElementsByName("server");
+
+        var selected = "error";
+        for (i = 0; i < servers.length; i++) {
+            if (servers[i].checked) {
+                selected = servers[i].value;
+            }
+        }
+
+        if (selected !== "error") {
+            setWoWsDomain(domainEndings[selected]);
+            window.open("https://api.worldoftanks." + getWoWsDomain() + "/wot/auth/login/?application_id=b66933cb847d03be5e5b1763471d8f41&display=page&redirect_uri=" + document.URL, "_self");
+        } else {
+            setTimeout(() => {
+                requestLogin();
+            }, 500);
+        }
+    });
 }
 
 function checkLogin() {
@@ -38,7 +70,7 @@ function checkLogin() {
 function getShipData() {
     // Contacting Player Data - WoWs API
     addDialog("key.dialog.loading.title", "key.dialog.loading.content", true);
-    var url = "https://api.worldofwarships.eu/wows/account/info/?application_id=b66933cb847d03be5e5b1763471d8f41&account_id=" + accountID + "&access_token=" + accessToken + "&extra=private.port";
+    var url = "https://api.worldofwarships." + getWoWsDomain() + "/wows/account/info/?application_id=b66933cb847d03be5e5b1763471d8f41&account_id=" + accountID + "&access_token=" + accessToken + "&extra=private.port";
     console.log("Contacting: " + url);
     $.get(url, (data, status) => {
         if (status === "success") {
@@ -57,7 +89,7 @@ function getShipData() {
             for (let i = 0; i < port.length; i++) {
                 var id = port[i];
                 // Contacting Warshisp - WoWs API
-                var url = "https://api.worldofwarships.eu/wows/encyclopedia/ships/?application_id=b66933cb847d03be5e5b1763471d8f41&ship_id=" + id;
+                var url = "https://api.worldofwarships." + getWoWsDomain() + "/wows/encyclopedia/ships/?application_id=b66933cb847d03be5e5b1763471d8f41&ship_id=" + id;
                 const finalIndex = i;
                 const finalID = id;
                 var hasErrorShips = false;

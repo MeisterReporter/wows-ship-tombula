@@ -1,5 +1,5 @@
 {
-    "version": "1.0.7-13.7",
+    "version": "1.0.8-13.7",
     "key.new": "New",
     "key.title": "Ship Tombola",
     "key.brought_by": "brought to you by",
@@ -36,7 +36,7 @@
     "key.dialog.types.title": "Ship classes",
     "key.dialog.types.content": "If you click on the ship classes or check boxes, all ships of the class will be selected or deselected.<p>Here is the explanation of the class abbreviations:</p><p><b>SS</b>: Submarine (<span>SS</span>)</p ><p><b>DD</b>: Destroyer (<span>DD</span>)</p><p><b>CL</b>: Light Cruiser (<span>CL</span>)</p><p><b>CA</b>: Heavy Cruiser (<span>CA</span>)</p><p><b>BC</b>: Battlecruiser (<span>BC</span>)</p><p><b>BB</b>: Battleship (<span>BB</span>)</p><p><b>CV</b>: Aircraft carrier (<span>CV</span>)</p>",
     "key.dialog.pathnotes.title": "Whats new?",
-    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.0.7-13.6:</p><p>- Almirante Oquendo is available</p><p>- Blue Archive Ships: Montana, Takahashi, Tirpitz</p><p>- Added Zao CLR</p><p>- New Test Ships: Hildebrand, Los Andes, Ipiranga, Volunteer State</p><p>- Cordillera was removed</p>",
+    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.0.8-13.6:</p><p>- Login works with all WoWs servers</p><p>- Almirante Oquendo is available</p><p>- Blue Archive Ships: Montana, Takahashi, Tirpitz</p><p>- Added Zao CLR</p><p>- New Test Ships: Hildebrand, Los Andes, Ipiranga, Volunteer State</p><p>- Cordillera was removed</p>",
     "key.dialog.teamkrado.title": "Who is Teamkrado?",
     "key.dialog.teamkrado.content": "<p><b>Teamkrado</b> is an official contributor for <i>World of Warships</i>. In the streams and videos, <b>Krado</b> is the \"camera\" for the viewers.</br>Occasionally, <b>Nere</b>, another member of Teamkrado, is also the peephole into the game world.</br>Also involved are <b>Krom</b> and <b>Blackchi</b>, the latter plays with Krado <i>Hunt Showdown</i> and <i>War Thunder</i>.</br>In <i>World of Warships</i> or <i>War Thunder</i>, Krado lets his community go along as long as there are spots available in the division.</p><p style='font-size: 15pt'>Teamkrado can be watched here:</p><p><a href='https://www.youtube.com/@Teamkrado'>Youtube channel</a> </p><p><a href='https://www.twitch.tv/teamkrado'>Twitch channel</a></p><p><a href='https://www.instagram .com/teamkrado/'>Instagram Account</a></p><p><a href='https://www.facebook.com/teamkrado/'>Facebook Account</a></p>",
     "key.dialog.loginfail.title": "Login failed",
@@ -54,5 +54,9 @@
     "key.dialog.unitseditor.content": "The Units Editor is a useful tool for modding <b>Star Wars: Empire at War</b>.",
 
     "key.dialog.settings.title": "Settings",
-    "key.dialog.settings.content": "<div><p style='font-weight: bold;'>Confetti</p><ul><li>- Amount: <span id='feedbackConfettiCount'>100</span><input id='confettiAmount' style='float: right;' oninput='updateAmount(this.value, null)' type='range' min='10' max='500' value='100'><li><li>- Horizontal Dispersion: <span id='feedbackHorizontalMax'>500</span><input id='confettiHorizontal' style='float: right;' oninput='updateHorizontalMax(this.value, null)' type='range' min='250' max='1500' value='500'><li><li>- Vertical Dispersion: <span id='feedbackVerticalMax'>150</span><input id='confettiVertical' style='float: right;' oninput='updateVerticalMax(this.value, null)' type='range' min='50' max='750' value='150'><li></ul><a class='button dialog-button' onclick='launchConfetti()'>Test</a></div>"
+    "key.dialog.settings.content": "<div><p style='font-weight: bold;'>Confetti</p><ul><li>- Amount: <span id='feedbackConfettiCount'>100</span><input id='confettiAmount' style='float: right;' oninput='updateAmount(this.value, null)' type='range' min='10' max='500' value='100'><li><li>- Horizontal Dispersion: <span id='feedbackHorizontalMax'>500</span><input id='confettiHorizontal' style='float: right;' oninput='updateHorizontalMax(this.value, null)' type='range' min='250' max='1500' value='500'><li><li>- Vertical Dispersion: <span id='feedbackVerticalMax'>150</span><input id='confettiVertical' style='float: right;' oninput='updateVerticalMax(this.value, null)' type='range' min='50' max='750' value='150'><li></ul><a class='button dialog-button' onclick='launchConfetti()'>Test</a></div>",
+
+    "key.dialog.chooseserver.title": "Choose Server",
+    "key.dialog.chooseserver.content": "<div><p>Choose your World of Warships server:</p><p><input type='radio' id='northamerica' name='server' value='NA'><label for='northamerica'>North America</label></p><p><input type='radio' id='europa' name='server' value='EU'><label for='europa'>Europe</label></p><p><input type='radio' id='asia' name='server' value='ASIA'><label for='asia'>Asia</label></p></div>",
+    "key.dialog.chooseserver.confirm": "Continue"
 }

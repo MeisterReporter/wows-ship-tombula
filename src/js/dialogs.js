@@ -1,4 +1,4 @@
-function addDialog(title, content, translate) {
+function addDialog(title, content, translate, buttonText, callback) {
     // Close Animations
     if (document.getElementsByClassName("dialog-background").length > 0) {
         document.getElementsByClassName("dialog")[0].style["animation"] = "close-dialog 500ms ease-out";
@@ -31,10 +31,21 @@ function addDialog(title, content, translate) {
     var button = document.createElement("a");
     button.classList.add("button");
     button.classList.add("dialog-button");
-    applyLocalizationTo(button, "key.button.close", false);
+    if (typeof buttonText === 'undefined') {
+        applyLocalizationTo(button, "key.button.close", false);
+    } else {
+        if (translate) {
+            applyLocalizationTo(button, buttonText, false)
+        } else {
+            button.innerHTML = buttonText;
+        }
+    }
     dialog.appendChild(button);
     // Add Close listener
     button.addEventListener("click", () => {
+        if (typeof callback !== 'undefined') {
+            callback();
+        }
         // Close Animations
         dialog.style["animation"] = "close-dialog 500ms ease-out";
         background.style["animation"] = "hide-background 500ms ease-out";
