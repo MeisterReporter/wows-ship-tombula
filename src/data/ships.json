@@ -1014,6 +1014,15 @@
         "premium": "false"
     },
     {
+        "name": "Archerfish",
+        "faction": "usa",
+        "type": "SS",
+        "tier": "X",
+        "image": "src/img/ships/archerfish.png",
+        "attr": "test",
+        "premium": "false"
+    },
+    {
         "name": "Montana 2",
         "faction": "usa",
         "type": "BB",
@@ -1966,6 +1975,15 @@
         "type": "CA",
         "tier": "X",
         "image": "src/img/ships/yoshino_b.png",
+        "premium": "true"
+    },
+    {
+        "name": "Shinano",
+        "faction": "japan",
+        "type": "CV",
+        "tier": "X",
+        "image": "src/img/ships/shinano.png",
+        "attr": "test",
         "premium": "true"
     },
 
@@ -4952,6 +4970,14 @@
         "premium": "true"
     },
     {
+        "name": "Xin Zhong Guo 14",
+        "faction": "pan_asia",
+        "type": "SS",
+        "tier": "VI",
+        "image": "src/img/ships/xin_zhong_guo_14.png",
+        "premium": "true"
+    },
+    {
         "name": "Fenyang",
         "faction": "pan_asia",
         "type": "DD",
@@ -5094,15 +5120,6 @@
         "tier": "X",
         "image": "src/img/ships/l_shun.png",
         "premium": "true"
-    },
-    {
-        "name": "Xin Zhong Guo 14",
-        "faction": "pan_asia",
-        "type": "SS",
-        "tier": "VI",
-        "image": "src/img/ships/xin_zhong_guo_14.png",
-        "attr": "test",
-        "premium": "false"
     },
     {
         "name": "Incheon",
@@ -5788,7 +5805,6 @@
         "type": "BB",
         "tier": "VIII",
         "image": "src/img/ships/ipiranga.png",
-        "attr": "test",
         "premium": "false"
     },
     {
@@ -5797,7 +5813,6 @@
         "type": "BB",
         "tier": "IX",
         "image": "src/img/ships/los_andes.png",
-        "attr": "test",
         "premium": "false"
     },
     {
@@ -5806,6 +5821,14 @@
         "type": "BB",
         "tier": "X",
         "image": "src/img/ships/libertad.png",
+        "premium": "false"
+    },
+    {
+        "name": "La Pampa",
+        "faction": "pan_america",
+        "type": "DD",
+        "tier": "X",
+        "image": "src/img/ships/la_pampa.png",
         "attr": "test",
         "premium": "false"
     },
@@ -6044,20 +6067,19 @@
         "premium": "true"
     },
     {
-        "name": "Södermanland",
-        "faction": "europe",
-        "type": "DD",
-        "tier": "X",
-        "image": "src/img/ships/s_dermanland.png",
-        "attr": "test",
-        "premium": "false"
-    },
-    {
         "name": "Svea",
         "faction": "europe",
         "type": "CL",
         "tier": "X",
         "image": "src/img/ships/svea.png",
+        "premium": "true"
+    },
+    {
+        "name": "Södermanland",
+        "faction": "europe",
+        "type": "DD",
+        "tier": "X",
+        "image": "src/img/ships/s_dermanland.png",
         "attr": "test",
         "premium": "false"
     },
