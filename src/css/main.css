@@ -47,6 +47,20 @@ a:hover,
     z-index: -999;
 }
 
+.no-scrollbars {
+    overflow: hidden;
+}
+
+.no-scrollbar-h,
+.no-scrollbar-x {
+    overflow-x: hidden;
+}
+
+.no-scrollbar-v,
+.no-scrollbar-y {
+    overflow-y: hidden;
+}
+
 @media (max-width: 1300px) {
     :root {
         --side-paddding: 4rem;

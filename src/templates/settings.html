@@ -1,0 +1,59 @@
+<!-- Deutsch -->
+
+<div class='no-scrollbars'>
+        <p style='font-weight: bold;'>Ton</p>
+        <ul>
+                <li>- Lautstärke: <span id='feedbackVolumeCount'>100</span><input id='volumeAmount'
+                                style='float: right;' oninput='updateVolume(this.value, null)' type='range' min='0'
+                                max='100' value='100'>
+                <li>
+                <li>- Verrückter Modus: <span id='feedbackCrazyMode'>Aus</span><input id='crazyMode'
+                                style='float: right;' oninput='updateCrazyMode(this.checked, null)' type='checkbox'>
+                <li>
+        </ul>
+        <p style='font-weight: bold;'>Konfetti</p>
+        <ul>
+                <li>- Anzahl: <span id='feedbackConfettiCount'>100</span><input id='confettiAmount'
+                                style='float: right;' oninput='updateAmount(this.value, null)' type='range' min='10'
+                                max='500' value='100'>
+                <li>
+                <li>- Horizontale Streuung: <span id='feedbackHorizontalMax'>500</span><input id='confettiHorizontal'
+                                style='float: right;' oninput='updateHorizontalMax(this.value, null)' type='range'
+                                min='250' max='1500' value='500'>
+                <li>
+                <li>- Vertikale Streuung: <span id='feedbackVerticalMax'>150</span><input id='confettiVertical'
+                                style='float: right;' oninput='updateVerticalMax(this.value, null)' type='range'
+                                min='50' max='750' value='150'>
+                <li>
+        </ul><a class='button dialog-button' onclick='launchConfetti()'>Testen</a>
+</div>
+
+<!-- English -->
+
+<div class='no-scrollbars'>
+        <p style='font-weight: bold;'>Audio</p>
+        <ul>
+                <li>- Volume: <span id='feedbackVolumeCount'>100</span><input id='volumeAmount'
+                                style='float: right;' oninput='updateVolume(this.value, null)' type='range' min='0'
+                                max='100' value='100'>
+                <li>
+                <li>- Crazy Mode: <span id='feedbackCrazyMode'>Off</span><input id='crazyMode'
+                                style='float: right;' oninput='updateCrazyMode(this.checked, null)' type='checkbox'>
+                <li>
+        </ul>
+        <p style='font-weight: bold;'>Confetti</p>
+        <ul>
+                <li>- Amount: <span id='feedbackConfettiCount'>100</span><input id='confettiAmount'
+                                style='float: right;' oninput='updateAmount(this.value, null)' type='range' min='10'
+                                max='500' value='100'>
+                <li>
+                <li>- Horizontal Dispersion: <span id='feedbackHorizontalMax'>500</span><input id='confettiHorizontal'
+                                style='float: right;' oninput='updateHorizontalMax(this.value, null)' type='range'
+                                min='250' max='1500' value='500'>
+                <li>
+                <li>- Vertical Dispersion: <span id='feedbackVerticalMax'>150</span><input id='confettiVertical'
+                                style='float: right;' oninput='updateVerticalMax(this.value, null)' type='range'
+                                min='50' max='750' value='150'>
+                <li>
+        </ul><a class='button dialog-button' onclick='launchConfetti()'>Test</a>
+</div>
