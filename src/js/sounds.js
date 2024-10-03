@@ -5,6 +5,7 @@ var confettiPopSound;
 
 var volume = 100;
 var crazyMode = false;
+var scratchSounds = true;
 
 function loadSounds() {
     ihhhSounds.push(new Audio("src/aud/krado_ihhhh_01.mp3"));
@@ -83,6 +84,22 @@ function updateCrazyMode(toggle, self) {
     crazyMode = toggle;
 }
 
+function updateScratchSounds(toggle, self) {
+    toggle = JSON.parse(toggle);
+    var display = document.getElementById("feedbackScratchSounds");
+    if (display !== null) {
+        if (toggle) {
+            applyLocalizationTo(display, "key.turnedOn", true);
+        } else {
+            applyLocalizationTo(display, "key.turnedOff", true);
+        }
+    }
+    if(self !== null) self.checked = toggle;
+
+    localStorage.setItem("scratchSounds", toggle);
+    scratchSounds = toggle;
+}
+
 function delayedUpdateAudioValues(delay) {
     setTimeout(() => {
         updateAudioValues();
@@ -95,5 +112,8 @@ function updateAudioValues() {
     }
     if (localStorage.getItem("crazyMode") !== null) {
         updateCrazyMode(localStorage.getItem("crazyMode"), document.getElementById("crazyMode"));
+    }
+    if (localStorage.getItem("scratchSounds") !== null) {
+        updateScratchSounds(localStorage.getItem("scratchSounds"), document.getElementById("scratchSounds"));
     }
 }

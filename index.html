@@ -228,13 +228,13 @@
                                     // Play scratching sound
                                     if (currentX < lastX) {
                                         if (!soundOhhhhPlayed || crazyMode) {
-                                            scratchOhhh();
+                                            if (scratchSounds) scratchOhhh();
                                             soundOhhhhPlayed = true;
                                             soundIhhhhPlayed = false;
                                         }
                                     } else if (currentX > lastX)  {
                                         if (!soundIhhhhPlayed || crazyMode) {
-                                            scratchIhhh();
+                                            if (scratchSounds) scratchIhhh();
                                             soundIhhhhPlayed = true;
                                             soundOhhhhPlayed = false;
                                         }

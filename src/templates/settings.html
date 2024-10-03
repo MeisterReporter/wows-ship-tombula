@@ -7,8 +7,11 @@
                                 style='float: right;' oninput='updateVolume(this.value, null)' type='range' min='0'
                                 max='100' value='100'>
                 <li>
-                <li>- Verrückter Modus: <span id='feedbackCrazyMode'>Aus</span><input id='crazyMode'
-                                style='float: right;' oninput='updateCrazyMode(this.checked, null)' type='checkbox'>
+                <li>- Kratztöne: <span id='feedbackScratchSounds'>An</span><input id='scratchSounds'
+                                style='float: right;' oninput='updateScratchSounds(this.checked, null)' type='checkbox'>
+                <li>
+                <li>- Verrückter Krado Modus: <span id='feedbackCrazyMode'>Aus</span><input id='crazyMode'
+                                style='float: right;' oninput='updateCrazyMode(this.checked, null)' type='checkbox' checked>
                 <li>
         </ul>
         <p style='font-weight: bold;'>Konfetti</p>
@@ -37,7 +40,10 @@
                                 style='float: right;' oninput='updateVolume(this.value, null)' type='range' min='0'
                                 max='100' value='100'>
                 <li>
-                <li>- Crazy Mode: <span id='feedbackCrazyMode'>Off</span><input id='crazyMode'
+                <li>- Scratch Sounds: <span id='feedbackScratchSounds'>On</span><input id='scratchSounds'
+                                style='float: right;' oninput='updateScratchSounds(this.checked, null)' type='checkbox' checked>
+                <li>
+                <li>- Crazy Krado Mode: <span id='feedbackCrazyMode'>Off</span><input id='crazyMode'
                                 style='float: right;' oninput='updateCrazyMode(this.checked, null)' type='checkbox'>
                 <li>
         </ul>
