@@ -760,6 +760,14 @@
         "premium": "true"
     },
     {
+        "name": "Tennessee",
+        "faction": "usa",
+        "type": "BB",
+        "tier": "VIII",
+        "image": "src/img/ships/tennessee.png",
+        "premium": "true"
+    },
+    {
         "name": "Alaska",
         "faction": "usa",
         "type": "CA",
@@ -3437,6 +3445,14 @@
         "premium": "true"
     },
     {
+        "name": "Hildebrand",
+        "faction": "germany",
+        "type": "BC",
+        "tier": "X",
+        "image": "src/img/ships/hildebrand.png",
+        "premium": "true"
+    },
+    {
         "name": "Grosser Kurfürst",
         "faction": "germany",
         "type": "BB",
@@ -3500,15 +3516,6 @@
         "type": "DD",
         "tier": "X",
         "image": "src/img/ships/georg_hoffmann.png",
-        "attr": "test",
-        "premium": "false"
-    },
-    {
-        "name": "Hildebrand",
-        "faction": "germany",
-        "type": "BC",
-        "tier": "X",
-        "image": "src/img/ships/hildebrand.png",
         "attr": "test",
         "premium": "false"
     },
@@ -4784,6 +4791,14 @@
         "premium": "true"
     },
     {
+        "name": "Brennus",
+        "faction": "france",
+        "type": "BC",
+        "tier": "X",
+        "image": "src/img/ships/brennus.png",
+        "premium": "true"
+    },
+    {
         "name": "Kléber CLR",
         "faction": "france",
         "type": "DD",
@@ -4798,15 +4813,6 @@
         "tier": "X",
         "image": "src/img/ships/marceau.png",
         "premium": "true"
-    },
-    {
-        "name": "Brennus",
-        "faction": "france",
-        "type": "BC",
-        "tier": "X",
-        "image": "src/img/ships/brennus.png",
-        "attr": "test",
-        "premium": "false"
     },
 
     {
