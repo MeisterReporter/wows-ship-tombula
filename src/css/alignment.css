@@ -26,9 +26,18 @@
     margin-right: auto;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 .middle {
     display: inline;
     vertical-align: middle;
+}
+
+.padding-vertical {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 
 @media (max-width: 768px) {

@@ -50,3 +50,23 @@ info {
 info:hover {
     cursor: pointer;
 }
+
+.fixed-button {
+    position: fixed;
+}
+
+.fix-top {
+    top: 0.5rem;
+}
+
+.fix-bottom {
+    top: 0.5rem;
+}
+
+.fix-left {
+    left: 0.5rem;
+}
+
+.fix-right {
+    right: 0.5rem;
+}

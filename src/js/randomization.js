@@ -8,7 +8,8 @@ function chooseRandom(self) {
     var random = getRandomIndex();
     // Check for possible issues
     if (random === -1) {
-        alert("Generation of a Random ship failed. Please contact the administrator.");
+        alert("Generation of a Random ship failed. Please check if you have selected at least one Ship.");
+        return;
     }
     var ship = shipData[random];
     // Increase draw counts
@@ -84,7 +85,7 @@ function chooseRandom(self) {
     }, 3000, self);
 }
 
-function getRandomIndex() {
+function getRandomIndex(allowedClasses = ["SS", "DD", "CL", "CA", "BC", "BB", "CV"]) {
     // Get Class weights
     var classWeights = [];
     for (let i = 0; i < classes.length; i++) {
@@ -106,7 +107,7 @@ function getRandomIndex() {
     var pool = [];
     var weights = [];
     for (let i = 0; i < shipData.length; i++) {
-        if (selectedItems[shipData[i].name]) {
+        if (selectedItems[shipData[i].name] && allowedClasses.includes(shipData[i].type)) {
             // Add Index
             pool.push(i);
             // Get ship debuff
@@ -121,6 +122,9 @@ function getRandomIndex() {
     }
 
     // Weighted Index choice
+    if (weights.length <= 0) {
+        return -1;
+    }
     const totalWeight = weights.reduce((x, y) => x + y);
     const val = Math.random() * totalWeight;
     var index = -1;

@@ -32,7 +32,7 @@
     background: hsl(var(--hue), 100%, 50%);
 }
 
-.bottom {
+.confetti-bottom {
     bottom: 0;
 }
 

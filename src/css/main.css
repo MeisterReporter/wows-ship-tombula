@@ -14,6 +14,10 @@ body {
     justify-content: space-between;
 }
 
+.background {
+    background-color: rgba(16, 32, 49, 1);
+}
+
 b {
     font-weight: bold;
 }
@@ -59,6 +63,20 @@ a:hover,
 .no-scrollbar-v,
 .no-scrollbar-y {
     overflow-y: hidden;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    overflow: scroll;
+}
+
+.overlay[hidden] {
+    display: none;
 }
 
 @media (max-width: 1300px) {
@@ -315,44 +333,123 @@ space[size="large"] {
     opacity: 1;
 }
 
+.ship-card {
+    display: flex;
+    flex-direction: column;
+
+    width: 15rem;
+    height: 20rem;
+
+    background-color: rgba(255, 255, 255, 0.25);
+
+    border-radius: 8px;
+    border-color: #daa520;
+    border-width: 4px;
+    border-style: solid;
+
+    margin-inline: 0.5rem;
+
+    transition: opacity 500ms ease-in-out, transform 1000ms ease-in-out;
+    opacity: 1;
+}
+
+.ship-card::after {
+    content: "";
+    position: absolute;
+
+    top: 0;
+
+    width: 100%;
+    height: 100%;
+
+    opacity: 1;
+    background-color: goldenrod;
+
+    transition: opacity 1250ms cubic-bezier(1, 0.15, 0.9, 0.9);
+}
+
 .ship-ticket[hidden] {
     opacity: 0;
     transform: rotateY(720deg) translateY(25px) scale(0.8);
 }
 
-.ship-ticket > img {
+.ship-card[hidden] {
+    opacity: 0;
+    transform: rotateY(90deg);
+}
+
+.ship-card[animate] {
+    opacity: 1;
+    transform: rotateY(180deg);
+}
+
+.ship-card[un-flipped] {
+    transform: rotateY(0deg);
+}
+
+.ship-card[un-flipped]::after {
+    opacity: 0;
+}
+
+.ship-card[chosen] {
+    transform: scale(1.05);
+
+    -webkit-box-shadow: 0px 0px 100px 0px rgba(218, 165, 32, 0.9);
+    -moz-box-shadow: 0px 0px 100px 0px rgba(218, 165, 32, 0.9);
+    box-shadow: 0px 0px 100px 0px rgba(218, 165, 32, 0.9);
+}
+
+.ship-ticket > img,
+.ship-card > img {
     flex-grow: 1;
     object-fit: contain;
     height: 15rem;
 }
 
-.ship-ticket p {
+.ship-ticket p,
+.ship-card p {
     display: flex;
     align-items: center;
 }
 
-.ship-ticket p img {
+.ship-card p {
+    margin-bottom: 0.5rem;
+}
+
+.ship-ticket p img,
+.ship-card p img {
     margin-left: 1rem;
 }
 
-.ship-ticket p .tier {
+.ship-ticket p .tier,
+.ship-card p .tier {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
 
     font-weight: bold;
 }
 
-.ship-ticket p .class {
+.ship-ticket p .class,
+.ship-card p .class {
     margin-left: 0.5rem;
     margin-right: 1rem;
 
     font-style: italic;
 }
 
-.ship-ticket p .name {
+.ship-card p .class {
+    margin-right: 0.25rem;
+}
+
+.ship-ticket p .name,
+.ship-card p .name {
     flex-grow: 1;
     margin-left: 1rem;
     text-align: center;
+}
+
+.ship-card p .name {
+    margin-left: 0rem;
 }
 
 .ticket-container {
@@ -493,6 +590,22 @@ space[size="large"] {
 
     .randomize-wrapper {
         width: 400px;
+    }
+}
+
+.pop-animation {
+    animation: grow-shrink 1s ease-in-out infinite;
+}
+
+@keyframes grow-shrink {
+    0% {
+        transform: scale(1.0);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1.0);
     }
 }
 

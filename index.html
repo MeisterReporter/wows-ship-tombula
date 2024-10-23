@@ -17,6 +17,7 @@
         <script src="src/js/confetti.js"></script>
         <script src="src/js/wowsapi.js"></script>
         <script src="src/js/sounds.js"></script>
+        <script src="src/js/dailyDice.js"></script>
         <!-- Style Sheets -->
         <link href="src/css/reset.css" rel="stylesheet" type="text/css">
         <link href="src/css/main.css" rel="stylesheet" type="text/css">
@@ -25,6 +26,7 @@
         <link href="src/css/dialogs.css" rel="stylesheet" type="text/css">
         <link href="src/css/material.css" rel="stylesheet" type="text/css">
         <link href="src/css/confetti.css" rel="stylesheet" type="text/css">
+        <link href="src/css/cube.css" rel="stylesheet" type="text/css">
     </head>
     <img class="background-image">
     <script>
@@ -147,6 +149,7 @@
             <div style="flex-grow: 1;" class="randomizer flex column">
                 <div style="margin-top: 1rem; font-size: 24pt;" class="align-center">
                     <a translatable onclick="chooseRandom(this)" class="button blue">key.draw_ticket</a>
+                    <a id="dailyDiceTrigger" onclick="showDailyDice(true); selectRandomShips()"><img style="display: inline-block; margin-bottom: -1rem; margin-left: 1rem" class="pop-animation" width="64px" height="64px" src="src/img/diceroll.png"></a>
                 </div>
                 <div class="align-center randomize-wrapper" style="margin-top: 2rem;">
                     <div class="randomize">
@@ -271,9 +274,79 @@
                 </div>
                 <p id="instruction" class="align-center" style="font-size: 16pt; margin-top: 2rem; display: none;"><b translatable>key.scratch_ticket</b></p>
             </div>
+            <div id="dailyDiceArea" style="gap: 1rem;" class="overlay flex column background padding-vertical" hidden>
+                <a translatable class="button blue fixed-button fix-top fix-right" onclick="showDailyDice(false)">key.button.close</a>
+                <h1 translatable class="align-center">key.daily_bonus_dice</h1>
+                <p translatable class="align-center">key.daily_bonus_description</p>
+                <div class="align-center flex row flex-wrap">
+                    <div onclick="unflippShipCard(this)" id="ssCard" class="ship-card" hidden>
+                        <img class="ship-image" src="src/img/ships/balao.png">
+                        <p><img class="flag" src="src/img/flag_usa.png"><span class="tier">X</span><span class="class">SS</span><span class="name">Meister Reporters Sub</span></p>
+                    </div>
+                    <div onclick="unflippShipCard(this)" id="ddCard" class="ship-card" hidden>
+                        <img class="ship-image" src="src/img/ships/fletcher.png">
+                        <p><img class="flag" src="src/img/flag_usa.png"><span class="tier">X</span><span class="class">DD</span><span class="name">Meister Reporters Destroyer</span></p>
+                    </div>
+                    <div onclick="unflippShipCard(this)" id="caCard" class="ship-card" hidden>
+                        <img class="ship-image" src="src/img/ships/minotaur.png">
+                        <p><img class="flag" src="src/img/flag_usa.png"><span class="tier">X</span><span class="class">CL</span><span class="name">Meister Reporters Cruiser</span></p>
+                    </div>
+                    <div onclick="unflippShipCard(this)" id="bcCard" class="ship-card" hidden>
+                        <img class="ship-image" src="src/img/ships/puerto_rico.png">
+                        <p><img class="flag" src="src/img/flag_usa.png"><span class="tier">X</span><span class="class">BC</span><span class="name">Meister Reporters BC</span></p>
+                    </div>
+                    <div onclick="unflippShipCard(this)" id="bbCard" class="ship-card" hidden>
+                        <img class="ship-image" src="src/img/ships/montana.png">
+                        <p><img class="flag" src="src/img/flag_usa.png"><span class="tier">X</span><span class="class">BB</span><span class="name">Meister Reporters Battleship</span></p>
+                    </div>
+                    <div onclick="unflippShipCard(this)" id="cvCard" class="ship-card" hidden>
+                        <img class="ship-image" src="src/img/ships/midway.png">
+                        <p><img class="flag" src="src/img/flag_usa.png"><span class="tier">X</span><span class="class">CV</span><span class="name">Meister Reporters Carrier</span></p>
+                    </div>
+                </div>
+                <div class="align-center flex row">
+                    <div class="cube-container">
+                        <div onclick="rollTheDice()" id="cube">
+                            <div class="front">
+                                <span class="dot dot1"></span>
+                            </div>
+                            <div class="back">
+                                <span class="dot dot1"></span>
+                                <span class="dot dot2"></span>
+                            </div>
+                            <div class="right">
+                                <span class="dot dot1"></span>
+                                <span class="dot dot2"></span>
+                                <span class="dot dot3"></span>
+                            </div>
+                            <div class="left">
+                                <span class="dot dot1"></span>
+                                <span class="dot dot2"></span>
+                                <span class="dot dot3"></span>
+                                <span class="dot dot4"></span>
+                            </div>
+                            <div class="top">
+                                <span class="dot dot1"></span>
+                                <span class="dot dot2"></span>
+                                <span class="dot dot3"></span>
+                                <span class="dot dot4"></span>
+                                <span class="dot dot5"></span>
+                            </div>
+                            <div class="bottom">
+                                <span class="dot dot1"></span>
+                                <span class="dot dot2"></span>
+                                <span class="dot dot3"></span>
+                                <span class="dot dot4"></span>
+                                <span class="dot dot5"></span>
+                                <span class="dot dot6"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="confetti-view">
-                <span class="confetti bottom left"></span>
-                <span class="confetti bottom right"></span>
+                <span class="confetti confetti-bottom left"></span>
+                <span class="confetti confetti-bottom right"></span>
             </div>
             <div class="otherProjects">
                 <p><b>Andere Projekte:</b></p>
@@ -318,6 +391,8 @@
 
         updateConfettiValues();
         updateAudioValues();
+
+        isDailyDiceAvailable();
 
         loadSounds();
     </script>
