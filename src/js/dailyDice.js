@@ -108,33 +108,33 @@ function selectRandomShips() {
         setTimeout(() => {
             subCard.removeAttribute("hidden");
             subCard.removeAttribute("chosen");
+            if (!subCard.hasAttribute("animate")) spreadCards();
             subCard.setAttribute("animate", "");
-            spreadCards();
             setTimeout(() => {
                 ddCard.removeAttribute("hidden");
                 ddCard.removeAttribute("chosen");
+                if (!ddCard.hasAttribute("animate")) spreadCards();
                 ddCard.setAttribute("animate", "");
-                spreadCards();
                 setTimeout(() => {
                     caCard.removeAttribute("hidden");
                     caCard.removeAttribute("chosen");
+                    if (!caCard.hasAttribute("animate")) spreadCards();
                     caCard.setAttribute("animate", "");
-                    spreadCards();
                     setTimeout(() => {
                         bcCard.removeAttribute("hidden");
                         bcCard.removeAttribute("chosen");
+                        if (!bcCard.hasAttribute("animate")) spreadCards();
                         bcCard.setAttribute("animate", "");
-                        spreadCards();
                         setTimeout(() => {
                             bbCard.removeAttribute("hidden");
                             bbCard.removeAttribute("chosen");
+                            if (!bbCard.hasAttribute("animate")) spreadCards();
                             bbCard.setAttribute("animate", "");
-                            spreadCards();
                             setTimeout(() => {
                                 cvCard.removeAttribute("hidden");
                                 cvCard.removeAttribute("chosen");
+                                if (!cvCard.hasAttribute("animate")) spreadCards();
                                 cvCard.setAttribute("animate", "");
-                                spreadCards();
                             }, timeoutMs);
                         }, timeoutMs);
                     }, timeoutMs);
