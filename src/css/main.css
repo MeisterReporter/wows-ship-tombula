@@ -65,6 +65,10 @@ a:hover,
     overflow-y: hidden;
 }
 
+.settings-container > * {
+    margin-right: 1rem;
+}
+
 .overlay {
     position: fixed;
     top: 0;

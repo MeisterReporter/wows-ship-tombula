@@ -1,4 +1,14 @@
 var shipSet = [];
+var alreadyShownThisSession = false;
+
+const RANDOM = "random";
+const CLASS_SET = "classSet";
+var rollTypeIndex = RANDOM;
+
+const DAILY = "daily";
+const RELOAD = "reload";
+const THREE_THROWS = "threeThrows";
+var rollFrequencyIndex = DAILY;
 
 function showDailyDice(visisble) {
     var container = document.getElementById("dailyDiceArea");
@@ -21,7 +31,7 @@ function selectRandomShips() {
         var cvCard = document.getElementById("cvCard");
         if (!randomShipsDrawn) {
             // Sub
-            var subIndex = getRandomIndex(["SS"]);
+            var subIndex = getRandomIndex(rollTypeIndex == CLASS_SET ? ["SS"] : ["SS", "DD", "CL", "CA", "BC", "BB", "CV"]);
             if (subIndex == -1) subIndex = getRandomIndex();
             if (subIndex == -1) {
                 alert("Generation of a Random ship failed. Please check if you have selected at least one Ship.");
@@ -30,7 +40,7 @@ function selectRandomShips() {
             localStorage.setItem("randomShipsSS", subIndex);
             setContentToCard(subCard, shipData[subIndex]);
             // DD
-            var ddIndex = getRandomIndex(["DD"]);
+            var ddIndex = getRandomIndex(rollTypeIndex == CLASS_SET ? ["DD"] : ["SS", "DD", "CL", "CA", "BC", "BB", "CV"]);
             if (ddIndex == -1) ddIndex = getRandomIndex();
             if (ddIndex == -1) {
                 alert("Generation of a Random ship failed. Please check if you have selected at least one Ship.");
@@ -39,7 +49,7 @@ function selectRandomShips() {
             localStorage.setItem("randomShipsDD", ddIndex);
             setContentToCard(ddCard, shipData[ddIndex]);
             // CL/CA
-            var caIndex = getRandomIndex(["CL", "CA"]);
+            var caIndex = getRandomIndex(rollTypeIndex == CLASS_SET ? ["CL", "CA"] : ["SS", "DD", "CL", "CA", "BC", "BB", "CV"]);
             if (caIndex == -1) caIndex = getRandomIndex();
             if (caIndex == -1) {
                 alert("Generation of a Random ship failed. Please check if you have selected at least one Ship.");
@@ -48,7 +58,7 @@ function selectRandomShips() {
             localStorage.setItem("randomShipsCA", caIndex);
             setContentToCard(caCard, shipData[caIndex]);
             // BC
-            var bcIndex = getRandomIndex(["BC"]);
+            var bcIndex = getRandomIndex(rollTypeIndex == CLASS_SET ? ["BC"] : ["SS", "DD", "CL", "CA", "BC", "BB", "CV"]);
             if (bcIndex == -1) bcIndex = getRandomIndex();
             if (bcIndex == -1) {
                 alert("Generation of a Random ship failed. Please check if you have selected at least one Ship.");
@@ -57,7 +67,7 @@ function selectRandomShips() {
             localStorage.setItem("randomShipsBC", bcIndex);
             setContentToCard(bcCard, shipData[bcIndex]);
             // BB
-            var bbIndex = getRandomIndex(["BB"]);
+            var bbIndex = getRandomIndex(rollTypeIndex == CLASS_SET ? ["BB"] : ["SS", "DD", "CL", "CA", "BC", "BB", "CV"]);
             if (bbIndex == -1) bbIndex = getRandomIndex();
             if (bbIndex == -1) {
                 alert("Generation of a Random ship failed. Please check if you have selected at least one Ship.");
@@ -66,7 +76,7 @@ function selectRandomShips() {
             localStorage.setItem("randomShipsBB", bbIndex);
             setContentToCard(bbCard, shipData[bbIndex]);
             // CV
-            var cvIndex = getRandomIndex(["CV"]);
+            var cvIndex = getRandomIndex(rollTypeIndex == CLASS_SET ? ["CV"] : ["SS", "DD", "CL", "CA", "BC", "BB", "CV"]);
             if (cvIndex == -1) cvIndex = getRandomIndex();
             if (cvIndex == -1) {
                 alert("Generation of a Random ship failed. Please check if you have selected at least one Ship.");
@@ -94,31 +104,37 @@ function selectRandomShips() {
         localStorage.setItem("randomShipsDrawn", true);
 
         // Animate
-        const timeoutMs = 50;
+        const timeoutMs = 300;
         setTimeout(() => {
             subCard.removeAttribute("hidden");
             subCard.removeAttribute("chosen");
             subCard.setAttribute("animate", "");
+            spreadCards();
             setTimeout(() => {
                 ddCard.removeAttribute("hidden");
                 ddCard.removeAttribute("chosen");
                 ddCard.setAttribute("animate", "");
+                spreadCards();
                 setTimeout(() => {
                     caCard.removeAttribute("hidden");
                     caCard.removeAttribute("chosen");
                     caCard.setAttribute("animate", "");
+                    spreadCards();
                     setTimeout(() => {
                         bcCard.removeAttribute("hidden");
                         bcCard.removeAttribute("chosen");
                         bcCard.setAttribute("animate", "");
+                        spreadCards();
                         setTimeout(() => {
                             bbCard.removeAttribute("hidden");
                             bbCard.removeAttribute("chosen");
                             bbCard.setAttribute("animate", "");
+                            spreadCards();
                             setTimeout(() => {
                                 cvCard.removeAttribute("hidden");
                                 cvCard.removeAttribute("chosen");
                                 cvCard.setAttribute("animate", "");
+                                spreadCards();
                             }, timeoutMs);
                         }, timeoutMs);
                     }, timeoutMs);
@@ -182,6 +198,7 @@ function rollTheDice() {
         localStorage.setItem(pName, 1);
     }
 
+    diceRollBegin();
     setTimeout(() => {
         var rotation = diceRotations[result];
         var xRand = rotation[0];
@@ -190,6 +207,10 @@ function rollTheDice() {
         cube.style.transform = 'rotateX(' + xRand + 'deg) rotateY(' + yRand + 'deg)';
 
         setTimeout(() => {
+            diceRollEnd();
+        }, 500);
+        setTimeout(() => {
+            holyShipSelected();
             switch (result) {
                 case 1:
                     document.getElementById("ssCard").setAttribute("chosen", "");
@@ -215,22 +236,36 @@ function rollTheDice() {
 }
 
 function checkAvailability() {
-    var savedDate = localStorage.getItem("currentDate");
-    var today = new Date();
-    var date = today.getTime();
+    switch (rollFrequencyIndex) {
+        case DAILY:
+            var savedDate = localStorage.getItem("currentDate");
+            var today = new Date();
+            var date = today.getTime();
 
-    if (savedDate === null) {
-        return true;
-    } else {
-        savedDate = Number(savedDate);
-        var timeDifference = date - savedDate;
-        var differenceInDays = timeDifference / (1000 * 60 * 60 * 24);
-        return differenceInDays >= 1;
+            if (savedDate === null) {
+                return true;
+            } else {
+                savedDate = Number(savedDate);
+                var timeDifference = date - savedDate;
+                var differenceInDays = timeDifference / (1000 * 60 * 60 * 24);
+                return differenceInDays >= 1;
+            }
+        case RELOAD:
+            return !alreadyShownThisSession;
+        case THREE_THROWS:
+            var totalThrows = parseInt(localStorage.getItem("totalTombolaThrows"));
+            return totalThrows > 3;
     }
 }
 
 function dailyRollUsed() {
+    // Daily condition
     localStorage.setItem("currentDate", new Date().getTime());
+    // On Reload condition
+    alreadyShownThisSession = true;
+    // Three Throws condition
+    localStorage.setItem("totalTombolaThrows", 0);
+
     localStorage.setItem("randomShipsDrawn", false);
 }
 
@@ -244,7 +279,39 @@ function isDailyDiceAvailable() {
 }
 
 function unflippShipCard(self) {
-    if (self !== null) {
+    if (self !== null && !self.hasAttribute("un-flipped")) {
+        turnCard();
         self.setAttribute("un-flipped", "");
+    }
+}
+
+/* Functions for Settings  */
+
+function updateDiceRollType(index, self) {
+    if(self !== null) self.value = index;
+
+    localStorage.setItem("diceRollType", index);
+    rollTypeIndex = index;
+}
+
+function updateDiceRollFrequency(index, self) {
+    if(self !== null) self.value = index;
+
+    localStorage.setItem("diceRollFrequency", index);
+    rollFrequencyIndex = index;
+}
+
+function delayedUpdateDiceRollSettings(delay) {
+    setTimeout(() => {
+        updateDiceRollSettings();
+    }, delay);
+}
+
+function updateDiceRollSettings() {
+    if (localStorage.getItem("diceRollType") !== null) {
+        updateDiceRollType(localStorage.getItem("diceRollType"), document.getElementById("diceRollType"));
+    }
+    if (localStorage.getItem("diceRollFrequency") !== null) {
+        updateDiceRollFrequency(localStorage.getItem("diceRollFrequency"), document.getElementById("diceRollFrequency"));
     }
 }

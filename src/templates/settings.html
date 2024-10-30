@@ -1,6 +1,22 @@
 <!-- Deutsch -->
 
-<div class='no-scrollbars'>
+<div class='settings-container'>
+        <p style='font-weight: bold;'>Zufallsfunktionen</p>
+        <ul>
+                <li>- Schiffs-Wurf: 
+                        <select id='diceRollType' style='float: right;' oninput='updateDiceRollType(this.value, this)'>
+                                <option value='random'>Zufällig</option>
+                                <option value='classSet'>Jede Klasse</option>
+                        </select>
+                <li>
+                <li>- Schiffs-Wurf häufigkeit: 
+                        <select id='diceRollFrequency' style='float: right;' oninput='updateDiceRollFrequency(this.value, this)'>
+                                <option value='daily'>Täglich</option>
+                                <option value='reload'>Neuladen</option>
+                                <option value='threeThrows'>Pro 3 Ziehungen</option>
+                        </select>
+                <li>
+        </ul>
         <p style='font-weight: bold;'>Ton</p>
         <ul>
                 <li>- Lautstärke: <span id='feedbackVolumeCount'>100</span><input id='volumeAmount'
@@ -8,10 +24,10 @@
                                 max='100' value='100'>
                 <li>
                 <li>- Kratztöne: <span id='feedbackScratchSounds'>An</span><input id='scratchSounds'
-                                style='float: right;' oninput='updateScratchSounds(this.checked, null)' type='checkbox'>
+                                style='float: right;' oninput='updateScratchSounds(this.checked, null)' type='checkbox' checked>
                 <li>
                 <li>- Verrückter Krado Modus: <span id='feedbackCrazyMode'>Aus</span><input id='crazyMode'
-                                style='float: right;' oninput='updateCrazyMode(this.checked, null)' type='checkbox' checked>
+                                style='float: right;' oninput='updateCrazyMode(this.checked, null)' type='checkbox'>
                 <li>
         </ul>
         <p style='font-weight: bold;'>Konfetti</p>
@@ -33,7 +49,23 @@
 
 <!-- English -->
 
-<div class='no-scrollbars'>
+<div class='settings-container'>
+        <p style='font-weight: bold;'>Random funcationality</p>
+        <ul>
+                <li>- Schip Dice: 
+                        <select id='diceRollType' style='float: right;' oninput='updateDiceRollType(this.value, this)'>
+                                <option value='random'>Random</option>
+                                <option value='classSet'>Every class</option>
+                        </select>
+                <li>
+                <li>- Ship Dice frequency: 
+                        <select id='diceRollFrequency' style='float: right;' oninput='updateDiceRollFrequency(this.value, this)'>
+                                <option value='daily'>Daily</option>
+                                <option value='reload'>On Reload</option>
+                                <option value='threeThrows'>Per 3 draws</option>
+                        </select>
+                <li>
+        </ul>
         <p style='font-weight: bold;'>Audio</p>
         <ul>
                 <li>- Volume: <span id='feedbackVolumeCount'>100</span><input id='volumeAmount'

@@ -69,6 +69,10 @@ function chooseRandom(self) {
     clazz.innerHTML = ship.type;
     tier.innerHTML = ship.tier;
     flag.src = "src/img/flag_" + ship.faction + ".png";
+    if (localStorage.getItem("totalTombolaThrows") === null) {
+        localStorage.setItem("totalTombolaThrows", 0);
+    }
+    localStorage.setItem("totalTombolaThrows", parseInt(localStorage.getItem("totalTombolaThrows")) + 1);
     // Show the Ticket
     setTimeout((button) => {
         var ticket = document.getElementsByClassName("ship-ticket")[0];
