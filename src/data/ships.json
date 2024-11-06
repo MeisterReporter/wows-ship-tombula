@@ -448,6 +448,14 @@
         "premium": "true"
     },
     {
+        "name": "DD 214",
+        "faction": "usa",
+        "type": "DD",
+        "tier": "IV",
+        "image": "src/img/ships/dd_214.png",
+        "premium": "true"
+    },
+    {
         "name": "Arkansas B",
         "faction": "usa",
         "type": "BB",
@@ -645,6 +653,14 @@
         "type": "BB",
         "tier": "VIII",
         "image": "src/img/ships/alabama_vl.png",
+        "premium": "true"
+    },
+    {
+        "name": "Alabama B",
+        "faction": "usa",
+        "type": "BB",
+        "tier": "VIII",
+        "image": "src/img/ships/alabama_b.png",
         "premium": "true"
     },
     {
@@ -1831,6 +1847,14 @@
         "type": "CA",
         "tier": "IX",
         "image": "src/img/ships/azuma.png",
+        "premium": "true"
+    },
+    {
+        "name": "Azuma B",
+        "faction": "japan",
+        "type": "CA",
+        "tier": "IX",
+        "image": "src/img/ships/azuma_b.png",
         "premium": "true"
     },
     {
@@ -3202,6 +3226,14 @@
         "type": "CL",
         "tier": "VII",
         "image": "src/img/ships/m_nchen.png",
+        "premium": "true"
+    },
+    {
+        "name": "München B",
+        "faction": "germany",
+        "type": "CL",
+        "tier": "VII",
+        "image": "src/img/ships/münchen_b.png",
         "premium": "true"
     },
     {
@@ -5666,6 +5698,14 @@
         "type": "CL",
         "tier": "X",
         "image": "src/img/ships/brisbane.png",
+        "premium": "true"
+    },
+    {
+        "name": "Brisbane B",
+        "faction": "commonwealth",
+        "type": "CL",
+        "tier": "X",
+        "image": "src/img/ships/brisbane_b.png",
         "premium": "true"
     },
     {
