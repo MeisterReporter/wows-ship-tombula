@@ -5875,8 +5875,7 @@
         "type": "DD",
         "tier": "X",
         "image": "src/img/ships/la_pampa.png",
-        "attr": "test",
-        "premium": "false"
+        "premium": "true"
     },
     {
         "name": "Comodoro",
