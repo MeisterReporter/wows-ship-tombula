@@ -10,6 +10,32 @@
     pointer-events: none;
 }
 
+.diddn {
+    position: absolute;
+    opacity: 0;
+
+    --offset: 0rem;
+}
+
+.diddn[show] {
+    animation: diddn-show 4s ease-in-out;
+}
+
+@keyframes diddn-show {
+    0% {
+        opacity: 0;
+        padding: 0px;
+    }
+    5% {
+        opacity: 1;
+        padding: 20px;
+    }
+    100% {
+        opacity: 0;
+        padding: 0px;
+    }
+}
+
 .confetti {
     position: absolute;
     opacity: 0;

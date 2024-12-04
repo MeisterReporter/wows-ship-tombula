@@ -23,6 +23,8 @@ var maxSpinX = 10;
 var maxSpinY = 10;
 var maxSpinZ = 10;
 
+var enableDiddn = true;
+
 function launchConfetti() {
     for (let i = 0; i < containers.length; i++) {
         let container = containers[i];
@@ -63,6 +65,16 @@ function launchConfetti() {
             container.innerHTML = "";
         }, {once: true});
     }
+    if (enableDiddn) {
+        var diddn = document.getElementsByClassName("diddn");
+        for (let i = 0; i < diddn.length; i++) {
+            const element = diddn[i];
+            element.setAttribute("show", null);
+            setTimeout(() => {
+                element.removeAttribute("show");
+            }, 4000);
+        }
+    }
 }
 
 function randomHalfNegative(value) {
@@ -98,6 +110,22 @@ function updateVerticalMax(amount, self) {
     verticalMax = amount;
 }
 
+function updateDiddn(toggle, self) {
+    toggle = JSON.parse(toggle);
+    var display = document.getElementById("feedbackDiddn");
+    if (display !== null) {
+        if (toggle) {
+            applyLocalizationTo(display, "key.turnedOn", true);
+        } else {
+            applyLocalizationTo(display, "key.turnedOff", true);
+        }
+    }
+    if(self !== null) self.checked = toggle;
+
+    localStorage.setItem("diddn", toggle);
+    enableDiddn = toggle;
+}
+
 function delayedUpdateConfettiValues(delay) {
     setTimeout(() => {
         updateConfettiValues();
@@ -113,5 +141,8 @@ function updateConfettiValues() {
     }
     if (localStorage.getItem("feedbackVerticalMax") !== null) {
         updateVerticalMax(localStorage.getItem("feedbackVerticalMax"), document.getElementById("confettiVertical"));
+    }
+    if (localStorage.getItem("diddn") !== null) {
+        updateDiddn(localStorage.getItem("diddn"), document.getElementById("diddn"));
     }
 }

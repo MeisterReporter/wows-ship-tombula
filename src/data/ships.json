@@ -928,6 +928,14 @@
         "premium": "true"
     },
     {
+        "name": "Archerfish",
+        "faction": "usa",
+        "type": "SS",
+        "tier": "X",
+        "image": "src/img/ships/archerfish.png",
+        "premium": "true"
+    },
+    {
         "name": "Ohio",
         "faction": "usa",
         "type": "BB",
@@ -1034,15 +1042,6 @@
         "type": "SS",
         "tier": "X",
         "image": "src/img/ships/balao.png",
-        "attr": "test",
-        "premium": "false"
-    },
-    {
-        "name": "Archerfish",
-        "faction": "usa",
-        "type": "SS",
-        "tier": "X",
-        "image": "src/img/ships/archerfish.png",
         "attr": "test",
         "premium": "false"
     },
@@ -2015,7 +2014,6 @@
         "type": "CV",
         "tier": "X",
         "image": "src/img/ships/shinano.png",
-        "attr": "test",
         "premium": "true"
     },
 
@@ -3525,6 +3523,22 @@
         "premium": "true"
     },
     {
+        "name": "Georg Hoffmann",
+        "faction": "germany",
+        "type": "DD",
+        "tier": "X",
+        "image": "src/img/ships/georg_hoffmann.png",
+        "premium": "true"
+    },
+    {
+        "name": "Georg Hoffmann Golden",
+        "faction": "germany",
+        "type": "DD",
+        "tier": "X",
+        "image": "src/img/ships/georg_hoffmann_g.png",
+        "premium": "true"
+    },
+    {
         "name": "Prinz Sigismund",
         "faction": "germany",
         "type": "BC",
@@ -3539,15 +3553,6 @@
         "type": "DD",
         "tier": "X",
         "image": "src/img/ships/l_beck.png",
-        "attr": "test",
-        "premium": "false"
-    },
-    {
-        "name": "Georg Hoffmann",
-        "faction": "germany",
-        "type": "DD",
-        "tier": "X",
-        "image": "src/img/ships/georg_hoffmann.png",
         "attr": "test",
         "premium": "false"
     },
@@ -5016,6 +5021,14 @@
         "premium": "true"
     },
     {
+        "name": "Teng She",
+        "faction": "pan_asia",
+        "type": "BB",
+        "tier": "VII",
+        "image": "src/img/ships/teng_she.png",
+        "premium": "true"
+    },
+    {
         "name": "Fenyang",
         "faction": "pan_asia",
         "type": "DD",
@@ -6024,6 +6037,14 @@
         "premium": "false"
     },
     {
+        "name": "Kalmar",
+        "faction": "europe",
+        "type": "DD",
+        "tier": "V",
+        "image": "src/img/ships/kalmar.png",
+        "premium": "true"
+    },
+    {
         "name": "Viribus Unitis",
         "faction": "europe",
         "type": "BB",
@@ -6053,6 +6074,14 @@
         "type": "DD",
         "tier": "VII",
         "image": "src/img/ships/stord_43.png",
+        "premium": "true"
+    },
+    {
+        "name": "Lugdunum",
+        "faction": "europe",
+        "type": "BB",
+        "tier": "VII",
+        "image": "src/img/ships/lugdunum.png",
         "premium": "true"
     },
     {
@@ -6093,6 +6122,14 @@
         "type": "DD",
         "tier": "IX",
         "image": "src/img/ships/velos.png",
+        "premium": "true"
+    },
+    {
+        "name": "Niord",
+        "faction": "europe",
+        "type": "BB",
+        "tier": "IX",
+        "image": "src/img/ships/niord.png",
         "premium": "true"
     },
     {
@@ -6242,6 +6279,22 @@
         "premium": "true"
     },
     {
+        "name": "Prins van Oranje",
+        "faction": "netherlands",
+        "type": "CA",
+        "tier": "X",
+        "image": "src/img/ships/prins_van_oranje.png",
+        "premium": "true"
+    },
+    {
+        "name": "Prins van Oranje Golden",
+        "faction": "netherlands",
+        "type": "CA",
+        "tier": "X",
+        "image": "src/img/ships/prins_van_oranje_g.png",
+        "premium": "true"
+    },
+    {
         "name": "Admiraal",
         "faction": "netherlands",
         "type": "CL",
@@ -6256,15 +6309,6 @@
         "type": "CL",
         "tier": "VIII",
         "image": "src/img/ships/admiraal.png",
-        "attr": "test",
-        "premium": "false"
-    },
-    {
-        "name": "Prins van Oranje",
-        "faction": "netherlands",
-        "type": "BC",
-        "tier": "X",
-        "image": "src/img/ships/prins_van_oranje.png",
         "attr": "test",
         "premium": "false"
     },
