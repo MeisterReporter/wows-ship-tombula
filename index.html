@@ -27,6 +27,7 @@
         <link href="src/css/material.css" rel="stylesheet" type="text/css">
         <link href="src/css/confetti.css" rel="stylesheet" type="text/css">
         <link href="src/css/cube.css" rel="stylesheet" type="text/css">
+        <link href="src/css/effects.css" rel="stylesheet" type="text/css">
     </head>
     <img class="background-image">
     <script>
@@ -37,6 +38,8 @@
         document.getElementsByClassName("background-image")[0].src = path;
     </script>
     <body>
+        <div class="snow"></div>
+        <div class="more-snow"></div>
         <header>
             <h1><span translatable class="special">key.new</span><span translatable>key.title</span></h1><info onclick="addDialog('key.dialog.pathnotes.title', 'key.dialog.pathnotes.content', true)">i</info>
             <span class="header-label"><span translatable>key.brought_by</span> <a style="color: white;" href="https://www.youtube.com/@dermeister-reporter2137"><b>Der Meister-Reporter</b></a></span>
@@ -400,5 +403,12 @@
         isDailyDiceAvailable();
 
         loadSounds();
+
+        // Check for no snow argument
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.has("nosnow") || urlParams.has("no-snow")) {
+            document.getElementsByClassName("snow")[0].style.display = "none";
+            document.getElementsByClassName("more-snow")[0].style.display = "none";
+        }
     </script>
 </html>
