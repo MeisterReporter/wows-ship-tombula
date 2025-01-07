@@ -1,5 +1,5 @@
 {
-    "version": "1.1.2-13.11",
+    "version": "1.1.3-13.11",
     "key.new": "New",
     "key.title": "Ship Tombola",
     "key.brought_by": "brought to you by",
@@ -41,7 +41,7 @@
     "key.dialog.types.title": "Ship classes",
     "key.dialog.types.content": "If you click on the ship classes or check boxes, all ships of the class will be selected or deselected.<p>Here is the explanation of the class abbreviations:</p><p><b>SS</b>: Submarine (<span>SS</span>)</p ><p><b>DD</b>: Destroyer (<span>DD</span>)</p><p><b>CL</b>: Light Cruiser (<span>CL</span>)</p><p><b>CA</b>: Heavy Cruiser (<span>CA</span>)</p><p><b>BC</b>: Battlecruiser (<span>BC</span>)</p><p><b>BB</b>: Battleship (<span>BB</span>)</p><p><b>CV</b>: Aircraft carrier (<span>CV</span>)</p>",
     "key.dialog.pathnotes.title": "Whats new?",
-    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.1.2-13.11:</p><p>- <b>Snow Effect</b> You don't like it? put \"?nosnow\" at the end of your URL</p><p>- <b>New Ships</b>: Prins van Oranje (G), Georg Hoffmann (G), Niord, Lugdunum, Teng She, Shinano, Archerfish, Kalmar</p><p>- Diddn Diddn Diddn</p>",
+    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.1.3-13.11:</p><p>- <b>Snow effect removed:</b> Since it is no longer christmas the effect has been removed by my inner grinch</p><p>- Indianapolis icon has been updated</p>",
     "key.dialog.teamkrado.title": "Who is Teamkrado?",
     "key.dialog.teamkrado.content": "<p><b>Teamkrado</b> is an official contributor for <i>World of Warships</i>. In the streams and videos, <b>Krado</b> is the \"camera\" for the viewers.</br>Occasionally, <b>Nere</b>, another member of Teamkrado, is also the peephole into the game world.</br>Also involved are <b>Krom</b> and <b>Blackchi</b>, the latter plays with Krado <i>Hunt Showdown</i> and <i>War Thunder</i>.</br>In <i>World of Warships</i> or <i>War Thunder</i>, Krado lets his community go along as long as there are spots available in the division.</p><p style='font-size: 15pt'>Teamkrado can be watched here:</p><p><a href='https://www.youtube.com/@Teamkrado'>Youtube channel</a> </p><p><a href='https://www.twitch.tv/teamkrado'>Twitch channel</a></p><p><a href='https://www.instagram .com/teamkrado/'>Instagram Account</a></p><p><a href='https://www.facebook.com/teamkrado/'>Facebook Account</a></p>",
     "key.dialog.loginfail.title": "Login failed",
