@@ -1,5 +1,6 @@
 var shipSet = [];
 var alreadyShownThisSession = false;
+var isRolling = false;
 
 const RANDOM = "random";
 const CLASS_SET = "classSet";
@@ -172,9 +173,14 @@ const diceRotations = {
 };
 
 function rollTheDice() {
-    if (!checkAvailability()) {
+    // This code snippet would prevent re-rolls
+    /*if (!checkAvailability()) {
+        return;
+    }*/
+    if (isRolling) {
         return;
     }
+    isRolling = true;
     dailyRollUsed();
     isDailyDiceAvailable();
 
@@ -211,6 +217,10 @@ function rollTheDice() {
         }, 500);
         setTimeout(() => {
             holyShipSelected();
+            var cards = document.getElementById("ssCard").parentElement.children;
+            for (var i = 0; i < cards.length; i++) {
+                cards[i].removeAttribute("chosen");
+            }
             switch (result) {
                 case 1:
                     document.getElementById("ssCard").setAttribute("chosen", "");
@@ -231,6 +241,7 @@ function rollTheDice() {
                     document.getElementById("cvCard").setAttribute("chosen", "");
                     break;
             }
+            isRolling = false;
         }, 3500);
     }, 2000);
 }
