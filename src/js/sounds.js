@@ -12,12 +12,20 @@ var spreadCardProgress = 0;
 var turnCardSounds = [];
 
 var holyShipSelect;
+var correctPair
+var wrongPair;
+var levelPassed;
+
+var memoryMusicFiles = [];
+var memoryMusicSound;
 
 var volume = 100;
 var scratchSounds = true;
 var crazyMode = false;
+var memoryMusic = true;
 
 var holySFXVolume = 0.2;
+var memoryMusicVolume = 0.05;
 
 function loadSounds() {
     ihhhSounds.push(new Audio("src/aud/krado_ihhhh_01.mp3"));
@@ -101,6 +109,16 @@ function loadSounds() {
     turnCardSounds.push(new Audio("src/aud/card_turn_12.mp3"));
 
     holyShipSelect = new Audio("src/aud/holy_ship_select.mp3");
+
+    correctPair = new Audio("src/aud/correct.mp3");
+    wrongPair = new Audio("src/aud/wrong.mp3");
+    levelPassed = new Audio("src/aud/level-passed.mp3");
+
+    memoryMusicFiles = [];
+    memoryMusicFiles.push(new Audio("src/aud/memory_no_1.mp3"));
+    memoryMusicFiles.push(new Audio("src/aud/memory_no_2.mp3"));
+    memoryMusicFiles.push(new Audio("src/aud/memory_no_3.mp3"));
+    memoryMusicFiles.push(new Audio("src/aud/memory_no_4.mp3"));
 }
 
 function randomSound(array) {
@@ -157,6 +175,56 @@ function holyShipSelected() {
     holyShipSelect.play();
 }
 
+function correctSound() {
+    correctPair.volume = 0.5 * (volume / 100.0);
+    correctPair.play();
+}
+
+function wrongSound() {
+    wrongPair.volume = 0.1 * (volume / 100.0);
+    wrongPair.play();
+}
+
+function levelPassedSound() {
+    levelPassed.volume = 0.1 * (volume / 100.0);
+    levelPassed.play();
+}
+
+function playMemoryMusic() {
+    let audio = randomSound(memoryMusicFiles);
+    if (audio == null || memoryMusicSound != null) return;
+    const indicator = document.getElementById("memory-music");
+    if (indicator !== null && !indicator.hasAttribute("play")) return;
+    audio.volume = memoryMusicVolume * (volume / 100.0);
+    audio.play();
+    audio.onended = () => {
+        memoryMusicSound = null;
+        const indicator = document.getElementById("memory-music");
+        if (indicator !== null && indicator.hasAttribute("play")) {
+            playMemoryMusic();
+        }
+    }
+    memoryMusicSound = audio;
+
+    document.onvisibilitychange = (event) => {
+        if (document.hidden) {
+            if (memoryMusicSound != null) memoryMusicSound.pause();
+        } else {
+            const indicator = document.getElementById("memory-music");
+            if (indicator !== null && indicator.hasAttribute("play")) {
+                if (memoryMusicSound != null) memoryMusicSound.play();
+            }
+        }
+    };
+}
+
+function stopMemoryMusic() {
+    if (memoryMusicSound != null) {
+        memoryMusicSound.pause();
+        memoryMusicSound = null;
+    }
+}
+
 /* Sound Settings */
 
 function updateVolume(amount, self) {
@@ -166,6 +234,7 @@ function updateVolume(amount, self) {
 
     localStorage.setItem("feedbackVolumeCount", amount);
     volume = amount;
+    if (memoryMusicSound != null) memoryMusicSound.volume = memoryMusicVolume * (volume / 100.0);
 }
 
 function updateCrazyMode(toggle, self) {
@@ -200,6 +269,27 @@ function updateScratchSounds(toggle, self) {
     scratchSounds = toggle;
 }
 
+function updateMemoryMusic(toggle, self) {
+    toggle = JSON.parse(toggle);
+    var display = document.getElementById("feedbackMemoryMusic");
+    if (display !== null) {
+        if (toggle) {
+            applyLocalizationTo(display, "key.turnedOn", true);
+        } else {
+            applyLocalizationTo(display, "key.turnedOff", true);
+        }
+    }
+    if(self !== null) self.checked = toggle;
+
+    localStorage.setItem("memoryMusic", toggle);
+    memoryMusic = toggle;
+    if (toggle) {
+        playMemoryMusic();
+    } else {
+        stopMemoryMusic();
+    }
+}
+
 function delayedUpdateAudioValues(delay) {
     setTimeout(() => {
         updateAudioValues();
@@ -215,5 +305,8 @@ function updateAudioValues() {
     }
     if (localStorage.getItem("scratchSounds") !== null) {
         updateScratchSounds(localStorage.getItem("scratchSounds"), document.getElementById("scratchSounds"));
+    }
+    if (localStorage.getItem("memoryMusic") !== null) {
+        updateMemoryMusic(localStorage.getItem("memoryMusic"), document.getElementById("memoryMusic"));
     }
 }

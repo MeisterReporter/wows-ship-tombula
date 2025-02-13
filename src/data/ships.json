@@ -976,6 +976,14 @@
         "premium": "true"
     },
     {
+        "name": "Hull",
+        "faction": "usa",
+        "type": "DD",
+        "tier": "X",
+        "image": "src/img/ships/hull.png",
+        "premium": "true"
+    },
+    {
         "name": "Wisconsin",
         "faction": "usa",
         "type": "BB",
@@ -5165,6 +5173,14 @@
         "premium": "true"
     },
     {
+        "name": "Taihang",
+        "faction": "pan_asia",
+        "type": "BB",
+        "tier": "IX",
+        "image": "src/img/ships/taihang.png",
+        "premium": "true"
+    },
+    {
         "name": "Lüshun",
         "faction": "pan_asia",
         "type": "DD",
@@ -5516,6 +5532,14 @@
         "type": "DD",
         "tier": "IX",
         "image": "src/img/ships/paolo_emilio.png",
+        "premium": "true"
+    },
+    {
+        "name": "Ferrante Gonzaga",
+        "faction": "italy",
+        "type": "CL",
+        "tier": "IX",
+        "image": "src/img/ships/gonzaga.png",
         "premium": "true"
     },
     {
@@ -6231,11 +6255,27 @@
         "premium": "false"
     },
     {
+        "name": "Jaarsveld",
+        "faction": "netherlands",
+        "type": "CA",
+        "tier": "VIII",
+        "image": "src/img/ships/jaarsveld.png",
+        "premium": "false"
+    },
+    {
         "name": "Johan de Witt",
         "faction": "netherlands",
         "type": "CA",
         "tier": "IX",
         "image": "src/img/ships/johan_de_witt.png",
+        "premium": "false"
+    },
+    {
+        "name": "Menno van Coehoorn",
+        "faction": "netherlands",
+        "type": "CA",
+        "tier": "IX",
+        "image": "src/img/ships/m_van_coehoorn.png",
         "premium": "false"
     },
     {
@@ -6247,12 +6287,28 @@
         "premium": "false"
     },
     {
+        "name": "Utrecht",
+        "faction": "netherlands",
+        "type": "BC",
+        "tier": "X",
+        "image": "src/img/ships/utrecht.png",
+        "premium": "false"
+    },
+    {
         "name": "De 7 Provinciën",
         "faction": "netherlands",
         "type": "CL",
         "tier": "VIII",
         "image": "src/img/ships/de_7_provinci_n.png",
         "premium": "true"
+    },
+    {
+        "name": "Vrijheid",
+        "faction": "netherlands",
+        "type": "BC",
+        "tier": "X",
+        "image": "src/img/ships/vrijheid.png",
+        "premium": "false"
     },
     {
         "name": "Groningen",
@@ -6309,15 +6365,6 @@
         "type": "CL",
         "tier": "VIII",
         "image": "src/img/ships/admiraal.png",
-        "attr": "test",
-        "premium": "false"
-    },
-    {
-        "name": "Vrijheid",
-        "faction": "netherlands",
-        "type": "BC",
-        "tier": "X",
-        "image": "src/img/ships/vrijheid.png",
         "attr": "test",
         "premium": "false"
     },

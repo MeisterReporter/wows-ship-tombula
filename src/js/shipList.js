@@ -2,7 +2,7 @@ let selectedItems = [];
 let shipData = [];
 let typeCounts = {"SS": 0, "DD": 0, "CL": 0, "CA": 0, "BC": 0, "BB": 0, "CV": 0};
 
-function initializeList() {
+function initializeList(callback = null) {
     // Get List
     var list = document.getElementById("available-ships");
     list.innerHTML = "";
@@ -33,6 +33,9 @@ function initializeList() {
         }
 
         loadSelection();
+        if (typeof callback !== 'undefined') {
+            callback();
+        }
     });
 }
 
@@ -409,4 +412,15 @@ function applyClassCounts(container) {
             }
         }
     }, 50);
+}
+
+function countSelectedShips() {
+    var count = 0;
+    for (let i = 0; i < shipData.length; i++) {
+        if (selectedItems[shipData[i].name]) {
+            count++;
+        }
+    }
+
+    return count;
 }

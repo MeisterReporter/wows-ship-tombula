@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <span id="memory-music" hidden>Music Status</span>
+        <title translatable>key.title.memory</title>
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <!-- Javascript -->
+        <script src="src/js/dynamicComponents.js"></script>
+        <script src="src/js/shipList.js"></script>
+        <script src="src/js/randomization.js"></script>
+        <script src="src/js/localization.js"></script>
+        <script src="src/js/dialogs.js"></script>
+        <script src="src/js/confetti.js"></script>
+        <script src="src/js/wowsapi.js"></script>
+        <script src="src/js/sounds.js"></script>
+        <script src="src/js/dailyDice.js"></script>
+        <script src="src/js/memory.js"></script>
+        <!-- Style Sheets -->
+        <link href="src/css/reset.css" rel="stylesheet" type="text/css">
+        <link href="src/css/main.css" rel="stylesheet" type="text/css">
+        <link href="src/css/alignment.css" rel="stylesheet" type="text/css">
+        <link href="src/css/buttons.css" rel="stylesheet" type="text/css">
+        <link href="src/css/dialogs.css" rel="stylesheet" type="text/css">
+        <link href="src/css/material.css" rel="stylesheet" type="text/css">
+        <link href="src/css/confetti.css" rel="stylesheet" type="text/css">
+        <link href="src/css/cube.css" rel="stylesheet" type="text/css">
+        <link href="src/css/effects.css" rel="stylesheet" type="text/css">
+    </head>
+    <img class="background-image">
+    <script>
+        // Change the Background image based on the date
+        var day = new Date().getDate();
+        var image = (day % 4) + 1;
+        var path = "src/img/backgrounds/background_" +  image + ".jpg";
+        document.getElementsByClassName("background-image")[0].src = path;
+    </script>
+    <body>
+        <!--<div class="snow"></div>
+        <div class="more-snow"></div>-->
+        <header>
+            <h1><span translatable class="special">key.new</span><span translatable>key.title.memory</span></h1><info onclick="addDialog('key.dialog.pathnotes.title', 'key.dialog.pathnotes.content', true)">i</info>
+            <span class="header-label"><span translatable>key.brought_by</span> <a style="color: white;" href="https://www.youtube.com/@dermeister-reporter2137"><b>Der Meister-Reporter</b></a></span>
+            <span class="header-label clickable" onclick="addDialog('key.dialog.settings.title', 'key.dialog.settings.content', true); delayedUpdateConfettiValues(500); delayedUpdateAudioValues(500); delayedUpdateDiceRollSettings(500);">
+                <svg fill="#ffffff" height="24px" width="24px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 54 54" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M51.22,21h-5.052c-0.812,0-1.481-0.447-1.792-1.197s-0.153-1.54,0.42-2.114l3.572-3.571 c0.525-0.525,0.814-1.224,0.814-1.966c0-0.743-0.289-1.441-0.814-1.967l-4.553-4.553c-1.05-1.05-2.881-1.052-3.933,0l-3.571,3.571 c-0.574,0.573-1.366,0.733-2.114,0.421C33.447,9.313,33,8.644,33,7.832V2.78C33,1.247,31.753,0,30.22,0H23.78 C22.247,0,21,1.247,21,2.78v5.052c0,0.812-0.447,1.481-1.197,1.792c-0.748,0.313-1.54,0.152-2.114-0.421l-3.571-3.571 c-1.052-1.052-2.883-1.05-3.933,0l-4.553,4.553c-0.525,0.525-0.814,1.224-0.814,1.967c0,0.742,0.289,1.44,0.814,1.966l3.572,3.571 c0.573,0.574,0.73,1.364,0.42,2.114S8.644,21,7.832,21H2.78C1.247,21,0,22.247,0,23.78v6.439C0,31.753,1.247,33,2.78,33h5.052 c0.812,0,1.481,0.447,1.792,1.197s0.153,1.54-0.42,2.114l-3.572,3.571c-0.525,0.525-0.814,1.224-0.814,1.966 c0,0.743,0.289,1.441,0.814,1.967l4.553,4.553c1.051,1.051,2.881,1.053,3.933,0l3.571-3.572c0.574-0.573,1.363-0.731,2.114-0.42 c0.75,0.311,1.197,0.98,1.197,1.792v5.052c0,1.533,1.247,2.78,2.78,2.78h6.439c1.533,0,2.78-1.247,2.78-2.78v-5.052 c0-0.812,0.447-1.481,1.197-1.792c0.751-0.312,1.54-0.153,2.114,0.42l3.571,3.572c1.052,1.052,2.883,1.05,3.933,0l4.553-4.553 c0.525-0.525,0.814-1.224,0.814-1.967c0-0.742-0.289-1.44-0.814-1.966l-3.572-3.571c-0.573-0.574-0.73-1.364-0.42-2.114 S45.356,33,46.168,33h5.052c1.533,0,2.78-1.247,2.78-2.78V23.78C54,22.247,52.753,21,51.22,21z M52,30.22 C52,30.65,51.65,31,51.22,31h-5.052c-1.624,0-3.019,0.932-3.64,2.432c-0.622,1.5-0.295,3.146,0.854,4.294l3.572,3.571 c0.305,0.305,0.305,0.8,0,1.104l-4.553,4.553c-0.304,0.304-0.799,0.306-1.104,0l-3.571-3.572c-1.149-1.149-2.794-1.474-4.294-0.854 c-1.5,0.621-2.432,2.016-2.432,3.64v5.052C31,51.65,30.65,52,30.22,52H23.78C23.35,52,23,51.65,23,51.22v-5.052 c0-1.624-0.932-3.019-2.432-3.64c-0.503-0.209-1.021-0.311-1.533-0.311c-1.014,0-1.997,0.4-2.761,1.164l-3.571,3.572 c-0.306,0.306-0.801,0.304-1.104,0l-4.553-4.553c-0.305-0.305-0.305-0.8,0-1.104l3.572-3.571c1.148-1.148,1.476-2.794,0.854-4.294 C10.851,31.932,9.456,31,7.832,31H2.78C2.35,31,2,30.65,2,30.22V23.78C2,23.35,2.35,23,2.78,23h5.052 c1.624,0,3.019-0.932,3.64-2.432c0.622-1.5,0.295-3.146-0.854-4.294l-3.572-3.571c-0.305-0.305-0.305-0.8,0-1.104l4.553-4.553 c0.304-0.305,0.799-0.305,1.104,0l3.571,3.571c1.147,1.147,2.792,1.476,4.294,0.854C22.068,10.851,23,9.456,23,7.832V2.78 C23,2.35,23.35,2,23.78,2h6.439C30.65,2,31,2.35,31,2.78v5.052c0,1.624,0.932,3.019,2.432,3.64 c1.502,0.622,3.146,0.294,4.294-0.854l3.571-3.571c0.306-0.305,0.801-0.305,1.104,0l4.553,4.553c0.305,0.305,0.305,0.8,0,1.104 l-3.572,3.571c-1.148,1.148-1.476,2.794-0.854,4.294c0.621,1.5,2.016,2.432,3.64,2.432h5.052C51.65,23,52,23.35,52,23.78V30.22z"></path> <path d="M27,18c-4.963,0-9,4.037-9,9s4.037,9,9,9s9-4.037,9-9S31.963,18,27,18z M27,34c-3.859,0-7-3.141-7-7s3.141-7,7-7 s7,3.141,7,7S30.859,34,27,34z"></path> </g> </g></svg>
+            </span>
+            <span class="align-right game"><span translatable>key.game</span> <space size="medium"></space> <a translatable class="button orange" href="https://worldofwarships.eu/">key.play_now</a></span>
+        </header>
+
+        <section>
+            <!-- Ship List Side Bar -->
+            <div class="ship-list">
+                <div class="search-bar">
+                    <input translatable-placeholder oninput="searchByName()" id="search" type="text" placeholder="key.search" maxlength="30" />
+                </div>
+                <div class="filter-list">
+                    <p style="margin-bottom: 0.5rem; margin-top: 0.5rem;"><b translatable>key.filter.tiers</b><info onclick="addDialog('key.dialog.tiers.title', 'key.dialog.tiers.content', true)">i</info></p>
+                    <input onclick="changeTier('I', this)" type="checkbox" id="I" checked />
+                    <label for="I">I</label>
+                    <input onclick="changeTier('II', this)" type="checkbox" id="II" checked />
+                    <label for="II">II</label>
+                    <input onclick="changeTier('III', this)" type="checkbox" id="III" checked />
+                    <label for="III">III</label>
+                    <input onclick="changeTier('IV', this)" type="checkbox" id="IV" checked />
+                    <label for="IV">IV</label>
+                    <input onclick="changeTier('V', this)" type="checkbox" id="V" checked />
+                    <label for="V">V</label>
+                    <input onclick="changeTier('VI', this)" type="checkbox" id="VI" checked />
+                    <label for="VI">VI</label>
+                    <input onclick="changeTier('VII', this)" type="checkbox" id="VII" checked />
+                    <label for="VII">VII</label>
+                    <input onclick="changeTier('VIII', this)" type="checkbox" id="VIII" checked />
+                    <label for="VIII">VIII</label>
+                    <input onclick="changeTier('IX', this)" type="checkbox" id="IX" checked />
+                    <label for="IX">IX</label>
+                    <input onclick="changeTier('X', this)" type="checkbox" id="X" checked />
+                    <label for="X">X</label>
+                    <input onclick="changeTier('★', this)" type="checkbox" id="★" checked />
+                    <label for="★">★</label>
+                </div>
+                <div class="filter-list">
+                    <p style="margin-bottom: 0.5rem; margin-top: 0.5rem;"><b translatable>key.filter.nations</b><info onclick="addDialog('key.dialog.nations.title', 'key.dialog.nations.content', true)">i</info></p>
+                    <input onclick="changeFaction('japan', this)" type="checkbox" id="japan" checked />
+                    <label for="japan"><img class="flag" src="src/img/flag_japan.png"></label>
+                    <input onclick="changeFaction('usa', this)" type="checkbox" id="usa" checked />
+                    <label for="usa"><img class="flag" src="src/img/flag_usa.png"></label>
+                    <input onclick="changeFaction('russia', this)" type="checkbox" id="russia" checked />
+                    <label for="russia"><img class="flag" src="src/img/flag_russia.png"></label>
+                    <input onclick="changeFaction('germany', this)" type="checkbox" id="germany" checked />
+                    <label for="germany"><img class="flag" src="src/img/flag_germany.png"></label>
+                    <input onclick="changeFaction('uk', this)" type="checkbox" id="uk" checked />
+                    <label for="uk"><img class="flag" src="src/img/flag_uk.png"></label>
+                    <input onclick="changeFaction('france', this)" type="checkbox" id="france" checked />
+                    <label for="france"><img class="flag" src="src/img/flag_france.png"></label>
+                    <input onclick="changeFaction('pan_asia', this)" type="checkbox" id="pan_asia" checked />
+                    <label for="pan_asia"><img class="flag" src="src/img/flag_pan_asia.png"></label>
+                    <input onclick="changeFaction('italy', this)" type="checkbox" id="italy" checked />
+                    <label for="italy"><img class="flag" src="src/img/flag_italy.png"></label>
+                    <input onclick="changeFaction('commonwealth', this)" type="checkbox" id="commonwealth" checked />
+                    <label for="commonwealth"><img class="flag" src="src/img/flag_commonwealth.png"></label>
+                    <input onclick="changeFaction('pan_america', this)" type="checkbox" id="pan_america" checked />
+                    <label for="pan_america"><img class="flag" src="src/img/flag_pan_america.png"></label>
+                    <input onclick="changeFaction('europe', this)" type="checkbox" id="europe" checked />
+                    <label for="europe"><img class="flag" src="src/img/flag_europe.png"></label>
+                    <input onclick="changeFaction('netherlands', this)" type="checkbox" id="netherlands" checked />
+                    <label for="netherlands"><img class="flag" src="src/img/flag_netherlands.png"></label>
+                    <input onclick="changeFaction('spain', this)" type="checkbox" id="spain" checked />
+                    <label for="spain"><img class="flag" src="src/img/flag_spain.png"></label>
+                </div>
+                <div class="filter-list">
+                    <p style="margin-bottom: 0.5rem; margin-top: 0.5rem;"><b translatable>key.filter.types</b><info onclick="addDialog('key.dialog.types.title', 'key.dialog.types.content', true); applyClassCounts(document.getElementsByClassName('dialog-content')[0])">i</info></p>
+                    <input onclick="changeType('SS', this)" type="checkbox" id="SS" checked />
+                    <label for="SS">SS</label>
+                    <input onclick="changeType('DD', this)" type="checkbox" id="DD" checked />
+                    <label for="DD">DD</label>
+                    <input onclick="changeType('CL', this)" type="checkbox" id="CL" checked />
+                    <label for="CL">CL</label>
+                    <input onclick="changeType('CA', this)" type="checkbox" id="CA" checked />
+                    <label for="CA">CA</label>
+                    <input onclick="changeType('BC', this)" type="checkbox" id="BC" checked />
+                    <label for="BC">BC</label>
+                    <input onclick="changeType('BB', this)" type="checkbox" id="BB" checked />
+                    <label for="BB">BB</label>
+                    <input onclick="changeType('CV', this)" type="checkbox" id="CV" checked />
+                    <label for="CV">CV</label>
+                </div>
+                <div class="filter-list">
+                    <p style="margin-bottom: 0.5rem; margin-top: 0.5rem;"><b translatable>key.filter.other</b></p>
+                    <input onclick="enablePremiumShip(this)" type="checkbox" id="premiumShips" checked />
+                    <label translatable for="premiumShips">key.filter.enable_premium_ships</label>
+                    </br>
+                    <input onclick="enableTechShip(this)" type="checkbox" id="techShips" checked />
+                    <label translatable for="techShips">key.filter.enable_tech_ships</label>
+                    </br>
+                    <input onclick="enableTestShip(this)" type="checkbox" id="testShips" />
+                    <label translatable for="testShips">key.filter.enable_test_ships</label>
+                    </br>
+                    <a style="color: white; font-weight: bold;" id="login" translatable onclick="requestLogin()">key.filter.from_wows_numbers</a>
+                </div>
+                <br/>
+                <h2 translatable>key.ships</h2>
+                <ul id="available-ships">
+                    
+                </ul>
+            </div>
+            <script>
+                initializeList(() => hasEnoughShips());
+            </script>
+            <!-- Randomization -->
+            <div style="flex-grow: 1;" class="randomizer flex column">
+                <div style="margin-top: 1rem; font-size: 24pt;" class="align-center">
+                    <a onclick="window.location.replace('index.html')"><img style="display: inline-block; margin-bottom: -1rem; margin-left: 1rem" width="64px" height="64px" src="src/img/back.png"></a>
+                    <a translatable onclick="distributeCards()" class="button blue">key.draw_cards</a>
+                    <info-large onclick="showMemoryRules(true)">i</info-large>
+                </div>
+                <p id="instruction" class="align-center" style="font-size: 16pt; margin-top: 2rem; height: 2.5rem;"><b translatable>key.pick_pairs</b></p>
+                <div id="memory-field" class="align-center memory_grid" style="margin-top: 2rem; display: none;">
+                    <div><div onclick="showMemoryCard(this)" class="memory-card" hidden><img class="ship-image" src="src/img/ships/balao.png"></div><div onclick="showMemoryCard(this)" class="memory-card" hidden><img class="ship-image" src="src/img/ships/balao.png"></div><div onclick="showMemoryCard(this)" class="memory-card" hidden><img class="ship-image" src="src/img/ships/balao.png"></div><div onclick="showMemoryCard(this)" class="memory-card" hidden><img class="ship-image" src="src/img/ships/balao.png"></div></div>
+                    <div><div onclick="showMemoryCard(this)" class="memory-card" hidden><img class="ship-image" src="src/img/ships/balao.png"></div><div onclick="showMemoryCard(this)" class="memory-card" hidden><img class="ship-image" src="src/img/ships/balao.png"></div><div onclick="showMemoryCard(this)" class="memory-card" hidden><img class="ship-image" src="src/img/ships/balao.png"></div><div onclick="showMemoryCard(this)" class="memory-card" hidden><img class="ship-image" src="src/img/ships/balao.png"></div></div>
+                    <div><div onclick="showMemoryCard(this)" class="memory-card" hidden><img class="ship-image" src="src/img/ships/balao.png"></div><div onclick="showMemoryCard(this)" class="memory-card" hidden><img class="ship-image" src="src/img/ships/balao.png"></div><div onclick="showMemoryCard(this)" class="memory-card" hidden><img class="ship-image" src="src/img/ships/balao.png"></div><div onclick="showMemoryCard(this)" class="memory-card" hidden><img class="ship-image" src="src/img/ships/balao.png"></div></div>
+                    <div><div onclick="showMemoryCard(this)" class="memory-card" hidden><img class="ship-image" src="src/img/ships/balao.png"></div><div onclick="showMemoryCard(this)" class="memory-card" hidden><img class="ship-image" src="src/img/ships/balao.png"></div><div onclick="showMemoryCard(this)" class="memory-card" hidden><img class="ship-image" src="src/img/ships/balao.png"></div><div onclick="showMemoryCard(this)" class="memory-card" hidden><img class="ship-image" src="src/img/ships/balao.png"></div></div>
+                </div>
+            </div>
+            <div class="otherProjects">
+                <p><b>Andere Projekte:</b></p>
+                <p>- <info onclick="addDialog('key.dialog.swbattleships.title', 'key.dialog.swbattleships.content', true)">i</info>Universe of Battleships: <a href="https://www.youtube.com/watch?v=oFWX-G_FwUA&list=PLXOFyUbz_Xsvxu5Bc8bzrOxQ8L_JXLu7f">Youtube</a></p>
+                <p>- <info onclick="addDialog('key.dialog.rawedit.title', 'key.dialog.rawedit.content', true)">i</info>RAWEdit: <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1388553049">Steam</a></p>
+                <p>- <info onclick="addDialog('key.dialog.unitseditor.title', 'key.dialog.unitseditor.content', true)">i</info>Units Editor: <a href="https://sourceforge.net/projects/empire-at-war-units-editor/">Download</a></p>
+            </div>
+        </section>
+
+        <footer>
+            <span><span translatable>key.footer.made_by</span> <a style="color: white;" href="https://www.youtube.com/@dermeister-reporter2137"><b>Der Meister-Reporter</b></a> <span translatable>key.footer.made_date</span></span>
+            <span><span translatable class="middle">key.footer.supported_by</span> <a class="middle teamkrado" style="color: white;" onclick="addDialog('key.dialog.teamkrado.title', 'key.dialog.teamkrado.content', true)"><b>Teamkrado</b><img class="middle" style="margin-left: 0.5rem;" width="50" height="50" src="src/img/Teamkrado_128px.png"></a></span>
+            <span><span translatable>key.footer.issues_notice</span> <a style="color: white;" href="https://github.com/MeisterReporter/wows-ship-tombula/issues"><b>Github</b></a>.</span>
+            <span><span translatable>key.footer.data_notice</span> <a href="https://shiptool.st/">shiptool.st</a></span>
+        </footer>
+    </body>
+    <script>
+        applyLocalization();
+        // Check version
+        // Find the correct language file
+        var lang = navigator.language.substring(0, 2);
+        if (lang !== "de") {
+            lang = "en";
+        }
+        var filename = "language_" + lang + ".json";
+        // Load it
+        fetch("./src/lang/" + filename)
+        .then((response) => response.json())
+        .then((json) => {
+            var version = json["version"];
+            var value = window.localStorage.getItem("Version");
+            if (value !== null && version != value) {
+                addDialog("key.dialog.pathnotes.title", "key.dialog.pathnotes.content", true);
+                window.localStorage.setItem("Version", version);
+            } else if (value === null) {
+                addDialog("key.dialog.pathnotes.title", "key.dialog.pathnotes.content", true);
+                window.localStorage.setItem("Version", version);
+            }
+        });
+        // Check WG login
+        checkLogin();
+
+        updateConfettiValues();
+        updateAudioValues();
+        updateDiceRollSettings();
+
+        loadSounds();
+
+        // Check if the user read the rules
+        function showMemoryRules(force) {
+            var memoryRules = window.localStorage.getItem("memoryRules");
+            if (memoryRules === null || force) {
+                addDialog("key.dialog.memory_rules.title", "key.dialog.memory_rules.content", true, "key.button.understood", () => {
+                    window.localStorage.setItem("memoryRules", "true");
+                });
+            }
+        }
+        showMemoryRules(false);
+
+        // Check for no snow argument
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.has("nosnow") || urlParams.has("no-snow")) {
+            document.getElementsByClassName("snow")[0].style.display = "none";
+            document.getElementsByClassName("more-snow")[0].style.display = "none";
+        }
+    </script>
+</html>

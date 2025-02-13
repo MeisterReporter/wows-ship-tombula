@@ -1,7 +1,8 @@
 {
-    "version": "1.1.4-13.11",
+    "version": "1.1.5-14.1",
     "key.new": "Neu",
     "key.title": "Schiffs Tombola",
+    "key.title.memory": "Schiffs Memory",
     "key.brought_by": "präsentiert von",
     "key.game": "für World of Warships",
     "key.play_now": "Jetzt Spielen",
@@ -31,6 +32,8 @@
     "key.footer.data_notice": "Die Schiffsdaten sind von",
 
     "key.button.close": "Schließen",
+    "key.button.understood": "Verstanden",
+    "key.button.ok": "Ok",
     "key.turnedOn": "An",
     "key.turnedOff": "Aus",
     
@@ -41,7 +44,7 @@
     "key.dialog.types.title": "Schiffsklassen",
     "key.dialog.types.content": "Wenn sie auf die Schiffsklassen oder Haken klicken werden alle Schiffe der Klasse aus- oder abgewählt.<p>Hier ist die Erklärung der Klassenkürzel:</p><p><b>SS</b>: U-Boot (<span>SS</span>)</p><p><b>DD</b>: Zerstörer (<span>DD</span>)</p><p><b>CL</b>: Leichter Kreuzer (<span>CL</span>)</p><p><b>CA</b>: Schwerer Kreuzer (<span>CA</span>)</p><p><b>BC</b>: Schlachtkreuzer (<span>BC</span>)</p><p><b>BB</b>: Schlachtschiff (<span>BB</span>)</p><p><b>CV</b>: Flugzeugträger (<span>CV</span>)</p>",
     "key.dialog.pathnotes.title": "Was ist neu?",
-    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.1.4-13.11:</p><p>Würfel Re-Roll verfügbar</p><p>- <b>Schnee Effekt Entfernt:</b> Da Weihnachten inzwischen vorbei sind, wurde der Effekt von meinem inneren Grinch entfernt</p><p>- Indianapolis Icon wurde aktualisiert</p>",
+    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.1.5-14.1:</p><p>Memory Modus</p><p>- Neue Schiffe: Hull, Taihang, Niederländer</p>",
     "key.dialog.teamkrado.title": "<span class='middle'>Wer ist Teamkrado?</span><img class='middle' style='margin-left:0.5rem;' width='50' height='50' src='src/img/Teamkrado_128px.png'>",
     "key.dialog.teamkrado.content": "<p><b>Teamkrado</b> ist ein offizieller Contributor für <i>World of Warships</i>. In den Streams und Videos ist <b>Krado</b> die \"Kamera\" für die Zuschauer.</br>Ab und zu ist auch <b>Nere</b>, ein weiteres Mitglied von Teamkrado, das Guckrohr in die Spielwelt.</br>Mit von der Partie sind zusätzlich <b>Krom</b> und <b>Blackchi</b>, letzterer spielt mit Krado <i>Hunt Showdown</i> und <i>War Thunder</i>.</br>In <i>World of Warships</i> oder <i>War Thunder</i> lässt Krado seine Community mitfahren, sofern Plätze in der Division frei sind.</p><p style='font-size: 15pt'>Teamkrado gibt es hier zu sehen:</p><p><a href='https://www.youtube.com/@Teamkrado'>Youtube Kanal</a></p><p><a href='https://www.twitch.tv/teamkrado'>Twitch Kanal</a></p><p><a href='https://www.instagram.com/teamkrado/'>Instagram Account</a></p><p><a href='https://www.facebook.com/teamkrado/'>Facebook Account</a></p>",
     "key.dialog.loginfail.title": "Anmeldung Fehlgeschlagen",
@@ -59,9 +62,27 @@
     "key.dialog.unitseditor.content": "Der Units Editor ist ein Nützliches Tool zum Modden von <b>Star Wars: Empire at War</b>.",
 
     "key.dialog.settings.title": "Einstellungen",
-    "key.dialog.settings.content": "<div class='settings-container'><p style='font-weight: bold;'>Zufallsfunktionen</p><ul><li>- Schiffs-Wurf: <select id='diceRollType' style='float: right;' oninput='updateDiceRollType(this.value, this)'><option value='random'>Zufällig</option><option value='classSet'>Jede Klasse</option></select><li><li>- Schiffs-Wurf häufigkeit: <select id='diceRollFrequency' style='float: right;' oninput='updateDiceRollFrequency(this.value, this)'><option value='daily'>Täglich</option><option value='reload'>Neuladen</option><option value='threeThrows'>Pro 3 Ziehungen</option></select><li></ul><p style='font-weight: bold;'>Ton</p><ul><li>- Lautstärke: <span id='feedbackVolumeCount'>100</span><input id='volumeAmount'style='float: right;' oninput='updateVolume(this.value, null)' type='range' min='0'max='100' value='100'><li><li>- Kratztöne: <span id='feedbackScratchSounds'>An</span><input id='scratchSounds'style='float: right;' oninput='updateScratchSounds(this.checked, null)' type='checkbox' checked><li><li>- Verrückter Krado Modus: <span id='feedbackCrazyMode'>Aus</span><input id='crazyMode'style='float: right;' oninput='updateCrazyMode(this.checked, null)' type='checkbox'><li></ul><p style='font-weight: bold;'>Konfetti</p><ul><li>- Anzahl: <span id='feedbackConfettiCount'>100</span><input id='confettiAmount'style='float: right;' oninput='updateAmount(this.value, null)' type='range' min='10'max='500' value='100'><li><li>- Horizontale Streuung: <span id='feedbackHorizontalMax'>500</span><input id='confettiHorizontal'style='float: right;' oninput='updateHorizontalMax(this.value, null)' type='range'min='250' max='1500' value='500'><li><li>- Vertikale Streuung: <span id='feedbackVerticalMax'>150</span><input id='confettiVertical'style='float: right;' oninput='updateVerticalMax(this.value, null)' type='range'min='50' max='750' value='150'><li><li style=\"padding-bottom:1rem\">- Diddn: <span id='feedbackDiddn'>An</span><input id='diddn'style='float: right;' oninput='updateDiddn(this.checked, null)' type='checkbox' checked></ul><a class='button dialog-button' onclick='launchConfetti()'>Testen</a></div>",
+    "key.dialog.settings.content": "<div class='settings-container'><p style='font-weight: bold;'>Zufallsfunktionen</p><ul><li>- Schiffs-Wurf: <select id='diceRollType' style='float: right;' oninput='updateDiceRollType(this.value, this)'><option value='random'>Zufällig</option><option value='classSet'>Jede Klasse</option></select><li><li>- Schiffs-Wurf häufigkeit: <select id='diceRollFrequency' style='float: right;' oninput='updateDiceRollFrequency(this.value, this)'><option value='daily'>Täglich</option><option value='reload'>Neuladen</option><option value='threeThrows'>Pro 3 Ziehungen</option></select><li></ul><p style='font-weight: bold;'>Ton</p><ul><li>- Lautstärke: <span id='feedbackVolumeCount'>100</span><input id='volumeAmount'style='float: right;' oninput='updateVolume(this.value, null)' type='range' min='0'max='100' value='100'><li><li>- Kratztöne: <span id='feedbackScratchSounds'>An</span><input id='scratchSounds'style='float: right;' oninput='updateScratchSounds(this.checked, null)' type='checkbox' checked><li><li>- Verrückter Krado Modus: <span id='feedbackCrazyMode'>Aus</span><input id='crazyMode'style='float: right;' oninput='updateCrazyMode(this.checked, null)' type='checkbox'><li><li>- Memory Musik: <span id='feedbackMemoryMusic'>An</span><input id='memoryMusic' style='float: right;' oninput='updateMemoryMusic(this.checked, null)' type='checkbox' checked><li></ul><p style='font-weight: bold;'>Konfetti</p><ul><li>- Anzahl: <span id='feedbackConfettiCount'>100</span><input id='confettiAmount'style='float: right;' oninput='updateAmount(this.value, null)' type='range' min='10'max='500' value='100'><li><li>- Horizontale Streuung: <span id='feedbackHorizontalMax'>500</span><input id='confettiHorizontal'style='float: right;' oninput='updateHorizontalMax(this.value, null)' type='range'min='250' max='1500' value='500'><li><li>- Vertikale Streuung: <span id='feedbackVerticalMax'>150</span><input id='confettiVertical'style='float: right;' oninput='updateVerticalMax(this.value, null)' type='range'min='50' max='750' value='150'><li><li style=\"padding-bottom:1rem\">- Diddn: <span id='feedbackDiddn'>An</span><input id='diddn'style='float: right;' oninput='updateDiddn(this.checked, null)' type='checkbox' checked></ul><a class='button dialog-button' onclick='launchConfetti()'>Testen</a></div>",
 
     "key.dialog.chooseserver.title": "Server Wählen",
     "key.dialog.chooseserver.content": "<div><p>Wähle deinen bevorzugten World of Warships Server:</p><p><input type='radio' id='northamerica' name='server' value='NA'><label for='northamerica'>Nord Amerika</label></p><p><input type='radio' id='europa' name='server' value='EU'><label for='europa'>Europa</label></p><p><input type='radio' id='asia' name='server' value='ASIA'><label for='asia'>Asien</label></p></div>",
-    "key.dialog.chooseserver.confirm": "Weiter"
+    "key.dialog.chooseserver.confirm": "Weiter",
+
+    "key.draw_cards": "Karten Verteilen",
+    "key.pick_pairs": "Klicke auf den Knopf und finde Karten-Paare",
+    "key.memorize": "Merke dir die Karten du hast 2,5 Sekunden Zeit",
+    "key.pick_pairs_2": "Finde Karten-Paare um ein Schiff zu Ziehen",
+    "key.memory_ship_drawn": "Schiff gezogen: ",
+    "key.memory_wrong_pair": "Leider ein falsches Paar",
+    "key.memory_game_over": "Fertig, klicke den Knopf für einen Neustart. Letzes Schiff:",
+
+    "key.do_not_cheat": "Schummel Alarm...",
+    "key.do_not_cheat_content": "Du hast versucht zu schummeln, lass das bitte sein. Beim nächsten mal gibt es Konsequenzen.",
+    "key.cheat_penalty": "NICHT SCHUMMELN!",
+    "key.cheat_penalty_content": "Ich sagte doch es gibt Konsequenzen! Das Memory wird jetzt neu gemischt, HAHAHA!",
+
+    "key.dialog.memory_rules.title": "Memory Regeln",
+    "key.dialog.memory_rules.content": "<p>1. Nicht Schummeln, Danke.</p><p>2. In der Runde vorher aufgedeckte Karten dürfen nicht als erstes in der neuen Runde aufgedeckt werden. Ein Verstoß wird hart bestraft.</p>",
+    "key.dialog.not_enough_ships.title": "Nicht genügen Schiffe",
+    "key.dialog.not_enough_ships.content": "Du hast nicht genügend Schiffe ausgewählt. Wähle mindestens 8 Schiffe aus um den Memory Modus zu spielen."
 }

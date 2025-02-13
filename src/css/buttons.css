@@ -43,11 +43,27 @@ info {
     margin-inline: 4px;
     padding: 0px 7.5px;
 
+    font-size: 12pt;
+
     border: 2px white solid;
     border-radius: 100vh;
 }
 
 info:hover {
+    cursor: pointer;
+}
+
+info-large {
+    margin-inline: 4px;
+    padding: 0px 15px;
+
+    font-size: 24pt;
+
+    border: 2px white solid;
+    border-radius: 100vh;
+}
+
+info-large:hover {
     cursor: pointer;
 }
 
