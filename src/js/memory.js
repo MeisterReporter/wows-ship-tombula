@@ -20,6 +20,13 @@ function distributeCards() {
     }
     var memoryField = document.getElementById("memory-field");
     memoryField.style["display"] = "";
+    for (let i = 0; i < 4; i++) {
+        const elements = memoryField.children[i];
+        for (let j = 0; j < 4; j++) {
+            const element = elements.children[j];
+            hideMemoryCard(element);
+        }
+    }
     setTimeout(() => {
         for (let i = 0; i < 4; i++) {
             const elements = memoryField.children[i];
