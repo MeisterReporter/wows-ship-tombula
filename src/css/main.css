@@ -487,6 +487,8 @@ space[size="large"] {
 }
 
 .memory-card {
+    display: flex;
+    flex-direction: column;
     width: 10rem;
     aspect-ratio: 1;
     margin-bottom: 0.5rem;
@@ -499,21 +501,38 @@ space[size="large"] {
     border-style: solid;
 
     align-content: center;
+    align-items: center;
+    vertical-align: middle;
 
     transform:  rotateY(0deg);
 
     transition: background-color 500ms ease-in-out, transform 1000ms ease-in-out;
 }
 
-.memory-card > img {
+.memory-card > img,
+.memory-card > span {
     display: block;
     opacity: 1;
 
     transition: opacity 500ms ease-in-out, transform 1000ms ease-in-out;
 }
 
+.memory-card > img {
+    margin-top: auto;
+}
+
+.memory-card > span {
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.memory-card > span[hidden] {
+    display: none;
+}
+
 .memory-card[hidden] {
-    display: block;
+    display: flex;
+    flex-direction: column;
     opacity: 1;
 
     background-color: goldenrod;
@@ -525,11 +544,19 @@ space[size="large"] {
     cursor: pointer;
 }
 
-.memory-card[hidden] > img {
+.memory-card[hidden] > img,
+.memory-card[hidden] > span {
     display: block;
     opacity: 0;
+}
+
+.memory-card[hidden] > img{
     width: 0%;
     height: 0%;
+}
+
+.memory-card[hidden] > span {
+    margin-top: 5.5rem;
 }
 
 .memory-card[success] {

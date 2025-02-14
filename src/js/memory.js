@@ -5,10 +5,13 @@ let card2 = null;
 let lastTwoCards = [];
 let cheatTrys = 0;
 
+var memorize = false;
+var showNames = true;
+
 function distributeCards() {
     if (!hasEnoughShips()) return;
     var instruction = document.getElementById("instruction");
-    applyLocalizationTo(instruction, "key.memorize", false);
+    if (memorize) applyLocalizationTo(instruction, "key.memorize", false);
     var selectedShips = [];
     var selectedShipIndecies = [];
     for (let i = 0; i < 8; i++) {
@@ -28,6 +31,7 @@ function distributeCards() {
         }
     }
     setTimeout(() => {
+        lastTwoCards = [];
         for (let i = 0; i < 4; i++) {
             const elements = memoryField.children[i];
             for (let j = 0; j < 4; j++) {
@@ -35,26 +39,45 @@ function distributeCards() {
                 const randomIndex = Math.floor(Math.random() * selectedShipIndecies.length);
                 element.children[0].src = shipData[selectedShipIndecies[randomIndex]].image;
                 element.children[0].setAttribute("index", selectedShipIndecies[randomIndex].toString());
+                element.children[1].innerText = showNames ? shipData[selectedShipIndecies[randomIndex]].name : "";
+                if (!showNames) {
+                    element.children[1].setAttribute("hidden", null);
+                    element.children[0].style["margin-bottom"] = "auto";
+                } else {
+                    element.children[1].removeAttribute("hidden");
+                    element.children[0].style["margin-bottom"] = null;
+                }
                 selectedShipIndecies.splice(randomIndex, 1);
-                setTimeout(() => {
-                    showMemoryCard(element, false);
+                if (memorize) {
                     setTimeout(() => {
-                        hideMemoryCard(element, false);
-                        if (i == 3 && j == 3) {
-                            turnedCards = 0;
-                            allowTurningCards = true;
-                            applyLocalizationTo(instruction, "key.pick_pairs_2", false);
-                            const indicator = document.getElementById("memory-music");
-                            if (indicator !== null) {
-                                indicator.setAttribute("play", null);
+                        showMemoryCard(element, false);
+                        setTimeout(() => {
+                            hideMemoryCard(element, false);
+                            if (i == 3 && j == 3) {
+                                turnedCards = 0;
+                                allowTurningCards = true;
+                                applyLocalizationTo(instruction, "key.pick_pairs_2", false);
+                                const indicator = document.getElementById("memory-music");
+                                if (indicator !== null) {
+                                    indicator.setAttribute("play", null);
+                                }
+                                playMemoryMusic();
                             }
-                            playMemoryMusic();
-                        }
-                    }, 2500);
-                }, 50 * i + 50 * j);
+                        }, 2500);
+                    }, 50 * i + 50 * j);
+                } else if (i == 3 && j == 3) {
+                    turnedCards = 0;
+                    allowTurningCards = true;
+                    applyLocalizationTo(instruction, "key.pick_pairs_2", false);
+                    const indicator = document.getElementById("memory-music");
+                    if (indicator !== null) {
+                        indicator.setAttribute("play", null);
+                    }
+                    playMemoryMusic();
+                }
             }
         }
-    }, 2000);
+    }, memorize ? 2000 : 0);
 }
 
 function showMemoryCard(self, fromOnClick = true) {
@@ -167,4 +190,55 @@ function hasEnoughShips() {
         addDialog("key.dialog.not_enough_ships.title", "key.dialog.not_enough_ships.content", true, "key.button.ok");
     }
     return hasEnough;
+}
+
+//////////////
+// Settings //
+//////////////
+
+function updateMemoryEnableMemorize(toggle, self) {
+    toggle = JSON.parse(toggle);
+    var display = document.getElementById("feedbackMemorize");
+    if (display !== null) {
+        if (toggle) {
+            applyLocalizationTo(display, "key.turnedOn", true);
+        } else {
+            applyLocalizationTo(display, "key.turnedOff", true);
+        }
+    }
+    if(self !== null) self.checked = toggle;
+
+    localStorage.setItem("memorize", toggle);
+    memorize = toggle;
+}
+
+function updateMemoryShowNames(toggle, self) {
+    toggle = JSON.parse(toggle);
+    var display = document.getElementById("feedbackMemoryShowNames");
+    if (display !== null) {
+        if (toggle) {
+            applyLocalizationTo(display, "key.turnedOn", true);
+        } else {
+            applyLocalizationTo(display, "key.turnedOff", true);
+        }
+    }
+    if(self !== null) self.checked = toggle;
+
+    localStorage.setItem("memoryShowNames", toggle);
+    showNames = toggle;
+}
+
+function delayedUpdateMemoryValues(delay) {
+    setTimeout(() => {
+        updateMemoryValues();
+    }, delay);
+}
+
+function updateMemoryValues() {
+    if (localStorage.getItem("memorize") !== null) {
+        updateMemoryEnableMemorize(localStorage.getItem("memorize"), document.getElementById("memorize"));
+    }
+    if (localStorage.getItem("memoryShowNames") !== null) {
+        updateMemoryShowNames(localStorage.getItem("memoryShowNames"), document.getElementById("memoryShowNames"));
+    }
 }
