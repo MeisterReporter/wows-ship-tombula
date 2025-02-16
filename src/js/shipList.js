@@ -33,7 +33,7 @@ function initializeList(callback = null) {
         }
 
         loadSelection();
-        if (typeof callback !== 'undefined') {
+        if (callback != null) {
             callback();
         }
     });
