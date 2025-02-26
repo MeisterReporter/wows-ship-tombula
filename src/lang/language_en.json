@@ -82,7 +82,11 @@
     "key.cheat_penalty_content": "I said there will be consequences! The memory will be randomized again, HAHAHA!",
 
     "key.dialog.memory_rules.title": "Memory Rules",
-    "key.dialog.memory_rules.content": "<p>1. Do not cheat, Thanks.</p><p>2. Cards revealed in the previous round should not be the first to be revealed in the new round. A violation will be severely punished.</p>",
+    "key.dialog.memory_rules.content": "<p>1. Do not cheat, Thanks.</p><p>2. Cards revealed in the previous round should not be the first to be revealed in the new round. A violation will be severely punished.</p><p>3. Dont open cards too fast</p>",
     "key.dialog.not_enough_ships.title": "Not enough ships",
-    "key.dialog.not_enough_ships.content": "You have not selected enough ships. Select at least 8 ships to play the memory mode."
+    "key.dialog.not_enough_ships.content": "You have not selected enough ships. Select at least 8 ships to play the memory mode.",
+    "key.dialog.timeout_warning.title": "Slow down",
+    "key.dialog.timeout_warning.content": "Hey, slow down a bit. Look at the ships carefully before revealing new ones. Do this more times and there will be a penalty.",
+    "key.dialog.timeout_penalty.title": "I SAID SLOWER!",
+    "key.dialog.timeout_penalty.content": "Now you have to draw a ship chosen by me!"
 }

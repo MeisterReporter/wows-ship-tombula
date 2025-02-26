@@ -82,7 +82,11 @@
     "key.cheat_penalty_content": "Ich sagte doch es gibt Konsequenzen! Das Memory wird jetzt neu gemischt, HAHAHA!",
 
     "key.dialog.memory_rules.title": "Memory Regeln",
-    "key.dialog.memory_rules.content": "<p>1. Nicht Schummeln, Danke.</p><p>2. In der Runde vorher aufgedeckte Karten dürfen nicht als erstes in der neuen Runde aufgedeckt werden. Ein Verstoß wird hart bestraft.</p>",
+    "key.dialog.memory_rules.content": "<p>1. Nicht Schummeln, Danke.</p><p>2. In der Runde vorher aufgedeckte Karten dürfen nicht als erstes in der neuen Runde aufgedeckt werden. Ein Verstoß wird hart bestraft.</p><p>3. Nicht zu schnell karten aufdecken</p>",
     "key.dialog.not_enough_ships.title": "Nicht genügen Schiffe",
-    "key.dialog.not_enough_ships.content": "Du hast nicht genügend Schiffe ausgewählt. Wähle mindestens 8 Schiffe aus um den Memory Modus zu spielen."
+    "key.dialog.not_enough_ships.content": "Du hast nicht genügend Schiffe ausgewählt. Wähle mindestens 8 Schiffe aus um den Memory Modus zu spielen.",
+    "key.dialog.timeout_warning.title": "Mach mal langsamer",
+    "key.dialog.timeout_warning.content": "Hey mach mal etwas langsamer. Schau dir die Schiffe genau an bevor du neu aufdeckst. Mach das noch häufiger und es gibt eine Bestrafung.",
+    "key.dialog.timeout_penalty.title": "ICH SAGTE LANGSAAAMER!",
+    "key.dialog.timeout_penalty.content": "Jetzt musst du ein von mir festgelegtes Schiff ziehen!"
 }

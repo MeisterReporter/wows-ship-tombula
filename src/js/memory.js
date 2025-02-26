@@ -4,9 +4,40 @@ let card1 = null;
 let card2 = null;
 let lastTwoCards = [];
 let cheatTrys = 0;
+let timeoutTrys = 0;
 
 var memorize = false;
-var showNames = true;
+var showNames = false;
+
+var timeout = false;
+
+var BadShips = [
+    "Tiger '59",
+    "Auckland",
+    "Umikaze",
+    "Moskva",
+    "Gibraltar",
+    "U-4501",
+    "Alliance",
+    "Gneisenau",
+    "Riga",
+    "Francesco Caracciolo",
+    "Attilio Regolo",
+    "Paolo Emilio",
+    "Hector",
+    "Archerfish",
+    "Franklin D. Roosevelt",
+    "Manfred von Richthofen",
+    "Graf Zeppelin",
+    "Schill",
+    "Karl von Schönberg",
+    "Canarias",
+    "Svea",
+    "Lugdunum",
+    "Stord '43",
+    "Picardie",
+    "Tashkent '39",
+]
 
 function distributeCards() {
     if (!hasEnoughShips()) return;
@@ -82,11 +113,29 @@ function distributeCards() {
 
 function showMemoryCard(self, fromOnClick = true) {
     if (self !== null && self.hasAttribute("hidden") && ((fromOnClick && allowTurningCards) || !fromOnClick)) {
-        turnCard();
-        self.removeAttribute("hidden");
-        if (fromOnClick) {
-            turnedCards++;
-            checkEquality(self);
+        if (!timeout) {
+            turnCard();
+            self.removeAttribute("hidden");
+            if (fromOnClick) {
+                turnedCards++;
+                checkEquality(self);
+            }
+        } else {
+            timeoutTrys++;
+            if (timeoutTrys > 2) {
+                addDialog("key.dialog.timeout_penalty.title", "key.dialog.timeout_penalty.content", true, "key.button.ok");
+                timeoutTrys = 0;
+                setTimeout(() => {
+                    const badShipIndex = findBadShip();
+                    const ship = shipData[badShipIndex];
+                    var flagPath = "src/img/flag_" + ship.faction + ".png";
+                    var instruction = document.getElementById("instruction");
+                    instruction.innerHTML = "<div class='singleline-ship-display'><p><span id='543789'></span><img class='flag large' src='" + flagPath +"'><span class='tier'>" + ship.tier + "</span><span class='class'>" + ship.type + "</span><span class='name'>" + ship.name + "</span></p></div>";
+                }, 1000);
+            }
+            if (timeoutTrys > 0) {
+                addDialog("key.dialog.timeout_warning.title", "key.dialog.timeout_warning.content", true, "key.button.ok");
+            }
         }
     }
 }
@@ -158,6 +207,10 @@ function checkEquality(self) {
         card1 = null;
         card2 = null;
         turnedCards = 0;
+        timeout = true;
+        setTimeout(() => {
+            timeout = false;
+        }, 2000);
     }
 }
 
@@ -190,6 +243,16 @@ function hasEnoughShips() {
         addDialog("key.dialog.not_enough_ships.title", "key.dialog.not_enough_ships.content", true, "key.button.ok");
     }
     return hasEnough;
+}
+
+function findBadShip() {
+    const randomName = BadShips[Math.floor(Math.random() * BadShips.length)];
+    for (let index = 0; index < shipData.length; index++) {
+        const element = shipData[index];
+        if (randomName == element.name) {
+            return index;
+        }
+    }
 }
 
 //////////////
