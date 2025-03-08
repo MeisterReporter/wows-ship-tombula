@@ -1,5 +1,5 @@
 {
-    "version": "1.1.5-14.1",
+    "version": "1.1.5-14.2",
     "key.new": "New",
     "key.title": "Ship Tombola",
     "key.title.memory": "Ship Memory",
@@ -44,7 +44,7 @@
     "key.dialog.types.title": "Ship classes",
     "key.dialog.types.content": "If you click on the ship classes or check boxes, all ships of the class will be selected or deselected.<p>Here is the explanation of the class abbreviations:</p><p><b>SS</b>: Submarine (<span>SS</span>)</p ><p><b>DD</b>: Destroyer (<span>DD</span>)</p><p><b>CL</b>: Light Cruiser (<span>CL</span>)</p><p><b>CA</b>: Heavy Cruiser (<span>CA</span>)</p><p><b>BC</b>: Battlecruiser (<span>BC</span>)</p><p><b>BB</b>: Battleship (<span>BB</span>)</p><p><b>CV</b>: Aircraft carrier (<span>CV</span>)</p>",
     "key.dialog.pathnotes.title": "Whats new?",
-    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.1.5-14.1:</p><p>- Memory mode added at <a onclick=window.location.replace('memory.html')>/memory.html</a></p><p>- New Ships: Hull, Taihang, The Netherlands</p>",
+    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.1.5-14.2:</p><p>- Memory mode added at <a onclick=window.location.replace('memory.html')>/memory.html</a></p><p>- New Ships: S-1, L-20, K-1, Seal, Metz, Vyazma, Oregon</p>",
     "key.dialog.teamkrado.title": "Who is Teamkrado?",
     "key.dialog.teamkrado.content": "<p><b>Teamkrado</b> is an official contributor for <i>World of Warships</i>. In the streams and videos, <b>Krado</b> is the \"camera\" for the viewers.</br>Occasionally, <b>Nere</b>, another member of Teamkrado, is also the peephole into the game world.</br>Also involved are <b>Krom</b> and <b>Blackchi</b>, the latter plays with Krado <i>Hunt Showdown</i> and <i>War Thunder</i>.</br>In <i>World of Warships</i> or <i>War Thunder</i>, Krado lets his community go along as long as there are spots available in the division.</p><p style='font-size: 15pt'>Teamkrado can be watched here:</p><p><a href='https://www.youtube.com/@Teamkrado'>Youtube channel</a> </p><p><a href='https://www.twitch.tv/teamkrado'>Twitch channel</a></p><p><a href='https://www.instagram .com/teamkrado/'>Instagram Account</a></p><p><a href='https://www.facebook.com/teamkrado/'>Facebook Account</a></p>",
     "key.dialog.loginfail.title": "Login failed",
@@ -88,5 +88,9 @@
     "key.dialog.timeout_warning.title": "Slow down",
     "key.dialog.timeout_warning.content": "Hey, slow down a bit. Look at the ships carefully before revealing new ones. Do this more times and there will be a penalty.",
     "key.dialog.timeout_penalty.title": "I SAID SLOWER!",
-    "key.dialog.timeout_penalty.content": "Now you have to draw a ship chosen by me!"
+    "key.dialog.timeout_penalty.content": "Now you have to draw a ship chosen by me!",
+
+    "key.dialog.new_version.title": "New Version Available",
+    "key.dialog.new_version.content": "A new version is available, click \"Reload\" to load the new version of the Tombola.",
+    "key.dialog.new_version.button": "Reload"
 }

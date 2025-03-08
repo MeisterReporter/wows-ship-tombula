@@ -1000,6 +1000,15 @@
         "premium": "true"
     },
     {
+        "name": "Oregano",
+        "faction": "usa",
+        "type": "BB",
+        "tier": "IX",
+        "image": "src/img/ships/oregon.png",
+        "attr": "experimental",
+        "premium": "true"
+    },
+    {
         "name": "Colorado 2",
         "faction": "usa",
         "type": "BB",
@@ -2162,6 +2171,14 @@
         "premium": "false"
     },
     {
+        "name": "S-1",
+        "faction": "russia",
+        "type": "SS",
+        "tier": "VI",
+        "image": "src/img/ships/s_1.png",
+        "premium": "false"
+    },
+    {
         "name": "Sinop",
         "faction": "russia",
         "type": "BB",
@@ -2231,6 +2248,14 @@
         "type": "CV",
         "tier": "VIII",
         "image": "src/img/ships/pobeda.png",
+        "premium": "false"
+    },
+    {
+        "name": "L-20",
+        "faction": "russia",
+        "type": "SS",
+        "tier": "VIII",
+        "image": "src/img/ships/l_20.png",
         "premium": "false"
     },
     {
@@ -2319,6 +2344,14 @@
         "type": "CV",
         "tier": "X",
         "image": "src/img/ships/nakhimov.png",
+        "premium": "false"
+    },
+    {
+        "name": "K-1",
+        "faction": "russia",
+        "type": "SS",
+        "tier": "X",
+        "image": "src/img/ships/k_1.png",
         "premium": "false"
     },
     {
@@ -2626,6 +2659,15 @@
         "premium": "true"
     },
     {
+        "name": "Vyazma",
+        "faction": "russia",
+        "type": "BC",
+        "tier": "IX",
+        "image": "src/img/ships/vyazma.png",
+        "attr": "experimental",
+        "premium": "true"
+    },
+    {
         "name": "Khabarovsk",
         "faction": "russia",
         "type": "DD",
@@ -2690,15 +2732,6 @@
         "premium": "true"
     },
     {
-        "name": "S-1",
-        "faction": "russia",
-        "type": "SS",
-        "tier": "VI",
-        "image": "src/img/ships/s_1.png",
-        "attr": "test",
-        "premium": "false"
-    },
-    {
         "name": "Bagration",
         "faction": "russia",
         "type": "CL",
@@ -2708,29 +2741,11 @@
         "premium": "false"
     },
     {
-        "name": "L-20",
-        "faction": "russia",
-        "type": "SS",
-        "tier": "VIII",
-        "image": "src/img/ships/l_20.png",
-        "attr": "test",
-        "premium": "false"
-    },
-    {
         "name": "Kozma Minin",
         "faction": "russia",
         "type": "CA",
         "tier": "IX",
         "image": "src/img/ships/kozma_minin.png",
-        "attr": "test",
-        "premium": "false"
-    },
-    {
-        "name": "K-1",
-        "faction": "russia",
-        "type": "SS",
-        "tier": "X",
-        "image": "src/img/ships/k_1.png",
         "attr": "test",
         "premium": "false"
     },
@@ -4256,6 +4271,14 @@
         "premium": "true"
     },
     {
+        "name": "Theseus",
+        "faction": "uk",
+        "type": "CV",
+        "tier": "VIII",
+        "image": "src/img/ships/theseus.png",
+        "premium": "false"
+    },
+    {
         "name": "Marlborough",
         "faction": "uk",
         "type": "BC",
@@ -4328,21 +4351,20 @@
         "premium": "true"
     },
     {
+        "name": "Seal",
+        "faction": "uk",
+        "type": "SS",
+        "tier": "X",
+        "image": "src/img/ships/seal.png",
+        "premium": "true"
+    },
+    {
         "name": "Thunderer",
         "faction": "uk",
         "type": "BB",
         "tier": "X",
         "image": "src/img/ships/thunderer.png",
         "premium": "true"
-    },
-    {
-        "name": "Theseus",
-        "faction": "uk",
-        "type": "CV",
-        "tier": "VIII",
-        "image": "src/img/ships/theseus.png",
-        "attr": "test",
-        "premium": "false"
     },
     {
         "name": "Cumberland",
@@ -4793,6 +4815,15 @@
         "type": "BB",
         "tier": "VIII",
         "image": "src/img/ships/picardie.png",
+        "premium": "true"
+    },
+    {
+        "name": "Metz",
+        "faction": "france",
+        "type": "BC",
+        "tier": "VIII",
+        "image": "src/img/ships/toulon.png",
+        "attr": "experimental",
         "premium": "true"
     },
     {
