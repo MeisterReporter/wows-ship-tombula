@@ -4351,6 +4351,14 @@
         "premium": "true"
     },
     {
+        "name": "Monmouth",
+        "faction": "uk",
+        "type": "CA",
+        "tier": "X",
+        "image": "src/img/ships/monmouth.png",
+        "premium": "true"
+    },
+    {
         "name": "Seal",
         "faction": "uk",
         "type": "SS",
@@ -4372,15 +4380,6 @@
         "type": "BB",
         "tier": "X",
         "image": "src/img/ships/cumberland.png",
-        "attr": "test",
-        "premium": "false"
-    },
-    {
-        "name": "Monmouth",
-        "faction": "uk",
-        "type": "CA",
-        "tier": "X",
-        "image": "src/img/ships/monmouth.png",
         "attr": "test",
         "premium": "false"
     },
