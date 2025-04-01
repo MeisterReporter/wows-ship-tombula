@@ -1,4 +1,4 @@
-function applyLocalization() {
+function applyLocalization(root = document) {
     // Find the correct language file
     var lang = navigator.language.substring(0, 2);
     if (lang !== "de") {
@@ -9,14 +9,14 @@ function applyLocalization() {
     fetch("./src/lang/" + filename)
     .then((response) => response.json())
     .then((json) => {
-        var elements = document.querySelectorAll("[translatable]");
+        var elements = root.querySelectorAll("[translatable]");
         for (let i = 0; i < elements.length; i++) {
             var element = elements[i];
             if (element.childNodes.length == 1) {
                 element.innerText = json[element.innerText];
             }
         }
-        elements  = document.querySelectorAll("[translatable-placeholder]");
+        elements  = root.querySelectorAll("[translatable-placeholder]");
         for (let i = 0; i < elements.length; i++) {
             var element = elements[i];
             element.placeholder = json[element.placeholder];

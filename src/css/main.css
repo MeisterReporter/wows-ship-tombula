@@ -762,6 +762,109 @@ space[size="large"] {
     }
 }
 
+.april-fool {
+    font-size: xx-large;
+    font-weight: bold;
+    height: 60vh;
+    line-height: 60vh;
+    text-align: center;
+}
+
+.nauty-message-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    pointer-events: none;
+}
+
+.nauty-message {
+    display: flex;
+    position: fixed;
+    max-width: 30rem;
+    bottom: 1rem;
+    right: 1rem;
+
+    padding: 1rem;
+
+    background-color: #333333;
+    box-shadow: 0px 0px 5px #000000;
+    border-radius: 1rem;
+
+    pointer-events: all;
+
+    animation: showMessage 0.5s ease-in-out forwards;
+}
+
+.nauty-message img {
+    width: auto;
+    height: 5rem;
+}
+
+.nauty-message div {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+}
+
+.nauty-message span {
+    font-weight: bold;
+}
+
+.nauty-message p {
+    margin-top: auto;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.nauty-message a {
+    position: absolute;
+    --size: 1.5rem;
+    width: var(--size);
+    height: var(--size);
+    top: calc(var(--size) * -0.25);
+    right: calc(var(--size) * -0.25);
+    line-height: var(--size);
+    text-align: center;
+
+    background-color: #fff;
+    color: #000;
+    border-radius: var(--size);
+
+    transition: background-color 0.25s ease-in-out;
+}
+
+.nauty-message a:hover {
+    background-color: #bebebe;
+
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@keyframes hideMessage {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes showMessage {
+    0% {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
 /* Footer */
 
 footer {

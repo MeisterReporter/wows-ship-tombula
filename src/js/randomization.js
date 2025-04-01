@@ -2,10 +2,48 @@ var classes = ["SS", "DD", "CL", "CA", "BC", "BB", "CV"];
 var classDraws = {"SS": 0, "DD": 0, "CL": 0, "CA": 0, "BC": 0, "BB": 0, "CV": 0};
 var tierDraws = {"I": 0, "II": 0, "III": 0, "IV": 0, "V": 0, "VI": 0, "VII": 0, "VIII": 0, "IX": 0, "X": 0, "★": 0};
 
+var enableAprilFools = true;
+var firstFoolShip = "Umikaze";
+var foolShips = [
+    "Tiger '59",
+    "Auckland",
+    "Gibraltar",
+    "U-4501",
+    "Alliance",
+    "Gneisenau",
+    "Riga",
+    "Francesco Caracciolo",
+    "Attilio Regolo",
+    "Paolo Emilio",
+    "Hector",
+    "Archerfish",
+    "Manfred von Richthofen",
+    "Graf Zeppelin",
+    "Schill",
+    "Karl von Schönberg",
+    "Canarias",
+    "Lugdunum",
+    "Stord '43",
+    "Picardie",
+    "Tashkent '39",
+    "Ragnar",
+    "Shinonome",
+    "Michelangelo",
+    "Navarin",
+    "Seattle",
+    "Takahashi",
+    "Luca Tarigo",
+    "Adriatico",
+    "Xin Zhong Guo 14",
+    "Dalian",
+    "Omaha",
+    "Kitakami",
+]
+
 function chooseRandom(self) {
     confettiFired = false;
     self.setAttribute("disabled", null);
-    var random = getRandomIndex();
+    var random = enableAprilFools ? findAprilShipIndex() : getRandomIndex();
     // Check for possible issues
     if (random === -1) {
         alert("Generation of a Random ship failed. Please check if you have selected at least one Ship.");
@@ -85,6 +123,8 @@ function chooseRandom(self) {
             var tombula = randomize.getElementsByClassName("tombola")[0];
             tombula.style["transition"] = "";
             tombula.style["transform"] = "rotateX(0deg) translateZ(-480px)";
+            // Check if the april fool is over
+            if (enableAprilFools) checkIfFoolIsOver();
         }, 500);
     }, 3000, self);
 }
@@ -171,4 +211,83 @@ function getMaximumShipDraws() {
         }
     }
     return maximum;
+}
+
+function findAprilShipIndex() {
+    // Load values out of storage
+    var firstFool = localStorage.getItem("FirstFoolShip");
+    if (firstFool === null) {
+        firstFool = false;
+    } else {
+        firstFool = firstFool === "true";
+    }
+    var aprilFoolShips = localStorage.getItem("AprilFoolShips");
+    if (aprilFoolShips !== null) {
+        aprilFoolShips = JSON.parse(aprilFoolShips);
+    }
+
+    const availableShips = foolShips.filter(ship => !aprilFoolShips || !aprilFoolShips.includes(ship));
+    // If the april fool has been played through, return to normal behavior
+    if (availableShips.length <= 0) {
+        return getRandomIndex();
+    }
+    // Find a random fool ship
+    const randomName = firstFool ? availableShips[Math.floor(Math.random() * availableShips.length)] : firstFoolShip;
+    for (let index = 0; index < shipData.length; index++) {
+        const element = shipData[index];
+        if (randomName == element.name) {
+            if (!firstFool) localStorage.setItem("FirstFoolShip", true);
+            if (aprilFoolShips !== null) {
+                aprilFoolShips.push(randomName);
+            } else {
+                aprilFoolShips = [randomName];
+            }
+            localStorage.setItem("AprilFoolShips", JSON.stringify(aprilFoolShips));
+            return index;
+        }
+    }
+}
+
+function hasAprilFoolShipsLeft() {
+    var aprilFoolShips = localStorage.getItem("AprilFoolShips");
+    if (aprilFoolShips !== null) {
+        aprilFoolShips = JSON.parse(aprilFoolShips);
+    }
+    return foolShips.filter(ship => !aprilFoolShips || !aprilFoolShips.includes(ship)).length > 0;
+}
+
+function checkIfFoolIsOver() {
+    var shipListElement = document.getElementsByClassName("ship-list")[0];
+    if (hasAprilFoolShipsLeft() && enableAprilFools) {
+        for (let i = 0; i < shipListElement.children.length; i++) {
+            const element = shipListElement.children[i];
+            element.setAttribute("hidden", null);
+        }
+        var foolElement = document.getElementsByClassName("april-fool")[0];
+        foolElement.removeAttribute("hidden");
+    } else {
+        for (let i = 0; i < shipListElement.children.length; i++) {
+            const element = shipListElement.children[i];
+            element.removeAttribute("hidden");
+        }
+        var foolElement = document.getElementsByClassName("april-fool")[0];
+        foolElement.setAttribute("hidden", null);
+    }
+}
+
+function checkShipNames(shipNames) {
+    var foundShips = 0;
+    // Find random message
+    for (let i = 0; i < shipNames.length; i++) {
+        var shipName = shipNames[i];
+        // Find ship
+        for (let j = 0; j < shipData.length; j++) {
+            const element = shipData[j];
+            if (shipName == element.name) {
+                foundShips++;
+                continue;
+            }
+        }
+    }
+    console.log("Found " + foundShips + " ships of " + shipNames.length + ".");
 }
