@@ -264,7 +264,11 @@
                                     updateCoverage();
                                     if (coverage <= 0.2) {
                                         launchConfetti();
-                                        confettiPop();
+                                        if (!checkIfFoolIsOver()) {
+                                            playNereDiabolusSound();
+                                        } else {
+                                            confettiPop();
+                                        }
                                         confettiFired = true;
                                     }
                                 }

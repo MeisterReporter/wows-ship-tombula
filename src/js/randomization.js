@@ -124,7 +124,9 @@ function chooseRandom(self) {
             tombula.style["transition"] = "";
             tombula.style["transform"] = "rotateX(0deg) translateZ(-480px)";
             // Check if the april fool is over
-            if (enableAprilFools) checkIfFoolIsOver();
+            if (enableAprilFools) {
+                checkIfFoolIsOver();
+            }
         }, 500);
     }, 3000, self);
 }

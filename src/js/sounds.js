@@ -19,6 +19,8 @@ var levelPassed;
 var memoryMusicFiles = [];
 var memoryMusicSound;
 
+var nereDiabolusSound;
+
 var volume = 100;
 var scratchSounds = true;
 var crazyMode = false;
@@ -119,6 +121,8 @@ function loadSounds() {
     memoryMusicFiles.push(new Audio("src/aud/memory_no_2.mp3"));
     memoryMusicFiles.push(new Audio("src/aud/memory_no_3.mp3"));
     memoryMusicFiles.push(new Audio("src/aud/memory_no_4.mp3"));
+
+    nereDiabolusSound = new Audio("src/aud/Nere_Diabolus_Lache.mp3");
 }
 
 function randomSound(array) {
@@ -188,6 +192,11 @@ function wrongSound() {
 function levelPassedSound() {
     levelPassed.volume = 0.1 * (volume / 100.0);
     levelPassed.play();
+}
+
+function playNereDiabolusSound() {
+    nereDiabolusSound.volume = 0.5 * (volume / 100.0);
+    nereDiabolusSound.play();
 }
 
 function playMemoryMusic() {
