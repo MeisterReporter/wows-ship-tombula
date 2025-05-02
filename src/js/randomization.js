@@ -2,7 +2,7 @@ var classes = ["SS", "DD", "CL", "CA", "BC", "BB", "CV"];
 var classDraws = {"SS": 0, "DD": 0, "CL": 0, "CA": 0, "BC": 0, "BB": 0, "CV": 0};
 var tierDraws = {"I": 0, "II": 0, "III": 0, "IV": 0, "V": 0, "VI": 0, "VII": 0, "VIII": 0, "IX": 0, "X": 0, "★": 0};
 
-var enableAprilFools = true;
+var enableAprilFools = false;
 var firstFoolShip = "Umikaze";
 var foolShips = [
     "Tiger '59",
@@ -267,6 +267,7 @@ function checkIfFoolIsOver() {
         }
         var foolElement = document.getElementsByClassName("april-fool")[0];
         foolElement.removeAttribute("hidden");
+        return false;
     } else {
         for (let i = 0; i < shipListElement.children.length; i++) {
             const element = shipListElement.children[i];
@@ -274,6 +275,7 @@ function checkIfFoolIsOver() {
         }
         var foolElement = document.getElementsByClassName("april-fool")[0];
         foolElement.setAttribute("hidden", null);
+        return true;
     }
 }
 
