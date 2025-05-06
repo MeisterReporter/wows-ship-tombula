@@ -1,12 +1,19 @@
 {
-    "version": "1.1.9-14.3",
+    "version": "1.2.0-14.3",
     "key.new": "New",
     "key.title": "Ship Tombola",
     "key.title.memory": "Ship Memory",
+    "key.title.9live": "10/2 Live",
     "key.brought_by": "brought to you by",
     "key.game": "for World of Warships",
     "key.play_now": "Play Now",
     "key.search": "Search",
+
+    "key.1": "one",
+    "key.1.": "one",
+    "key.2": "two",
+    "key.3": "three",
+    "key.4": "four",
 
     "key.filter.tiers": "Selected Tiers:",
     "key.filter.nations": "Selected Nations:",
@@ -37,6 +44,8 @@
     "key.button.close": "Close",
     "key.button.understood": "Understood",
     "key.button.ok": "Ok",
+    "key.button.no": "No",
+    "key.button.yes": "Yes",
     "key.turnedOn": "On",
     "key.turnedOff": "Off",
     
@@ -47,7 +56,7 @@
     "key.dialog.types.title": "Ship classes",
     "key.dialog.types.content": "If you click on the ship classes or check boxes, all ships of the class will be selected or deselected.<p>Here is the explanation of the class abbreviations:</p><p><b>SS</b>: Submarine (<span>SS</span>)</p ><p><b>DD</b>: Destroyer (<span>DD</span>)</p><p><b>CL</b>: Light Cruiser (<span>CL</span>)</p><p><b>CA</b>: Heavy Cruiser (<span>CA</span>)</p><p><b>BC</b>: Battlecruiser (<span>BC</span>)</p><p><b>BB</b>: Battleship (<span>BB</span>)</p><p><b>CV</b>: Aircraft carrier (<span>CV</span>)</p>",
     "key.dialog.pathnotes.title": "Whats new?",
-    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.1.9-14.3:</p><p>- The Tombola is normal again</p><p>- New Ships: ZF-6 Goulden, Gambia, Alberico da Barbiano, Blücher, Suzuya, Valpariso, Eskimo</p>",
+    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.2.0-14.3:</p><p>- You can now call 10/2 Live <a onclick=\"window.location.replace('liveshow.html')\">Call Now</a></p><p>- New Ships: ZF-6 Goulden, Gambia, Alberico da Barbiano, Blücher, Suzuya, Valpariso, Eskimo</p>",
     "key.dialog.teamkrado.title": "Who is Teamkrado?",
     "key.dialog.teamkrado.content": "<p><b>Teamkrado</b> is an official contributor for <i>World of Warships</i>. In the streams and videos, <b>Krado</b> is the \"camera\" for the viewers.</br>Occasionally, <b>Nere</b>, another member of Teamkrado, is also the peephole into the game world.</br>Also involved are <b>Krom</b> and <b>Blackchi</b>, the latter plays with Krado <i>Hunt Showdown</i> and <i>War Thunder</i>.</br>In <i>World of Warships</i> or <i>War Thunder</i>, Krado lets his community go along as long as there are spots available in the division.</p><p style='font-size: 15pt'>Teamkrado can be watched here:</p><p><a href='https://www.youtube.com/@Teamkrado'>Youtube channel</a> </p><p><a href='https://www.twitch.tv/teamkrado'>Twitch channel</a></p><p><a href='https://www.instagram .com/teamkrado/'>Instagram Account</a></p><p><a href='https://www.facebook.com/teamkrado/'>Facebook Account</a></p>",
     "key.dialog.loginfail.title": "Login failed",
@@ -95,5 +104,30 @@
 
     "key.dialog.new_version.title": "New Version Available",
     "key.dialog.new_version.content": "A new version is available, click \"Reload\" to load the new version of the Tombola.",
-    "key.dialog.new_version.button": "Reload"
+    "key.dialog.new_version.button": "Reload",
+
+    "key.9live.question": "Search for: A ship with {mode} {count} \"{character}\"",
+    "key.9live.exact": "exactly",
+    "key.9live.atLeast": "at least",
+    "key.9live.moreThan": "more than",
+    "key.9live.maximum": "at least one and maximum of",
+    "key.9live.call_number": "The hot button is active, call now at +TK 696969",
+    "key.9live.call_now": "Call now for only 1.99C",
+    "key.9live.solution_please": "Claim it! Solution please:",
+    "key.9live.correct": "That is the solution!",
+    "key.9live.wrong": "Unfortunately wrong!",
+    "key.9live.call": "Call",
+
+    "key.dialog.9liveMoney.title": "Not enough Money",
+    "key.dialog.9liveMoney.content": "To call 10/2 Live, you must insert at least 1.99C into the phone.",
+    "key.dialog.9liveExlpain.title": "How does 10/2 Live work?",
+    "key.dialog.9liveExlpain.content": "<p>10/2 Live is a guessing game where ships must be guessed. The question narrows down the selection a bit.</p><p>Call 10/2 Live by inserting coins into the phone (2 per call), then you can enter your answer.</p><p>With a bit of luck, you will guess correctly, and then you can play the ship.</p><p>If you get stuck, feel free to ask your friends for help.</p>",
+    "key.dialog.9liveOffer.title": "Here is a deal",
+    "key.dialog.9liveOffer.content": "Are you really sure that this is the correct answer? I could also offer you this ship:",
+    "key.dialog.9liveOffer.confirm": "I am sure!",
+    "key.dialog.9liveOffer.cancel": "I'll take the offer",
+    "key.dialog.9liveOffer.result": "Now you have to play this Ship:",
+    "key.dialog.9liveEnd.title": "The program is over",
+    "key.dialog.9liveEnd.content": "Unfortunately, the program is already over. Would you like to play another round?",
+    "key.dialog.9liveEnd.statistic": "Used Coins:"
 }

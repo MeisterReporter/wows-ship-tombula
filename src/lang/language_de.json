@@ -1,12 +1,19 @@
 {
-    "version": "1.1.9-14.3",
+    "version": "1.2.0-14.3",
     "key.new": "Neu",
     "key.title": "Schiffs Tombola",
     "key.title.memory": "Schiffs Memory",
+    "key.title.9live": "10/2 Live",
     "key.brought_by": "präsentiert von",
     "key.game": "für World of Warships",
     "key.play_now": "Jetzt Spielen",
     "key.search": "Suchen",
+
+    "key.1": "eins",
+    "key.1.": "einem",
+    "key.2": "zwei",
+    "key.3": "drei",
+    "key.4": "vier",
 
     "key.filter.tiers": "Ausgewählte Tierstufen:",
     "key.filter.nations": "Ausgewählte Nationen:",
@@ -37,6 +44,8 @@
     "key.button.close": "Schließen",
     "key.button.understood": "Verstanden",
     "key.button.ok": "Ok",
+    "key.button.no": "Nein",
+    "key.button.yes": "Ja",
     "key.turnedOn": "An",
     "key.turnedOff": "Aus",
     
@@ -47,7 +56,7 @@
     "key.dialog.types.title": "Schiffsklassen",
     "key.dialog.types.content": "Wenn sie auf die Schiffsklassen oder Haken klicken werden alle Schiffe der Klasse aus- oder abgewählt.<p>Hier ist die Erklärung der Klassenkürzel:</p><p><b>SS</b>: U-Boot (<span>SS</span>)</p><p><b>DD</b>: Zerstörer (<span>DD</span>)</p><p><b>CL</b>: Leichter Kreuzer (<span>CL</span>)</p><p><b>CA</b>: Schwerer Kreuzer (<span>CA</span>)</p><p><b>BC</b>: Schlachtkreuzer (<span>BC</span>)</p><p><b>BB</b>: Schlachtschiff (<span>BB</span>)</p><p><b>CV</b>: Flugzeugträger (<span>CV</span>)</p>",
     "key.dialog.pathnotes.title": "Was ist neu?",
-    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.1.9-14.3:</p><p>- Die Tombola ist wieder normal!</p><p>- Neue Schiffe: ZF-6 Goulden, Gambia, Alberico da Barbiano, Blücher, Suzuya, Valpariso, Eskimo</p>",
+    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.2.0-14.3:</p><p>- Rufen sie jetzt bei 10/2 Live an <a onclick=\"window.location.replace('liveshow.html')\">Jetzt Anrufen</a></p><p>- Neue Schiffe: ZF-6 Goulden, Gambia, Alberico da Barbiano, Blücher, Suzuya, Valpariso, Eskimo</p>",
     "key.dialog.teamkrado.title": "<span class='middle'>Wer ist Teamkrado?</span><img class='middle' style='margin-left:0.5rem;' width='50' height='50' src='src/img/Teamkrado_128px.png'>",
     "key.dialog.teamkrado.content": "<p><b>Teamkrado</b> ist ein offizieller Contributor für <i>World of Warships</i>. In den Streams und Videos ist <b>Krado</b> die \"Kamera\" für die Zuschauer.</br>Ab und zu ist auch <b>Nere</b>, ein weiteres Mitglied von Teamkrado, das Guckrohr in die Spielwelt.</br>Mit von der Partie sind zusätzlich <b>Krom</b> und <b>Blackchi</b>, letzterer spielt mit Krado <i>Hunt Showdown</i> und <i>War Thunder</i>.</br>In <i>World of Warships</i> oder <i>War Thunder</i> lässt Krado seine Community mitfahren, sofern Plätze in der Division frei sind.</p><p style='font-size: 15pt'>Teamkrado gibt es hier zu sehen:</p><p><a href='https://www.youtube.com/@Teamkrado'>Youtube Kanal</a></p><p><a href='https://www.twitch.tv/teamkrado'>Twitch Kanal</a></p><p><a href='https://www.instagram.com/teamkrado/'>Instagram Account</a></p><p><a href='https://www.facebook.com/teamkrado/'>Facebook Account</a></p>",
     "key.dialog.loginfail.title": "Anmeldung Fehlgeschlagen",
@@ -95,5 +104,30 @@
 
     "key.dialog.new_version.title": "Neue Version verfügbar",
     "key.dialog.new_version.content": "Es gibt eine neue Version, klicke \"Neuladen\" um die neue Version der Tombola zu laden.",
-    "key.dialog.new_version.button": "Neuladen"
+    "key.dialog.new_version.button": "Neuladen",
+
+    "key.9live.question": "Gesucht ist: Ein Schiff mit {mode} {count} \"{character}\"",
+    "key.9live.exact": "genau",
+    "key.9live.atLeast": "mindestens",
+    "key.9live.moreThan": "mehr als",
+    "key.9live.maximum": "mindestens einem und maximal",
+    "key.9live.call_number": "Der Hotbutton ist aktiv, jetzt anrufen unter +TK 696969",
+    "key.9live.call_now": "Jetzt anrufen für nur 1,99C",
+    "key.9live.solution_please": "Zugeschlagen! Lösung Bitte:",
+    "key.9live.correct": "Das ist die Lösung!",
+    "key.9live.wrong": "Leider falsch!",
+    "key.9live.call": "Anrufen",
+
+    "key.dialog.9liveMoney.title": "Nicht genügend Geld",
+    "key.dialog.9liveMoney.content": "Um bei 10/2 Live anzurufen musst du mindestens 1,99C in das Telefon stecken.",
+    "key.dialog.9liveExlpain.title": "Wie funktioniert 10/2 Live?",
+    "key.dialog.9liveExlpain.content": "<p>10/2 Live ist ein Ratespiel, bei dem Schiffe erraten werden müssen. Die Frage grenzt die Auswahl etwas ein.</p><p>Rufe bei 10/2 Live an, in dem du Münzen in das Telefon wirfst (2 pro Anruf), dann darfst du deine Antwort eingeben</p><p>Mit etwas glück triffst du eine Antwort, dann darfst du das Schiff spielen.</p><p>Wenn du nicht weiterkommst kannst du auch gerne Freunde fragen.</p>",
+    "key.dialog.9liveOffer.title": "Hier wäre ein Deal",
+    "key.dialog.9liveOffer.content": "Bist du dir wirklich sicher, dass dies die richtige antwort ist? Ich könnte dir auch dieses Schiff anbieten:",
+    "key.dialog.9liveOffer.confirm": "Ich bin mir sicher!",
+    "key.dialog.9liveOffer.cancel": "Lieber das Angebot",
+    "key.dialog.9liveOffer.result": "Jetzt darfst du dieses Schiff spielen:",
+    "key.dialog.9liveEnd.title": "Das Programm ist vorbei",
+    "key.dialog.9liveEnd.content": "Leider ist das Programm schon vorbei. Möchtest du noch eine Runde spielen?",
+    "key.dialog.9liveEnd.statistic": "Ausgegbene Münzen:"
 }

@@ -29,6 +29,21 @@ var memoryMusic = true;
 var holySFXVolume = 0.2;
 var memoryMusicVolume = 0.05;
 
+var dropCoinSound;
+var phoneRingingSound;
+var phoneHangupSound;
+
+var liveShowWelcome;
+var liveShowCallWelcome = [];
+var liveShowIdle = [];
+var liveShowAnswerWrong = [];
+var liveShowAnswerSuperWrong;
+var liveShowAnswerCorrent = [];
+var liveShowAnswerDeal;
+var liveShowGlaspenis;
+var liveShowHabicht;
+var liveShowCallCost;
+
 function loadSounds() {
     ihhhSounds.push(new Audio("src/aud/krado_ihhhh_01.mp3"));
     ihhhSounds.push(new Audio("src/aud/krado_ihhhh_02.mp3"));
@@ -123,6 +138,39 @@ function loadSounds() {
     memoryMusicFiles.push(new Audio("src/aud/memory_no_4.mp3"));
 
     nereDiabolusSound = new Audio("src/aud/Nere_Diabolus_Lache.mp3");
+
+    dropCoinSound = new Audio("src/aud/coin-drops-and-spins.mp3");
+    phoneRingingSound = new Audio("src/aud/vintage-phone-ringing.mp3");
+    phoneHangupSound = new Audio("src/aud/hang_up_call.mp3");
+
+    liveShowWelcome = new Audio("src/aud/live/einleitung-1.mp3");
+
+    liveShowCallWelcome = [];
+    liveShowCallWelcome.push(new Audio("src/aud/live/einleitung-2.mp3"));
+    liveShowCallWelcome.push(new Audio("src/aud/live/einleitung-3.mp3"));
+    liveShowCallWelcome.push(new Audio("src/aud/live/einleitung-4.mp3"));
+
+    liveShowIdle = []
+    liveShowIdle.push(new Audio("src/aud/live/idle-5.mp3"));
+    liveShowIdle.push(new Audio("src/aud/live/idle-6.mp3"));
+
+    liveShowAnswerWrong = [];
+    liveShowAnswerWrong.push(new Audio("src/aud/live/falsch-11.mp3"));
+    liveShowAnswerWrong.push(new Audio("src/aud/live/falsch-13.mp3"));
+    liveShowAnswerWrong.push(new Audio("src/aud/live/falsch-14.mp3"));
+    liveShowAnswerSuperWrong = new Audio("src/aud/live/falsch-12.mp3");
+
+    liveShowAnswerCorrent = [];
+    liveShowAnswerCorrent.push(new Audio("src/aud/live/richtig-7.mp3"));
+    liveShowAnswerCorrent.push(new Audio("src/aud/live/richtig-8.mp3"));
+    liveShowAnswerCorrent.push(new Audio("src/aud/live/richtig-9.mp3"));
+
+    liveShowAnswerDeal = new Audio("src/aud/live/richtig-10.mp3");
+
+    liveShowGlaspenis = new Audio("src/aud/live/insider-15.mp3");
+    liveShowHabicht = new Audio("src/aud/live/insider-16.mp3");
+
+    liveShowCallCost = new Audio("src/aud/live/idle-5.mp3");
 }
 
 function randomSound(array) {
@@ -197,6 +245,124 @@ function levelPassedSound() {
 function playNereDiabolusSound() {
     nereDiabolusSound.volume = 0.5 * (volume / 100.0);
     nereDiabolusSound.play();
+}
+
+function playCoinSound() {
+    dropCoinSound.volume = 0.5 * (volume / 100.0);
+    dropCoinSound.play();
+}
+
+function playPhoneRingSound() {
+    phoneRingingSound.volume = 0.25 * (volume / 100.0);
+    phoneRingingSound.play();
+}
+
+function playPhoneHangupSound() {
+    phoneHangupSound.volume = 0.25 * (volume / 100.0);
+    phoneHangupSound.play();
+}
+
+function play10LiveWelcomeSound() {
+    liveShowWelcome.volume = 1 * (volume / 100.0);
+    liveShowWelcome.play();
+    moderatorTalk(liveShowWelcome.duration);
+}
+
+function play10LiveCallerWelcomeSound() {
+    let audio = randomSound(liveShowCallWelcome);
+    audio.volume = 1 * (volume / 100.0);
+    audio.play();
+    moderatorTalk(audio.duration);
+}
+
+function play10LiveIdle() {
+    if (isModeratorTalking) {
+        setTimeout(() => {
+            play10LiveIdle();
+        }, moderatorTalkingLength + 100);
+        return;
+    }
+    if (document.hidden) return;
+    let audio = randomSound(liveShowIdle);
+    audio.volume = 1 * (volume / 100.0);
+    audio.play();
+    moderatorTalk(audio.duration);
+}
+
+function play10LiveWrong() {
+    let audio = randomSound(liveShowAnswerWrong);
+    audio.volume = 1 * (volume / 100.0);
+    audio.play();
+    moderatorTalk(audio.duration);
+}
+
+function play10LiveSuperWrong() {
+    liveShowAnswerSuperWrong.volume = 1 * (volume / 100.0);
+    liveShowAnswerSuperWrong.play();
+    moderatorTalk(liveShowAnswerSuperWrong.duration);
+}
+
+function play10LiveCorrect() {
+    let audio = randomSound(liveShowAnswerCorrent);
+    audio.volume = 1 * (volume / 100.0);
+    audio.play();
+    moderatorTalk(audio.duration);
+}
+
+function play10LiveOfferADeal() {
+    liveShowAnswerDeal.volume = 1 * (volume / 100.0);
+    liveShowAnswerDeal.play();
+    moderatorTalk(liveShowAnswerDeal.duration);
+}
+
+function play10LiveGlaspenis() {
+    liveShowGlaspenis.volume = 1 * (volume / 100.0);
+    liveShowGlaspenis.play();
+    moderatorTalk(liveShowGlaspenis.duration);
+}
+
+function play10LiveHabicht() {
+    liveShowHabicht.volume = 1 * (volume / 100.0);
+    liveShowHabicht.play();
+    moderatorTalk(liveShowHabicht.duration);
+}
+
+function play10LiveCallCost() {
+    liveShowCallCost.volume = 1 * (volume / 100.0);
+    liveShowCallCost.play();
+    moderatorTalk(liveShowCallCost.duration);
+}
+
+function stopAll9LiveSounds() {
+    liveShowWelcome.pause();
+    liveShowWelcome.currentTime = 0;
+    for (let i = 0; i < liveShowCallWelcome.length; i++) {
+        liveShowCallWelcome[i].pause();
+        liveShowCallWelcome[i].currentTime = 0;
+    }
+    for (let i = 0; i < liveShowIdle.length; i++) {
+        liveShowIdle[i].pause();
+        liveShowIdle[i].currentTime = 0;
+    }
+    for (let i = 0; i < liveShowAnswerWrong.length; i++) {
+        liveShowAnswerWrong[i].pause();
+        liveShowAnswerWrong[i].currentTime = 0;
+    }
+    liveShowAnswerSuperWrong.pause();
+    liveShowAnswerSuperWrong.currentTime = 0;
+    for (let i = 0; i < liveShowAnswerCorrent.length; i++) {
+        liveShowAnswerCorrent[i].pause();
+        liveShowAnswerCorrent[i].currentTime = 0;
+    }
+    liveShowAnswerDeal.pause();
+    liveShowAnswerDeal.currentTime = 0;
+    liveShowGlaspenis.pause();
+    liveShowGlaspenis.currentTime = 0;
+    liveShowHabicht.pause();
+    liveShowHabicht.currentTime = 0;
+    liveShowCallCost.pause();
+    liveShowCallCost.currentTime = 0;
+    isModeratorTalking = false;
 }
 
 function playMemoryMusic() {

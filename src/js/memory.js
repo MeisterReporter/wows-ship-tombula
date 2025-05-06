@@ -237,8 +237,8 @@ function isOver() {
     return true;
 }
 
-function hasEnoughShips() {
-    const hasEnough = countSelectedShips() >= 8;
+function hasEnoughShips(count = 8) {
+    const hasEnough = countSelectedShips() >= count;
     if (!hasEnough) {
         addDialog("key.dialog.not_enough_ships.title", "key.dialog.not_enough_ships.content", true, "key.button.ok");
     }

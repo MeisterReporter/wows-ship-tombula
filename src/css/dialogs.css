@@ -50,6 +50,10 @@
     overflow-y: auto;
 }
 
+.dialog-button-content > * {
+    margin-inline: 0.5rem;
+}
+
 @media (max-width: 768px) {
     .dialog {
         width: 350px;

@@ -131,7 +131,7 @@ function chooseRandom(self) {
     }, 3000, self);
 }
 
-function getRandomIndex(allowedClasses = ["SS", "DD", "CL", "CA", "BC", "BB", "CV"], disallowedShips = []) {
+function getRandomIndex(allowedClasses = ["SS", "DD", "CL", "CA", "BC", "BB", "CV"], disallowedShips = [], allowedShips = []) {
     // Get Class weights
     var classWeights = [];
     for (let i = 0; i < classes.length; i++) {
@@ -153,7 +153,8 @@ function getRandomIndex(allowedClasses = ["SS", "DD", "CL", "CA", "BC", "BB", "C
     var pool = [];
     var weights = [];
     for (let i = 0; i < shipData.length; i++) {
-        if (selectedItems[shipData[i].name] && allowedClasses.includes(shipData[i].type) && !disallowedShips.includes(shipData[i].name)) {
+        if (selectedItems[shipData[i].name] && allowedClasses.includes(shipData[i].type) && !disallowedShips.includes(shipData[i].name)
+            && (allowedShips.length <= 0 || allowedShips.includes(shipData[i].name))) {
             // Add Index
             pool.push(i);
             // Get ship debuff

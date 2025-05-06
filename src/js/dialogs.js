@@ -28,6 +28,8 @@ function addDialog(title, content, translate, buttonText, callback) {
     if (translate) applyLocalizationTo(paragraph, content, true);
     dialog.appendChild(paragraph);
     // Button
+    var buttonContent = document.createElement("div");
+    buttonContent.classList.add("dialog-button-content");
     var button = document.createElement("a");
     button.classList.add("button");
     button.classList.add("dialog-button");
@@ -40,7 +42,8 @@ function addDialog(title, content, translate, buttonText, callback) {
             button.innerHTML = buttonText;
         }
     }
-    dialog.appendChild(button);
+    buttonContent.appendChild(button);
+    dialog.appendChild(buttonContent);
     // Add Close listener
     button.addEventListener("click", () => {
         if (typeof callback !== 'undefined') {
@@ -75,4 +78,22 @@ function closeDialog() {
             background.remove();
         }, 450);
     }
+}
+
+function addConfirmDialog(title, content, translate, buttonTextYes, buttonTextNo, callbackYes, callbackNo) {
+    addDialog(title, content, translate, buttonTextYes, callbackYes);
+    var buttonContent = document.getElementsByClassName("dialog-button-content")[0];
+    var button = document.createElement("a");
+    button.classList.add("button");
+    button.classList.add("dialog-button");
+    button.innerHTML = buttonTextNo;
+    if (translate) applyLocalizationTo(button, buttonTextNo, false);
+    buttonContent.appendChild(button);
+    // Add Close listener
+    button.addEventListener("click", () => {
+        if (typeof callbackNo !== 'undefined') {
+            callbackNo();
+        }
+        closeDialog();
+    });
 }

@@ -39,3 +39,18 @@ function applyLocalizationTo(element, key, applyHTML) {
         if (applyHTML) element.innerHTML = json[key];
     });
 }
+
+function getLocalizedString(key) {
+    // Find the correct language file
+    var lang = navigator.language.substring(0, 2);
+    if (lang !== "de") {
+        lang = "en";
+    }
+    var filename = "language_" + lang + ".json";
+    // Load it
+    return fetch("./src/lang/" + filename)
+    .then((response) => response.json())
+    .then((json) => {
+        return json[key];
+    });
+}
