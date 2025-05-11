@@ -1,5 +1,5 @@
 {
-    "version": "1.2.0-14.3",
+    "version": "1.2.1-14.3",
     "key.new": "Neu",
     "key.title": "Schiffs Tombola",
     "key.title.memory": "Schiffs Memory",
@@ -56,7 +56,7 @@
     "key.dialog.types.title": "Schiffsklassen",
     "key.dialog.types.content": "Wenn sie auf die Schiffsklassen oder Haken klicken werden alle Schiffe der Klasse aus- oder abgewählt.<p>Hier ist die Erklärung der Klassenkürzel:</p><p><b>SS</b>: U-Boot (<span>SS</span>)</p><p><b>DD</b>: Zerstörer (<span>DD</span>)</p><p><b>CL</b>: Leichter Kreuzer (<span>CL</span>)</p><p><b>CA</b>: Schwerer Kreuzer (<span>CA</span>)</p><p><b>BC</b>: Schlachtkreuzer (<span>BC</span>)</p><p><b>BB</b>: Schlachtschiff (<span>BB</span>)</p><p><b>CV</b>: Flugzeugträger (<span>CV</span>)</p>",
     "key.dialog.pathnotes.title": "Was ist neu?",
-    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.2.0-14.3:</p><p>- Rufen sie jetzt bei 10/2 Live an <a onclick=\"window.location.replace('liveshow.html')\">Jetzt Anrufen</a></p><p>- Neue Schiffe: ZF-6 Goulden, Gambia, Alberico da Barbiano, Blücher, Suzuya, Valpariso, Eskimo</p>",
+    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.2.1-14.3:</p><p>- Rufen sie jetzt bei 10/2 Live an <a onclick=\"window.location.replace('liveshow.html')\">Jetzt Anrufen</a></p><p>- Neue Schiffe: ZF-6 Goulden, Gambia, Alberico da Barbiano, Blücher, Suzuya, Valpariso, Eskimo</p>",
     "key.dialog.teamkrado.title": "<span class='middle'>Wer ist Teamkrado?</span><img class='middle' style='margin-left:0.5rem;' width='50' height='50' src='src/img/Teamkrado_128px.png'>",
     "key.dialog.teamkrado.content": "<p><b>Teamkrado</b> ist ein offizieller Contributor für <i>World of Warships</i>. In den Streams und Videos ist <b>Krado</b> die \"Kamera\" für die Zuschauer.</br>Ab und zu ist auch <b>Nere</b>, ein weiteres Mitglied von Teamkrado, das Guckrohr in die Spielwelt.</br>Mit von der Partie sind zusätzlich <b>Krom</b> und <b>Blackchi</b>, letzterer spielt mit Krado <i>Hunt Showdown</i> und <i>War Thunder</i>.</br>In <i>World of Warships</i> oder <i>War Thunder</i> lässt Krado seine Community mitfahren, sofern Plätze in der Division frei sind.</p><p style='font-size: 15pt'>Teamkrado gibt es hier zu sehen:</p><p><a href='https://www.youtube.com/@Teamkrado'>Youtube Kanal</a></p><p><a href='https://www.twitch.tv/teamkrado'>Twitch Kanal</a></p><p><a href='https://www.instagram.com/teamkrado/'>Instagram Account</a></p><p><a href='https://www.facebook.com/teamkrado/'>Facebook Account</a></p>",
     "key.dialog.loginfail.title": "Anmeldung Fehlgeschlagen",
@@ -117,6 +117,7 @@
     "key.9live.correct": "Das ist die Lösung!",
     "key.9live.wrong": "Leider falsch!",
     "key.9live.call": "Anrufen",
+    "key.9live.give_up": "Aufgeben",
 
     "key.dialog.9liveMoney.title": "Nicht genügend Geld",
     "key.dialog.9liveMoney.content": "Um bei 10/2 Live anzurufen musst du mindestens 1,99C in das Telefon stecken.",
@@ -129,5 +130,11 @@
     "key.dialog.9liveOffer.result": "Jetzt darfst du dieses Schiff spielen:",
     "key.dialog.9liveEnd.title": "Das Programm ist vorbei",
     "key.dialog.9liveEnd.content": "Leider ist das Programm schon vorbei. Möchtest du noch eine Runde spielen?",
-    "key.dialog.9liveEnd.statistic": "Ausgegbene Münzen:"
+    "key.dialog.9liveEnd.statistic": "Ausgegbene Münzen:",
+
+    "key.9live.statistics": "Statistik",
+    "key.9live.statistics.current_budget": "Aktuelles Budget:",
+    "key.9live.statistics.total_budget": "Ausgebene Münzen:",
+    "key.9live.statistics.fails": "Fehlversuche:",
+    "key.9live.statistics.trys": "Versuche:"
 }

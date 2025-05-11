@@ -1,5 +1,7 @@
 var callingBudget = 0;
 var paidBudget = 0;
+var fails = 0;
+var trys = 0;
 var gameOver = false;
 var isModeratorTalking = false;
 var moderatorTalkingLength = 0;
@@ -58,6 +60,26 @@ function getShipSetWith(setSize, character, count, mode) {
     return lastSet;
 }
 
+function checkIfOccuranceShouldBeExact(mode, character, count, ships) {
+    if (mode == "exact") {
+        return true;
+    } else if (mode == "atLeast" || mode == "moreThan" || mode == "maximum") {
+        var lastOccurance = 0;
+        var valid = false;
+        for (let i = 0; i < ships.length; i++) {
+            const shipName = ships[i];
+            const occurance = shipName.split(character).length - 1;
+            if (occurance != lastOccurance && lastOccurance != 0) {
+                valid = true;
+                break;
+            }
+            lastOccurance = occurance;
+        }
+        return valid;
+    }
+    return false;
+}
+
 function get9LiveShipSet(iterations = 30, maxCount = 2, minSetSize = 3, maxSetSize = 6) {
     if (iterations < 0) {
         return null;
@@ -91,6 +113,11 @@ function get9LiveShipSet(iterations = 30, maxCount = 2, minSetSize = 3, maxSetSi
     if (shipSet.length < requiredLength) {
         console.log("Got not enough ships (" + shipSet.length + "), trying again.");
         return get9LiveShipSet(iterations - 1);
+    }
+    // Check of the random mode is valid
+    if (!checkIfOccuranceShouldBeExact(mode, character, count, shipSet)) {
+        mode = "exact";
+        console.log("Adjusted options: Character: " + character + ", Count: " + count + ", Mode: " + mode);
     }
 
     return {
@@ -154,6 +181,7 @@ function init9LiveShow() {
             callingButton.removeAttribute("active");
         }
         playCoinSound();
+        update9liveStatistics();
         setTimeout(() => {
             money.style.animation = "money-get 0.5s ease-in";
         }, 750);
@@ -172,7 +200,7 @@ function init9LiveShow() {
                 const shipName = shipSet[i].toLowerCase();
                 if (shipName == answerValue) {
                     if (Math.random() > 0.5) {
-                        offerADeal9Live(i, true);
+                        offerADeal9Live(answerValue, i, true);
                         answer.value = "";
                         return;
                     } else {
@@ -189,6 +217,7 @@ function init9LiveShow() {
                         play10LiveCorrect();
                         updateCallingStatus();
                         checkfor9LiveEnd();
+                        celebrateShip9live(answerValue);
                         return;
                     }
                 }
@@ -200,20 +229,31 @@ function init9LiveShow() {
             status2.setAttribute("hidden", "");
             if (answerValue.toLowerCase() == "glaspenis") {
                 play10LiveGlaspenis();
+                fails++;
+                update9liveStatistics();
             } else if (answerValue.toLowerCase() == "habicht") {
                 play10LiveHabicht();
+                fails++;
+                update9liveStatistics();
             } else if (!answerValue.includes(character)) {
                 play10LiveSuperWrong();
+                fails++;
+                update9liveStatistics();
             } else {
                 if (Math.random() > 0.8) {
                     status.setAttribute("hidden", "");
-                    offerADeal9Live();
+                    offerADeal9Live(answerValue);
                 } else {
                     play10LiveWrong();
+                    fails++;
+                    update9liveStatistics();
                 }
             }
             answer.value = "";
             updateCallingStatus();
+            if (fails >= 10) {
+                document.getElementById("9liveGiveup").removeAttribute("hidden");
+            }
         }
     });
 
@@ -227,6 +267,8 @@ function init9LiveShow() {
     play10LiveWelcomeSound();
 
     startIdle(true);
+
+    update9liveStatistics();
 }
 
 function call9Live() {
@@ -271,6 +313,9 @@ function call9Live() {
         status2.setAttribute("hidden", "");
         const offer = document.getElementById("9liveOffer");
         offer.setAttribute("hidden", "");
+        
+        trys++;
+        update9liveStatistics();
     } else {
         addDialog("key.dialog.9liveMoney.title", "key.dialog.9liveMoney.content", true);
         play10LiveCallCost();
@@ -293,7 +338,7 @@ function startIdle(first = true) {
     }
 }
 
-function offerADeal9Live(index = -1, correct = false) {
+function offerADeal9Live(answer, index = -1, correct = false) {
     play10LiveOfferADeal();
     // Offer a deal
     getLocalizedString("key.dialog.9liveOffer.title").then((value) => {
@@ -322,12 +367,17 @@ function offerADeal9Live(index = -1, correct = false) {
                             offer.setAttribute("hidden", "");
                             play10LiveCorrect();
                             checkfor9LiveEnd();
+                            setTimeout(() => {
+                                celebrateShip9live(answer);
+                            }, 1000);
                         } else {
                             const status = document.getElementById("9liveFail");
                             status.removeAttribute("hidden");
                             const status2 = document.getElementById("9liveSuccess");
                             status2.setAttribute("hidden", "");
                             play10LiveWrong();
+                            fails++;
+                            update9liveStatistics();
                         }
                         updateCallingStatus();
                     },
@@ -358,7 +408,7 @@ function moderatorTalk(seconds) {
         var flip = false;
         for (let i = 0; i < (seconds * 1000) / talkInterval; i++) {
             setTimeout((flip) => {
-                if (moderator !== null) {
+                if (moderator !== null && moderatorTalkingLength > 0) {
                     if (flip) {
                         moderator.src = "src/img/Nere der Moderator Rede.png";
                     } else {
@@ -416,4 +466,87 @@ function checkfor9LiveEnd() {
             });
         }, 2000);
     }
+}
+
+function giveUp9Live() {
+    const board = document.getElementById("9liveBoard");
+    for (let i = 0; i < board.children.length; i++) {
+        const element = board.children[i];
+        element.removeAttribute("hidden");
+    }
+    gameOver = true;
+    // Disable Calling
+    const money = document.getElementById("9liveMoney");
+    money.setAttribute("hidden", "");
+    const callingButton = document.getElementsByClassName("nine-live-call")[0];
+    callingButton.removeAttribute("calling");
+    callingButton.removeAttribute("active");
+    callingButton.setAttribute("inactive", "");
+    // Hide answer input box
+    const solution = document.getElementById("9liveSolution");
+    solution.setAttribute("hidden", "");
+    // Calculate correct coins
+    paidBudget -= callingBudget;
+    callingBudget = 0;
+
+    update9liveStatistics();
+}
+
+function update9liveStatistics() {
+    const budget = document.getElementById("currentBudget");
+    budget.innerText = callingBudget + " C";
+    const totalBudget = document.getElementById("totalBudget");
+    totalBudget.innerText = paidBudget + " C";
+    const failAnswers = document.getElementById("failAnswers");
+    failAnswers.innerText = fails;
+    const totalTrys = document.getElementById("totalTrys");
+    totalTrys.innerText = trys;
+}
+
+function celebrateShip9live(shipName) {
+    var ship = null;
+    for (let i = 0; i < shipData.length; i++) {
+        const entry = shipData[i];
+        if (entry.name.toLowerCase() == shipName) {
+            ship = entry;
+            break;
+        }
+    }
+    if (ship === null) {
+        console.error("Ship not found: " + shipName);
+        return;
+    }
+    var shipCelebrate = document.getElementById("9liveShipCelebrate");
+    shipCelebrate.removeAttribute("hidden");
+    var ticket = document.getElementsByClassName("ship-ticket")[0];
+    ticket.style.opacity = 0;
+    setTimeout(() => {
+        ticket.style.animation = "ship-card-flip 1s ease-out";
+        launchConfetti();
+        confettiPop();
+    }, 50);
+    setTimeout(() => {
+        ticket.style.opacity = 1;
+    }, 1000);
+    // Update the Content
+    var shipImage = ticket.getElementsByClassName("ship-image")[0];
+    var flag = ticket.getElementsByClassName("flag")[0];
+    var tier = ticket.getElementsByClassName("tier")[0];
+    var clazz = ticket.getElementsByClassName("class")[0];
+    var name = ticket.getElementsByClassName("name")[0];
+    shipImage.src = ship.image;
+    name.innerHTML = ship.name;
+    if (ship.premium === "true") {
+        name.classList.add("premium");
+    } else {
+        name.classList.remove("premium");
+    }
+    clazz.innerHTML = ship.type;
+    tier.innerHTML = ship.tier;
+    flag.src = "src/img/flag_" + ship.faction + ".png";
+}
+
+function close9LiveCelebrate() {
+    var shipCelebrate = document.getElementById("9liveShipCelebrate");
+    shipCelebrate.setAttribute("hidden", "");
 }

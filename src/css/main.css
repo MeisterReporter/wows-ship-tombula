@@ -358,6 +358,43 @@ section {
     color: rgba(255, 255, 255, 0.75);
 }
 
+.special-login {
+    --height: 4rem;
+    display: block;
+
+    width: 100%;
+    height: var(--height);
+
+    background-color: rgba(218, 165, 32, 0.5);
+    
+    border-radius: 0.5rem;
+    border-color: rgba(218, 165, 32, 0.75);
+    border-style: solid;
+    border-width: 2px;
+
+    text-align: center;
+    line-height: calc(var(--height) / 2);
+
+    margin-top: 0.5rem;
+
+    transition: background-color 500ms ease-in-out, border-color 500ms ease-in-out, transform 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.special-login:hover {
+    background-color: rgb(194, 147, 29);
+
+    border-color: rgb(194, 147, 29);
+
+    transform: scale(1.05, 1.05);
+}
+
+.special-login:focus {
+    background-color: goldenrod;
+    border-color: goldenrod;
+
+    transform: scale(0.95, 0.95);
+}
+
 /* Custom Elements */
 
 space {
@@ -440,6 +477,26 @@ space[size="large"] {
 .ship-ticket[hidden] {
     opacity: 0;
     transform: rotateY(720deg) translateY(25px) scale(0.8);
+}
+
+.ship-ticket.solid {
+    background-color: rgba(255, 255, 255, 0.33);
+}
+
+@keyframes ship-card-flip {
+    0% {
+        opacity: 0;
+        transform: rotateY(90deg);
+        scale: 0.8;
+    }
+    25% {
+        opacity: 1;
+        scale: 1.0;
+    }
+    100% {
+        opacity: 1;
+        transform: rotateY(720deg);
+    }
 }
 
 .ship-card[hidden] {

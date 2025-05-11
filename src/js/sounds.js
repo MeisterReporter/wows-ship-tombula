@@ -263,12 +263,14 @@ function playPhoneHangupSound() {
 }
 
 function play10LiveWelcomeSound() {
+    stopAll9LiveSounds();
     liveShowWelcome.volume = 1 * (volume / 100.0);
     liveShowWelcome.play();
     moderatorTalk(liveShowWelcome.duration);
 }
 
 function play10LiveCallerWelcomeSound() {
+    stopAll9LiveSounds();
     let audio = randomSound(liveShowCallWelcome);
     audio.volume = 1 * (volume / 100.0);
     audio.play();
@@ -278,6 +280,7 @@ function play10LiveCallerWelcomeSound() {
 function play10LiveIdle() {
     if (isModeratorTalking) {
         setTimeout(() => {
+            stopAll9LiveSounds();
             play10LiveIdle();
         }, moderatorTalkingLength + 100);
         return;
@@ -290,6 +293,7 @@ function play10LiveIdle() {
 }
 
 function play10LiveWrong() {
+    stopAll9LiveSounds();
     let audio = randomSound(liveShowAnswerWrong);
     audio.volume = 1 * (volume / 100.0);
     audio.play();
@@ -297,12 +301,14 @@ function play10LiveWrong() {
 }
 
 function play10LiveSuperWrong() {
+    stopAll9LiveSounds();
     liveShowAnswerSuperWrong.volume = 1 * (volume / 100.0);
     liveShowAnswerSuperWrong.play();
     moderatorTalk(liveShowAnswerSuperWrong.duration);
 }
 
 function play10LiveCorrect() {
+    stopAll9LiveSounds();
     let audio = randomSound(liveShowAnswerCorrent);
     audio.volume = 1 * (volume / 100.0);
     audio.play();
@@ -310,24 +316,28 @@ function play10LiveCorrect() {
 }
 
 function play10LiveOfferADeal() {
+    stopAll9LiveSounds();
     liveShowAnswerDeal.volume = 1 * (volume / 100.0);
     liveShowAnswerDeal.play();
     moderatorTalk(liveShowAnswerDeal.duration);
 }
 
 function play10LiveGlaspenis() {
+    stopAll9LiveSounds();
     liveShowGlaspenis.volume = 1 * (volume / 100.0);
     liveShowGlaspenis.play();
     moderatorTalk(liveShowGlaspenis.duration);
 }
 
 function play10LiveHabicht() {
+    stopAll9LiveSounds();
     liveShowHabicht.volume = 1 * (volume / 100.0);
     liveShowHabicht.play();
     moderatorTalk(liveShowHabicht.duration);
 }
 
 function play10LiveCallCost() {
+    stopAll9LiveSounds();
     liveShowCallCost.volume = 1 * (volume / 100.0);
     liveShowCallCost.play();
     moderatorTalk(liveShowCallCost.duration);
@@ -362,7 +372,9 @@ function stopAll9LiveSounds() {
     liveShowHabicht.currentTime = 0;
     liveShowCallCost.pause();
     liveShowCallCost.currentTime = 0;
+    // Stop medorator talk
     isModeratorTalking = false;
+    moderatorTalkingLength = 0;
 }
 
 function playMemoryMusic() {

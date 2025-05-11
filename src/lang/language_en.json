@@ -1,5 +1,5 @@
 {
-    "version": "1.2.0-14.3",
+    "version": "1.2.1-14.3",
     "key.new": "New",
     "key.title": "Ship Tombola",
     "key.title.memory": "Ship Memory",
@@ -56,7 +56,7 @@
     "key.dialog.types.title": "Ship classes",
     "key.dialog.types.content": "If you click on the ship classes or check boxes, all ships of the class will be selected or deselected.<p>Here is the explanation of the class abbreviations:</p><p><b>SS</b>: Submarine (<span>SS</span>)</p ><p><b>DD</b>: Destroyer (<span>DD</span>)</p><p><b>CL</b>: Light Cruiser (<span>CL</span>)</p><p><b>CA</b>: Heavy Cruiser (<span>CA</span>)</p><p><b>BC</b>: Battlecruiser (<span>BC</span>)</p><p><b>BB</b>: Battleship (<span>BB</span>)</p><p><b>CV</b>: Aircraft carrier (<span>CV</span>)</p>",
     "key.dialog.pathnotes.title": "Whats new?",
-    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.2.0-14.3:</p><p>- You can now call 10/2 Live <a onclick=\"window.location.replace('liveshow.html')\">Call Now</a></p><p>- New Ships: ZF-6 Goulden, Gambia, Alberico da Barbiano, Blücher, Suzuya, Valpariso, Eskimo</p>",
+    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.2.1-14.3:</p><p>- You can now call 10/2 Live <a onclick=\"window.location.replace('liveshow.html')\">Call Now</a></p><p>- New Ships: ZF-6 Goulden, Gambia, Alberico da Barbiano, Blücher, Suzuya, Valpariso, Eskimo</p>",
     "key.dialog.teamkrado.title": "Who is Teamkrado?",
     "key.dialog.teamkrado.content": "<p><b>Teamkrado</b> is an official contributor for <i>World of Warships</i>. In the streams and videos, <b>Krado</b> is the \"camera\" for the viewers.</br>Occasionally, <b>Nere</b>, another member of Teamkrado, is also the peephole into the game world.</br>Also involved are <b>Krom</b> and <b>Blackchi</b>, the latter plays with Krado <i>Hunt Showdown</i> and <i>War Thunder</i>.</br>In <i>World of Warships</i> or <i>War Thunder</i>, Krado lets his community go along as long as there are spots available in the division.</p><p style='font-size: 15pt'>Teamkrado can be watched here:</p><p><a href='https://www.youtube.com/@Teamkrado'>Youtube channel</a> </p><p><a href='https://www.twitch.tv/teamkrado'>Twitch channel</a></p><p><a href='https://www.instagram .com/teamkrado/'>Instagram Account</a></p><p><a href='https://www.facebook.com/teamkrado/'>Facebook Account</a></p>",
     "key.dialog.loginfail.title": "Login failed",
@@ -117,6 +117,7 @@
     "key.9live.correct": "That is the solution!",
     "key.9live.wrong": "Unfortunately wrong!",
     "key.9live.call": "Call",
+    "key.9live.give_up": "Give Up",
 
     "key.dialog.9liveMoney.title": "Not enough Money",
     "key.dialog.9liveMoney.content": "To call 10/2 Live, you must insert at least 1.99C into the phone.",
@@ -129,5 +130,11 @@
     "key.dialog.9liveOffer.result": "Now you have to play this Ship:",
     "key.dialog.9liveEnd.title": "The program is over",
     "key.dialog.9liveEnd.content": "Unfortunately, the program is already over. Would you like to play another round?",
-    "key.dialog.9liveEnd.statistic": "Used Coins:"
+    "key.dialog.9liveEnd.statistic": "Used Coins:",
+
+    "key.9live.statistics": "Statistics",
+    "key.9live.statistics.current_budget": "Current Budget:",
+    "key.9live.statistics.total_budget": "Coins Spent:",
+    "key.9live.statistics.fails": "Failed Attempts:",
+    "key.9live.statistics.trys": "Attempts:"
 }

@@ -146,6 +146,7 @@ function selectRandomShips() {
 }
 
 function setContentToCard(card, ship) {
+    if (ship === null) return;
     var shipImage = card.getElementsByClassName("ship-image")[0];
     var flag = card.getElementsByClassName("flag")[0];
     var tier = card.getElementsByClassName("tier")[0];

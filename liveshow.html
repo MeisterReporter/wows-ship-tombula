@@ -142,7 +142,7 @@
                     <input onclick="enableTestShip(this)" type="checkbox" id="testShips" />
                     <label translatable for="testShips">key.filter.enable_test_ships</label>
                     </br>
-                    <a style="color: white; font-weight: bold;" id="login" translatable onclick="requestLogin()">key.filter.from_wows_numbers</a>
+                    <a style="color: white; font-weight: bold;" id="login" class="special-login" translatable onclick="requestLogin()">key.filter.from_wows_numbers</a>
                 </div>
                 <br/>
                 <h2 translatable>key.ships</h2>
@@ -192,6 +192,9 @@
                 <div id="9liveOffer" class="align-center" hidden>
                     <b translatable>key.dialog.9liveOffer.result</b><span id="9liveOfferText"></span>
                 </div>
+                <div id="9liveGiveup" class="align-center" style="margin-top: 1rem;" hidden>
+                    <a class="button blue" onclick="giveUp9Live()" translatable>key.9live.give_up</a>
+                </div>
             </div>
             <div id="moderator" class="moderator">
                 <img class="moderator_nere" src="src/img/Nere der Moderator.png" alt="Moderator Nere">
@@ -205,6 +208,32 @@
                     <div class="money-slot"></div>
                     <a class="nine-live-call" onclick="call9Live()" inactive><img src="src/img/call.png"></a>
                 </div>
+                <div style="margin-top: 1rem; text-align: end;">
+                    <h1 translatable>key.9live.statistics</h1>
+                    <p><span translatable>key.9live.statistics.current_budget</span> <b id="currentBudget">0C</b></p>
+                    <p><span translatable>key.9live.statistics.total_budget</span> <b id="totalBudget">0C</b></p>
+                    <p><span translatable>key.9live.statistics.fails</span> <b id="failAnswers" style="padding-right: 0.9rem;">0</b></p>
+                    <p><span translatable>key.9live.statistics.trys</span> <b id="totalTrys" style="padding-right: 0.9rem;">0</b></p>
+                </div>
+            </div>
+            <div id="9liveShipCelebrate" class="container-background" hidden>
+                <div class="center-container">
+                    <h1 translatable>key.memory_ship_drawn</h1>
+                    <div class="ship-ticket solid">
+                        <div class="ticket-container">
+                            
+                        </div>
+                        <img class="ship-image">
+                        <p><img class="flag large" src="src/img/flag_usa.png"><span class="tier">X</span><span class="class">BB</span><span class="name">Meister Reporters Battleship</span></p>
+                    </div>
+                    <a class="button blue" style="margin-top: 1rem;" onclick="close9LiveCelebrate()" translatable>key.button.close</a>
+                </div>
+            </div>
+            <div class="confetti-view">
+                <span class="diddn confetti-bottom left"><img src="src/img/didden_01.png"></span>
+                <span class="diddn confetti-bottom right"><img src="src/img/didden_02.png"></span>
+                <span class="confetti confetti-bottom left"></span>
+                <span class="confetti confetti-bottom right"></span>
             </div>
         </section>
 

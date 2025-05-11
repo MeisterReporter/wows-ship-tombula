@@ -31,9 +31,10 @@ function requestLogin() {
             setWoWsDomain(domainEndings[selected]);
             window.open("https://api.worldoftanks." + getWoWsDomain() + "/wot/auth/login/?application_id=b66933cb847d03be5e5b1763471d8f41&display=page&redirect_uri=" + document.URL, "_self");
         } else {
-            setTimeout(() => {
+            // Requesting again softlocks the page
+            /*setTimeout(() => {
                 requestLogin();
-            }, 500);
+            }, 500);*/
         }
     });
 }
