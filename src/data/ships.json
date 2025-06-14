@@ -680,6 +680,15 @@
         "premium": "true"
     },
     {
+        "name": "Protector",
+        "faction": "usa",
+        "type": "CA",
+        "tier": "VIII",
+        "image": "src/img/ships/protector.png",
+        "attr": "experimental",
+        "premium": "true"
+    },
+    {
         "name": "Constellation",
         "faction": "usa",
         "type": "BB",
@@ -800,6 +809,14 @@
         "premium": "true"
     },
     {
+        "name": "Cambridge",
+        "faction": "usa",
+        "type": "CA",
+        "tier": "IX",
+        "image": "src/img/ships/cambridge.png",
+        "premium": "true"
+    },
+    {
         "name": "Benham",
         "faction": "usa",
         "type": "DD",
@@ -856,6 +873,14 @@
         "premium": "true"
     },
     {
+        "name": "GQ Johnny",
+        "faction": "usa",
+        "type": "DD",
+        "tier": "IX",
+        "image": "src/img/ships/gq_jhonny.png",
+        "premium": "true"
+    },
+    {
         "name": "Kearsarge",
         "faction": "usa",
         "type": "BB",
@@ -869,6 +894,14 @@
         "type": "BB",
         "tier": "IX",
         "image": "src/img/ships/kearsarge_b.png",
+        "premium": "true"
+    },
+    {
+        "name": "AL Kearsarge",
+        "faction": "usa",
+        "type": "BB",
+        "tier": "IX",
+        "image": "src/img/ships/al_kearsarge.png",
         "premium": "true"
     },
     {
@@ -1858,6 +1891,14 @@
         "premium": "true"
     },
     {
+        "name": "Suzuya Golden",
+        "faction": "japan",
+        "type": "CL",
+        "tier": "IX",
+        "image": "src/img/ships/suzuya_golden.png",
+        "premium": "true"
+    },
+    {
         "name": "AL Azuma",
         "faction": "japan",
         "type": "CA",
@@ -1935,6 +1976,15 @@
         "type": "BB",
         "tier": "IX",
         "image": "src/img/ships/iwami_b.png",
+        "premium": "true"
+    },
+    {
+        "name": "Hotaka",
+        "faction": "japan",
+        "type": "BB",
+        "tier": "IX",
+        "image": "src/img/ships/hotaka.png",
+        "attr": "experimental",
         "premium": "true"
     },
     {
@@ -2584,6 +2634,14 @@
         "type": "CV",
         "tier": "VIII",
         "image": "src/img/ships/chkalov_b.png",
+        "premium": "true"
+    },
+    {
+        "name": "Provorny",
+        "faction": "russia",
+        "type": "DD",
+        "tier": "VIII",
+        "image": "src/img/ships/provorny.png",
         "premium": "true"
     },
     {
@@ -3418,6 +3476,14 @@
         "premium": "true"
     },
     {
+        "name": "AL Bismarck",
+        "faction": "germany",
+        "type": "BB",
+        "tier": "VIII",
+        "image": "src/img/ships/al_bismarck.png",
+        "premium": "true"
+    },
+    {
         "name": "Wiesbaden",
         "faction": "germany",
         "type": "CL",
@@ -3519,6 +3585,14 @@
         "type": "CA",
         "tier": "IX",
         "image": "src/img/ships/blücher.png",
+        "premium": "true"
+    },
+    {
+        "name": "AL Hindenburg",
+        "faction": "germany",
+        "type": "CA",
+        "tier": "X",
+        "image": "src/img/ships/al_hindenburg.png",
         "premium": "true"
     },
     {
@@ -5171,6 +5245,14 @@
         "premium": "true"
     },
     {
+        "name": "Nanning",
+        "faction": "pan_asia",
+        "type": "DD",
+        "tier": "IX",
+        "image": "src/img/ships/nanning.png",
+        "premium": "true"
+    },
+    {
         "name": "Bajie",
         "faction": "pan_asia",
         "type": "BB",
@@ -5541,6 +5623,14 @@
         "premium": "true"
     },
     {
+        "name": "AL Gorizia",
+        "faction": "italy",
+        "type": "CA",
+        "tier": "VII",
+        "image": "src/img/ships/al_gorizia.png",
+        "premium": "true"
+    },
+    {
         "name": "AL Littorio",
         "faction": "italy",
         "type": "BB",
@@ -5626,6 +5716,15 @@
         "type": "BC",
         "tier": "X",
         "image": "src/img/ships/napoli_b.png",
+        "premium": "true"
+    },
+    {
+        "name": "Varese",
+        "faction": "italy",
+        "type": "BC",
+        "tier": "X",
+        "image": "src/img/ships/varese.png",
+        "attr": "experimental",
         "premium": "true"
     },
     {
@@ -5829,6 +5928,14 @@
         "type": "DD",
         "tier": "X",
         "image": "src/img/ships/vampire_ii.png",
+        "premium": "true"
+    },
+    {
+        "name": "Irresistible",
+        "faction": "commonwealth",
+        "type": "BC",
+        "tier": "X",
+        "image": "src/img/ships/irresistable.png",
         "premium": "true"
     },
 
@@ -6203,6 +6310,14 @@
         "premium": "true"
     },
     {
+        "name": "Błyskawica '44",
+        "faction": "europe",
+        "type": "DD",
+        "tier": "VIII",
+        "image": "src/img/ships/blyskawica_44.png",
+        "premium": "true"
+    },
+    {
         "name": "Friesland",
         "faction": "europe",
         "type": "DD",
@@ -6389,11 +6504,20 @@
         "premium": "true"
     },
     {
+        "name": "Willem de Eerste",
+        "faction": "netherlands",
+        "type": "BB",
+        "tier": "X",
+        "image": "src/img/ships/wilem_de_erste.png",
+        "premium": "true"
+    },
+    {
         "name": "Vrijheid",
         "faction": "netherlands",
         "type": "BC",
         "tier": "X",
         "image": "src/img/ships/vrijheid.png",
+        "attr": "test",
         "premium": "false"
     },
     {

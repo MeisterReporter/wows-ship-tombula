@@ -1,3 +1,11 @@
+/**
+ * Adds a dialog to the screen.
+ * @param {string} title The title of the dialog, can be a localization key. Requires translate to be true.
+ * @param {string} content The content of the dialog, can be a localization key. Requires translate to be true.
+ * @param {boolean} translate Whether to translate the title and content using the localization system.
+ * @param {string} buttonText The text of the button, can be a localization key. If undefined, defaults to "key.button.close".
+ * @param {*} callback The optional callback function to be called when the dialog is closed.
+ */
 function addDialog(title, content, translate, buttonText, callback) {
     // Close Animations
     if (document.getElementsByClassName("dialog-background").length > 0) {
@@ -64,6 +72,27 @@ function addDialog(title, content, translate, buttonText, callback) {
     // Show Animations
     dialog.style["animation"] = "open-dialog 500ms ease-out";
     background.style["animation"] = "show-background 250ms ease-out";
+}
+
+/**
+ * Adds a dialog to the screen based on a template.
+ * @param {*} title The title of the dialog, can be a localization key. Requires translate to be true.
+ * @param {*} templateName The name of the template file to load, without the language suffix.
+ * @param {*} buttonText The text of the button, can be a localization key. If undefined, defaults to "key.button.close".
+ * @param {*} callback The optional callback function to be called when the dialog is closed.
+ */
+function addDialogTemplate(title, templateName, buttonText, callback) {
+    // Find the correct language file
+    var lang = navigator.language.substring(0, 2);
+    if (lang !== "de") {
+        lang = "en";
+    }
+    // Load it
+    fetch("./src/templates/" + templateName + "_" + lang + ".html")
+    .then((response) => response.text())
+    .then((text) => {
+        addDialog(title, text, false, buttonText, callback);
+    });
 }
 
 function closeDialog() {

@@ -20,6 +20,7 @@ var memoryMusicFiles = [];
 var memoryMusicSound;
 
 var nereDiabolusSound;
+var kromAbprallaSound;
 
 var volume = 100;
 var scratchSounds = true;
@@ -43,6 +44,8 @@ var liveShowAnswerDeal;
 var liveShowGlaspenis;
 var liveShowHabicht;
 var liveShowCallCost;
+
+var settingsConfettiSound = "pop";
 
 function loadSounds() {
     ihhhSounds.push(new Audio("src/aud/krado_ihhhh_01.mp3"));
@@ -138,6 +141,7 @@ function loadSounds() {
     memoryMusicFiles.push(new Audio("src/aud/memory_no_4.mp3"));
 
     nereDiabolusSound = new Audio("src/aud/Nere_Diabolus_Lache.mp3");
+    kromAbprallaSound = new Audio("src/aud/krom_abprallaaaaa.mp3");
 
     dropCoinSound = new Audio("src/aud/coin-drops-and-spins.mp3");
     phoneRingingSound = new Audio("src/aud/vintage-phone-ringing.mp3");
@@ -190,8 +194,21 @@ function scratchOhhh() {
 }
 
 function confettiPop() {
-    confettiPopSound.volume = 0.3 * (volume / 100.0);
-    confettiPopSound.play();
+    switch (settingsConfettiSound) {
+        default:
+        case "pop":
+            confettiPopSound.volume = 0.3 * (volume / 100.0);
+            confettiPopSound.play();
+            break;
+        case "nere":
+            nereDiabolusSound.volume = 0.5 * (volume / 100.0);
+            nereDiabolusSound.play();
+            break;
+        case "abpralla":
+            kromAbprallaSound.volume = 0.5 * (volume / 100.0);
+            kromAbprallaSound.play();
+            break;
+    }
 }
 
 function diceRollBegin() {
@@ -496,4 +513,14 @@ function updateAudioValues() {
     if (localStorage.getItem("memoryMusic") !== null) {
         updateMemoryMusic(localStorage.getItem("memoryMusic"), document.getElementById("memoryMusic"));
     }
+    if (localStorage.getItem("confettiSound") !== null) {
+        updateConfettiSound(localStorage.getItem("confettiSound"), document.getElementById("confettiSound"));
+    }
+}
+
+function updateConfettiSound(index, self) {
+    if(self !== null) self.value = index;
+
+    localStorage.setItem("confettiSound", index);
+    settingsConfettiSound = index;
 }

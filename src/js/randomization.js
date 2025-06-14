@@ -42,6 +42,7 @@ var foolShips = [
 
 function chooseRandom(self) {
     confettiFired = false;
+    if (self.hasAttribute("disabled")) return;
     self.setAttribute("disabled", null);
     var random = enableAprilFools ? findAprilShipIndex() : getRandomIndex();
     // Check for possible issues
@@ -61,74 +62,83 @@ function chooseRandom(self) {
     } else {
         localStorage.setItem(pName, 1);
     }
-    // Get Components
-    var ticket = document.getElementsByClassName("ship-ticket")[0];
-    var randomize = document.getElementsByClassName("randomize")[0];
-    var tombula = randomize.getElementsByClassName("tombola")[0];
-    // Show the Tombula
-    randomize.removeAttribute("stop");
-    tombula.style["transition"] = "5s ease-in transform";
-    tombula.style["transform"] = "rotateX(3000deg) translateZ(-480px)";
-    // Set the images randomly
-    var selectedShown = false;
-    for (let i = 0; i < 8; i++) {
-        var img = tombula.getElementsByTagName("img")[i];
-        if ((Math.random() < 0.5 && !selectedShown) || (i == 7 && !selectedShown)) {
-            img.src = shipData[random].image;
-            selectedShown = true;
+    var currentSkin = localStorage.getItem("skin") || "default";
+    if (currentSkin === "default") {
+        // Get Components
+        var ticket = document.getElementsByClassName("ship-ticket")[0];
+        var randomize = document.getElementsByClassName("randomize")[0];
+        var tombula = randomize.getElementsByClassName("tombola")[0];
+        // Show the Tombula
+        randomize.removeAttribute("stop");
+        tombula.style["transition"] = "5s ease-in transform";
+        tombula.style["transform"] = "rotateX(3000deg) translateZ(-480px)";
+        // Set the images randomly
+        var selectedShown = false;
+        for (let i = 0; i < 8; i++) {
+            var img = tombula.getElementsByTagName("img")[i];
+            if ((Math.random() < 0.5 && !selectedShown) || (i == 7 && !selectedShown)) {
+                img.src = shipData[random].image;
+                selectedShown = true;
+            } else {
+                var imageRandom = Math.floor(Math.random() * shipData.length);
+                img.src = shipData[imageRandom].image;
+            }
+        }
+        // Hide the Ticket
+        ticket.setAttribute("hidden", null);
+        document.getElementById("instruction").style["display"] = "none";
+        // Fill the Canvas
+        var canvas = document.getElementsByClassName("ticket-canvas")[0];
+        const ctx = canvas.getContext("2d");
+        ctx.globalCompositeOperation = "source-over";
+        ctx.rect(0, 0, 560, 320);
+        ctx.fillStyle = "goldenrod";
+        ctx.fill();
+        // Update the Content
+        var shipImage = ticket.getElementsByClassName("ship-image")[0];
+        var flag = ticket.getElementsByClassName("flag")[0];
+        var tier = ticket.getElementsByClassName("tier")[0];
+        var clazz = ticket.getElementsByClassName("class")[0];
+        var name = ticket.getElementsByClassName("name")[0];
+        shipImage.src = ship.image;
+        name.innerHTML = ship.name;
+        if (ship.premium === "true") {
+            name.classList.add("premium");
         } else {
-            var imageRandom = Math.floor(Math.random() * shipData.length);
-            img.src = shipData[imageRandom].image;
+            name.classList.remove("premium");
+        }
+        clazz.innerHTML = ship.type;
+        tier.innerHTML = ship.tier;
+        flag.src = "src/img/flag_" + ship.faction + ".png";
+        // Show the Ticket
+        setTimeout((button) => {
+            var ticket = document.getElementsByClassName("ship-ticket")[0];
+            ticket.removeAttribute("hidden");
+            document.getElementById("instruction").style["display"] = "";
+            var randomize = document.getElementsByClassName("randomize")[0];
+            randomize.setAttribute("stop", null);
+            button.removeAttribute("disabled");
+            setTimeout(() => {
+                var tombula = randomize.getElementsByClassName("tombola")[0];
+                tombula.style["transition"] = "";
+                tombula.style["transform"] = "rotateX(0deg) translateZ(-480px)";
+            }, 500);
+        }, 3000, self);
+    } else {
+        if (typeof skinRandomize !== "undefined") {
+            skinRandomize(ship);
+        } else {
+            console.error("No skin randomization function defined for skin: " + currentSkin);
         }
     }
-    // Hide the Ticket
-    ticket.setAttribute("hidden", null);
-    document.getElementById("instruction").style["display"] = "none";
-    // Fill the Canvas
-    var canvas = document.getElementsByClassName("ticket-canvas")[0];
-    const ctx = canvas.getContext("2d");
-    ctx.globalCompositeOperation = "source-over";
-    ctx.rect(0, 0, 560, 320);
-    ctx.fillStyle = "goldenrod";
-    ctx.fill();
-    // Update the Content
-    var shipImage = ticket.getElementsByClassName("ship-image")[0];
-    var flag = ticket.getElementsByClassName("flag")[0];
-    var tier = ticket.getElementsByClassName("tier")[0];
-    var clazz = ticket.getElementsByClassName("class")[0];
-    var name = ticket.getElementsByClassName("name")[0];
-    shipImage.src = ship.image;
-    name.innerHTML = ship.name;
-    if (ship.premium === "true") {
-        name.classList.add("premium");
-    } else {
-        name.classList.remove("premium");
-    }
-    clazz.innerHTML = ship.type;
-    tier.innerHTML = ship.tier;
-    flag.src = "src/img/flag_" + ship.faction + ".png";
     if (localStorage.getItem("totalTombolaThrows") === null) {
         localStorage.setItem("totalTombolaThrows", 0);
     }
     localStorage.setItem("totalTombolaThrows", parseInt(localStorage.getItem("totalTombolaThrows")) + 1);
-    // Show the Ticket
-    setTimeout((button) => {
-        var ticket = document.getElementsByClassName("ship-ticket")[0];
-        ticket.removeAttribute("hidden");
-        document.getElementById("instruction").style["display"] = "";
-        var randomize = document.getElementsByClassName("randomize")[0];
-        randomize.setAttribute("stop", null);
-        button.removeAttribute("disabled");
-        setTimeout(() => {
-            var tombula = randomize.getElementsByClassName("tombola")[0];
-            tombula.style["transition"] = "";
-            tombula.style["transform"] = "rotateX(0deg) translateZ(-480px)";
-            // Check if the april fool is over
-            if (enableAprilFools) {
-                checkIfFoolIsOver();
-            }
-        }, 500);
-    }, 3000, self);
+    // Check if the april fool is over
+    if (enableAprilFools) {
+        checkIfFoolIsOver();
+    }
 }
 
 function getRandomIndex(allowedClasses = ["SS", "DD", "CL", "CA", "BC", "BB", "CV"], disallowedShips = [], allowedShips = []) {

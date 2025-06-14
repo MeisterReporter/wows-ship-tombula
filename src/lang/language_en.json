@@ -1,5 +1,5 @@
 {
-    "version": "1.2.1-14.3",
+    "version": "1.3.0-14.5",
     "key.new": "New",
     "key.title": "Ship Tombola",
     "key.title.memory": "Ship Memory",
@@ -56,7 +56,7 @@
     "key.dialog.types.title": "Ship classes",
     "key.dialog.types.content": "If you click on the ship classes or check boxes, all ships of the class will be selected or deselected.<p>Here is the explanation of the class abbreviations:</p><p><b>SS</b>: Submarine (<span>SS</span>)</p ><p><b>DD</b>: Destroyer (<span>DD</span>)</p><p><b>CL</b>: Light Cruiser (<span>CL</span>)</p><p><b>CA</b>: Heavy Cruiser (<span>CA</span>)</p><p><b>BC</b>: Battlecruiser (<span>BC</span>)</p><p><b>BB</b>: Battleship (<span>BB</span>)</p><p><b>CV</b>: Aircraft carrier (<span>CV</span>)</p>",
     "key.dialog.pathnotes.title": "Whats new?",
-    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.2.1-14.3:</p><p>- You can now call 10/2 Live <a onclick=\"window.location.replace('liveshow.html')\">Call Now</a></p><p>- New Ships: ZF-6 Goulden, Gambia, Alberico da Barbiano, Blücher, Suzuya, Valpariso, Eskimo</p>",
+    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.3.0-14.5:</p><p>- The first skin is here! Select it in the settings.</p><p>- Choose different tombola draw sounds in the settings.</p><p>- Call 10/2 Live now <a onclick=\"window.location.replace('liveshow.html')\">Call Now</a></p><p>- New ships: GQ Johnny, AL Hindenburg, AL Kearsarge, AL Bismarck, AL Gorizia, Irresistible, Willem de Eerste, Cambridge, Suzuya Golden, Nanning, Varese, Hotaka, Protector, Błyskawica '44, Provorny</p>",
     "key.dialog.teamkrado.title": "Who is Teamkrado?",
     "key.dialog.teamkrado.content": "<p><b>Teamkrado</b> is an official contributor for <i>World of Warships</i>. In the streams and videos, <b>Krado</b> is the \"camera\" for the viewers.</br>Occasionally, <b>Nere</b>, another member of Teamkrado, is also the peephole into the game world.</br>Also involved are <b>Krom</b> and <b>Blackchi</b>, the latter plays with Krado <i>Hunt Showdown</i> and <i>War Thunder</i>.</br>In <i>World of Warships</i> or <i>War Thunder</i>, Krado lets his community go along as long as there are spots available in the division.</p><p style='font-size: 15pt'>Teamkrado can be watched here:</p><p><a href='https://www.youtube.com/@Teamkrado'>Youtube channel</a> </p><p><a href='https://www.twitch.tv/teamkrado'>Twitch channel</a></p><p><a href='https://www.instagram .com/teamkrado/'>Instagram Account</a></p><p><a href='https://www.facebook.com/teamkrado/'>Facebook Account</a></p>",
     "key.dialog.loginfail.title": "Login failed",
@@ -74,7 +74,6 @@
     "key.dialog.unitseditor.content": "The Units Editor is a useful tool for modding <b>Star Wars: Empire at War</b>.",
 
     "key.dialog.settings.title": "Settings",
-    "key.dialog.settings.content": "<div class='settings-container'><!--<p style='font-weight: bold;'>Event</p><ul><li>- April Messages: <span id='feedbackAprilMessages'>On</span><input id='aprilMessages'style='float: right;' oninput='updateAprilMessages(this.checked, null)' type='checkbox' checked></li></ul><p style='font-weight: bold;'>Random funcationality</p><ul>--><li>- Schip Dice: <select id='diceRollType' style='float: right;' oninput='updateDiceRollType(this.value, this)'><option value='random'>Random</option><option value='classSet'>Every class</option></select><li><li>- Ship Dice frequency: <select id='diceRollFrequency' style='float: right;' oninput='updateDiceRollFrequency(this.value, this)'><option value='daily'>Daily</option><option value='reload'>On Reload</option><option value='threeThrows'>Per 3 draws</option></select><li></ul><p style='font-weight: bold;'>Audio</p><ul><li>- Volume: <span id='feedbackVolumeCount'>100</span><input id='volumeAmount'style='float: right;' oninput='updateVolume(this.value, null)' type='range' min='0'max='100' value='100'><li><li>- Scratch Sounds: <span id='feedbackScratchSounds'>On</span><input id='scratchSounds'style='float: right;' oninput='updateScratchSounds(this.checked, null)' type='checkbox' checked><li><li>- Crazy Krado Mode: <span id='feedbackCrazyMode'>Off</span><input id='crazyMode'style='float: right;' oninput='updateCrazyMode(this.checked, null)' type='checkbox'><li><li>- Memory Music: <span id='feedbackMemoryMusic'>On</span><input id='memoryMusic' style='float: right;' oninput='updateMemoryMusic(this.checked, null)' type='checkbox' checked><li></ul><p style='font-weight: bold;'>Memory</p><ul><li>- Show cards at start: <span id='feedbackMemorize'>Off</span><input id='memorize' style='float: right;' oninput='updateMemoryEnableMemorize(this.checked, null)' type='checkbox'><li><li>- Show ship names: <span id='feedbackMemoryShowNames'>On</span><input id='memoryShowNames' style='float: right;' oninput='updateMemoryShowNames(this.checked, null)' type='checkbox' checked><li></ul><p style='font-weight: bold;'>Confetti</p><ul><li>- Amount: <span id='feedbackConfettiCount'>100</span><input id='confettiAmount'style='float: right;' oninput='updateAmount(this.value, null)' type='range' min='10'max='500' value='100'><li><li>- Horizontal Dispersion: <span id='feedbackHorizontalMax'>500</span><input id='confettiHorizontal'style='float: right;' oninput='updateHorizontalMax(this.value, null)' type='range'min='250' max='1500' value='500'><li><li>- Vertical Dispersion: <span id='feedbackVerticalMax'>150</span><input id='confettiVertical'style='float: right;' oninput='updateVerticalMax(this.value, null)' type='range'min='50' max='750' value='150'><li><li style=\"padding-bottom:1rem\">- Diddn: <span id='feedbackDiddn'>An</span><input id='diddn'style='float: right;' oninput='updateDiddn(this.checked, null)' type='checkbox' checked></ul><a class='button dialog-button' onclick='launchConfetti()'>Test</a></div>",
 
     "key.dialog.chooseserver.title": "Choose Server",
     "key.dialog.chooseserver.content": "<div><p>Choose your World of Warships server:</p><p><input type='radio' id='northamerica' name='server' value='NA'><label for='northamerica'>North America</label></p><p><input type='radio' id='europa' name='server' value='EU'><label for='europa'>Europe</label></p><p><input type='radio' id='asia' name='server' value='ASIA'><label for='asia'>Asia</label></p></div>",
@@ -136,5 +135,9 @@
     "key.9live.statistics.current_budget": "Current Budget:",
     "key.9live.statistics.total_budget": "Coins Spent:",
     "key.9live.statistics.fails": "Failed Attempts:",
-    "key.9live.statistics.trys": "Attempts:"
+    "key.9live.statistics.trys": "Attempts:",
+
+    "key.ship_slotmachine": "Ship Slot Machine",
+    "key.dialog.skin_reload.title": "Skin Changed",
+    "key.dialog.skin_reload.content": "You have changed the skin of the Tombola, please reload the page to apply the changes."
 }

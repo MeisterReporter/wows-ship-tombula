@@ -411,7 +411,7 @@ function applyClassCounts(container) {
                 }
             }
         }
-    }, 50);
+    }, 500);
 }
 
 function countSelectedShips() {

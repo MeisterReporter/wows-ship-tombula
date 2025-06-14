@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Default",
+        "file": "none",
+        "backgrounds": [
+            "src/img/backgrounds/background_1.jpg",
+            "src/img/backgrounds/background_2.jpg",
+            "src/img/backgrounds/background_3.jpg",
+            "src/img/backgrounds/background_4.jpg"
+        ]
+    },
+    {
+        "name": "Casino",
+        "file": "src/data/skins/casino.html",
+        "backgrounds": [
+            "src/img/backgrounds/casino_background.png"
+        ]
+    }
+]
