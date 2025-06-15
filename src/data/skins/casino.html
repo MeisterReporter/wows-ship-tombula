@@ -555,20 +555,33 @@
         document.querySelector(".casino-skin-lights > .b").setAttribute("blink", "");
         document.querySelector(".casino-skin-lights > .c").setAttribute("blink", "");
         setTimeout(() => {
+            const timeInterval = 1500;
+            /* Stop first roll */
             setAnimationOf("#casino-nation>img", "none");
-            setAnimationOf("#casino-class>p", "none");
-            setAnimationOf("#casino-tier>p", "none");
             setTimeout(() => {
                 var nations = ["commonwealth", "europe", "france", "germany", "italy", "japan", "netherlands", "pan_america", "pan_asia", "russia", "spain", "uk", "usa"];
                 var nationIndex = nations.indexOf(ship.faction);
                 setTransformOf("#casino-nation>img", "translateY(-" + (nationIndex * 5) + "rem)");
+            }, 50);
+            /* Stop second roll */
+            setTimeout(() => {
+                setAnimationOf("#casino-class>p", "none");
+            }, timeInterval);
+            setTimeout(() => {
                 var types = ["SS", "DD", "CL", "CA", "BC", "BB", "CV"];
                 var type = types.indexOf(ship.type);
                 setTransformOf("#casino-class>p", "translateY(-" + (type * 5) + "rem)");
+            }, timeInterval + 50);
+            /* Stop third roll */
+            setTimeout(() => {
+                setAnimationOf("#casino-tier>p", "none");
+            }, 2 * timeInterval);
+            setTimeout(() => {
                 var tiers = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "★"];
                 var tier = tiers.indexOf(ship.tier);
                 setTransformOf("#casino-tier>p", "translateY(-" + (tier * 5) + "rem)");
-
+            }, 2 * timeInterval + 50);
+            setTimeout(() => {
                 casinoShip.removeAttribute("hidden");
                 casinoShip.style["animation"] = "bounce 0.5s ease-in-out";
                 var casinoShipName = document.getElementById("casino-ship-name");
@@ -589,8 +602,8 @@
 
                 /* Very important to reset the disabled state of the button */
                 document.getElementById("draw-ticket").removeAttribute("disabled");
-            }, 50);
-        }, 5000);
+            }, 2 * timeInterval + 500);
+        }, 2500);
     }
 
     function setAnimationOf(query, animation) {
