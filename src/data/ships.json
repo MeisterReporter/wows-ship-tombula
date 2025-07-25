@@ -2020,6 +2020,14 @@
         "premium": "true"
     },
     {
+        "name": "BA Arona's Whale",
+        "faction": "japan",
+        "type": "SS",
+        "tier": "X",
+        "image": "src/img/ships/ba_aronas_whale.png",
+        "premium": "true"
+    },
+    {
         "name": "AL Shimakaze",
         "faction": "japan",
         "type": "DD",
@@ -2090,6 +2098,14 @@
         "tier": "X",
         "image": "src/img/ships/shinano.png",
         "premium": "true"
+    },
+    {
+        "name": "Kushiro",
+        "faction": "japan",
+        "type": "CA",
+        "tier": "X",
+        "image": "src/img/ships/kushiro.png",
+        "premium": "false"
     },
 
     {
@@ -2685,6 +2701,14 @@
         "premium": "true"
     },
     {
+        "name": "Kiberpankov",
+        "faction": "russia",
+        "type": "CA",
+        "tier": "VIII",
+        "image": "src/img/ships/kiberpankov.png",
+        "premium": "true"
+    },
+    {
         "name": "S-189",
         "faction": "russia",
         "type": "SS",
@@ -2706,6 +2730,14 @@
         "type": "BC",
         "tier": "IX",
         "image": "src/img/ships/kronshtadt.png",
+        "premium": "true"
+    },
+    {
+        "name": "BA Hovercraft",
+        "faction": "russia",
+        "type": "BB",
+        "tier": "IX",
+        "image": "src/img/ships/ba_hovercraft.png",
         "premium": "true"
     },
     {
@@ -3660,6 +3692,15 @@
         "premium": "true"
     },
     {
+        "name": "Admiral Reinhard",
+        "faction": "germany",
+        "type": "CA",
+        "tier": "VI",
+        "image": "src/img/ships/admiral_rheinhardt.png",
+        "attr": "test",
+        "premium": "false"
+    },
+    {
         "name": "Prinz Sigismund",
         "faction": "germany",
         "type": "BC",
@@ -4481,6 +4522,23 @@
         "premium": "true"
     },
     {
+        "name": "Royal Sovereign",
+        "faction": "uk",
+        "type": "BB",
+        "tier": "VII",
+        "image": "src/img/ships/royal_sovereign.png",
+        "premium": "false"
+    },
+    {
+        "name": "Barfleur",
+        "faction": "uk",
+        "type": "DD",
+        "tier": "IX",
+        "image": "src/img/ships/barfleur.png",
+        "attr": "test",
+        "premium": "false"
+    },
+    {
         "name": "Cumberland",
         "faction": "uk",
         "type": "BB",
@@ -4980,6 +5038,14 @@
         "premium": "true"
     },
     {
+        "name": "BA Utnapishtim's Ship",
+        "faction": "france",
+        "type": "CA",
+        "tier": "IX",
+        "image": "src/img/ships/ba_utnapischtims_ship.png",
+        "premium": "true"
+    },
+    {
         "name": "Kléber CLR",
         "faction": "france",
         "type": "DD",
@@ -4994,6 +5060,15 @@
         "tier": "X",
         "image": "src/img/ships/marceau.png",
         "premium": "true"
+    },
+    {
+        "name": "Amiral Lartigue",
+        "faction": "france",
+        "type": "CA",
+        "tier": "X",
+        "image": "src/img/ships/amiral_lartigue.png",
+        "premium": "false",
+        "attr": "test"
     },
 
     {
@@ -5639,6 +5714,14 @@
         "premium": "true"
     },
     {
+        "name": "BA Binah",
+        "faction": "italy",
+        "type": "BB",
+        "tier": "VIII",
+        "image": "src/img/ships/ba_binah.png",
+        "premium": "true"
+    },
+    {
         "name": "Aquila",
         "faction": "italy",
         "type": "CV",
@@ -5741,6 +5824,14 @@
         "type": "BB",
         "tier": "X",
         "image": "src/img/ships/sicilia.png",
+        "premium": "true"
+    },
+    {
+        "name": "Tempesta Nera",
+        "faction": "italy",
+        "type": "BB",
+        "tier": "X",
+        "image": "src/img/ships/tempesta_nera.png",
         "premium": "true"
     },
     {
