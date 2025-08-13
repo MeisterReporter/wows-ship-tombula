@@ -6,6 +6,8 @@ var gameOver = false;
 var isModeratorTalking = false;
 var moderatorTalkingLength = 0;
 
+const countCharacter = (str, char) => str.toLowerCase().split(char).length - 1;
+
 /**
  * Gets a list of ships whichs name matches the specified options.
  * @param {char} character The character to search for in their names.
@@ -19,7 +21,7 @@ function getShipsWith(character, count, mode) {
         const ship = shipData[i];
         const shipName = ship.name.toLowerCase();
         if (shipName.includes(character) && selectedItems[ship.name]) {
-            const occ = shipName.split(character).length - 1;
+            const occ = countCharacter(shipName, character);
             const entry = ship.name;
             if (mode === "exact" && occ == count) {
                 selection.push(entry);
@@ -60,6 +62,18 @@ function getShipSetWith(setSize, character, count, mode) {
     return lastSet;
 }
 
+/**
+ * Checks if the occurrence of the character in the ship names matches the specified mode.
+ * In rare cases the selected mode might be misleading e.g. each word has only one 
+ * occurence of the character, but the mode is set to maximum 2. In this case the mode 
+ * should be adjusted to exact 1 and true is returned.
+ * 
+ * @param {*} mode The mode to check against.
+ * @param {*} character The character to check for.
+ * @param {*} count The count to check for.
+ * @param {*} ships The list of ship names to check.
+ * @returns True if the occurrence matches the mode, false otherwise.
+ */
 function checkIfOccuranceShouldBeExact(mode, character, count, ships) {
     if (mode == "exact") {
         return true;
@@ -68,7 +82,7 @@ function checkIfOccuranceShouldBeExact(mode, character, count, ships) {
         var valid = false;
         for (let i = 0; i < ships.length; i++) {
             const shipName = ships[i];
-            const occurance = shipName.split(character).length - 1;
+            const occurance = countCharacter(shipName, character);
             if (occurance != lastOccurance && lastOccurance != 0) {
                 valid = true;
                 break;
@@ -117,6 +131,9 @@ function get9LiveShipSet(iterations = 30, maxCount = 2, minSetSize = 3, maxSetSi
     // Check of the random mode is valid
     if (!checkIfOccuranceShouldBeExact(mode, character, count, shipSet)) {
         mode = "exact";
+        // Calculate the new count, based on the first ship entry. 
+        // This is possible because we know that each ship in the ship set has the same count of the character.
+        count = countCharacter(shipSet[0], character);
         console.log("Adjusted options: Character: " + character + ", Count: " + count + ", Mode: " + mode);
     }
 
