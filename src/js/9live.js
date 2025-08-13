@@ -540,7 +540,7 @@ function celebrateShip9live(shipName) {
     setTimeout(() => {
         ticket.style.animation = "ship-card-flip 1s ease-out";
         launchConfetti();
-        confettiPop();
+        confettiPop(isZonk(ship));
     }, 50);
     setTimeout(() => {
         ticket.style.opacity = 1;

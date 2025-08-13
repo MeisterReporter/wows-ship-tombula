@@ -192,6 +192,14 @@
         "premium": "false"
     },
     {
+        "name": "hughes",
+        "faction": "usa",
+        "type": "DD",
+        "tier": "VII",
+        "image": "src/img/ships/hughes.png",
+        "premium": "false"
+    },
+    {
         "name": "Kansas",
         "faction": "usa",
         "type": "BB",
@@ -237,6 +245,14 @@
         "type": "DD",
         "tier": "VIII",
         "image": "src/img/ships/benson.png",
+        "premium": "false"
+    },
+    {
+        "name": "Osborne",
+        "faction": "usa",
+        "type": "DD",
+        "tier": "VIII",
+        "image": "src/img/ships/osborne.png",
         "premium": "false"
     },
     {
@@ -312,6 +328,14 @@
         "premium": "false"
     },
     {
+        "name": "Christopher",
+        "faction": "usa",
+        "type": "DD",
+        "tier": "IX",
+        "image": "src/img/ships/christopher.png",
+        "premium": "false"
+    },
+    {
         "name": "Vermont",
         "faction": "usa",
         "type": "BB",
@@ -357,6 +381,14 @@
         "type": "DD",
         "tier": "X",
         "image": "src/img/ships/gearing.png",
+        "premium": "false"
+    },
+    {
+        "name": "Burrows",
+        "faction": "usa",
+        "type": "DD",
+        "tier": "X",
+        "image": "src/img/ships/burrows.png",
         "premium": "false"
     },
     {
@@ -1030,6 +1062,14 @@
         "type": "BB",
         "tier": "X",
         "image": "src/img/ships/ba_montana.png",
+        "premium": "true"
+    },
+    {
+        "name": "Laffey",
+        "faction": "usa",
+        "type": "DD",
+        "tier": "X",
+        "image": "src/img/ships/laffey.png",
         "premium": "true"
     },
     {
@@ -2626,6 +2666,14 @@
         "type": "DD",
         "tier": "VII",
         "image": "src/img/ships/tashkent_39.png",
+        "premium": "true"
+    },
+    {
+        "name": "Arkhangelsk",
+        "faction": "russia",
+        "type": "BB",
+        "tier": "VII",
+        "image": "src/img/ships/arkhangelsk.png",
         "premium": "true"
     },
     {
@@ -4306,6 +4354,14 @@
         "premium": "true"
     },
     {
+        "name": "Royal Sovereign",
+        "faction": "uk",
+        "type": "BB",
+        "tier": "VII",
+        "image": "src/img/ships/royal_sovereign.png",
+        "premium": "true"
+    },
+    {
         "name": "AL Cheshire",
         "faction": "uk",
         "type": "CA",
@@ -4450,6 +4506,14 @@
         "premium": "true"
     },
     {
+        "name": "Barfleur",
+        "faction": "uk",
+        "type": "DD",
+        "tier": "IX",
+        "image": "src/img/ships/barfleur.png",
+        "premium": "true"
+    },
+    {
         "name": "Defence",
         "faction": "uk",
         "type": "BC",
@@ -4520,23 +4584,6 @@
         "tier": "X",
         "image": "src/img/ships/thunderer.png",
         "premium": "true"
-    },
-    {
-        "name": "Royal Sovereign",
-        "faction": "uk",
-        "type": "BB",
-        "tier": "VII",
-        "image": "src/img/ships/royal_sovereign.png",
-        "premium": "false"
-    },
-    {
-        "name": "Barfleur",
-        "faction": "uk",
-        "type": "DD",
-        "tier": "IX",
-        "image": "src/img/ships/barfleur.png",
-        "attr": "test",
-        "premium": "false"
     },
     {
         "name": "Cumberland",
@@ -5067,8 +5114,7 @@
         "type": "CA",
         "tier": "X",
         "image": "src/img/ships/amiral_lartigue.png",
-        "premium": "false",
-        "attr": "test"
+        "premium": "true"
     },
 
     {

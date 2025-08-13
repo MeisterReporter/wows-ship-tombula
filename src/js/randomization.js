@@ -2,6 +2,8 @@ var classes = ["SS", "DD", "CL", "CA", "BC", "BB", "CV"];
 var classDraws = {"SS": 0, "DD": 0, "CL": 0, "CA": 0, "BC": 0, "BB": 0, "CV": 0};
 var tierDraws = {"I": 0, "II": 0, "III": 0, "IV": 0, "V": 0, "VI": 0, "VII": 0, "VIII": 0, "IX": 0, "X": 0, "★": 0};
 
+var lastDrawnShip = null;
+
 var enableAprilFools = false;
 var firstFoolShip = "Umikaze";
 var foolShips = [
@@ -51,6 +53,13 @@ function chooseRandom(self) {
         return;
     }
     var ship = shipData[random];
+    lastDrawnShip = ship;
+    // Change Diddn Image if required
+    if (ship.type == "SS") {
+        changeDiddnImage("src/img/depri_krado_1.png", "src/img/depri_krado_2.png");
+    } else {
+        changeDiddnImage("src/img/didden_01.png", "src/img/didden_02.png");
+    }
     // Increase draw counts
     classDraws[ship.type] += 1;
     tierDraws[ship.tier] += 1;
@@ -305,4 +314,8 @@ function checkShipNames(shipNames) {
         }
     }
     console.log("Found " + foundShips + " ships of " + shipNames.length + ".");
+}
+
+function isZonk(ship = lastDrawnShip) {
+    return ship.type == "SS" || ship.type == "CV" || foolShips.includes(ship.name);
 }

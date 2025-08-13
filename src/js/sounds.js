@@ -21,6 +21,12 @@ var memoryMusicSound;
 
 var nereDiabolusSound;
 var kromAbprallaSound;
+var kradoCrowSound = [];
+var kradoCrowDiesSound;
+var kradoDuBistEinLappenSound;
+var kradoAlteHupeSound;
+var kradoCriesSound;
+var zonkSound;
 
 var volume = 100;
 var scratchSounds = true;
@@ -142,6 +148,14 @@ function loadSounds() {
 
     nereDiabolusSound = new Audio("src/aud/Nere_Diabolus_Lache.mp3");
     kromAbprallaSound = new Audio("src/aud/krom_abprallaaaaa.mp3");
+    kradoCrowSound = [];
+    kradoCrowSound.push(new Audio("src/aud/Krado_Rabe_1.mp3"));
+    kradoCrowSound.push(new Audio("src/aud/Krado_Rabe_2.mp3"));
+    kradoCrowDiesSound = new Audio("src/aud/Krado_Rabe_Stirbt_1.mp3");
+    kradoDuBistEinLappenSound = new Audio("src/aud/Krado_Du_Bist_Ein_Lappen_Ha_Ha_Ha.mp3");
+    kradoAlteHupeSound = new Audio("src/aud/Krado_Yeeeah_Alt_Hupe.mp3");
+    kradoCriesSound = new Audio("src/aud/Krado_Weint_1.mp3");
+    zonkSound = new Audio("src/aud/zonk.mp3");
 
     dropCoinSound = new Audio("src/aud/coin-drops-and-spins.mp3");
     phoneRingingSound = new Audio("src/aud/vintage-phone-ringing.mp3");
@@ -193,21 +207,56 @@ function scratchOhhh() {
     audio.play();  
 }
 
-function confettiPop() {
-    switch (settingsConfettiSound) {
-        default:
-        case "pop":
-            confettiPopSound.volume = 0.3 * (volume / 100.0);
-            confettiPopSound.play();
-            break;
-        case "nere":
-            nereDiabolusSound.volume = 0.5 * (volume / 100.0);
-            nereDiabolusSound.play();
-            break;
-        case "abpralla":
-            kromAbprallaSound.volume = 0.5 * (volume / 100.0);
-            kromAbprallaSound.play();
-            break;
+function confettiPop(isZonk = false) {
+    if (isZonk) {
+        switch (settingsConfettiSound) {
+            case "nere":
+                nereDiabolusSound.volume = 0.5 * (volume / 100.0);
+                nereDiabolusSound.play();
+                break;
+            case "krado_crow":
+                kradoCrowDiesSound.volume = 0.5 * (volume / 100.0);
+                kradoCrowDiesSound.play();
+                break;
+            default:
+                if (Math.random() <= 0.66) {
+                    zonkSound.volume = 0.25 * (volume / 100.0);
+                    zonkSound.play();
+                } else {
+                    kradoCriesSound.volume = 0.5 * (volume / 100.0);
+                    kradoCriesSound.play();
+                }
+                break;
+        }
+    } else {
+        switch (settingsConfettiSound) {
+            default:
+            case "pop":
+                confettiPopSound.volume = 0.3 * (volume / 100.0);
+                confettiPopSound.play();
+                break;
+            case "nere":
+                nereDiabolusSound.volume = 0.5 * (volume / 100.0);
+                nereDiabolusSound.play();
+                break;
+            case "abpralla":
+                kromAbprallaSound.volume = 0.5 * (volume / 100.0);
+                kromAbprallaSound.play();
+                break;
+            case "krado_crow":
+                let audio = randomSound(kradoCrowSound);
+                audio.volume = 0.5 * (volume / 100.0);
+                audio.play();
+                break;
+            case "krado_lappen":
+                kradoDuBistEinLappenSound.volume = 0.5 * (volume / 100.0);
+                kradoDuBistEinLappenSound.play();
+                break;
+            case "krado_hupe":
+                kradoAlteHupeSound.volume = 0.5 * (volume / 100.0);
+                kradoAlteHupeSound.play();
+                break;
+        }
     }
 }
 

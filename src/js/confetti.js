@@ -110,6 +110,19 @@ function updateVerticalMax(amount, self) {
     verticalMax = amount;
 }
 
+function changeDiddnImage(imgPath1, imgPath2) {
+    var diddn = document.getElementsByClassName("diddn");
+    for (let i = 0; i < Math.min(diddn.length, 2); i++) {
+        const element = diddn[i];
+        const img = element.children[0];
+        if (i == 0) {
+            img.src = imgPath1;
+        } else {
+            img.src = imgPath2;
+        }
+    }
+}
+
 function updateDiddn(toggle, self) {
     toggle = JSON.parse(toggle);
     var display = document.getElementById("feedbackDiddn");
