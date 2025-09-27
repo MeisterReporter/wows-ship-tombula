@@ -712,15 +712,6 @@
         "premium": "true"
     },
     {
-        "name": "Protector",
-        "faction": "usa",
-        "type": "CA",
-        "tier": "VIII",
-        "image": "src/img/ships/protector.png",
-        "attr": "experimental",
-        "premium": "true"
-    },
-    {
         "name": "Constellation",
         "faction": "usa",
         "type": "BB",
@@ -1070,15 +1061,6 @@
         "type": "DD",
         "tier": "X",
         "image": "src/img/ships/laffey.png",
-        "premium": "true"
-    },
-    {
-        "name": "Oregano",
-        "faction": "usa",
-        "type": "BB",
-        "tier": "IX",
-        "image": "src/img/ships/oregon.png",
-        "attr": "experimental",
         "premium": "true"
     },
     {
@@ -2019,15 +2001,6 @@
         "premium": "true"
     },
     {
-        "name": "Hotaka",
-        "faction": "japan",
-        "type": "BB",
-        "tier": "IX",
-        "image": "src/img/ships/hotaka.png",
-        "attr": "experimental",
-        "premium": "true"
-    },
-    {
         "name": "Minegumo",
         "faction": "japan",
         "type": "DD",
@@ -2802,15 +2775,6 @@
         "type": "DD",
         "tier": "IX",
         "image": "src/img/ships/neustrashimy.png",
-        "premium": "true"
-    },
-    {
-        "name": "Vyazma",
-        "faction": "russia",
-        "type": "BC",
-        "tier": "IX",
-        "image": "src/img/ships/vyazma.png",
-        "attr": "experimental",
         "premium": "true"
     },
     {
@@ -5028,15 +4992,6 @@
         "premium": "true"
     },
     {
-        "name": "Metz",
-        "faction": "france",
-        "type": "BC",
-        "tier": "VIII",
-        "image": "src/img/ships/toulon.png",
-        "attr": "experimental",
-        "premium": "true"
-    },
-    {
         "name": "Carnot",
         "faction": "france",
         "type": "BC",
@@ -5845,15 +5800,6 @@
         "type": "BC",
         "tier": "X",
         "image": "src/img/ships/napoli_b.png",
-        "premium": "true"
-    },
-    {
-        "name": "Varese",
-        "faction": "italy",
-        "type": "BC",
-        "tier": "X",
-        "image": "src/img/ships/varese.png",
-        "attr": "experimental",
         "premium": "true"
     },
     {
@@ -6836,5 +6782,206 @@
         "image": "src/img/ships/victoria.png",
         "attr": "test",
         "premium": "false"
+    },
+
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSC759_4ecc7985d5d6dc9e0aa9c2ef2cbbb4f9aaa5ca7ca1e18fc398c8396b5a4ad2cf.png",
+        "premium": "true",
+        "tier": "IX",
+        "faction": "japan",
+        "name": "Suzuya VL",
+        "type": "CA"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSC720_0624d0dd4fe649f971a534f43d4d6c8f0b2838f83e1820dbe64c87408c64c0e8.png",
+        "premium": "false",
+        "tier": "X",
+        "faction": "pan_asia",
+        "name": "Zhuge's Inventions",
+        "type": "CA",
+        "attr": "test"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSB747_7391733d6c4c2d17e01fe4d0e13cfd876d44fe0f9de966014d3d8a7d67023d4c.png",
+        "premium": "true",
+        "tier": "VII",
+        "faction": "uk",
+        "name": "Danu",
+        "type": "BB",
+        "attr": "test"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PUSC997_508717a1182aacb6db4960f957675eb51934491c79ac614df65b39dea4f87d4e.png",
+        "premium": "false",
+        "tier": "VII",
+        "faction": "commonwealth",
+        "name": "River Gambra",
+        "type": "CA",
+        "attr": "test"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PHSC980_85786bb022afe841139c812aa90c68a0103d164223d533ca9742315bcbe98080.png",
+        "premium": "false",
+        "tier": "X",
+        "faction": "netherlands",
+        "name": "Noord-Brabant",
+        "type": "CA",
+        "attr": "test"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSD719_9e2c889140117fd4b375d60395aa13ffce1ea5892a5badd259a04a901c72056a.png",
+        "premium": "false",
+        "tier": "IX",
+        "faction": "europe",
+        "name": "Błyskawica '52",
+        "type": "DD",
+        "attr": "test"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSC718_f5068745035ea5fc1e831ef5085e9066befc074380d18678e9f4797f90b418d4.png",
+        "premium": "false",
+        "tier": "VIII",
+        "faction": "pan_asia",
+        "name": "Narai",
+        "type": "CA",
+        "attr": "test"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISB709_8b696024c9a302ab985e8d539b69a133841bc557edb3f851a03bf046ff6c310c.png",
+        "premium": "true",
+        "tier": "IX",
+        "faction": "italy",
+        "name": "Pilus Prior",
+        "type": "BB",
+        "attr": "test"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISC707_298ee9897ff888494aea65ca007681ddb29cce404784ab8cdebc3c21c5a91838.png",
+        "premium": "true",
+        "tier": "VII",
+        "faction": "italy",
+        "name": "Optio",
+        "type": "CA"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASB719_5e7d6bbccffde1f1d0a1c110c27108fb6c40746e25f5ee0fdc1522bc4740d18e.png",
+        "premium": "false",
+        "tier": "IX",
+        "faction": "usa",
+        "name": "Indiana",
+        "type": "BB",
+        "attr": "test"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSB710_5cfa5d726581b96fd577c1b504cd801cecb9fdd8c236fd1a5a4baee3011eff59.png",
+        "premium": "false",
+        "tier": "X",
+        "faction": "russia",
+        "name": "Sibir",
+        "type": "BB"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASC708_c3ca5e9a4ba954e91ee57b6ecc2474c50d28f90a289c6862b40b7948883be2d9.png",
+        "premium": "false",
+        "tier": "VIII",
+        "faction": "usa",
+        "name": "Bridgeport",
+        "type": "CA",
+        "attr": "test"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISB719_8b696024c9a302ab985e8d539b69a133841bc557edb3f851a03bf046ff6c310c.png",
+        "premium": "true",
+        "tier": "IX",
+        "faction": "italy",
+        "name": "Pilus Posterior",
+        "type": "BB",
+        "attr": "test"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSC718_298ad4d760c3c970c7f723c41b3ce608e9c54aeae60b0223edb83ba7c84fe20b.png",
+        "premium": "true",
+        "tier": "VIII",
+        "faction": "uk",
+        "name": "Érne",
+        "type": "CA",
+        "attr": "test"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSC710_b2ea536c0fc69268a6b4a201ccda3c8d7e1622b02ba5ebd89252326bb2bc720f.png",
+        "premium": "false",
+        "tier": "X",
+        "faction": "japan",
+        "name": "Yari",
+        "type": "CA"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSC707_2e6f1ff1de7cac0496edba0be7b8ecd0b33eec7e945ad46b8f8135dfb9043c10.png",
+        "premium": "true",
+        "tier": "VII",
+        "faction": "uk",
+        "name": "Bóinn",
+        "type": "CA",
+        "attr": "test"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSA710_563617195a12d9d95a7d69e1ab292da4189fb5aff1ecc82f83411cd119f52247.png",
+        "premium": "false",
+        "tier": "X",
+        "faction": "uk",
+        "name": "Ocean",
+        "type": "CV",
+        "attr": "test"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSC017_28b16ed67d034b7208200745005f906eea4a3a86c77d0f641c2047cc4c21af80.png",
+        "premium": "false",
+        "tier": "VII",
+        "faction": "germany",
+        "name": "Admiral Scheer",
+        "type": "CA"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSC018_2c701cf2f2aff7664dd20dd1514f573872f18d16a79706e0322bf1e093b47f03.png",
+        "premium": "false",
+        "tier": "VIII",
+        "faction": "germany",
+        "name": "Knesebeck",
+        "type": "CA"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSC019_e9c05b2cdcb82593544610697ad9f0032196637fec9bd44f914215416eb259c1.png",
+        "premium": "false",
+        "tier": "IX",
+        "faction": "germany",
+        "name": "Manteuffel",
+        "type": "CA"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISB011_13bff50a1ef633c9ab729430570297306da7f1efcc445ca35df195462e4748c7.png",
+        "premium": "false",
+        "tier": "XI",
+        "faction": "italy",
+        "name": "Affondatore",
+        "type": "BB",
+        "attr": "test"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSC010_977a386ffb68822eeb02822f4d61d554bc0f13ed531db9a4f94e5d4808ba0713.png",
+        "premium": "false",
+        "tier": "X",
+        "faction": "germany",
+        "name": "Prinz Adalbert",
+        "type": "CA",
+        "attr": "test"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSC016_8f224bd1e8401a640af973eee5b144beb1418ba9da317f6570983684dd1d2ca8.png",
+        "premium": "false",
+        "tier": "VI",
+        "faction": "germany",
+        "name": "Deutschland",
+        "type": "CA",
+        "attr": "test"
     }
 ]

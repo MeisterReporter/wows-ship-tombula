@@ -1,6 +1,6 @@
 let selectedItems = [];
 let shipData = [];
-let typeCounts = {"SS": 0, "DD": 0, "CL": 0, "CA": 0, "BC": 0, "BB": 0, "CV": 0};
+let typeCounts = { "SS": 0, "DD": 0, "CL": 0, "CA": 0, "BC": 0, "BB": 0, "CV": 0 };
 
 function initializeList(callback = null) {
     // Get List
@@ -8,35 +8,35 @@ function initializeList(callback = null) {
     list.innerHTML = "";
     // Get JSON
     fetch("./src/data/ships.json")
-    .then((response) => response.json())
-    .then((json) => {
-        // Sort the JSON
-        json.sort(function(a, b) {
-            return a.faction.localeCompare(b.faction) || tierToNumber(a.tier) - tierToNumber(b.tier) || typeToNumber(a.type) - typeToNumber(b.type);
-        });
-        // Loop through JSON
-        shipData = json;
-        for (let i = 0; i < json.length; i++) {
-            var ship = json[i];
-            var shipItem = createShipListItem(ship.faction, ship.tier, ship.type, ship.name);
-            list.appendChild(shipItem);
-            selectedItems[ship.name] = ship.attr !== "test";
-            if (ship.attr === "test") {
-                var checkBox = shipItem.getElementsByTagName("input")[0];
-                checkBox.checked = false;
+        .then((response) => response.json())
+        .then((json) => {
+            // Sort the JSON
+            json.sort(function (a, b) {
+                return a.faction.localeCompare(b.faction) || tierToNumber(a.tier) - tierToNumber(b.tier) || typeToNumber(a.type) - typeToNumber(b.type);
+            });
+            // Loop through JSON
+            shipData = json;
+            for (let i = 0; i < json.length; i++) {
+                var ship = json[i];
+                var shipItem = createShipListItem(ship.faction, ship.tier, ship.type, ship.name);
+                list.appendChild(shipItem);
+                selectedItems[ship.name] = ship.attr !== "test";
+                if (ship.attr === "test") {
+                    var checkBox = shipItem.getElementsByTagName("input")[0];
+                    checkBox.checked = false;
+                }
+                if (ship.premium === "true") {
+                    list.childNodes[list.childNodes.length - 1].getElementsByTagName("shipName")[0].classList.add("premium");
+                }
+                // Count ship classes
+                typeCounts[ship.type] += 1;
             }
-            if (ship.premium === "true") {
-                list.childNodes[list.childNodes.length - 1].getElementsByTagName("shipName")[0].classList.add("premium");
-            }
-            // Count ship classes
-            typeCounts[ship.type] += 1;
-        }
 
-        loadSelection();
-        if (callback != null) {
-            callback();
-        }
-    });
+            loadSelection();
+            if (callback != null) {
+                callback();
+            }
+        });
 }
 
 function tierToNumber(tier) {
