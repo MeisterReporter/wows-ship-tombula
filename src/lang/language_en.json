@@ -1,5 +1,5 @@
 {
-    "version": "1.4.0-14.8",
+    "version": "1.4.0-14.10",
     "key.new": "New",
     "key.title": "Ship Tombola",
     "key.title.memory": "Ship Memory",
@@ -56,7 +56,7 @@
     "key.dialog.types.title": "Ship classes",
     "key.dialog.types.content": "If you click on the ship classes or check boxes, all ships of the class will be selected or deselected.<p>Here is the explanation of the class abbreviations:</p><p><b>SS</b>: Submarine (<span>SS</span>)</p ><p><b>DD</b>: Destroyer (<span>DD</span>)</p><p><b>CL</b>: Light Cruiser (<span>CL</span>)</p><p><b>CA</b>: Heavy Cruiser (<span>CA</span>)</p><p><b>BC</b>: Battlecruiser (<span>BC</span>)</p><p><b>BB</b>: Battleship (<span>BB</span>)</p><p><b>CV</b>: Aircraft carrier (<span>CV</span>)</p>",
     "key.dialog.pathnotes.title": "Whats new?",
-    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.4.0-14.8:</p><p>- New ships from update 14.8</p><p>- A bunch of new tombola draw sounds is available.</p><p>- Call 10/2 Live now <a onclick=\"window.location.replace('liveshow.html')\">Call Now</a></p><p>- New ships from update 14.7</p><p>- Fixed some nasty bugs</p>",
+    "key.dialog.pathnotes.content": "<p style='font-size: 15pt'>Version: 1.4.0-14.10:</p><p>- New ships from update 14.10</p>",
     "key.dialog.teamkrado.title": "Who is Teamkrado?",
     "key.dialog.teamkrado.content": "<p><b>Teamkrado</b> is an official contributor for <i>World of Warships</i>. In the streams and videos, <b>Krado</b> is the \"camera\" for the viewers.</br>Occasionally, <b>Nere</b>, another member of Teamkrado, is also the peephole into the game world.</br>Also involved are <b>Krom</b> and <b>Blackchi</b>, the latter plays with Krado <i>Hunt Showdown</i> and <i>War Thunder</i>.</br>In <i>World of Warships</i> or <i>War Thunder</i>, Krado lets his community go along as long as there are spots available in the division.</p><p style='font-size: 15pt'>Teamkrado can be watched here:</p><p><a href='https://www.youtube.com/@Teamkrado'>Youtube channel</a> </p><p><a href='https://www.twitch.tv/teamkrado'>Twitch channel</a></p><p><a href='https://www.instagram .com/teamkrado/'>Instagram Account</a></p><p><a href='https://www.facebook.com/teamkrado/'>Facebook Account</a></p>",
     "key.dialog.loginfail.title": "Login failed",

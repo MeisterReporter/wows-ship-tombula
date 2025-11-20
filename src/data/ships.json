@@ -2120,6 +2120,22 @@
         "image": "src/img/ships/kushiro.png",
         "premium": "false"
     },
+    {
+        "name": "Yamato Kai",
+        "faction": "japan",
+        "type": "BB",
+        "tier": "X",
+        "image": "src/img/ships/yamato_kai.png",
+        "premium": "true"
+    },
+    {
+        "name": "Suzuya VL",
+        "faction": "japan",
+        "type": "CL",
+        "tier": "IX",
+        "image": "src/img/ships/suzuya_vl.png",
+        "premium": "true"
+    },
 
     {
         "name": "Orlan",
@@ -5417,6 +5433,15 @@
         "attr": "test",
         "premium": "false"
     },
+    {
+        "name": "Zhuge's Inventions",
+        "faction": "pan_asia",
+        "type": "BC",
+        "tier": "X",
+        "image": "src/img/ships/zhuges_inventions.png",
+        "attr": "test",
+        "premium": "false"
+    },
 
     {
         "name": "Eritrea",
@@ -6191,6 +6216,14 @@
         "premium": "true"
     },
     {
+        "name": "Comandante Aguirre",
+        "faction": "pan_america",
+        "type": "CA",
+        "tier": "VIII",
+        "image": "src/img/ships/commandante_aguerre.png",
+        "premium": "true"
+    },
+    {
         "name": "Comodoro",
         "faction": "pan_america",
         "type": "BB",
@@ -6785,30 +6818,12 @@
     },
 
     {
-        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSC759_4ecc7985d5d6dc9e0aa9c2ef2cbbb4f9aaa5ca7ca1e18fc398c8396b5a4ad2cf.png",
-        "premium": "true",
-        "tier": "IX",
-        "faction": "japan",
-        "name": "Suzuya VL",
-        "type": "CA"
-    },
-    {
-        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSC720_0624d0dd4fe649f971a534f43d4d6c8f0b2838f83e1820dbe64c87408c64c0e8.png",
-        "premium": "false",
-        "tier": "X",
-        "faction": "pan_asia",
-        "name": "Zhuge's Inventions",
-        "type": "CA",
-        "attr": "test"
-    },
-    {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSB747_7391733d6c4c2d17e01fe4d0e13cfd876d44fe0f9de966014d3d8a7d67023d4c.png",
         "premium": "true",
         "tier": "VII",
         "faction": "uk",
         "name": "Danu",
-        "type": "BB",
-        "attr": "test"
+        "type": "BB"
     },
     {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PUSC997_508717a1182aacb6db4960f957675eb51934491c79ac614df65b39dea4f87d4e.png",
@@ -6852,8 +6867,7 @@
         "tier": "IX",
         "faction": "italy",
         "name": "Pilus Prior",
-        "type": "BB",
-        "attr": "test"
+        "type": "BB"
     },
     {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISC707_298ee9897ff888494aea65ca007681ddb29cce404784ab8cdebc3c21c5a91838.png",
@@ -6869,8 +6883,7 @@
         "tier": "IX",
         "faction": "usa",
         "name": "Indiana",
-        "type": "BB",
-        "attr": "test"
+        "type": "BB"
     },
     {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSB710_5cfa5d726581b96fd577c1b504cd801cecb9fdd8c236fd1a5a4baee3011eff59.png",
@@ -6886,8 +6899,7 @@
         "tier": "VIII",
         "faction": "usa",
         "name": "Bridgeport",
-        "type": "CA",
-        "attr": "test"
+        "type": "CA"
     },
     {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISB719_8b696024c9a302ab985e8d539b69a133841bc557edb3f851a03bf046ff6c310c.png",
@@ -6895,8 +6907,7 @@
         "tier": "IX",
         "faction": "italy",
         "name": "Pilus Posterior",
-        "type": "BB",
-        "attr": "test"
+        "type": "BB"
     },
     {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSC718_298ad4d760c3c970c7f723c41b3ce608e9c54aeae60b0223edb83ba7c84fe20b.png",
@@ -6904,8 +6915,7 @@
         "tier": "VIII",
         "faction": "uk",
         "name": "Érne",
-        "type": "CA",
-        "attr": "test"
+        "type": "CA"
     },
     {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSC710_b2ea536c0fc69268a6b4a201ccda3c8d7e1622b02ba5ebd89252326bb2bc720f.png",
@@ -6921,8 +6931,7 @@
         "tier": "VII",
         "faction": "uk",
         "name": "Bóinn",
-        "type": "CA",
-        "attr": "test"
+        "type": "CA"
     },
     {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSA710_563617195a12d9d95a7d69e1ab292da4189fb5aff1ecc82f83411cd119f52247.png",
@@ -6930,8 +6939,7 @@
         "tier": "X",
         "faction": "uk",
         "name": "Ocean",
-        "type": "CV",
-        "attr": "test"
+        "type": "CV"
     },
     {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSC017_28b16ed67d034b7208200745005f906eea4a3a86c77d0f641c2047cc4c21af80.png",
@@ -6972,8 +6980,7 @@
         "tier": "X",
         "faction": "germany",
         "name": "Prinz Adalbert",
-        "type": "CA",
-        "attr": "test"
+        "type": "CA"
     },
     {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSC016_8f224bd1e8401a640af973eee5b144beb1418ba9da317f6570983684dd1d2ca8.png",
@@ -6981,7 +6988,62 @@
         "tier": "VI",
         "faction": "germany",
         "name": "Deutschland",
-        "type": "CA",
-        "attr": "test"
+        "type": "CA"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASB930_db65f58ba5f63b81ddd836d47339d5da548d255b6f64edfe875136045fbef892.png",
+        "premium": "true",
+        "tier": "X",
+        "faction": "usa",
+        "name": "Rhode Island B",
+        "type": "BB"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PZSD910_1d7880c6b71cec5cb8d449f7107615e45c1c6f9e6c696876cb0f6b8bfeeab784.png",
+        "premium": "true",
+        "tier": "X",
+        "faction": "pan_asia",
+        "name": "Lüshun B",
+        "type": "DD"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASC910_e494ba38c427bef47c474851ff338720523c9840b6b874d56a098cd00bc5b0f4.png",
+        "premium": "true",
+        "tier": "X",
+        "faction": "usa",
+        "name": "Puerto Rico B",
+        "type": "BC"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PWSB909_be4a2c16d16b79c375554f83f0d3674136ab241d33b44da9648b5d303a409218.png",
+        "premium": "true",
+        "tier": "IX",
+        "faction": "europe",
+        "name": "Karl XIV Johan B",
+        "type": "BB"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSD909_d41a206fe74d0ed047143643bd8c9143c49b6cc5990d3f17e657692dd1aa986f.png",
+        "premium": "true",
+        "tier": "IX",
+        "faction": "russia",
+        "name": "Neustrashimy B",
+        "type": "DD"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PGSC908_c56df90d4e388bd0c592283b378da1f3b87de9da1ae5fa31a7eed137051f7b09.png",
+        "premium": "true",
+        "tier": "VIII",
+        "faction": "germany",
+        "name": "Schill B",
+        "type": "BC"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PZSB909_b9db2e19c0fb2d92dcbe5a146024ceffcbab601f9e12b7862cd306d8da4c2674.png",
+        "premium": "true",
+        "tier": "IX",
+        "faction": "pan_asia",
+        "name": "Xuan Ming",
+        "type": "BB"
     }
 ]
