@@ -1064,6 +1064,22 @@
         "premium": "true"
     },
     {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASC920_ddc7e7db44085dcf88ddba705683d160c8442a99a36ed4ddc5794e16b6f410d6.png",
+        "premium": "true",
+        "tier": "X",
+        "faction": "usa",
+        "name": "Hawaii Golden",
+        "type": "CA"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASC720_052a996b673ba5d3e45b7b8ea7b79b133f4b401e0d0fc240aee84d572c49f4f0.png",
+        "premium": "true",
+        "tier": "X",
+        "faction": "usa",
+        "name": "Hawaii",
+        "type": "CA"
+    },
+    {
         "name": "Colorado 2",
         "faction": "usa",
         "type": "BB",
@@ -2127,6 +2143,30 @@
         "tier": "X",
         "image": "src/img/ships/yamato_kai.png",
         "premium": "true"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSB920_a1086d5eb8f932a35e05b21d076c845ce048e7f7a513b9ecb29f1c7e3a8fef0a.png",
+        "premium": "true",
+        "tier": "X",
+        "faction": "japan",
+        "name": "Aki Golden",
+        "type": "BB"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSB720_9bebee637128ec2afdef568de7ec4e938bee2fa66aa86324b71bc6833c0b7fc1.png",
+        "premium": "true",
+        "tier": "X",
+        "faction": "japan",
+        "name": "Aki",
+        "type": "BB"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSS720_b71b5e06560438c5a016f20daf8560f5812a353413627419a52aa162e7a62c84.png",
+        "premium": "true",
+        "tier": "X",
+        "faction": "japan",
+        "name": "I-56 '44",
+        "type": "SS"
     },
     {
         "name": "Suzuya VL",
@@ -3424,6 +3464,14 @@
         "premium": "true"
     },
     {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSC717_8a87a588ad779fe58c01847eb89676fc001f551bf40c3845af607526ee3a4521.png",
+        "premium": "true",
+        "tier": "VII",
+        "faction": "germany",
+        "name": "Nürnberg '44",
+        "type": "CA"
+    },
+    {
         "name": "Anhalt",
         "faction": "germany",
         "type": "BB",
@@ -3718,6 +3766,22 @@
         "tier": "X",
         "image": "src/img/ships/georg_hoffmann_g.png",
         "premium": "true"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSC920_a0ed64ca4e5ef4097458894c706f2164c5648b51c84d7a37a96df07dce634054.png",
+        "premium": "true",
+        "tier": "X",
+        "faction": "germany",
+        "name": "Bremen Golden",
+        "type": "CA"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSC720_c3fc1f0f478ad9b7cd9195c1d3c14a952a46e89e5b96048e0f3facd792f3c6ee.png",
+        "premium": "true",
+        "tier": "X",
+        "faction": "germany",
+        "name": "Bremen",
+        "type": "CA"
     },
     {
         "name": "Admiral Reinhard",
@@ -5008,6 +5072,15 @@
         "premium": "true"
     },
     {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSD718_b0007349452d96dadac030ea4e328939f7e7c2705d75401d558fb9922ba557b3.png",
+        "premium": "true",
+        "tier": "VIII",
+        "faction": "france",
+        "name": "Hoche",
+        "type": "DD",
+        "attr": "test"
+    },
+    {
         "name": "Carnot",
         "faction": "france",
         "type": "BC",
@@ -5030,6 +5103,22 @@
         "tier": "IX",
         "image": "src/img/ships/jean_bart_b.png",
         "premium": "true"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSB709_e04bee965dae1f05286f8ba7ae06c0c9da3981d30cc006f8aee7e01f04ee9b42.png",
+        "premium": "true",
+        "tier": "IX",
+        "faction": "france",
+        "name": "Roussillon",
+        "type": "BB"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSC719_c012c9d03c5ed68390ff1c534513c664593bae9ba5f998da6ed478e6a6dbdf81.png",
+        "premium": "true",
+        "tier": "IX",
+        "faction": "france",
+        "name": "Le Havre",
+        "type": "CA"
     },
     {
         "name": "Bourgogne",
@@ -5086,6 +5175,23 @@
         "tier": "X",
         "image": "src/img/ships/amiral_lartigue.png",
         "premium": "true"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSS710_d3d52bf99d2070cd1519bcf7306d778c021740907705e53a62903e2b767f9fd2.png",
+        "premium": "true",
+        "tier": "X",
+        "faction": "france",
+        "name": "Surcouf",
+        "type": "SS"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSD710_b66bc95fb476b5c56ea1c5e88edb4e05bd3f4327f2f119f1b0d15469a8c51e20.png",
+        "premium": "true",
+        "tier": "X",
+        "faction": "france",
+        "name": "Châteaurenault",
+        "type": "DD",
+        "attr": "test"
     },
 
     {
@@ -5263,6 +5369,14 @@
         "tier": "VII",
         "image": "src/img/ships/teng_she.png",
         "premium": "true"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSC717_544b36ada7850d65419157f2a3cd2441d425a77d86289b0a3e75ef435dc8bcae.png",
+        "premium": "true",
+        "tier": "VII",
+        "faction": "pan_asia",
+        "name": "Lanzhou",
+        "type": "CA"
     },
     {
         "name": "Fenyang",
@@ -5764,6 +5878,14 @@
         "premium": "true"
     },
     {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISB908_ee6b3191f10c78f93f996bf11a5c925e3af292ecb74cc20fd1fdd4cd67abeb9a.png",
+        "premium": "true",
+        "tier": "VIII",
+        "faction": "italy",
+        "name": "Roma Aeterna",
+        "type": "BB"
+    },
+    {
         "name": "Giuseppe Verdi",
         "faction": "italy",
         "type": "BB",
@@ -6046,6 +6168,15 @@
         "image": "src/img/ships/irresistable.png",
         "premium": "true"
     },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PUSC710_95bceb7d1826815f6684040785de68682a9e704cbaab14fa25677f9f55b17ce3.png",
+        "premium": "true",
+        "tier": "X",
+        "faction": "commonwealth",
+        "name": "Pioneer",
+        "type": "CA",
+        "attr": "test"
+    },
 
     {
         "name": "Hércules",
@@ -6200,7 +6331,7 @@
         "premium": "false"
     },
     {
-        "name": "Valpariso",
+        "name": "Valparaíso",
         "faction": "pan_america",
         "type": "BB",
         "tier": "IX",
@@ -6496,6 +6627,70 @@
         "tier": "X",
         "image": "src/img/ships/svea.png",
         "premium": "true"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSB014_b3c442fe34026a3a566f4252c80a1389cb55cf9f29a09949231d2766991abf70.png",
+        "premium": "false",
+        "tier": "IV",
+        "faction": "europe",
+        "name": "Yavuz Sultan Selim",
+        "type": "BB"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSB015_5131d08126e1cd4b4b9c65432d3d55bf3c936ea22067a3a65d673e0bf495555f.png",
+        "premium": "false",
+        "tier": "V",
+        "faction": "europe",
+        "name": "Tegetthoff",
+        "type": "BB"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSB016_73c7978732124a013ed06dc3f1622dc6d53935adacf7502b21439e7d17a53e7e.png",
+        "premium": "false",
+        "tier": "VI",
+        "faction": "europe",
+        "name": "Laudon",
+        "type": "BB"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSB017_0fec686b66c7f439accbc5dd90e75efdba38d4446b7c23f09791f2cd080c7b80.png",
+        "premium": "false",
+        "tier": "VII",
+        "faction": "europe",
+        "name": "Chios",
+        "type": "BB"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSB718_42ced6b25504e8fe64cf7f8853a7bd7c18c8ba4168fbd747578b908da207111b.png",
+        "premium": "true",
+        "tier": "VIII",
+        "faction": "europe",
+        "name": "Turgut Reis",
+        "type": "BB"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSB018_dd25148faa3cbe6f0885eb50fcb6bd4dfdcef39ac89fcfcaffef80aec8ab9d0e.png",
+        "premium": "false",
+        "tier": "VIII",
+        "faction": "europe",
+        "name": "Enigheten",
+        "type": "BB"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSB019_d8d0b622b6401443891d307f8bc52eb11f63934426662ed7ee183c98da487dc5.png",
+        "premium": "false",
+        "tier": "IX",
+        "faction": "europe",
+        "name": "Gustav den Store",
+        "type": "BB"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSB010_541d04d14cd9acc7fa47c7ab142c8537ae51b4e375a126fe92d2a5f83b2d1cbc.png",
+        "premium": "true",
+        "tier": "X",
+        "faction": "europe",
+        "name": "Thor",
+        "type": "BB"
     },
     {
         "name": "Södermanland",
