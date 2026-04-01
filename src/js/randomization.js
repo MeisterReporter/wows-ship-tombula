@@ -4,7 +4,7 @@ var tierDraws = {"I": 0, "II": 0, "III": 0, "IV": 0, "V": 0, "VI": 0, "VII": 0, 
 
 var lastDrawnShip = null;
 
-var enableAprilFools = true;
+var enableAprilFools = false;
 var firstFoolShip = "Umikaze";
 var foolShips = [
     "Tiger '59",

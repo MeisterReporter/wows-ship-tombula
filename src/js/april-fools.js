@@ -6,7 +6,7 @@ function startNautyMessages() {
 }
 
 function showNautyMessages() {
-    if (!enableAprilFools || !enableAprilMessages) return;
+    if (!enableAprilMessages) return;
     if (document.getElementsByClassName("nauty-message-container").length <= 0) {
         addNautyMessage();
     }
