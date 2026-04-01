@@ -4,7 +4,7 @@ var tierDraws = {"I": 0, "II": 0, "III": 0, "IV": 0, "V": 0, "VI": 0, "VII": 0, 
 
 var lastDrawnShip = null;
 
-var enableAprilFools = false;
+var enableAprilFools = true;
 var firstFoolShip = "Umikaze";
 var foolShips = [
     "Tiger '59",
@@ -46,7 +46,7 @@ function chooseRandom(self) {
     confettiFired = false;
     if (self.hasAttribute("disabled")) return;
     self.setAttribute("disabled", null);
-    var random = enableAprilFools ? findAprilShipIndex() : getRandomIndex();
+    const random = enableAprilFools ? findAprilShipIndex() : getRandomIndex();
     // Check for possible issues
     if (random === -1) {
         alert("Generation of a Random ship failed. Please check if you have selected at least one Ship.");
