@@ -1,4 +1,4 @@
-var enableAprilMessages = true;
+var enableAprilMessages = false;
 var gotMessages = [];
 
 function startNautyMessages() {
