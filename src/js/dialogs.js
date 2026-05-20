@@ -91,7 +91,7 @@ function addDialogTemplate(title, templateName, buttonText, callback) {
     fetch("./src/templates/" + templateName + "_" + lang + ".html")
     .then((response) => response.text())
     .then((text) => {
-        addDialog(title, text, false, buttonText, callback);
+        addDialog(title, text, true, buttonText, callback);
     });
 }
 

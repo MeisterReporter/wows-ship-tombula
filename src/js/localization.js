@@ -7,21 +7,23 @@ function applyLocalization(root = document) {
     var filename = "language_" + lang + ".json";
     // Load it
     fetch("./src/lang/" + filename)
-    .then((response) => response.json())
-    .then((json) => {
-        var elements = root.querySelectorAll("[translatable]");
-        for (let i = 0; i < elements.length; i++) {
-            var element = elements[i];
-            if (element.childNodes.length == 1) {
-                element.innerText = json[element.innerText];
+        .then((response) => response.json())
+        .then((json) => {
+            var elements = root.querySelectorAll("[translatable]");
+            for (let i = 0; i < elements.length; i++) {
+                var element = elements[i];
+                if (element.innerText in json && element.childNodes.length == 1) {
+                    element.innerText = json[element.innerText];
+                }
             }
-        }
-        elements  = root.querySelectorAll("[translatable-placeholder]");
-        for (let i = 0; i < elements.length; i++) {
-            var element = elements[i];
-            element.placeholder = json[element.placeholder];
-        }
-    });
+            elements = root.querySelectorAll("[translatable-placeholder]");
+            for (let i = 0; i < elements.length; i++) {
+                var element = elements[i];
+                if (element.placeholder in json) {
+                    element.placeholder = json[element.placeholder];
+                }
+            }
+        });
 }
 
 function applyLocalizationTo(element, key, applyHTML) {
@@ -33,11 +35,13 @@ function applyLocalizationTo(element, key, applyHTML) {
     var filename = "language_" + lang + ".json";
     // Load it
     fetch("./src/lang/" + filename)
-    .then((response) => response.json())
-    .then((json) => {
-        element.innerText = json[key];
-        if (applyHTML) element.innerHTML = json[key];
-    });
+        .then((response) => response.json())
+        .then((json) => {
+            if (key in json) {
+                element.innerText = json[key];
+                if (applyHTML) element.innerHTML = json[key];
+            }
+        });
 }
 
 function getLocalizedString(key) {
@@ -49,8 +53,8 @@ function getLocalizedString(key) {
     var filename = "language_" + lang + ".json";
     // Load it
     return fetch("./src/lang/" + filename)
-    .then((response) => response.json())
-    .then((json) => {
-        return json[key];
-    });
+        .then((response) => response.json())
+        .then((json) => {
+            return json[key];
+        });
 }
