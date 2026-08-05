@@ -184,6 +184,15 @@
         "type": "BB"
     },
     {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PUSD709_3303c544b5e10f244529909a4159934154aad5541f7b5096c14077a536f546a7.png",
+        "premium": "false",
+        "tier": "IX",
+        "faction": "commonwealth",
+        "name": "Cayuga",
+        "type": "DD",
+        "attr": "test"
+    },
+    {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PUSC997_508717a1182aacb6db4960f957675eb51934491c79ac614df65b39dea4f87d4e.png",
         "premium": "false",
         "tier": "VII",
@@ -1524,14 +1533,6 @@
         "type": "BC"
     },
     {
-        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSB210_6b4512c5b4ace572a6b35021e5676a06090bb6fee2e6965ce5b86473c3f50c1f.png",
-        "premium": "false",
-        "tier": "X",
-        "faction": "germany",
-        "name": "Schlieffen",
-        "type": "BC"
-    },
-    {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSB103_990ebec9e0c080205a649b750d1ba864c31df8323fe0c56042cc90f3e9fdd2dc.png",
         "premium": "false",
         "tier": "III",
@@ -1924,6 +1925,14 @@
         "type": "BC"
     },
     {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSB708_d5119f7bf90addeccd0e510d2af41fefe901e7fe7555e128307c3a5af43295b2.png",
+        "premium": "true",
+        "tier": "VIII",
+        "faction": "germany",
+        "name": "Bismarck '41",
+        "type": "BC"
+    },
+    {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSB518_8f021d5036e69a199319915086f6c0493334caecb1977be62ac32d0770bd9863.png",
         "premium": "true",
         "tier": "VIII",
@@ -1937,6 +1946,14 @@
         "tier": "VIII",
         "faction": "germany",
         "name": "Brandenburg B",
+        "type": "BC"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSB928_7c1e0a5f933aabfa68c7714235a9ffe048dedf76cdfc2bb5339cc062d28fd6f0.png",
+        "premium": "true",
+        "tier": "VIII",
+        "faction": "germany",
+        "name": "Eiserner Kanzler",
         "type": "BC"
     },
     {
@@ -2126,15 +2143,6 @@
         "attr": "test"
     },
     {
-        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSB708_d5119f7bf90addeccd0e510d2af41fefe901e7fe7555e128307c3a5af43295b2.png",
-        "premium": "false",
-        "tier": "VIII",
-        "faction": "germany",
-        "name": "Bismarck '41",
-        "type": "BC",
-        "attr": "test"
-    },
-    {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSB828_d2056d8d664334d0f16e7de4a8e9709b15360bbfc2b43711d0a1333900543dae.png",
         "premium": "false",
         "tier": "VIII",
@@ -2153,6 +2161,15 @@
         "attr": "test"
     },
     {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSB719_49c18898d4a61ef569539110c8e49c511e6ca558321d37f14e11a21bd42fe2e2.png",
+        "premium": "false",
+        "tier": "IX",
+        "faction": "germany",
+        "name": "Friedrich Carl",
+        "type": "BB",
+        "attr": "test"
+    },
+    {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PGSA990_bf830e01d543f4a5ef65e2e9dfaf27e4ce29c1a2cba7aa7cf23f7ec5a5e05167.png",
         "premium": "true",
         "tier": "X",
@@ -2160,6 +2177,30 @@
         "name": "Otto Lilienthal",
         "type": "CV",
         "attr": "test"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISS106_0baba93d45e4adf4fbe592bb23ea3904c0b82e81ad6d42b9620eeeaeda6d37c9.png",
+        "premium": "false",
+        "tier": "VI",
+        "faction": "italy",
+        "name": "Foca",
+        "type": "SS"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISS108_ed6c04d36cb05d8d8cfeab1c9062c644d873ccfe664f3bf01dfec397fedf7edc.png",
+        "premium": "false",
+        "tier": "VIII",
+        "faction": "italy",
+        "name": "Pietro Micca",
+        "type": "SS"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISS110_e91c46cdeb4bada06355002959589b8c1377b6142ee9255d0c8e9eeb4a628ea5.png",
+        "premium": "false",
+        "tier": "X",
+        "faction": "italy",
+        "name": "Pietro Calvi",
+        "type": "SS"
     },
     {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISD102_942bd97340c0554e983c7bf467c67eb6f2dd01cae77fb00b3acb046deb888a9e.png",
@@ -2602,6 +2643,14 @@
         "type": "BB"
     },
     {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISB720_c13619d505e5c8dcf0806b7d638478cfa56eb2073aa0bfede16fc30c5de140ea.png",
+        "premium": "true",
+        "tier": "X",
+        "faction": "italy",
+        "name": "Conte Verde",
+        "type": "BB"
+    },
+    {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISB510_b51e2309803a74e1d3223611a9c63d4b2e790ab1e823b7d0009cc5520593d265.png",
         "premium": "true",
         "tier": "X",
@@ -2626,39 +2675,20 @@
         "type": "BB"
     },
     {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISB011_13bff50a1ef633c9ab729430570297306da7f1efcc445ca35df195462e4748c7.png",
+        "premium": "true",
+        "tier": "★",
+        "faction": "italy",
+        "name": "Affondatore",
+        "type": "BB"
+    },
+    {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISA508_6509fb55ed206dadfcde4ee296e0409cd8ff43e3f3e3c3669ee2dba69deea043.png",
         "premium": "true",
         "tier": "VIII",
         "faction": "italy",
         "name": "Aquila",
         "type": "CV"
-    },
-    {
-        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISS106_0baba93d45e4adf4fbe592bb23ea3904c0b82e81ad6d42b9620eeeaeda6d37c9.png",
-        "premium": "true",
-        "tier": "VI",
-        "faction": "italy",
-        "name": "Foca",
-        "type": "SS",
-        "attr": "test"
-    },
-    {
-        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISS108_ed6c04d36cb05d8d8cfeab1c9062c644d873ccfe664f3bf01dfec397fedf7edc.png",
-        "premium": "true",
-        "tier": "VIII",
-        "faction": "italy",
-        "name": "Pietro Micca",
-        "type": "SS",
-        "attr": "test"
-    },
-    {
-        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISS110_e91c46cdeb4bada06355002959589b8c1377b6142ee9255d0c8e9eeb4a628ea5.png",
-        "premium": "true",
-        "tier": "X",
-        "faction": "italy",
-        "name": "Calvi",
-        "type": "SS",
-        "attr": "test"
     },
     {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISC908_de091931059eb92e1f02699ce630a534c9d39acfda24d9e43c251a5b66089cc4.png",
@@ -2693,15 +2723,6 @@
         "tier": "X",
         "faction": "italy",
         "name": "Amerigo Vespucci",
-        "type": "BB",
-        "attr": "test"
-    },
-    {
-        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISB011_13bff50a1ef633c9ab729430570297306da7f1efcc445ca35df195462e4748c7.png",
-        "premium": "true",
-        "tier": "★",
-        "faction": "italy",
-        "name": "Affondatore",
         "type": "BB",
         "attr": "test"
     },
@@ -3258,6 +3279,14 @@
         "type": "DD"
     },
     {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSD710_5fa539e1f8e7db54f5b1791143c09bdad763b19a8264ab657806fba51e5a5234.png",
+        "premium": "true",
+        "tier": "X",
+        "faction": "japan",
+        "name": "Fuyutsuki",
+        "type": "DD"
+    },
+    {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSD510_661ed15f9226c9eaf0f2555755752233e8e22a840da4eec03c1877d0431ca132.png",
         "premium": "true",
         "tier": "X",
@@ -3763,6 +3792,15 @@
         "attr": "test"
     },
     {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSC021_4e5924a7410638d7f6b05979fc1d2e819b7eb3c5e162eca3b34f4a50504964d9.png",
+        "premium": "true",
+        "tier": "★",
+        "faction": "japan",
+        "name": "Kurama",
+        "type": "CA",
+        "attr": "test"
+    },
+    {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSB719_cf160deb2af76683213f17d86d272675a75d44863495cca37d2fab05f6d8d8d5.png",
         "premium": "false",
         "tier": "IX",
@@ -4167,6 +4205,14 @@
         "type": "BC"
     },
     {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSB710_fed09557584d03d962592eddbba36244cfee3b32662ac486674c8e8af0ee51be.png",
+        "premium": "true",
+        "tier": "X",
+        "faction": "pan_america",
+        "name": "Sete de Setembro",
+        "type": "BB"
+    },
+    {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSA710_703495067114a10480945f9774d1731273a8554057323cf88090fdb245134e5e.png",
         "premium": "true",
         "tier": "X",
@@ -4175,11 +4221,92 @@
         "type": "CV"
     },
     {
-        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSB710_fed09557584d03d962592eddbba36244cfee3b32662ac486674c8e8af0ee51be.png",
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSD013_a184f8f60e0f2601a8c7b863b96b3210997d662f7c51faea7b34b0d0ca7c1ff7.png",
+        "premium": "true",
+        "tier": "III",
+        "faction": "pan_america",
+        "name": "Almirante Villar",
+        "type": "DD",
+        "attr": "test"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSD014_2f45783cf0867c94e7719945404ce829d3b5a9c8e06da36f94ed01e447efac2c.png",
+        "premium": "true",
+        "tier": "IV",
+        "faction": "pan_america",
+        "name": "Serrano",
+        "type": "DD",
+        "attr": "test"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSD015_eb9ba447a20595aa1932b5a7d9a61451065c201263197ffaa2503131567bb95f.png",
+        "premium": "true",
+        "tier": "V",
+        "faction": "pan_america",
+        "name": "Antioquia",
+        "type": "DD",
+        "attr": "test"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSD016_da6641e82f3656148a6bda8a776ac16d8d637ce334b741d64e208700b41016d9.png",
+        "premium": "true",
+        "tier": "VI",
+        "faction": "pan_america",
+        "name": "Cervantes",
+        "type": "DD",
+        "attr": "test"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSD017_0f1ffe3df2b3864b5d4b4551396247cb6aa846e0203e3cd18bbb03ad7be9a852.png",
+        "premium": "true",
+        "tier": "VII",
+        "faction": "pan_america",
+        "name": "Marcílio Dias",
+        "type": "DD",
+        "attr": "test"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSD018_b82a11882c5a1d6da3df95fc0d7abfd164878ad44e084f87aae67e2ef924c6c6.png",
+        "premium": "true",
+        "tier": "VIII",
+        "faction": "pan_america",
+        "name": "Cuauhtémoc",
+        "type": "DD",
+        "attr": "test"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSD019_9041923b2ecdb494c58760f0eff0c8de1a3455e45642c2e93f62b95f4431b902.png",
+        "premium": "true",
+        "tier": "IX",
+        "faction": "pan_america",
+        "name": "Nueva Esparta",
+        "type": "DD",
+        "attr": "test"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSD010_96f1672e27113426e6999c9d6b668cf9986173cc3cc804545acb7d1bc4d937b9.png",
+        "premium": "true",
+        "tier": "X",
+        "faction": "pan_america",
+        "name": "20 de Julio",
+        "type": "DD",
+        "attr": "test"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSC710_ef8cffe8b5333f624eb4faa0ffe715a9579c57c53c411a550132fa3821cbad1f.png",
         "premium": "false",
         "tier": "X",
         "faction": "pan_america",
-        "name": "Sete de Setembro",
+        "name": "Almirante Irízar",
+        "type": "CL",
+        "attr": "test"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSB720_79ba02354cc52b8d873f383b53e7fe2e11487402ab1d3a1b29593dfa733f87e7.png",
+        "premium": "false",
+        "tier": "X",
+        "faction": "pan_america",
+        "name": "Almirante Pérez Gacitúa",
         "type": "BB",
         "attr": "test"
     },
@@ -4480,6 +4607,14 @@
         "type": "CA"
     },
     {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSC729_d04737975cbc77414c69d4639d81ab326988af147e262aa2b77b3d11790d9b3e.png",
+        "premium": "true",
+        "tier": "IX",
+        "faction": "pan_asia",
+        "name": "Baotou",
+        "type": "CA"
+    },
+    {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSC719_5b376cdd6b952e2b0079a3150d87ecced09311aca353378d557b037fb1e3645a.png",
         "premium": "true",
         "tier": "IX",
@@ -4592,12 +4727,21 @@
         "type": "CV"
     },
     {
-        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSC729_d04737975cbc77414c69d4639d81ab326988af147e262aa2b77b3d11790d9b3e.png",
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSD728_9ac5b75d5d05eee65ec6b7f7d208670f87d5d4ea0d0fbfe9aa2ab874964f569f.png",
         "premium": "false",
-        "tier": "IX",
+        "tier": "VIII",
         "faction": "pan_asia",
-        "name": "Baotou",
-        "type": "CA",
+        "name": "Datong",
+        "type": "DD",
+        "attr": "test"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSC730_776d16f561708eb9f1be873d718f577006eb5f1afac169d771338a102b8b0a32.png",
+        "premium": "false",
+        "tier": "X",
+        "faction": "pan_asia",
+        "name": "Taejong",
+        "type": "CL",
         "attr": "test"
     },
     {
@@ -4719,6 +4863,15 @@
         "faction": "spain",
         "name": "Victoria",
         "type": "BC"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PSSB709_1bb90af3f7a3190c7ee98de766e2758005d5b8ca10709258e789793cc23a9470.png",
+        "premium": "false",
+        "tier": "IX",
+        "faction": "spain",
+        "name": "Triunfante",
+        "type": "BB",
+        "attr": "test"
     },
     {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSS106_17af5cb2be2d0a6476a1b198fbc28b2eed4658a1bf79ba0a4e40f6b0e1aca5ae.png",
@@ -5497,6 +5650,14 @@
         "type": "BB"
     },
     {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSB708_45c50429e81373dd4791360f5a563ffaf710e69bc2f8ac651340774333113781.png",
+        "premium": "true",
+        "tier": "VIII",
+        "faction": "uk",
+        "name": "Prince of Wales",
+        "type": "BB"
+    },
+    {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSB509_85f274f36f696bc1c3825f9ba3975ce584b4fcac5bce84820018cdc511556bc3.png",
         "premium": "true",
         "tier": "IX",
@@ -5583,15 +5744,6 @@
         "faction": "uk",
         "name": "Fearmaw",
         "type": "CL",
-        "attr": "test"
-    },
-    {
-        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSB708_45c50429e81373dd4791360f5a563ffaf710e69bc2f8ac651340774333113781.png",
-        "premium": "false",
-        "tier": "VIII",
-        "faction": "uk",
-        "name": "Prince of Wales",
-        "type": "BB",
         "attr": "test"
     },
     {
@@ -6380,6 +6532,22 @@
         "type": "CA"
     },
     {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASC729_89653582a41f53e4f4faef3ce02b229ab3dca40b85ff5538eccd871242e152f2.png",
+        "premium": "true",
+        "tier": "IX",
+        "faction": "usa",
+        "name": "Fort Worth",
+        "type": "CA"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASC909_41beaa597e655c98315768404448f3081c4603a2808930863b45a82da67d7d8b.png",
+        "premium": "true",
+        "tier": "IX",
+        "faction": "usa",
+        "name": "Fort Worth Golden",
+        "type": "CA"
+    },
+    {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASC519_389c3552477193a920ef83e6d144e7bc9b93b5e5cef25594082f1a622ccc7392.png",
         "premium": "true",
         "tier": "IX",
@@ -6700,6 +6868,14 @@
         "type": "BB"
     },
     {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASB940_720e38ba415eb51b78c42382e9ca76d70c0ef353477b670ee2af2262ac2c38bf.png",
+        "premium": "true",
+        "tier": "X",
+        "faction": "usa",
+        "name": "Wisconsin Golden",
+        "type": "BB"
+    },
+    {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASA898_67ef8903eb2606582ef0728f1729279db9cb79bd7b45eefb9fa7afc89eaea23b.png",
         "premium": "true",
         "tier": "VIII",
@@ -6762,15 +6938,6 @@
         "faction": "usa",
         "name": "Frank Friday",
         "type": "DD",
-        "attr": "test"
-    },
-    {
-        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASC729_89653582a41f53e4f4faef3ce02b229ab3dca40b85ff5538eccd871242e152f2.png",
-        "premium": "false",
-        "tier": "IX",
-        "faction": "usa",
-        "name": "Fort Worth",
-        "type": "CA",
         "attr": "test"
     },
     {
@@ -7620,6 +7787,15 @@
         "faction": "ussr",
         "name": "Chkalov B",
         "type": "CV"
+    },
+    {
+        "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSD710_5d00225070391a61f1fc89713b116dbd8693f9efd4f107a64a8cdbb45de5436a.png",
+        "premium": "false",
+        "tier": "X",
+        "faction": "ussr",
+        "name": "Peredovoy",
+        "type": "DD",
+        "attr": "test"
     },
     {
         "image": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSC548_e61218eee2f02a928e15ca1d729c4eed5250947635f103e4a948c0fbe48e5ae1.png",
