@@ -75,7 +75,8 @@ function getShipData() {
     console.log("Contacting: " + url);
     $.get(url, (data, status) => {
         if (status === "success") {
-            var private = Object.values(data)[2][accountID].private;
+            // TODO: Build reliable option to search for account id in response object instead of hardcoding the index
+            var private = Object.values(data)[1][accountID].private;
             var port = private.port;
             var list = document.getElementById("available-ships");
             var checkboxes = list.getElementsByTagName("input");
